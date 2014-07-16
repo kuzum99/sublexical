@@ -1,5 +1,7 @@
-# The sublexical morphophonological learner
+## The sublexical morphophonological learner
 
-A website for learning morphophonology.
+morphophonology learning web app
+
+http://sublexical.phonologist.org/
 
 Blake Allen & Michael Becker
