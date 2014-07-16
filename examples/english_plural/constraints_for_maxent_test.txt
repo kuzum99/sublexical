@@ -1,0 +1,6 @@
+[+continuant] [-segment]
+[-continuant] [-segment]
+[+sonorant] [-segment]
+[-sonorant] [-segment]
+[+voice] [-segment]
+[-voice] [-segment]

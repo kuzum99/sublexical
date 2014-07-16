@@ -1,0 +1,14 @@
+[+strident]$
+([-strident]|[0strident])$
+
+[+voice]$
+[-voice]$
+
+[+syllabic]$
+[-syllabic]$
+
+F: Ident [voice]
+F: Ident [coronal]
+F: Ident [labial]
+
+

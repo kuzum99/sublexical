@@ -1,0 +1,34 @@
+{
+    "files": {
+        "features": "features_hu.txt",
+        "constraints": "constraints_gk.txt",
+        "training": "hungarian_training_filtered.txt",
+        "testing": "hungarian_testing.txt",
+        "output": "output.txt"
+    },
+    "learner": {
+        "mutationType": "both",
+        "useGrammarsProper": true,
+        "changeOrientations": {
+            "delete": "source", 
+            "mutate": "source", 
+            "metathesize": "source"
+        },
+        "minProductiveSize": 1,
+        "howMuchTraining": "all"
+    },
+    "aligner": {
+        "features": true
+    },
+    "grammar": {
+        "useGaussianPriors": false
+    },
+    "maxent": {
+        "iterationCount": 5000,
+        "learningRate": 1,
+        "noPositiveWeights": true,
+        "initialWeight": 0
+    },
+    "name": "Hungarian GK only",
+    "description": "Selection of genitive nek/nak. <br> Data from Hayes, Zuraw, Sipt&aacute;r & Londe (2009)." 
+}

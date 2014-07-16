@@ -1,0 +1,48 @@
+a h ʎ a k	a h ʎ a k i	1
+a k	a k i	1
+a k b y k	a k b y k i	1
+z ɯ r l a k	z ɯ r l a i	1
+z ɯ r n ɯ k	z ɯ r n ɯ i	1
+z i k z a k	z i k z a i	1
+a ʎ ʎ a k	a ʎ ʎ a i	0.5
+b e n l i k	b e n l i i	0.5
+e m ʎ a k	e m ʎ a i	0.5
+a ʎ ʎ a k	a ʎ ʎ a k i	0.5
+b e n l i k	b e n l i k i	0.5
+e m ʎ a k	e m ʎ a k i	0.5
+ʃ a p ʃ a p	ʃ a p ʃ a p i	1
+s a p	s a p i	1
+s a r p	s a r p i	1
+aː d a p	aː d a b i	1
+aː f i t a p	aː f i t a b i	1
+aː s a p	aː s a b i	1
+a ʤ e p	a ʤ e b i	0.5
+f a j r a p	f a j r a b i	0.5
+m a t k a p	m a t k a b i	0.5
+a ʤ e p	a ʤ e p i	0.5
+f a j r a p	f a j r a p i	0.5
+m a t k a p	m a t k a p i	0.5
+aː d e t	aː d e t i	1
+aː f a t	aː f a t i	1
+aː f e r i s t	aː f e r i s t i	1
+y m i t	y m i d i	1
+y s t a t	y s t a d i	1
+v aː t	v aː d i	1
+v e l e t	v e l e d i	0.5
+v e l u t	v e l u d i	0.5
+z i l j e t	z i l j e d i	0.5
+v e l e t	v e l e t i	0.5
+v e l u t	v e l u t i	0.5
+z i l j e t	z i l j e t i	0.5
+a ʧ	a ʧ i	1
+a n a ʧ	a n a ʧ i	1
+a r d a n u ʧ	a r d a n u ʧ i	1
+a a ʧ	a a ʤ i	1
+a k a a ʧ	a k a a ʤ i	1
+a k a ʧ	a k a ʤ i	1
+a j ɯ r a ʧ	a j ɯ r a ʤ i	0.5
+b u r ʧ	b u r ʤ i	0.5
+ɡ e n ʧ	ɡ e n ʤ i	0.5
+a j ɯ r a ʧ	a j ɯ r a ʧ i	0.5
+b u r ʧ	b u r ʧ i	0.5
+ɡ e n ʧ	ɡ e n ʧ i	0.5

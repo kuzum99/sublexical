@@ -1,0 +1,23 @@
+F: Ident-voice	0	1000
+^([-syllabic] ?)* ?([+syllabic] ?)+ ?([-syllabic] ?)*$	0	1000
+[+strident]$	0	1000
+[0strident]$	0	1000
+[-strident]$	0	1000
+[+voice]$	0	1000
+[0voice]$	0	1000
+[-voice]$	0	1000
+[+consonantal]$	0	1000
+[0consonantal]$	0	1000
+[-consonantal]$	0	1000
+[+continuant,-voice,+labiodental]$	0	1000
+[+continuant,-strident,+coronal,-sonorant,-voice]$	0	1000
+[+syllabic] [+sonorant] [+continuant,-voice,+labiodental]$	0	1000
+[+syllabic] [+sonorant] [+continuant,-strident,+coronal,-sonorant,-voice]$	0	1000
+[+continuant,+voice,+labiodental]$	0	1000
+[+continuant,-strident,+coronal,-sonorant,+voice]$	0	1000
+[+syllabic] [+sonorant] [+continuant,+voice,+labiodental]$	0	1000
+[+syllabic] [+sonorant] [+continuant,-strident,+coronal,-sonorant,+voice]$	0	1000
+[+consonantal,-voice,-labiodental]$	0	1000
+[+consonantal,+voice,-labiodental]$	0	1000
+[+consonantal,-voice,-continuant]$	0	1000
+[+consonantal,+voice,-continuant]$	0	1000

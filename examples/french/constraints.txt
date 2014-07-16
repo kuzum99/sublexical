@@ -1,0 +1,41 @@
+^([-syllabic] ?)*([+syllabic] ?)+([-syllabic] ?)*$
+
+[+sonorant,-continuant,-syllabic]$
+[+sonorant,+continuant,-syllabic]$
+[-sonorant]$
+[+sonorant,+continuant,+lateral,-syllabic]$
+[+sonorant,+continuant,-lateral,-syllabic]$
+
+[+low,+syllabic] [-syllabic]$
+[-low,+syllabic] [-syllabic]$
+
+[+coronal] [+low,+syllabic] [-syllabic]$
+[+dorsal] [+low,+syllabic] [-syllabic]$
+[+labial] [+low,+syllabic] [-syllabic]$
+[+sonorant] [+low,+syllabic] [-syllabic]$
+[-syllabic] [+coronal] [+low,+syllabic] [-syllabic]$
+[-syllabic] [+dorsal] [+low,+syllabic] [-syllabic]$
+[-syllabic] [+labial] [+low,+syllabic] [-syllabic]$
+[-syllabic] [+sonorant] [+low,+syllabic] [-syllabic]$
+[-syllabic] [-syllabic] [+low,+syllabic] [-syllabic]$
+[-syllabic] [-syllabic] [-syllabic] [+low,+syllabic] [-syllabic]$
+
+[-sonorant,+voice] [+low,+syllabic] [-syllabic]$
+[-sonorant,-continuant] [+low,+syllabic] [-syllabic]$
+[-sonorant,+continuant] [+low,+syllabic] [-syllabic]$
+[-syllabic] [-sonorant,+voice] [+low,+syllabic] [-syllabic]$
+[-syllabic] [-sonorant,-continuant] [+low,+syllabic] [-syllabic]$
+[-syllabic] [-sonorant,+continuant] [+low,+syllabic] [-syllabic]$
+
+
+[+coronal] [-low,+syllabic] [-syllabic]$
+[+dorsal] [-low,+syllabic] [-syllabic]$
+[+labial] [-low,+syllabic] [-syllabic]$
+[+sonorant] [-low,+syllabic] [-syllabic]$
+[-syllabic] [+coronal] [-low,+syllabic] [-syllabic]$
+[-syllabic] [+dorsal] [-low,+syllabic] [-syllabic]$
+[-syllabic] [+labial] [-low,+syllabic] [-syllabic]$
+[-syllabic] [+sonorant] [-low,+syllabic] [-syllabic]$
+[-syllabic] [-syllabic] [-low,+syllabic] [-syllabic]$
+[-syllabic] [-syllabic] [-syllabic] [-low,+syllabic] [-syllabic]$
+

@@ -1,0 +1,34 @@
+{
+    "files": {
+        "features": "features.txt",
+        "constraints": "constraints.txt",
+        "training": "training.txt",
+        "testing": "testing.txt",
+        "output": "output.txt"
+    },
+    "learner": {
+        "mutationType": "both",
+        "useGrammarsProper": true,
+        "changeOrientations": {
+            "delete": "source", 
+            "mutate": "source", 
+            "metathesize": "source"
+        },
+        "minProductiveSize": 1,
+        "howMuchTraining": "all"
+    },
+    "aligner": {
+        "features": true
+    },
+    "grammar": {
+        "useGaussianPriors": false
+    },
+    "maxent": {
+        "iterationCount": 5000,
+        "learningRate": 1,
+        "noPositiveWeights": true,
+        "initialWeight": 0
+    },
+    "name": "big sample",
+    "description": "Hebrew sample of 1000 singular~plural paradigms.<br> Data from Bolozky & Becker (2006)." 
+}

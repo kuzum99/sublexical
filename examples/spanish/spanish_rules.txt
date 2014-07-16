@@ -1,0 +1,1418 @@
+No.	A	->	B		C		D	Left side feats	Right side feats	Scope	Hits	Reliability	Confidence	examples	exceptions
+337	y	->	y	/	X 	__	 y	[]	[]	26	26	1.0	0.964	yg, yb, yn, proykt, orynt, arrysg, iNkyt, inykt, impasynt, reyn, auynt, adystr, agryt, dysm, despeyx, ayg, amariy, sentey, alyn	
+887	y	->	y	/	X 	__	n y	[]	[]	6	6	1.0	0.852	yn, orynt, impasynt, reyn, auynt, alyn	
+1198	y	->	y	/	X 	__	s y	[]	[]	5	5	1.0	0.825	arrysg, adystr, dysm, enys, atys	
+1420	y	->	y	/	X 	__	t	[]	[]	4	4	1.0	0.786	iNkyt, agryt, akyt, adyt	
+487	y	->	y	/	X r	__	 y	[]	[]	3	3	1.0	0.718	orynt, arrysg, agryt	
+842	y	->	y	/	X 	__	nt	[]	[]	3	3	1.0	0.718	orynt, impasynt, auynt	
+1524	y	->	y	/	X e	__	 y	[]	[]	3	3	1.0	0.718	reyn, despeyx, sentey	
+1761	y	->	y	/	X 	__		[]	[]	3	3	1.0	0.718	amariy, sentey, koskiy	
+1849	y	->	y	/	X 	__	n	[]	[]	3	3	1.0	0.718	yn, reyn, alyn	
+2457	y	->	y	/	X d	__	 y	[]	[]	3	3	1.0	0.718	adystr, dysm, adyt	
+628	y	->	y	/	X 	__	kt	[]	[]	2	2	1.0	0.57	proykt, inykt	
+1488	y	->	y	/	X d	__	s y	[]	[]	2	2	1.0	0.57	adystr, dysm	
+1852	y	->	y	/	X k	__	t	[]	[]	2	2	1.0	0.57	iNkyt, akyt	
+2279	y	->	y	/	X n	__	 y	[]	[]	2	2	1.0	0.57	inykt, enys	
+2280	y	->	y	/	X 	__	s	[]	[]	2	2	1.0	0.57	enys, atys	
+2352	y	->	y	/	X i	__		[]	[]	2	2	1.0	0.57	amariy, koskiy	
+2456	y	->	y	/	ad	__	 y	[]	[]	2	2	1.0	0.57	adystr, adyt	
+2674	y	->	y	/	X s	__	 y	[]	[]	2	2	1.0	0.57	impasynt, desyrb	
+1768	y	->	y	/	X e	__		[]	[]	1	1	1.0	(known word)sentey	
+4	y	->	y	/		__	 y	[]	[]	3	3	1.0	0.718	yg, yb, yn	
+753	nfj	->	nfi	/	X ko	__		[]	[]	2	2	1.0	0.57	konfj, deskonfj	
+2397	rj	->	ri	/	X 	__		[]	[]	4	3	0.75	0.526	aberj, glorj, exekutorj	banaglorj
+2686	rj	->	ri	/	X o	__		[]	[]	3	2	0.667	0.396	glorj, exekutorj	banaglorj
+996	q	->	q	/	X 	__	 y	[]	[]	7	7	1.0	0.872	frekqnt, sekqstr, adqñ, aqk, amqbl, desqs, desamqbl	
+465	q	->	q	/	X ek	__	 y	[]	[]	2	2	1.0	0.57	frekqnt, sekqstr	
+1941	q	->	q	/	X 	__	s y	[]	[]	2	2	1.0	0.57	sekqstr, desqs	
+2602	q	->	q	/	X am	__	bl	[]	[]	2	2	1.0	0.57	amqbl, desamqbl	
+113	o	->	q	/	X k	__	rd	[]	[]	7	7	1.0	0.872	rekord, akord, koNkord, desakord, diskord, deseNkord, eNkord	
+148	o	->	q	/	X pr	__	b	[]	[]	7	7	1.0	0.872	komprob, prob, aprob, reprob, desaprob, improb, prob	
+10	o	->	q	/	X k	__	nt y	[]	[]	5	5	1.0	0.825	eNkontr, kont, deskont, reeNkontr, rekont	
+296	o	->	q	/	X k	__	st	[]	[]	4	4	1.0	0.786	kost, akost, rekost, eNkost	
+305	o	->	q	/	X f	__	rs	[]	[]	4	4	1.0	0.786	fors, esfors, refors, alfors	
+127	o	->	q	/	X 	__	st y	[]	[]	12	10	0.833	0.728	mostr, demostr, kost, akost, apost, rekost, tost, denost, eNkost, retost	agost, aNgost
+506	o	->	q	/	X s	__	l y	[]	[]	12	10	0.833	0.728	sol, solt, konsol, desol, sold, asol, deskonsol, asold, asol, desold	akrisol, sobresol
+188	o	->	q	/	s	__	l y	[]	[]	3	3	1.0	0.718	sol, solt, sold	
+1185	o	->	q	/	X k	__	nt	[]	[]	3	3	1.0	0.718	kont, deskont, rekont	
+1268	o	->	q	/	X b	__	lk	[]	[]	3	3	1.0	0.718	bolk, rebolk, rebolk	
+1486	o	->	q	/	X p	__	bl	[]	[]	3	3	1.0	0.718	pobl, despobl, repobl	
+2205	o	->	q	/	reb	__	l y	[]	[]	3	3	1.0	0.718	rebolk, rebol, rebolk	
+2274	o	->	q	/	X k	__	l	[]	[]	3	3	1.0	0.718	kol, eNkol, traskol	
+2314	o	->	q	/	X m	__	bl	[]	[]	3	3	1.0	0.718	mobl, amobl, desamobl	
+2440	o	->	q	/	X k	__	j	[]	[]	3	3	1.0	0.718	deskoj, akoj, aperkoj	
+2489	o	->	q	/	X s	__	ld	[]	[]	3	3	1.0	0.718	sold, asold, desold	
+2490	o	->	q	/	as	__	l y	[]	[]	3	3	1.0	0.718	asol, asold, asol	
+2567	o	->	q	/	X kons	__	 y	[]	[]	3	3	1.0	0.718	konsol, deskonsol, konson	
+2643	o	->	q	/	X Nk	__	rd	[]	[]	3	3	1.0	0.718	koNkord, deseNkord, eNkord	
+297	o	->	q	/	X 	__	st	[]	[]	10	8	0.8	0.68	kost, akost, apost, rekost, tost, denost, eNkost, retost	agost, aNgost
+504	o	->	q	/	X s	__	l	[]	[]	8	6	0.75	0.61	sol, konsol, desol, asol, deskonsol, asol	akrisol, sobresol
+1792	o	->	q	/	X 	__	bl	[]	[]	8	6	0.75	0.61	pobl, despobl, mobl, repobl, amobl, desamobl	dobl, redobl
+2195	o	->	q	/	X 	__	ld	[]	[]	5	4	0.8	0.607	sold, regold, asold, desold	amold
+2204	o	->	q	/	X b	__	l	[]	[]	5	4	0.8	0.607	bol, rebol, sirkunbol, trasbol	desarbol
+2711	o	->	q	/	X Nk	__	r y	[]	[]	5	4	0.8	0.607	koNkord, deseNkord, eNkor, eNkord	eNkorb
+39	o	->	q	/	X m	__	str	[]	[]	2	2	1.0	0.57	mostr, demostr	
+499	o	->	q	/	b	__	l y	[]	[]	2	2	1.0	0.57	bol, bolk	
+726	o	->	q	/	X k	__	lg	[]	[]	2	2	1.0	0.57	kolg, deskolg	
+1293	o	->	q	/	X eNk	__	ntr	[]	[]	2	2	1.0	0.57	eNkontr, reeNkontr	
+1587	o	->	q	/	X kons	__	l	[]	[]	2	2	1.0	0.57	konsol, deskonsol	
+1880	o	->	q	/	X berg	__	ns	[]	[]	2	2	1.0	0.57	abergons, desbergons	
+1981	o	->	q	/	X es	__	j	[]	[]	2	2	1.0	0.57	desoj, resoj	
+2164	o	->	q	/	X apr	__	b	[]	[]	2	2	1.0	0.57	aprob, desaprob	
+2256	o	->	q	/	X ak	__	rd	[]	[]	2	2	1.0	0.57	akord, desakord	
+2435	o	->	q	/	X kl	__	k	[]	[]	2	2	1.0	0.57	klok, aklok	
+2566	o	->	q	/	kons	__	 y	[]	[]	2	2	1.0	0.57	konsol, konson	
+2600	o	->	q	/	X am	__	bl	[]	[]	2	2	1.0	0.57	amobl, desamobl	
+2634	o	->	q	/	X k	__	rn	[]	[]	2	2	1.0	0.57	akorn, deskorn	
+2645	o	->	q	/	X eNgr	__	s	[]	[]	2	2	1.0	0.57	eNgros, deseNgros	
+2667	o	->	q	/	des	__	l y	[]	[]	2	2	1.0	0.57	desol, desold	
+2715	o	->	q	/	X eNk	__	rd	[]	[]	2	2	1.0	0.57	deseNkord, eNkord	
+2774	o	->	q	/	X mpr	__	b	[]	[]	2	2	1.0	0.57	komprob, improb	
+2810	o	->	q	/	X t	__	st	[]	[]	2	2	1.0	0.57	tost, retost	
+2856	o	->	q	/	X tr	__	k	[]	[]	2	2	1.0	0.57	trok, trastrok	
+703	o	->	q	/	X 	__	rs	[]	[]	7	5	0.714	0.561	fors, esfors, refors, almors, alfors	alkors, endors
+1731	o	->	q	/	des	__	 y	[]	[]	7	5	0.714	0.561	desol, desoj, desob, desold, desos	desox, desonr
+213	o	->	q	/	X 	__	l	[]	[]	24	15	0.625	0.553	sol, bol, konsol, kol, desol, asol, deskonsol, amol, rebol, eNkol, abuñol, asol, sirkunbol, traskol, trasbol	kontrol, bjol, inmol, desarbol, akrisol, tremol, Carol, interpol, sobresol
+1360	o	->	q	/	X r	__	k	[]	[]	4	3	0.75	0.526	trok, derrok, trastrok	resiprok
+2446	o	->	q	/	X ak	__	r y	[]	[]	4	3	0.75	0.526	akord, desakord, akorn	akort
+2713	o	->	q	/	X eNk	__	r y	[]	[]	4	3	0.75	0.526	deseNkord, eNkor, eNkord	eNkorb
+1267	o	->	q	/	X b	__	l y	[]	[]	11	7	0.636	0.523	bol, bolk, rebolk, rebol, sirkunbol, rebolk, trasbol	embols, desembols, desarbol, reembols
+1951	o	->	q	/	X eNk	__	 y	[]	[]	11	7	0.636	0.523	eNkontr, reeNkontr, eNkost, eNkol, deseNkord, eNkor, eNkord	eNkorb, eNkon, eNkox, eNkomj
+1118	o	->	q	/	X Nk	__	 y	[]	[]	13	8	0.615	0.512	eNkontr, koNkord, reeNkontr, eNkost, eNkol, deseNkord, eNkor, eNkord	arriNkon, eNkorb, eNkon, eNkox, eNkomj
+159	o	->	q	/	X 	__	l y	[]	[]	47	26	0.553	0.503	sol, kolg, solt, bol, bolk, konsol, kol, deskolg, desol, sold, olg, rebolk, asol, deskonsol, amol, regold, rebol, eNkol, abuñol	kontrol, bjol, kolm, eskolt, agolp, empolb, akolC, embols, remolk, desempolb, inmol, desembols, amold, desarbol, akrisol, eNgolf, tremol, Carol, reembols
+1186	o	->	q	/	desk	__	 y	[]	[]	6	4	0.667	0.5	deskolg, deskont, deskoj, deskorn	deskonfj, deskorC
+727	o	->	q	/	X k	__	l y	[]	[]	8	5	0.625	0.489	kolg, kol, deskolg, eNkol, traskol	kolm, eskolt, akolC
+95	o	->	q	/	s	__	 y	[]	[]	10	6	0.6	0.482	sol, son, soñ, solt, sold, son	sobr, sopl, sob, sond
+739	o	->	q	/	X es	__	 y	[]	[]	13	7	0.538	0.439	reson, desol, desoj, resoj, desob, desold, desos	asesor, atesor, desox, resoNg, desonr, sobresol
+353	o	->	q	/	X 	__	b	[]	[]	14	9	0.643	0.439	komprob, prob, aprob, renob, reprob, desob, desaprob, improb, prob	rob, eNglob, sob, adob, innob
+2367	o	->	q	/	X sk	__	 y	[]	[]	11	6	0.545	0.437	deskolg, deskont, deskoj, diskord, deskorn, traskol	deskonfj, eskolt, deskorC, biskoC, eskombr
+1950	o	->	q	/	eNk	__	 y	[]	[]	9	5	0.556	0.432	eNkontr, eNkost, eNkol, eNkor, eNkord	eNkorb, eNkon, eNkox, eNkomj
+663	o	->	q	/	rek	__	 y	[]	[]	5	3	0.6	0.42	rekord, rekost, rekont	rekobr, rekort
+1512	o	->	q	/	X tr	__	n	[]	[]	5	3	0.6	0.42	tron, atron, retron	destron, entron
+405	o	->	q	/	X 	__	b y	[]	[]	31	15	0.484	0.406	komprob, prob, aprob, renob, pobl, despobl, reprob, mobl, repobl, desob, desaprob, amobl, desamobl, improb, prob	sobr, kobr, rob, dobl, obr, rekobr, eNglob, sob, obj, agobj, adob, manjobr, redobl, obst, sosobr, innob
+19	o	->	q	/	X k	__	 y	[]	[]	61	27	0.443	0.4	eNkontr, kont, rekord, akord, kost, kolg, akost, kol, rekost, deskolg, koNkord, deskont, reeNkontr, eNkost, deskoj, rekont, desakord, eNkol, diskord	kompr, kort, kobr, konfj, konst, kopj, rekobr, akos, rekort, kolm, deskonfj, dekor, eskolt, akopl, akot, arriNkon, eNkorb, akod, akort
+692	o	->	q	/	X s	__	n	[]	[]	12	6	0.5	0.399	son, reson, ason, konson, dison, son	rason, deskorason, blason, sason, apison, aperson
+585	o	->	q	/	k	__	l y	[]	[]	3	2	0.667	0.396	kolg, kol	kolm
+1397	o	->	q	/	tr	__	 y	[]	[]	3	2	0.667	0.396	trok, tron	trot
+1980	o	->	q	/	res	__	 y	[]	[]	3	2	0.667	0.396	reson, resoj	resoNg
+2445	o	->	q	/	ak	__	r y	[]	[]	3	2	0.667	0.396	akord, akorn	akort
+2633	o	->	q	/	X sk	__	r y	[]	[]	3	2	0.667	0.396	diskord, deskorn	deskorC
+2716	o	->	q	/	eNk	__	r y	[]	[]	3	2	0.667	0.396	eNkor, eNkord	eNkorb
+2851	o	->	q	/	X sk	__	l y	[]	[]	3	2	0.667	0.396	deskolg, traskol	eskolt
+2853	o	->	q	/	X s	__	ñ	[]	[]	3	2	0.667	0.396	soñ, trasoñ	emponsoñ
+2444	o	->	q	/	X k	__	r y	[]	[]	18	10	0.556	0.388	rekord, akord, koNkord, desakord, diskord, akorn, deskorn, deseNkord, eNkor, eNkord	kort, rekort, dekor, eNkorb, akort, eNkokor, deskorC, alkors
+1732	o	->	q	/	X 	__	j	[]	[]	20	9	0.45	0.376	oj, degoj, desoj, resoj, deskoj, akoj, afoj, aperkoj, reoj	desarroj, apoj, enroj, arroj, embroj, aboj, ampoj, empoj, atoj, konboj, desaboj
+2325	o	->	q	/	as	__	 y	[]	[]	8	4	0.5	0.374	asol, ason, asold, asol	asom, asosj, asombr, asot
+505	o	->	q	/	X s	__	 y	[]	[]	52	22	0.423	0.354	sol, son, soñ, solt, konsol, reson, desol, sold, asol, deskonsol, desoj, resoj, desob, ason, asold, asol, konson, desold, desos	sobr, asom, asosj, asombr, sopl, rason, asesor, asot, sob, filosof, atesor, absort, desox, disosj, resoNg, deskorason, blason, sosobr, desonr
+2257	o	->	q	/	X ak	__	 y	[]	[]	12	5	0.417	0.323	akord, akost, desakord, akoj, akorn	akos, akopl, akot, akod, akort, akolC, akopj
+1424	o	->	q	/	X en	__	 y	[]	[]	4	2	0.5	0.31	renob, denost	denot, enox
+2196	o	->	q	/	X eg	__	 y	[]	[]	4	2	0.5	0.31	degoj, regold	negosj, pregon
+2461	o	->	q	/	X af	__	 y	[]	[]	4	2	0.5	0.31	desafor, afoj	afor, aforr
+1511	o	->	q	/	X tr	__	 y	[]	[]	13	5	0.385	0.298	trok, tron, atron, retron, trastrok	kontrol, destros, trot, destron, atrofj, entroNk, ipertrofj, entron
+2854	o	->	q	/	X as	__	 y	[]	[]	14	5	0.357	0.278	asol, ason, asold, asol, trasoñ	asom, asosj, asombr, rason, asot, deskorason, blason, sason, desasosj
+295	o	->	q	/	ak	__	 y	[]	[]	11	4	0.364	0.273	akord, akost, akoj, akorn	akos, akopl, akot, akod, akort, akolC, akopj
+2599	o	->	q	/	X am	__	 y	[]	[]	8	3	0.375	0.267	amol, amobl, desamobl	enamor, amold, amosk, amorr, eskamond
+2315	o	->	q	/	am	__	 y	[]	[]	5	2	0.4	0.254	amol, amobl	amold, amosk, amorr
+126	o	->	q	/	k	__	 y	[]	[]	12	4	0.333	0.25	kont, kost, kolg, kol	kompr, kort, kobr, konfj, konst, kopj, kolm, komb
+1171	o	->	q	/	X g	__	 y	[]	[]	17	5	0.294	0.228	abergons, degoj, desbergons, regold, agor	gos, agot, negosj, eNgord, pregon, agolp, agobj, akoNgox, agost, eNgolf, aNgost, eNgom
+408	o	->	q	/	X r	__	 y	[]	[]	73	17	0.233	0.187	komprob, prob, aprob, rod, rog, trok, derrok, eNgros, tron, atron, reprob, desaprob, deseNgros, improb, prob, retron, trastrok	desarroj, kontrol, arrox, rob, ros, brot, afront, derrot, destros, interrog, reproC, frot, koron, rond, apropj, desmoron, enroj, drog, arrop
+2460	o	->	q	/	X f	__	 y	[]	[]	22	6	0.273	0.187	fors, esfors, refors, desafor, afoj, alfors	form, inform, transform, konform, forx, uniform, enfok, forr, sofok, deform, perfor, reform, afor, konfort, alfombr, aforr
+1791	o	->	q	/	m	__	 y	[]	[]	7	2	0.286	0.186	mostr, mobl	mont, mox, mor, mof, mond
+702	o	->	q	/	X m	__	 y	[]	[]	31	7	0.226	0.183	mostr, demostr, almors, mobl, amol, amobl, desamobl	mont, enamor, akomod, remont, demor, mox, desmont, mor, konmemor, testimonj, mof, iNkomod, remos, remolk, inmol, remox, mond, amold, desmoC
+37	o	->	q	/	X 	__	 y	[]	[]	557	107	0.192	0.17	eNkontr, kont, rekord, mostr, demostr, komprob, sol, son, akord, kost, prob, kolg, soñ, solt, fors, bol, aprob, akost, esfors	tom, form, logr, tok, abandon, probok, desarroj, kompr, kolok, import, apoj, jor, not, kort, funsjon, inform, kontrol, sobr, transform
+2345	o	->	q	/	X 	__	k	[]	[]	23	5	0.217	0.17	trok, derrok, klok, aklok, trastrok	tok, probok, kolok, ekibok, konbok, ebok, Cok, desembok, inbok, enfok, sofok, retok, trastok, dislok, embok, rebok, apok, resiprok
+2012	o	->	q	/	X f	__	r y	[]	[]	18	5	0.278	0.155	fors, esfors, refors, desafor, alfors	form, inform, transform, konform, forx, uniform, forr, deform, perfor, reform, afor, konfort, aforr
+1366	o	->	q	/	X 	__	s y	[]	[]	49	14	0.286	0.155	mostr, demostr, kost, akost, apost, rekost, os, eNgros, tost, denost, eNkost, deseNgros, desos, retost	gos, ros, asosj, negosj, pos, destros, repos, akos, esbos, espos, rebos, sojos, enrosk, ados, rosj, retos, alboros, endos, disosj
+2712	o	->	q	/	X k	__	r	[]	[]	3	1	0.333	0.146	eNkor	dekor, eNkokor
+461	o	->	q	/	r	__	 y	[]	[]	10	2	0.2	0.135	rod, rog	rob, ros, rond, roNk, rosj, rot, rons, rosn
+2646	o	->	q	/	X 	__	s	[]	[]	27	4	0.148	0.113	os, eNgros, deseNgros, desos	gos, ros, pos, destros, repos, akos, esbos, espos, rebos, sojos, ados, retos, alboros, endos, remos, embos, glos, despos, endjos
+406	o	->	q	/	X p	__	 y	[]	[]	36	5	0.139	0.104	apost, pobl, despobl, repobl, empork	import, apoj, soport, iNkorpor, aport, komport, transport, pos, port, repos, despox, espos, deport, eksport, report, tapon, ebapor, empotr, apod
+94	o	->	q	/	X 	__	n y	[]	[]	139	16	0.115	0.098	eNkontr, kont, son, abergons, reson, deskont, reeNkontr, tron, atron, desbergons, rekont, ason, konson, dison, retron, son	abandon, funsjon, relasjon, proporsjon, mont, konfj, perdon, mensjon, reaksjon, afront, konst, impresjon, solusjon, kondisjon, refleksjon, okasjon, remont, traisjon, rason
+209	o	->	q	/	X 	__	r y	[]	[]	124	18	0.145	0.097	rekord, akord, fors, esfors, refors, almors, koNkord, desafor, desakord, agor, diskord, akorn, alfors, deskorn, deseNkord, empork, eNkor, eNkord	form, import, jor, kort, inform, transform, ignor, soport, iNkorpor, mexor, aport, enamor, konform, komport, borr, elabor, balor, abord, transport
+2013	o	->	q	/	X 	__	r	[]	[]	45	3	0.067	0.049	desafor, agor, eNkor	jor, ignor, iNkorpor, mexor, enamor, elabor, balor, kolabor, debor, ador, demor, eksplor, deterjor, añor, or, dekor, aflor, mor, asesor
+693	o	->	q	/	X 	__	n	[]	[]	112	9	0.08	0.047	son, reson, tron, atron, ason, konson, dison, retron, son	abandon, funsjon, relasjon, proporsjon, perdon, mensjon, reaksjon, impresjon, solusjon, kondisjon, refleksjon, okasjon, traisjon, rason, emosjon, kqstjon, ebolusjon, seleksjon, koron
+1085	o	->	q	/		__	 y	[]	[]	13	3	0.231	0.166	os, oj, olg	odj, opt, obr, or, onr, obj, obst, osj, orn, orl
+108	o	->	o	/	X j	__	 y	[]	[]	70	70	1.0	0.986	jor, funsjon, relasjon, proporsjon, mensjon, reaksjon, impresjon, solusjon, kondisjon, refleksjon, bjol, okasjon, traisjon, emosjon, kqstjon, ebolusjon, seleksjon, deterjor, perfeksjon	
+566	o	->	o	/	X j	__	n	[]	[]	63	63	1.0	0.985	funsjon, relasjon, proporsjon, mensjon, reaksjon, impresjon, solusjon, kondisjon, refleksjon, okasjon, traisjon, emosjon, kqstjon, ebolusjon, seleksjon, perfeksjon, presjon, obsesjon, afisjon	
+1404	o	->	o	/	X sj	__	 y	[]	[]	59	59	1.0	0.984	funsjon, relasjon, proporsjon, mensjon, reaksjon, impresjon, solusjon, kondisjon, refleksjon, okasjon, traisjon, emosjon, ebolusjon, seleksjon, perfeksjon, presjon, obsesjon, afisjon, desepsjon	
+144	o	->	o	/	X sj	__	n	[]	[]	58	58	1.0	0.983	funsjon, relasjon, proporsjon, mensjon, reaksjon, impresjon, solusjon, kondisjon, refleksjon, okasjon, traisjon, emosjon, ebolusjon, seleksjon, perfeksjon, presjon, obsesjon, afisjon, desepsjon	
+1364	o	->	o	/	X 	__	t y	[]	[]	28	28	1.0	0.966	not, dot, bot, agot, flot, brot, derrot, eksplot, anot, frot, rebot, asot, akot, alborot, denot, bot, trot, pilot, rot	
+245	o	->	o	/	X 	__	t	[]	[]	27	27	1.0	0.965	not, dot, bot, agot, flot, brot, derrot, eksplot, anot, frot, rebot, asot, akot, alborot, denot, bot, trot, pilot, rot	
+182	o	->	o	/	X d	__	 y	[]	[]	24	24	1.0	0.961	abandon, adopt, perdon, dot, dobl, adorn, ador, don, dor, ados, adob, endos, dom, redobl, akordon, galardon, amodorr, kondon, algodon	
+105	o	->	o	/	X 	__	rt	[]	[]	18	18	1.0	0.948	import, kort, soport, aport, komport, transport, port, rekort, deport, eksport, abort, report, akort, absort, konfort, eksort, entort, port	
+64	o	->	o	/	X 	__	m y	[]	[]	17	17	1.0	0.945	tom, kompr, nombr, asom, asombr, desplom, dom, alfombr, aplom, komb, embrom, eNgom, epitom, eNkomj, enrom, eskombr, sobrekompr	
+868	o	->	o	/	X 	__	x y	[]	[]	15	15	1.0	0.938	arrox, mox, antox, despox, alox, aflox, eloxj, enox, desalox, desox, akoNgox, remox, eNkox, aserrox, aox	
+290	o	->	o	/	X b	__	r y	[]	[]	14	14	1.0	0.934	borr, elabor, abord, kolabor, debor, desbord, bord, korrobor, abort, atiborr, diborsj, soborn, labor, transbord	
+495	o	->	o	/	X 	__	p y	[]	[]	14	14	1.0	0.934	adopt, opt, sopl, kopj, top, apropj, akopl, arrop, galop, ekspropj, fotokopj, akopj, desarrop, serokopj	
+593	o	->	o	/	X 	__	x	[]	[]	14	14	1.0	0.934	arrox, mox, antox, despox, alox, aflox, enox, desalox, desox, akoNgox, remox, eNkox, aserrox, aox	
+443	o	->	o	/	X ksj	__	n	[]	[]	13	13	1.0	0.928	reaksjon, refleksjon, seleksjon, perfeksjon, aksjon, konfeksjon, koleksjon, inspeksjon, aleksjon, fraksjon, aneksjon, friksjon, kalefaksjon	
+490	o	->	o	/	X isj	__	n	[]	[]	12	12	1.0	0.923	kondisjon, traisjon, afisjon, aprisjon, akondisjon, ambisjon, aprobisjon, komisjon, petisjon, adisjon, desaprisjon, reakondisjon	
+687	o	->	o	/	X ab	__	 y	[]	[]	12	12	1.0	0.923	elabor, abord, kolabor, abog, abon, abort, xabon, eslabon, eNxabon, labor, aboj, desaboj	
+161	o	->	o	/	X p	__	rt	[]	[]	10	10	1.0	0.908	import, soport, aport, komport, transport, port, deport, eksport, report, port	
+1663	o	->	o	/	X t	__	n y	[]	[]	10	10	1.0	0.908	enton, amonton, desenton, atont, aboton, akarton, enbalenton, apeloton, desaboton, deton	
+167	o	->	o	/	X 	__	m	[]	[]	9	9	1.0	0.898	tom, asom, desplom, dom, aplom, embrom, eNgom, epitom, enrom	
+625	o	->	o	/	X l	__	r	[]	[]	9	9	1.0	0.898	balor, eksplor, aflor, implor, deplor, klor, subalor, abalor, deskolor	
+1593	o	->	o	/	X emb	__	 y	[]	[]	9	9	1.0	0.898	desembok, embosk, embols, embos, desembols, embok, embot, reembols, embon	
+1705	o	->	o	/	X t	__	n	[]	[]	9	9	1.0	0.898	enton, amonton, desenton, aboton, akarton, enbalenton, apeloton, desaboton, deton	
+91	o	->	o	/	X 	__	r	[]	[]	45	42	0.933	0.897	jor, ignor, iNkorpor, mexor, enamor, elabor, balor, kolabor, debor, ador, demor, eksplor, deterjor, añor, or, dekor, aflor, mor, asesor	desafor, agor, eNkor
+190	o	->	o	/	X b	__	k	[]	[]	8	8	1.0	0.887	probok, ekibok, konbok, ebok, desembok, inbok, embok, rebok	
+211	o	->	o	/	X d	__	n	[]	[]	8	8	1.0	0.887	abandon, perdon, don, akordon, galardon, kondon, algodon, almidon	
+432	o	->	o	/	X r	__	t	[]	[]	8	8	1.0	0.887	brot, derrot, frot, alborot, trot, rot, abarrot, aporrot	
+455	o	->	o	/	X 	__	rr	[]	[]	8	8	1.0	0.887	borr, aorr, forr, atiborr, torr, amodorr, aforr, amorr	
+676	o	->	o	/	X eksj	__	n	[]	[]	8	8	1.0	0.887	refleksjon, seleksjon, perfeksjon, konfeksjon, koleksjon, inspeksjon, aleksjon, aneksjon	
+731	o	->	o	/	X nt	__	 y	[]	[]	8	8	1.0	0.887	antox, enton, amonton, entorn, desenton, enbalenton, kontorn, entort	
+1006	o	->	o	/	X a	__	 y	[]	[]	8	8	1.0	0.887	aog, aorr, desaog, aork, aond, aorm, aorn, aox	
+2222	o	->	o	/	X 	__	rm	[]	[]	8	8	1.0	0.887	form, inform, transform, konform, uniform, deform, reform, aorm	
+111	o	->	o	/	X f	__	rm	[]	[]	7	7	1.0	0.872	form, inform, transform, konform, uniform, deform, reform	
+456	o	->	o	/	a	__	 y	[]	[]	7	7	1.0	0.872	aog, aorr, aork, aond, aorm, aorn, aox	
+700	o	->	o	/	X esj	__	n	[]	[]	7	7	1.0	0.872	impresjon, presjon, obsesjon, lesjon, posesjon, aposesjon, desaposesjon	
+1158	o	->	o	/	X usj	__	n	[]	[]	7	7	1.0	0.872	solusjon, ebolusjon, ilusjon, fusjon, desilusjon, disilusjon, polusjon	
+1207	o	->	o	/	X br	__	 y	[]	[]	7	7	1.0	0.872	brot, desabroC, abroC, embroj, desbros, embrom, abrog	
+1368	o	->	o	/	X pl	__	 y	[]	[]	7	7	1.0	0.872	eksplot, eksplor, desplom, implor, deplor, aplom, komplot	
+1697	o	->	o	/	X 	__	C	[]	[]	7	7	1.0	0.872	reproC, derroC, desabroC, abroC, trasnoC, desmoC, biskoC	
+379	o	->	o	/	X t	__	 y	[]	[]	35	32	0.914	0.869	tom, tok, otorg, torn, top, antox, enton, amonton, entorn, trastorn, kustodj, estorb, retok, desenton, retos, trastok, torr, atont, aboton	tost, exekutorj, retost
+76	o	->	o	/	X l	__	 y	[]	[]	41	37	0.902	0.86	logr, kolok, balor, proloNg, flot, eksplot, eksplor, alox, aflox, desplom, eskalon, djalog, aflor, eloxj, eNglob, katalog, desalox, galop, pilot	eskalofrj, klok, glorj, aklok
+163	o	->	o	/	X 	__	br	[]	[]	6	6	1.0	0.852	sobr, kobr, obr, rekobr, manjobr, sosobr	
+201	o	->	o	/	X arr	__	 y	[]	[]	6	6	1.0	0.852	desarroj, arrox, arrop, arroj, abarrot, desarrop	
+463	o	->	o	/	X asj	__	n	[]	[]	6	6	1.0	0.852	relasjon, okasjon, apasjon, estasjon, rasjon, korrelasjon	
+720	o	->	o	/	X 	__	pj	[]	[]	6	6	1.0	0.852	kopj, apropj, ekspropj, fotokopj, akopj, serokopj	
+893	o	->	o	/	X lusj	__	n	[]	[]	6	6	1.0	0.852	solusjon, ebolusjon, ilusjon, desilusjon, disilusjon, polusjon	
+950	o	->	o	/	X d	__	r y	[]	[]	6	6	1.0	0.852	adorn, ador, dor, amodorr, desadorn, endors	
+1035	o	->	o	/	X 	__	N y	[]	[]	6	6	1.0	0.852	proloNg, roNk, espoNx, resoNg, entroNk, aloNg	
+1220	o	->	o	/	X m	__	n y	[]	[]	6	6	1.0	0.852	mont, remont, desmont, testimonj, mond, eskamond	
+1401	o	->	o	/	X s	__	r y	[]	[]	6	6	1.0	0.852	asesor, atesor, absort, eksort, eksor, eksorn	
+1639	o	->	o	/	emb	__	 y	[]	[]	6	6	1.0	0.852	embosk, embols, embos, embok, embot, embon	
+2239	o	->	o	/	X 	__	nd y	[]	[]	6	6	1.0	0.852	rond, aond, mond, sond, atolondr, eskamond	
+2354	o	->	o	/	X ad	__	 y	[]	[]	6	6	1.0	0.852	adopt, adorn, ador, ados, adob, desadorn	
+107	o	->	o	/	X 	__	n	[]	[]	112	103	0.92	0.848	abandon, funsjon, relasjon, proporsjon, perdon, mensjon, reaksjon, impresjon, solusjon, kondisjon, refleksjon, okasjon, traisjon, rason, emosjon, kqstjon, ebolusjon, seleksjon, koron	son, reson, tron, atron, ason, konson, dison, retron, son
+397	o	->	o	/	X 	__	g y	[]	[]	14	13	0.929	0.845	logr, aog, interrog, abog, djalog, drog, desaog, katalog, malogr, derog, prorrog, bog, abrog	rog
+431	o	->	o	/	X rr	__	 y	[]	[]	14	13	0.929	0.845	desarroj, arrox, derrot, interrog, arrop, arroj, derroC, abarrot, emborron, prorrog, desarrop, aserrox, aporrot	derrok
+268	o	->	o	/	X b	__	 y	[]	[]	52	45	0.865	0.826	probok, ekibok, bot, borr, elabor, konbok, abord, kolabor, debor, ebok, desbord, desembok, abog, inbok, esbos, bord, rebot, abon, korrobor	bol, bolk, rebolk, rebol, sirkunbol, rebolk, trasbol
+246	o	->	o	/	d	__	 y	[]	[]	5	5	1.0	0.825	dot, dobl, don, dor, dom	
+343	o	->	o	/	X ab	__	r y	[]	[]	5	5	1.0	0.825	elabor, abord, kolabor, abort, labor	
+358	o	->	o	/	X b	__	r	[]	[]	5	5	1.0	0.825	elabor, kolabor, debor, korrobor, labor	
+453	o	->	o	/	ad	__	 y	[]	[]	5	5	1.0	0.825	adopt, adorn, ador, ados, adob	
+688	o	->	o	/	ab	__	 y	[]	[]	5	5	1.0	0.825	abord, abog, abon, abort, aboj	
+885	o	->	o	/	X b	__	t	[]	[]	5	5	1.0	0.825	bot, rebot, bot, barbot, embot	
+969	o	->	o	/	X k	__	p y	[]	[]	5	5	1.0	0.825	kopj, akopl, fotokopj, akopj, serokopj	
+1003	o	->	o	/	X st	__	 y	[]	[]	5	5	1.0	0.825	trastorn, kustodj, estorb, trastok, estof	
+1285	o	->	o	/	X ent	__	 y	[]	[]	5	5	1.0	0.825	enton, entorn, desenton, enbalenton, entort	
+1380	o	->	o	/	X 	__	nd	[]	[]	5	5	1.0	0.825	rond, aond, mond, sond, eskamond	
+1553	o	->	o	/	X Ng	__	 y	[]	[]	5	5	1.0	0.825	eNgord, akoNgox, eNgolf, aNgost, eNgom	
+1821	o	->	o	/	X 	__	mb y	[]	[]	5	5	1.0	0.825	nombr, asombr, alfombr, komb, eskombr	
+2297	o	->	o	/	X rem	__	 y	[]	[]	5	5	1.0	0.825	remont, remos, remolk, remox, tremol	
+2690	o	->	o	/	X b	__	n	[]	[]	5	5	1.0	0.825	abon, xabon, eslabon, eNxabon, embon	
+2709	o	->	o	/	X k	__	m y	[]	[]	5	5	1.0	0.825	kompr, komb, eNkomj, eskombr, sobrekompr	
+484	o	->	o	/	X 	__	g	[]	[]	12	11	0.917	0.82	aog, interrog, abog, djalog, drog, desaog, katalog, derog, prorrog, bog, abrog	rog
+673	o	->	o	/	X al	__	 y	[]	[]	12	11	0.917	0.82	balor, alox, eskalon, djalog, katalog, desalox, galop, malogr, aloNg, subalor, abalor	eskalofrj
+481	o	->	o	/	X t	__	r y	[]	[]	11	10	0.909	0.805	otorg, torn, entorn, trastorn, estorb, torr, ator, kontorn, entort, ekspektor	exekutorj
+1002	o	->	o	/	X 	__	d y	[]	[]	11	10	0.909	0.805	odj, akomod, kustodj, akod, parodj, apod, iNkomod, enlod, Capod, desakomod	rod
+1699	o	->	o	/	X l	__	r y	[]	[]	11	10	0.909	0.805	balor, eksplor, aflor, implor, deplor, banaglorj, klor, subalor, abalor, deskolor	glorj
+78	o	->	o	/	X 	__	r y	[]	[]	124	103	0.831	0.801	form, import, jor, kort, inform, transform, ignor, soport, iNkorpor, mexor, aport, enamor, konform, komport, borr, elabor, balor, abord, transport	rekord, akord, fors, esfors, refors, almors, koNkord, porfj, desafor, desakord, agor, diskord, glorj, akorn, alfors, deskorn, deseNkord, exekutorj, empork
+329	o	->	o	/	X 	__	s	[]	[]	27	23	0.852	0.791	gos, ros, pos, destros, repos, akos, esbos, espos, rebos, sojos, ados, retos, alboros, endos, remos, embos, glos, despos, endjos	os, eNgros, deseNgros, desos
+218	o	->	o	/	X nsj	__	n	[]	[]	4	4	1.0	0.786	funsjon, mensjon, sansjon, subensjon	
+321	o	->	o	/	X ol	__	 y	[]	[]	4	4	1.0	0.786	kolok, proloNg, atolondr, deskolor	
+381	o	->	o	/	X 	__	mbr	[]	[]	4	4	1.0	0.786	nombr, asombr, alfombr, eskombr	
+394	o	->	o	/	X g	__	s y	[]	[]	4	4	1.0	0.786	gos, negosj, agost, aNgost	
+436	o	->	o	/	X l	__	t	[]	[]	4	4	1.0	0.786	flot, eksplot, pilot, komplot	
+555	o	->	o	/	X b	__	rd	[]	[]	4	4	1.0	0.786	abord, desbord, bord, transbord	
+564	o	->	o	/	X n	__	t	[]	[]	4	4	1.0	0.786	not, anot, denot, konnot	
+574	o	->	o	/	X 	__	p	[]	[]	4	4	1.0	0.786	top, arrop, galop, desarrop	
+583	o	->	o	/	X leksj	__	n	[]	[]	4	4	1.0	0.786	refleksjon, seleksjon, koleksjon, aleksjon	
+587	o	->	o	/	X m	__	r	[]	[]	4	4	1.0	0.786	enamor, demor, mor, konmemor	
+617	o	->	o	/	X p	__	s	[]	[]	4	4	1.0	0.786	pos, repos, espos, despos	
+737	o	->	o	/	X nt	__	n	[]	[]	4	4	1.0	0.786	enton, amonton, desenton, enbalenton	
+756	o	->	o	/	X nf	__	 y	[]	[]	4	4	1.0	0.786	inform, konform, enfok, konfort	
+776	o	->	o	/	X t	__	rn	[]	[]	4	4	1.0	0.786	torn, entorn, trastorn, kontorn	
+814	o	->	o	/	X aksj	__	n	[]	[]	4	4	1.0	0.786	reaksjon, aksjon, fraksjon, kalefaksjon	
+816	o	->	o	/	X l	__	g y	[]	[]	4	4	1.0	0.786	logr, djalog, katalog, malogr	
+869	o	->	o	/	X l	__	x y	[]	[]	4	4	1.0	0.786	alox, aflox, eloxj, desalox	
+889	o	->	o	/	X r	__	j	[]	[]	4	4	1.0	0.786	desarroj, enroj, arroj, embroj	
+973	o	->	o	/	X r	__	p y	[]	[]	4	4	1.0	0.786	apropj, arrop, ekspropj, desarrop	
+1026	o	->	o	/	X or	__	 y	[]	[]	4	4	1.0	0.786	koron, desmoron, alborot, alboros	
+1055	o	->	o	/	a	__	r y	[]	[]	4	4	1.0	0.786	aorr, aork, aorm, aorn	
+1154	o	->	o	/	X r	__	C	[]	[]	4	4	1.0	0.786	reproC, derroC, desabroC, abroC	
+1405	o	->	o	/	X rsj	__	 y	[]	[]	4	4	1.0	0.786	proporsjon, sersjor, ekstorsjon, kontorsjon	
+1433	o	->	o	/	X ab	__	n	[]	[]	4	4	1.0	0.786	abon, xabon, eslabon, eNxabon	
+1493	o	->	o	/	X nd	__	 y	[]	[]	4	4	1.0	0.786	abandon, endos, kondon, endors	
+1494	o	->	o	/	X d	__	s	[]	[]	4	4	1.0	0.786	ados, endos, embaldos, baldos	
+1537	o	->	o	/	X lab	__	 y	[]	[]	4	4	1.0	0.786	elabor, kolabor, eslabon, labor	
+1594	o	->	o	/	X b	__	s y	[]	[]	4	4	1.0	0.786	esbos, rebos, embosk, embos	
+1611	o	->	o	/	rem	__	 y	[]	[]	4	4	1.0	0.786	remont, remos, remolk, remox	
+1704	o	->	o	/	X ot	__	 y	[]	[]	4	4	1.0	0.786	otorg, aboton, apeloton, desaboton	
+1959	o	->	o	/	X k	__	pj	[]	[]	4	4	1.0	0.786	kopj, fotokopj, akopj, serokopj	
+2117	o	->	o	/	X sesj	__	n	[]	[]	4	4	1.0	0.786	obsesjon, posesjon, aposesjon, desaposesjon	
+2305	o	->	o	/	X disj	__	n	[]	[]	4	4	1.0	0.786	kondisjon, akondisjon, adisjon, reakondisjon	
+88	o	->	o	/	X p	__	 y	[]	[]	36	30	0.833	0.781	import, apoj, soport, iNkorpor, aport, komport, transport, pos, port, repos, despox, espos, deport, eksport, report, tapon, ebapor, empotr, apod	apost, pobl, despobl, porfj, repobl, empork
+32	o	->	o	/	X 	__	 y	[]	[]	557	442	0.794	0.775	tom, form, logr, tok, abandon, probok, desarroj, kompr, kolok, import, apoj, jor, not, kort, funsjon, inform, kontrol, sobr, transform	eNkontr, kont, rekord, mostr, demostr, komprob, sol, son, akord, kost, prob, kolg, soñ, solt, konfj, fors, bol, aprob, akost
+1196	o	->	o	/	X ap	__	 y	[]	[]	9	8	0.889	0.765	apoj, aport, tapon, ebapor, apod, apok, eNkapot, Capod	apost
+146	o	->	o	/	X n	__	 y	[]	[]	13	11	0.846	0.747	not, nombr, ignor, anot, denot, enox, aminor, trasnoC, innob, konnot, pignor	renob, denost
+482	o	->	o	/	X 	__	rn	[]	[]	13	11	0.846	0.747	adorn, torn, entorn, trastorn, soborn, aboCorn, orn, kontorn, desadorn, aorn, eksorn	akorn, deskorn
+588	o	->	o	/	X em	__	 y	[]	[]	8	7	0.875	0.74	remont, demor, konmemor, remos, remolk, remox, tremol	demostr
+1274	o	->	o	/	X 	__	d	[]	[]	8	7	0.875	0.74	akomod, akod, apod, iNkomod, enlod, Capod, desakomod	rod
+1363	o	->	o	/	X mp	__	 y	[]	[]	8	7	0.875	0.74	import, komport, empotr, empolb, desempolb, ampoj, empoj	empork
+165	o	->	o	/	X 	__	n y	[]	[]	139	121	0.871	0.723	abandon, funsjon, relasjon, proporsjon, mont, perdon, mensjon, reaksjon, afront, konst, impresjon, solusjon, kondisjon, refleksjon, okasjon, remont, traisjon, rason, emosjon	eNkontr, kont, son, konfj, abergons, reson, deskonfj, deskont, reeNkontr, tron, atron, desbergons, rekont, ason, konson, dison, retron, son
+357	o	->	o	/	X lab	__	r	[]	[]	3	3	1.0	0.718	elabor, kolabor, labor	
+359	o	->	o	/	X ab	__	r	[]	[]	3	3	1.0	0.718	elabor, kolabor, labor	
+473	o	->	o	/	X m	__	nt	[]	[]	3	3	1.0	0.718	mont, remont, desmont	
+568	o	->	o	/	X olusj	__	n	[]	[]	3	3	1.0	0.718	solusjon, ebolusjon, polusjon	
+572	o	->	o	/	X fr	__	 y	[]	[]	3	3	1.0	0.718	afront, frot, konfront	
+634	o	->	o	/	X j	__	r	[]	[]	3	3	1.0	0.718	jor, deterjor, sersjor	
+653	o	->	o	/	X k	__	rt	[]	[]	3	3	1.0	0.718	kort, rekort, akort	
+766	o	->	o	/	X fl	__	 y	[]	[]	3	3	1.0	0.718	flot, aflox, aflor	
+767	o	->	o	/	X l	__	x	[]	[]	3	3	1.0	0.718	alox, aflox, desalox	
+774	o	->	o	/	X spl	__	 y	[]	[]	3	3	1.0	0.718	eksplot, eksplor, desplom	
+777	o	->	o	/	ent	__	 y	[]	[]	3	3	1.0	0.718	enton, entorn, entort	
+840	o	->	o	/	X stj	__	n	[]	[]	3	3	1.0	0.718	kqstjon, xestjon, suxestjon	
+972	o	->	o	/	arr	__	 y	[]	[]	3	3	1.0	0.718	arrox, arrop, arroj	
+1062	o	->	o	/	X b	__	s	[]	[]	3	3	1.0	0.718	esbos, rebos, embos	
+1076	o	->	o	/	X ib	__	 y	[]	[]	3	3	1.0	0.718	ekibok, atiborr, diborsj	
+1124	o	->	o	/	enr	__	 y	[]	[]	3	3	1.0	0.718	enroj, enrosk, enrom	
+1138	o	->	o	/	X t	__	k	[]	[]	3	3	1.0	0.718	tok, retok, trastok	
+1264	o	->	o	/	X al	__	g y	[]	[]	3	3	1.0	0.718	djalog, katalog, malogr	
+1284	o	->	o	/	X ent	__	n	[]	[]	3	3	1.0	0.718	enton, desenton, enbalenton	
+1350	o	->	o	/	X d	__	b y	[]	[]	3	3	1.0	0.718	dobl, adob, redobl	
+1369	o	->	o	/	X pl	__	r	[]	[]	3	3	1.0	0.718	eksplor, implor, deplor	
+1399	o	->	o	/	X rr	__	t	[]	[]	3	3	1.0	0.718	derrot, abarrot, aporrot	
+1415	o	->	o	/	X 	__	dj	[]	[]	3	3	1.0	0.718	odj, kustodj, parodj	
+1456	o	->	o	/	X ilusj	__	n	[]	[]	3	3	1.0	0.718	ilusjon, desilusjon, disilusjon	
+1475	o	->	o	/	X nf	__	r y	[]	[]	3	3	1.0	0.718	inform, konform, konfort	
+1503	o	->	o	/	X kondisj	__	n	[]	[]	3	3	1.0	0.718	kondisjon, akondisjon, reakondisjon	
+1505	o	->	o	/	X n	__	r	[]	[]	3	3	1.0	0.718	ignor, aminor, pignor	
+1526	o	->	o	/	X s	__	sj	[]	[]	3	3	1.0	0.718	asosj, disosj, desasosj	
+1570	o	->	o	/	X 	__	f	[]	[]	3	3	1.0	0.718	filosof, mof, estof	
+1575	o	->	o	/	X 	__	Ng	[]	[]	3	3	1.0	0.718	proloNg, resoNg, aloNg	
+1595	o	->	o	/	X 	__	sk	[]	[]	3	3	1.0	0.718	enrosk, embosk, amosk	
+1602	o	->	o	/	X kom	__	d	[]	[]	3	3	1.0	0.718	akomod, iNkomod, desakomod	
+1692	o	->	o	/	X ob	__	 y	[]	[]	3	3	1.0	0.718	probok, korrobor, soborn	
+1739	o	->	o	/	X ntr	__	 y	[]	[]	3	3	1.0	0.718	kontrol, entroNk, entron	
+1755	o	->	o	/	X orr	__	 y	[]	[]	3	3	1.0	0.718	emborron, prorrog, aporrot	
+1808	o	->	o	/	X rd	__	n	[]	[]	3	3	1.0	0.718	perdon, akordon, galardon	
+1828	o	->	o	/	X emb	__	ls	[]	[]	3	3	1.0	0.718	embols, desembols, reembols	
+1885	o	->	o	/	X orsj	__	n	[]	[]	3	3	1.0	0.718	proporsjon, ekstorsjon, kontorsjon	
+1994	o	->	o	/	X ot	__	n	[]	[]	3	3	1.0	0.718	aboton, apeloton, desaboton	
+2016	o	->	o	/	X x	__	 y	[]	[]	3	3	1.0	0.718	mexor, desmexor, eNkaxon	
+2019	o	->	o	/	X ok	__	 y	[]	[]	3	3	1.0	0.718	fotokopj, eNkokor, serokopj	
+2062	o	->	o	/	X r	__	nt	[]	[]	3	3	1.0	0.718	afront, konfront, apront	
+2069	o	->	o	/	at	__	 y	[]	[]	3	3	1.0	0.718	atont, ator, atoj	
+2138	o	->	o	/	X p	__	j	[]	[]	3	3	1.0	0.718	apoj, ampoj, empoj	
+2172	o	->	o	/	eNg	__	 y	[]	[]	3	3	1.0	0.718	eNgord, eNgolf, eNgom	
+2240	o	->	o	/	X l	__	n y	[]	[]	3	3	1.0	0.718	eskalon, atolondr, entrereNglon	
+2302	o	->	o	/	X abr	__	 y	[]	[]	3	3	1.0	0.718	desabroC, abroC, abrog	
+2356	o	->	o	/	X ad	__	r y	[]	[]	3	3	1.0	0.718	adorn, ador, desadorn	
+2386	o	->	o	/	X nt	__	r y	[]	[]	3	3	1.0	0.718	entorn, kontorn, entort	
+2416	o	->	o	/	X bal	__	r	[]	[]	3	3	1.0	0.718	balor, subalor, abalor	
+2486	o	->	o	/	X posesj	__	n	[]	[]	3	3	1.0	0.718	posesjon, aposesjon, desaposesjon	
+2578	o	->	o	/	X b	__	j	[]	[]	3	3	1.0	0.718	aboj, konboj, desaboj	
+2752	o	->	o	/	X s	__	r	[]	[]	3	3	1.0	0.718	asesor, atesor, eksor	
+2753	o	->	o	/	eks	__	r y	[]	[]	3	3	1.0	0.718	eksort, eksor, eksorn	
+2779	o	->	o	/	X p	__	l y	[]	[]	3	3	1.0	0.718	empolb, desempolb, interpol	
+241	o	->	o	/	X m	__	 y	[]	[]	31	24	0.774	0.714	mont, enamor, akomod, remont, demor, mox, desmont, mor, konmemor, testimonj, mof, iNkomod, remos, remolk, inmol, remox, mond, amold, desmoC	mostr, demostr, almors, mobl, amol, amobl, desamobl
+53	o	->	o	/	X 	__	k	[]	[]	23	18	0.783	0.711	tok, probok, kolok, ekibok, konbok, ebok, Cok, desembok, inbok, enfok, sofok, retok, trastok, dislok, embok, rebok, apok, resiprok	trok, derrok, klok, aklok, trastrok
+641	o	->	o	/	X sp	__	 y	[]	[]	7	6	0.857	0.706	transport, despox, espos, eksport, espoNx, despos	despobl
+118	o	->	o	/	X r	__	 y	[]	[]	73	54	0.74	0.701	desarroj, kontrol, arrox, rob, ros, brot, afront, derrot, destros, interrog, reproC, frot, koron, rond, apropj, desmoron, enroj, drog, arrop	komprob, prob, aprob, rod, rog, rosj, trok, derrok, eNgros, tron, atron, reprob, ipertrofj, desaprob, deseNgros, improb, prob, retron, trastrok
+180	o	->	o	/	X p	__	r y	[]	[]	14	12	0.857	0.69	import, soport, iNkorpor, aport, komport, transport, port, deport, eksport, report, ebapor, port	porfj, empork
+609	o	->	o	/	X r	__	n y	[]	[]	13	10	0.769	0.666	afront, koron, rond, desmoron, emborron, destron, konfront, apront, entron, rons	tron, atron, retron
+50	o	->	o	/	t	__	 y	[]	[]	6	5	0.833	0.663	tom, tok, torn, top, torr	tost
+395	o	->	o	/	X 	__	sj	[]	[]	6	5	0.833	0.663	asosj, negosj, disosj, osj, desasosj	rosj
+906	o	->	o	/	X r	__	g	[]	[]	6	5	0.833	0.663	interrog, drog, derog, prorrog, abrog	rog
+2318	o	->	o	/	X m	__	r y	[]	[]	6	5	0.833	0.663	enamor, demor, mor, konmemor, amorr	almors
+755	o	->	o	/	X f	__	 y	[]	[]	22	16	0.727	0.651	form, inform, transform, konform, forx, uniform, enfok, forr, sofok, deform, perfor, reform, afor, konfort, alfombr, aforr	fors, esfors, refors, desafor, afoj, alfors
+742	o	->	o	/	X f	__	r y	[]	[]	18	13	0.722	0.637	form, inform, transform, konform, forx, uniform, forr, deform, perfor, reform, afor, konfort, aforr	fors, esfors, refors, desafor, alfors
+292	o	->	o	/	X g	__	 y	[]	[]	17	12	0.706	0.617	gos, agot, negosj, eNgord, pregon, agolp, agobj, akoNgox, agost, eNgolf, aNgost, eNgom	abergons, degoj, desbergons, regold, agor
+230	o	->	o	/	ap	__	 y	[]	[]	5	4	0.8	0.607	apoj, aport, apod, apok	apost
+485	o	->	o	/	X err	__	 y	[]	[]	5	4	0.8	0.607	derrot, interrog, derroC, aserrox	derrok
+758	o	->	o	/	X esp	__	 y	[]	[]	5	4	0.8	0.607	despox, espos, espoNx, despos	despobl
+1037	o	->	o	/	ag	__	 y	[]	[]	5	4	0.8	0.607	agot, agolp, agobj, agost	agor
+1670	o	->	o	/	X as	__	n	[]	[]	5	4	0.8	0.607	rason, deskorason, blason, sason	ason
+1700	o	->	o	/	X gl	__	 y	[]	[]	5	4	0.8	0.607	eNglob, banaglorj, glos, entrereNglon	glorj
+1772	o	->	o	/	X emp	__	 y	[]	[]	5	4	0.8	0.607	empotr, empolb, desempolb, empoj	empork
+1786	o	->	o	/	X m	__	l y	[]	[]	5	4	0.8	0.607	remolk, inmol, amold, tremol	amol
+2097	o	->	o	/	X et	__	 y	[]	[]	5	4	0.8	0.607	retok, retos, deton, retoñ	retost
+235	o	->	o	/	r	__	 y	[]	[]	10	7	0.7	0.579	rob, ros, rond, roNk, rot, rons, rosn	rod, rog, rosj
+375	o	->	o	/	X 	__	nt	[]	[]	10	7	0.7	0.579	mont, afront, remont, desmont, konfront, atont, apront	kont, deskont, rekont
+365	o	->	o	/	X 	__	s y	[]	[]	49	34	0.694	0.574	gos, ros, asosj, negosj, pos, destros, repos, akos, esbos, espos, rebos, sojos, enrosk, ados, retos, alboros, endos, disosj, embosk	mostr, demostr, kost, akost, apost, rekost, os, rosj, eNgros, tost, denost, eNkost, deseNgros, desos, retost
+139	o	->	o	/	n	__	 y	[]	[]	2	2	1.0	0.57	not, nombr	
+261	o	->	o	/	X nf	__	rm	[]	[]	2	2	1.0	0.57	inform, konform	
+273	o	->	o	/	X mp	__	rt	[]	[]	2	2	1.0	0.57	import, komport	
+382	o	->	o	/	as	__	m y	[]	[]	2	2	1.0	0.57	asom, asombr	
+535	o	->	o	/	ad	__	r y	[]	[]	2	2	1.0	0.57	adorn, ador	
+577	o	->	o	/	X k	__	br	[]	[]	2	2	1.0	0.57	kobr, rekobr	
+626	o	->	o	/	ekspl	__	 y	[]	[]	2	2	1.0	0.57	eksplot, eksplor	
+630	o	->	o	/	r	__	n y	[]	[]	2	2	1.0	0.57	rond, rons	
+690	o	->	o	/	X presj	__	n	[]	[]	2	2	1.0	0.57	impresjon, presjon	
+705	o	->	o	/	X nb	__	k	[]	[]	2	2	1.0	0.57	konbok, inbok	
+745	o	->	o	/	X esb	__	 y	[]	[]	2	2	1.0	0.57	desbord, esbos	
+769	o	->	o	/	b	__	r y	[]	[]	2	2	1.0	0.57	borr, bord	
+829	o	->	o	/	X or	__	n	[]	[]	2	2	1.0	0.57	koron, desmoron	
+834	o	->	o	/	afl	__	 y	[]	[]	2	2	1.0	0.57	aflox, aflor	
+838	o	->	o	/	X feksj	__	n	[]	[]	2	2	1.0	0.57	perfeksjon, konfeksjon	
+860	o	->	o	/	X f	__	k	[]	[]	2	2	1.0	0.57	enfok, sofok	
+878	o	->	o	/	X ensj	__	n	[]	[]	2	2	1.0	0.57	mensjon, subensjon	
+902	o	->	o	/	X rob	__	 y	[]	[]	2	2	1.0	0.57	probok, korrobor	
+951	o	->	o	/	X d	__	r	[]	[]	2	2	1.0	0.57	ador, dor	
+968	o	->	o	/	X 	__	pl	[]	[]	2	2	1.0	0.57	sopl, akopl	
+1005	o	->	o	/	X a	__	g	[]	[]	2	2	1.0	0.57	aog, desaog	
+1029	o	->	o	/	X st	__	r y	[]	[]	2	2	1.0	0.57	trastorn, estorb	
+1043	o	->	o	/	X sp	__	rt	[]	[]	2	2	1.0	0.57	transport, eksport	
+1065	o	->	o	/	s	__	b y	[]	[]	2	2	1.0	0.57	sobr, sob	
+1071	o	->	o	/	ab	__	r y	[]	[]	2	2	1.0	0.57	abord, abort	
+1077	o	->	o	/	X b	__	rr	[]	[]	2	2	1.0	0.57	borr, atiborr	
+1094	o	->	o	/	X al	__	g	[]	[]	2	2	1.0	0.57	djalog, katalog	
+1095	o	->	o	/	X l	__	g	[]	[]	2	2	1.0	0.57	djalog, katalog	
+1102	o	->	o	/	X al	__	x	[]	[]	2	2	1.0	0.57	alox, desalox	
+1116	o	->	o	/	X arr	__	j	[]	[]	2	2	1.0	0.57	desarroj, arroj	
+1130	o	->	o	/	X ef	__	rm	[]	[]	2	2	1.0	0.57	deform, reform	
+1136	o	->	o	/	X ep	__	rt	[]	[]	2	2	1.0	0.57	deport, report	
+1205	o	->	o	/	X em	__	r	[]	[]	2	2	1.0	0.57	demor, konmemor	
+1214	o	->	o	/	X p	__	r	[]	[]	2	2	1.0	0.57	iNkorpor, ebapor	
+1215	o	->	o	/	X ap	__	r y	[]	[]	2	2	1.0	0.57	aport, ebapor	
+1231	o	->	o	/	X ib	__	r y	[]	[]	2	2	1.0	0.57	atiborr, diborsj	
+1236	o	->	o	/	X 	__	rb	[]	[]	2	2	1.0	0.57	estorb, eNkorb	
+1263	o	->	o	/	X l	__	gr	[]	[]	2	2	1.0	0.57	logr, malogr	
+1287	o	->	o	/	X osj	__	n	[]	[]	2	2	1.0	0.57	emosjon, erosjon	
+1299	o	->	o	/	X abr	__	C	[]	[]	2	2	1.0	0.57	desabroC, abroC	
+1331	o	->	o	/	X Nk	__	n	[]	[]	2	2	1.0	0.57	arriNkon, eNkon	
+1332	o	->	o	/	X k	__	n	[]	[]	2	2	1.0	0.57	arriNkon, eNkon	
+1386	o	->	o	/	X es	__	r	[]	[]	2	2	1.0	0.57	asesor, atesor	
+1440	o	->	o	/	trast	__	 y	[]	[]	2	2	1.0	0.57	trastorn, trastok	
+1468	o	->	o	/	albor	__	 y	[]	[]	2	2	1.0	0.57	alborot, alboros	
+1476	o	->	o	/	konf	__	r y	[]	[]	2	2	1.0	0.57	konform, konfort	
+1539	o	->	o	/	esp	__	 y	[]	[]	2	2	1.0	0.57	espos, espoNx	
+1567	o	->	o	/	X pr	__	pj	[]	[]	2	2	1.0	0.57	apropj, ekspropj	
+1589	o	->	o	/	X ras	__	n	[]	[]	2	2	1.0	0.57	rason, deskorason	
+1591	o	->	o	/	destr	__	 y	[]	[]	2	2	1.0	0.57	destros, destron	
+1607	o	->	o	/	X d	__	bl	[]	[]	2	2	1.0	0.57	dobl, redobl	
+1634	o	->	o	/	X fr	__	nt	[]	[]	2	2	1.0	0.57	afront, konfront	
+1653	o	->	o	/	t	__	r y	[]	[]	2	2	1.0	0.57	torn, torr	
+1681	o	->	o	/	emb	__	s y	[]	[]	2	2	1.0	0.57	embosk, embos	
+1693	o	->	o	/	X ob	__	r y	[]	[]	2	2	1.0	0.57	korrobor, soborn	
+1716	o	->	o	/	X pl	__	m	[]	[]	2	2	1.0	0.57	desplom, aplom	
+1737	o	->	o	/	X xab	__	n	[]	[]	2	2	1.0	0.57	xabon, eNxabon	
+1740	o	->	o	/	X r	__	Nk	[]	[]	2	2	1.0	0.57	roNk, entroNk	
+1754	o	->	o	/	X rr	__	g	[]	[]	2	2	1.0	0.57	interrog, prorrog	
+1770	o	->	o	/	X relasj	__	n	[]	[]	2	2	1.0	0.57	relasjon, korrelasjon	
+1773	o	->	o	/	X emp	__	lb	[]	[]	2	2	1.0	0.57	empolb, desempolb	
+1796	o	->	o	/	X m	__	x	[]	[]	2	2	1.0	0.57	mox, remox	
+1804	o	->	o	/	X s	__	br	[]	[]	2	2	1.0	0.57	sobr, sosobr	
+1806	o	->	o	/	X os	__	 y	[]	[]	2	2	1.0	0.57	filosof, sosobr	
+1812	o	->	o	/	X bisj	__	n	[]	[]	2	2	1.0	0.57	ambisjon, aprobisjon	
+1820	o	->	o	/	k	__	m y	[]	[]	2	2	1.0	0.57	kompr, komb	
+1827	o	->	o	/	desemb	__	 y	[]	[]	2	2	1.0	0.57	desembok, desembols	
+1830	o	->	o	/	X mex	__	r	[]	[]	2	2	1.0	0.57	mexor, desmexor	
+1832	o	->	o	/	X emb	__	k	[]	[]	2	2	1.0	0.57	desembok, embok	
+1868	o	->	o	/	X 	__		[]	[]	2	2	1.0	0.57	kro, lo	
+1878	o	->	o	/	X esp	__	s	[]	[]	2	2	1.0	0.57	espos, despos	
+1883	o	->	o	/	X s	__	rt	[]	[]	2	2	1.0	0.57	absort, eksort	
+1891	o	->	o	/	m	__	n y	[]	[]	2	2	1.0	0.57	mont, mond	
+1899	o	->	o	/	X eb	__	k	[]	[]	2	2	1.0	0.57	ebok, rebok	
+1903	o	->	o	/	X C	__	 y	[]	[]	2	2	1.0	0.57	Cok, aboCorn	
+1928	o	->	o	/	X nn	__	 y	[]	[]	2	2	1.0	0.57	innob, konnot	
+1930	o	->	o	/	X torsj	__	n	[]	[]	2	2	1.0	0.57	ekstorsjon, kontorsjon	
+1933	o	->	o	/	X arb	__	 y	[]	[]	2	2	1.0	0.57	barbot, desarbol	
+1953	o	->	o	/	X j	__	s	[]	[]	2	2	1.0	0.57	sojos, endjos	
+1966	o	->	o	/	l	__	 y	[]	[]	2	2	1.0	0.57	logr, lo	
+2008	o	->	o	/	X nd	__	n	[]	[]	2	2	1.0	0.57	abandon, kondon	
+2041	o	->	o	/	X xestj	__	n	[]	[]	2	2	1.0	0.57	xestjon, suxestjon	
+2056	o	->	o	/	X od	__	 y	[]	[]	2	2	1.0	0.57	amodorr, algodon	
+2068	o	->	o	/	X t	__	r	[]	[]	2	2	1.0	0.57	ator, ekspektor	
+2077	o	->	o	/	X abot	__	n	[]	[]	2	2	1.0	0.57	aboton, desaboton	
+2090	o	->	o	/	desm	__	 y	[]	[]	2	2	1.0	0.57	desmont, desmoC	
+2101	o	->	o	/	embr	__	 y	[]	[]	2	2	1.0	0.57	embroj, embrom	
+2104	o	->	o	/	X p	__	t y	[]	[]	2	2	1.0	0.57	empotr, eNkapot	
+2209	o	->	o	/	X k	__	t	[]	[]	2	2	1.0	0.57	akot, trikot	
+2215	o	->	o	/	ak	__	p y	[]	[]	2	2	1.0	0.57	akopl, akopj	
+2237	o	->	o	/	X g	__	st	[]	[]	2	2	1.0	0.57	agost, aNgost	
+2242	o	->	o	/	X b	__	g	[]	[]	2	2	1.0	0.57	abog, bog	
+2259	o	->	o	/	desarr	__	 y	[]	[]	2	2	1.0	0.57	desarroj, desarrop	
+2260	o	->	o	/	X arr	__	p	[]	[]	2	2	1.0	0.57	arrop, desarrop	
+2261	o	->	o	/	X r	__	p	[]	[]	2	2	1.0	0.57	arrop, desarrop	
+2276	o	->	o	/	X l	__	s	[]	[]	2	2	1.0	0.57	glos, enlos	
+2277	o	->	o	/	enl	__	 y	[]	[]	2	2	1.0	0.57	enlod, enlos	
+2298	o	->	o	/	X rem	__	l y	[]	[]	2	2	1.0	0.57	remolk, tremol	
+2303	o	->	o	/	abr	__	 y	[]	[]	2	2	1.0	0.57	abroC, abrog	
+2307	o	->	o	/	X f	__	rr	[]	[]	2	2	1.0	0.57	forr, aforr	
+2308	o	->	o	/	af	__	r y	[]	[]	2	2	1.0	0.57	afor, aforr	
+2311	o	->	o	/	X l	__	Ng	[]	[]	2	2	1.0	0.57	proloNg, aloNg	
+2312	o	->	o	/	al	__	 y	[]	[]	2	2	1.0	0.57	alox, aloNg	
+2317	o	->	o	/	X am	__	r y	[]	[]	2	2	1.0	0.57	enamor, amorr	
+2332	o	->	o	/	X bald	__	s	[]	[]	2	2	1.0	0.57	embaldos, baldos	
+2340	o	->	o	/	X r	__	l	[]	[]	2	2	1.0	0.57	kontrol, Carol	
+2341	o	->	o	/	X ar	__	 y	[]	[]	2	2	1.0	0.57	parodj, Carol	
+2347	o	->	o	/	X ont	__	 y	[]	[]	2	2	1.0	0.57	amonton, kontorn	
+2348	o	->	o	/	X nt	__	rn	[]	[]	2	2	1.0	0.57	entorn, kontorn	
+2355	o	->	o	/	X ad	__	rn	[]	[]	2	2	1.0	0.57	adorn, desadorn	
+2374	o	->	o	/	X mp	__	j	[]	[]	2	2	1.0	0.57	ampoj, empoj	
+2376	o	->	o	/	X ulsj	__	n	[]	[]	2	2	1.0	0.57	konbulsjon, emulsjon	
+2385	o	->	o	/	ent	__	r y	[]	[]	2	2	1.0	0.57	entorn, entort	
+2391	o	->	o	/	X t	__	m	[]	[]	2	2	1.0	0.57	tom, epitom	
+2393	o	->	o	/	est	__	 y	[]	[]	2	2	1.0	0.57	estorb, estof	
+2408	o	->	o	/	X ign	__	r	[]	[]	2	2	1.0	0.57	ignor, pignor	
+2423	o	->	o	/	X oj	__	 y	[]	[]	2	2	1.0	0.57	sojos, abojon	
+2433	o	->	o	/	X rr	__	x	[]	[]	2	2	1.0	0.57	arrox, aserrox	
+2541	o	->	o	/	X ap	__	d	[]	[]	2	2	1.0	0.57	apod, Capod	
+2561	o	->	o	/	X pl	__	t	[]	[]	2	2	1.0	0.57	eksplot, komplot	
+2562	o	->	o	/	X mpl	__	 y	[]	[]	2	2	1.0	0.57	implor, komplot	
+2576	o	->	o	/	konb	__	 y	[]	[]	2	2	1.0	0.57	konbok, konboj	
+2590	o	->	o	/	X ab	__	j	[]	[]	2	2	1.0	0.57	aboj, desaboj	
+2592	o	->	o	/	X akom	__	d	[]	[]	2	2	1.0	0.57	akomod, desakomod	
+2604	o	->	o	/	X aposesj	__	n	[]	[]	2	2	1.0	0.57	aposesjon, desaposesjon	
+2612	o	->	o	/	X aprisj	__	n	[]	[]	2	2	1.0	0.57	aprisjon, desaprisjon	
+2618	o	->	o	/	X as	__	sj	[]	[]	2	2	1.0	0.57	asosj, desasosj	
+2619	o	->	o	/	X sas	__	 y	[]	[]	2	2	1.0	0.57	sason, desasosj	
+2629	o	->	o	/	X kol	__	 y	[]	[]	2	2	1.0	0.57	kolok, deskolor	
+2682	o	->	o	/	X silusj	__	n	[]	[]	2	2	1.0	0.57	desilusjon, disilusjon	
+2718	o	->	o	/	end	__	 y	[]	[]	2	2	1.0	0.57	endos, endors	
+2725	o	->	o	/	X r	__	m	[]	[]	2	2	1.0	0.57	embrom, enrom	
+2732	o	->	o	/	X l	__	n	[]	[]	2	2	1.0	0.57	eskalon, entrereNglon	
+2733	o	->	o	/	X eNgl	__	 y	[]	[]	2	2	1.0	0.57	eNglob, entrereNglon	
+2736	o	->	o	/	entr	__	 y	[]	[]	2	2	1.0	0.57	entroNk, entron	
+2742	o	->	o	/	X m	__	nd	[]	[]	2	2	1.0	0.57	mond, eskamond	
+2746	o	->	o	/	esk	__	 y	[]	[]	2	2	1.0	0.57	eskolt, eskombr	
+2747	o	->	o	/	X k	__	mb y	[]	[]	2	2	1.0	0.57	komb, eskombr	
+2778	o	->	o	/	X rp	__	 y	[]	[]	2	2	1.0	0.57	iNkorpor, interpol	
+2800	o	->	o	/	X akondisj	__	n	[]	[]	2	2	1.0	0.57	akondisjon, reakondisjon	
+2829	o	->	o	/	X k	__	mpr	[]	[]	2	2	1.0	0.57	kompr, sobrekompr	
+2844	o	->	o	/	X sb	__	rd	[]	[]	2	2	1.0	0.57	desbord, transbord	
+2862	o	->	o	/	X nj	__	 y	[]	[]	2	2	1.0	0.57	manjobr, unjon	
+2869	o	->	o	/	X ok	__	pj	[]	[]	2	2	1.0	0.57	fotokopj, serokopj	
+269	o	->	o	/	b	__	 y	[]	[]	7	5	0.714	0.561	bot, borr, bord, bot, bog	bol, bolk
+592	o	->	o	/	m	__	 y	[]	[]	7	5	0.714	0.561	mont, mox, mor, mof, mond	mostr, mobl
+545	o	->	o	/	X as	__	 y	[]	[]	14	9	0.643	0.544	asom, asosj, asombr, rason, asot, deskorason, blason, sason, desasosj	asol, ason, asold, asol, trasoñ
+1123	o	->	o	/	X r	__	s y	[]	[]	9	6	0.667	0.537	ros, destros, enrosk, alboros, desbros, rosn	rosj, eNgros, deseNgros
+168	o	->	o	/	X s	__	 y	[]	[]	52	30	0.577	0.529	sobr, asom, asosj, asombr, sopl, rason, asesor, asot, sob, filosof, atesor, absort, desox, disosj, resoNg, deskorason, blason, sosobr, desonr	sol, son, soñ, solt, konsol, reson, desol, sold, asol, deskonsol, desoj, resoj, desob, ason, asold, asol, konson, desold, desos
+741	o	->	o	/	f	__	r y	[]	[]	4	3	0.75	0.526	form, forx, forr	fors
+854	o	->	o	/	f	__	 y	[]	[]	4	3	0.75	0.526	form, forx, forr	fors
+934	o	->	o	/	X ep	__	 y	[]	[]	4	3	0.75	0.526	repos, deport, report	repobl
+1317	o	->	o	/	ret	__	 y	[]	[]	4	3	0.75	0.526	retok, retos, retoñ	retost
+1562	o	->	o	/	emp	__	 y	[]	[]	4	3	0.75	0.526	empotr, empolb, empoj	empork
+1805	o	->	o	/	X s	__	b y	[]	[]	4	3	0.75	0.526	sobr, sob, sosobr	desob
+2050	o	->	o	/	X is	__	 y	[]	[]	4	3	0.75	0.526	disosj, akrisol, apison	dison
+2577	o	->	o	/	X nb	__	 y	[]	[]	4	3	0.75	0.526	konbok, inbok, konboj	sirkunbol
+2845	o	->	o	/	X sb	__	 y	[]	[]	4	3	0.75	0.526	desbord, esbos, transbord	trasbol
+970	o	->	o	/	ak	__	 y	[]	[]	11	7	0.636	0.523	akos, akopl, akot, akod, akort, akolC, akopj	akord, akost, akoj, akorn
+451	o	->	o	/	X r	__	s	[]	[]	6	4	0.667	0.5	ros, destros, alboros, desbros	eNgros, deseNgros
+1665	o	->	o	/	X 	__	f y	[]	[]	6	4	0.667	0.5	filosof, mof, atrofj, estof	eskalofrj, ipertrofj
+427	o	->	o	/	X eb	__	 y	[]	[]	8	5	0.625	0.489	debor, ebok, rebot, rebos, rebok	rebolk, rebol, rebolk
+830	o	->	o	/	X r	__	n	[]	[]	8	5	0.625	0.489	koron, desmoron, emborron, destron, entron	tron, atron, retron
+1907	o	->	o	/	X am	__	 y	[]	[]	8	5	0.625	0.489	enamor, amold, amosk, amorr, eskamond	amol, amobl, desamobl
+576	o	->	o	/	X k	__	 y	[]	[]	61	32	0.525	0.481	kompr, kort, kobr, konst, kopj, rekobr, akos, rekort, kolm, dekor, eskolt, akopl, akot, arriNkon, eNkorb, akod, akort, eNkon, akolC	eNkontr, kont, rekord, akord, kost, kolg, konfj, akost, kol, rekost, deskolg, deskonfj, koNkord, deskont, reeNkontr, eNkost, deskoj, rekont, desakord
+104	o	->	o	/	k	__	 y	[]	[]	12	7	0.583	0.477	kompr, kort, kobr, konst, kopj, kolm, komb	kont, kost, kolg, konfj, kol
+1871	o	->	o	/	X s	__	n y	[]	[]	14	8	0.571	0.475	rason, deskorason, blason, desonr, sason, sond, apison, aperson	son, reson, ason, konson, dison, son
+87	o	->	o	/	X 	__	j	[]	[]	20	11	0.55	0.471	desarroj, apoj, enroj, arroj, embroj, aboj, ampoj, empoj, atoj, konboj, desaboj	oj, degoj, desoj, resoj, deskoj, akoj, afoj, aperkoj, reoj
+236	o	->	o	/	X 	__	b y	[]	[]	31	16	0.516	0.455	sobr, kobr, rob, dobl, obr, rekobr, eNglob, sob, obj, agobj, adob, manjobr, redobl, obst, sosobr, innob	komprob, prob, aprob, renob, pobl, despobl, reprob, mobl, repobl, desob, desaprob, amobl, desamobl, improb, prob
+450	o	->	o	/	X tr	__	 y	[]	[]	13	7	0.538	0.439	kontrol, destros, trot, destron, atrofj, entroNk, entron	trok, tron, atron, ipertrofj, retron, trastrok
+796	o	->	o	/	X ek	__	 y	[]	[]	7	4	0.571	0.428	rekobr, rekort, dekor, sobrekompr	rekord, rekost, rekont
+425	o	->	o	/	p	__	 y	[]	[]	5	3	0.6	0.42	pos, port, port	pobl, porfj
+2234	o	->	o	/	am	__	 y	[]	[]	5	3	0.6	0.42	amold, amosk, amorr	amol, amobl
+2037	o	->	o	/	X s	__	n	[]	[]	12	6	0.5	0.399	rason, deskorason, blason, sason, apison, aperson	son, reson, ason, konson, dison, son
+695	o	->	o	/	X 	__	l y	[]	[]	47	21	0.447	0.399	kontrol, bjol, kolm, eskolt, agolp, empolb, akolC, embols, remolk, desempolb, inmol, desembols, amold, desarbol, akrisol, eNgolf, tremol, Carol, reembols	sol, kolg, solt, bol, bolk, konsol, kol, deskolg, desol, sold, olg, rebolk, asol, deskonsol, amol, regold, rebol, eNkol, abuñol
+467	o	->	o	/	p	__	r y	[]	[]	3	2	0.667	0.396	port, port	porfj
+797	o	->	o	/	X ek	__	r y	[]	[]	3	2	0.667	0.396	rekort, dekor	rekord
+984	o	->	o	/	X f	__	r	[]	[]	3	2	0.667	0.396	perfor, afor	desafor
+1135	o	->	o	/	rep	__	 y	[]	[]	3	2	0.667	0.396	repos, report	repobl
+1153	o	->	o	/	derr	__	 y	[]	[]	3	2	0.667	0.396	derrot, derroC	derrok
+1877	o	->	o	/	desp	__	 y	[]	[]	3	2	0.667	0.396	despox, despos	despobl
+2018	o	->	o	/	X k	__	r	[]	[]	3	2	0.667	0.396	dekor, eNkokor	eNkor
+2063	o	->	o	/	apr	__	 y	[]	[]	3	2	0.667	0.396	apropj, apront	aprob
+2173	o	->	o	/	X g	__	l y	[]	[]	3	2	0.667	0.396	agolp, eNgolf	regold
+2299	o	->	o	/	X m	__	l	[]	[]	3	2	0.667	0.396	inmol, tremol	amol
+2818	o	->	o	/	r	__	s y	[]	[]	3	2	0.667	0.396	ros, rosn	rosj
+364	o	->	o	/	as	__	 y	[]	[]	8	4	0.5	0.374	asom, asosj, asombr, asot	asol, ason, asold, asol
+1522	o	->	o	/	X es	__	 y	[]	[]	13	6	0.462	0.367	asesor, atesor, desox, resoNg, desonr, sobresol	reson, desol, desoj, resoj, desob, desold, desos
+795	o	->	o	/	X k	__	r y	[]	[]	18	8	0.444	0.367	kort, rekort, dekor, eNkorb, akort, eNkokor, deskorC, alkors	rekord, akord, koNkord, desakord, diskord, akorn, deskorn, deseNkord, eNkor, eNkord
+1063	o	->	o	/	reb	__	 y	[]	[]	6	3	0.5	0.351	rebot, rebos, rebok	rebolk, rebol, rebolk
+2830	o	->	o	/	X rek	__	 y	[]	[]	6	3	0.5	0.351	rekobr, rekort, sobrekompr	rekord, rekost, rekont
+1333	o	->	o	/	eNk	__	 y	[]	[]	9	4	0.444	0.332	eNkorb, eNkon, eNkox, eNkomj	eNkontr, eNkost, eNkol, eNkor, eNkord
+719	o	->	o	/	X pr	__	 y	[]	[]	12	5	0.417	0.323	reproC, apropj, ekspropj, apront, resiprok	komprob, prob, aprob, reprob, desaprob, improb, prob
+458	o	->	o	/	X 	__	l	[]	[]	24	9	0.375	0.313	kontrol, bjol, inmol, desarbol, akrisol, tremol, Carol, interpol, sobresol	sol, bol, konsol, kol, desol, asol, deskonsol, amol, rebol, eNkol, abuñol, asol, sirkunbol, traskol, trasbol
+832	o	->	o	/	X eg	__	 y	[]	[]	4	2	0.5	0.31	negosj, pregon	degoj, regold
+1082	o	->	o	/	X en	__	 y	[]	[]	4	2	0.5	0.31	denot, enox	renob, denost
+1735	o	->	o	/	X l	__	k	[]	[]	4	2	0.5	0.31	kolok, dislok	klok, aklok
+2233	o	->	o	/	X m	__	s y	[]	[]	4	2	0.5	0.31	remos, amosk	mostr, demostr
+2812	o	->	o	/	X 	__	ñ	[]	[]	4	2	0.5	0.31	emponsoñ, retoñ	soñ, trasoñ
+2816	o	->	o	/	X 	__	ns y	[]	[]	4	2	0.5	0.31	konst, rons	abergons, desbergons
+2834	o	->	o	/	X res	__	 y	[]	[]	4	2	0.5	0.31	resoNg, sobresol	reson, resoj
+494	o	->	o	/	s	__	 y	[]	[]	10	4	0.4	0.3	sobr, sopl, sob, sond	sol, son, soñ, solt, sold, son
+1237	o	->	o	/	X Nk	__	 y	[]	[]	13	5	0.385	0.298	arriNkon, eNkorb, eNkon, eNkox, eNkomj	eNkontr, koNkord, reeNkontr, eNkost, eNkol, deseNkord, eNkor, eNkord
+936	o	->	o	/	X 	__	b	[]	[]	14	5	0.357	0.278	rob, eNglob, sob, adob, innob	komprob, prob, aprob, renob, reprob, desob, desaprob, improb, prob
+2334	o	->	o	/	X sk	__	 y	[]	[]	11	4	0.364	0.273	eskolt, deskorC, biskoC, eskombr	deskolg, deskonfj, deskont, deskoj, diskord, deskorn, traskol
+908	o	->	o	/	X k	__	l y	[]	[]	8	3	0.375	0.267	kolm, eskolt, akolC	kolg, kol, deskolg, eNkol, traskol
+2086	o	->	o	/	X esk	__	 y	[]	[]	8	3	0.375	0.267	eskolt, deskorC, eskombr	deskolg, deskonfj, deskont, deskoj, deskorn
+2465	o	->	o	/	X 	__	rs y	[]	[]	8	3	0.375	0.267	diborsj, alkors, endors	fors, esfors, refors, almors, alfors
+735	o	->	o	/	X 	__	rd	[]	[]	12	5	0.417	0.26	abord, desbord, eNgord, bord, transbord	rekord, akord, koNkord, desakord, diskord, deseNkord, eNkord
+1934	o	->	o	/	X b	__	l y	[]	[]	11	4	0.364	0.26	embols, desembols, desarbol, reembols	bol, bolk, rebolk, rebol, sirkunbol, rebolk, trasbol
+654	o	->	o	/	rek	__	 y	[]	[]	5	2	0.4	0.254	rekobr, rekort	rekord, rekost, rekont
+2735	o	->	o	/	X tr	__	n	[]	[]	5	2	0.4	0.254	destron, entron	tron, atron, retron
+1178	o	->	o	/	X k	__	n y	[]	[]	10	3	0.3	0.215	konst, arriNkon, eNkon	eNkontr, kont, konfj, deskonfj, deskont, reeNkontr, rekont
+1872	o	->	o	/	des	__	 y	[]	[]	7	2	0.286	0.186	desox, desonr	desol, desoj, desob, desold, desos
+2719	o	->	o	/	X 	__	rs	[]	[]	7	2	0.286	0.186	alkors, endors	fors, esfors, refors, almors, alfors
+2835	o	->	o	/	X s	__	l	[]	[]	8	2	0.25	0.165	akrisol, sobresol	sol, konsol, desol, asol, deskonsol, asol
+1784	o	->	o	/	gl	__	 y	[]	[]	2	1	0.5	0.146	glos	glorj
+1222	o	->	o	/	tr	__	 y	[]	[]	3	1	0.333	0.146	trot	trok, tron
+2039	o	->	o	/	s	__	n y	[]	[]	3	1	0.333	0.146	sond	son, son
+1747	o	->	o	/	lab	__	 y	[]	[]	1	1	1.0	(known word)labor	
+1869	o	->	o	/	X r	__		[]	[]	1	1	1.0	(known word)kro	
+1967	o	->	o	/	X l	__		[]	[]	1	1	1.0	(known word)lo	
+171	e	->	y	/	X s	__	rr	[]	[]	7	7	1.0	0.872	serr, enserr, entreserr, serr, aserr, desenserr, deserr	
+722	e	->	y	/	X t	__	rr	[]	[]	6	6	1.0	0.852	enterr, aterr, desterr, desenterr, soterr, desaterr	
+1248	e	->	y	/	X s	__	g	[]	[]	6	6	1.0	0.852	seg, soseg, desasoseg, seg, traseg, asoseg	
+361	e	->	y	/	X 	__	rr	[]	[]	20	18	0.9	0.831	serr, enserr, enterr, aferr, aterr, desterr, err, desenterr, entreserr, soterr, serr, err, aserr, desaferr, desaterr, desenserr, deserr, ferr	emperr, aberr
+619	e	->	y	/	X 	__	mb y	[]	[]	5	5	1.0	0.825	tembl, sembr, desmembr, retembl, sobresembr	
+656	e	->	y	/	X al	__	nt	[]	[]	5	5	1.0	0.825	kalent, alent, desalent, rekalent, sobrekalent	
+858	e	->	y	/	X n	__	g	[]	[]	5	5	1.0	0.825	neg, reneg, deneg, aneg, abneg	
+2406	e	->	y	/	X k	__	br	[]	[]	5	5	1.0	0.825	kebr, pernikebr, rekebr, alikebr, reskebr	
+782	e	->	y	/	X pl	__	g	[]	[]	4	4	1.0	0.786	despleg, pleg, repleg, pleg	
+1146	e	->	y	/	X m	__	nd	[]	[]	4	4	1.0	0.786	rekomend, eNkomend, enmend, remend	
+1438	e	->	y	/	X kal	__	nt	[]	[]	3	3	1.0	0.718	kalent, rekalent, sobrekalent	
+1520	e	->	y	/	X sos	__	g	[]	[]	3	3	1.0	0.718	soseg, desasoseg, asoseg	
+1875	e	->	y	/	X 	__	mbr	[]	[]	3	3	1.0	0.718	sembr, desmembr, sobresembr	
+1911	e	->	y	/	X as	__	nt	[]	[]	3	3	1.0	0.718	asent, apasent, desasent	
+2610	e	->	y	/	X apr	__	t	[]	[]	3	3	1.0	0.718	apret, desapret, reapret	
+2614	e	->	y	/	X arr	__	nd	[]	[]	3	3	1.0	0.718	arrend, desarrend, subarrend	
+2758	e	->	y	/	X f	__	rr	[]	[]	3	3	1.0	0.718	aferr, desaferr, ferr	
+1014	e	->	y	/	X 	__	nd	[]	[]	11	8	0.727	0.612	rekomend, eNkomend, merend, enmend, arrend, remend, desarrend, subarrend	bend, asend, prend
+723	e	->	y	/	at	__	 y	[]	[]	5	4	0.8	0.607	atent, aterr, atest, ates	atenw
+1763	e	->	y	/	X r	__	nd	[]	[]	5	4	0.8	0.607	merend, arrend, desarrend, subarrend	prend
+2468	e	->	y	/	X 	__	br	[]	[]	8	6	0.75	0.604	kebr, pernikebr, rekebr, alebr, alikebr, reskebr	selebr, enebr
+2656	e	->	y	/	X l	__	n y	[]	[]	8	6	0.75	0.604	kalent, alent, desalent, rekalent, deslendr, sobrekalent	silensj, adelent
+368	e	->	y	/	X s	__	nt	[]	[]	13	9	0.692	0.588	sent, asent, akresent, resent, apasent, desent, desasent, ensent, sent	present, represent, awsent, adesent
+763	e	->	y	/	X kom	__	nd	[]	[]	2	2	1.0	0.57	rekomend, eNkomend	
+866	e	->	y	/	X kons	__	rt	[]	[]	2	2	1.0	0.57	deskonsert, konsert	
+923	e	->	y	/	n	__	 y	[]	[]	2	2	1.0	0.57	neg, neb	
+1228	e	->	y	/	X ent	__	rr	[]	[]	2	2	1.0	0.57	enterr, desenterr	
+1258	e	->	y	/	X en	__	g	[]	[]	2	2	1.0	0.57	reneg, deneg	
+1794	e	->	y	/	X fr	__	g	[]	[]	2	2	1.0	0.57	freg, refreg	
+2129	e	->	y	/	X trab	__	s	[]	[]	2	2	1.0	0.57	atrabes, trabes	
+2161	e	->	y	/	X as	__	rt	[]	[]	2	2	1.0	0.57	asert, desasert	
+2202	e	->	y	/	X t	__	mbl	[]	[]	2	2	1.0	0.57	tembl, retembl	
+2362	e	->	y	/	X gob	__	rn	[]	[]	2	2	1.0	0.57	gobern, desgobern	
+2372	e	->	y	/	X emp	__	dr	[]	[]	2	2	1.0	0.57	desempedr, empedr	
+2389	e	->	y	/	X rep	__	 y	[]	[]	2	2	1.0	0.57	repens, entrepern	
+2413	e	->	y	/	ret	__	 y	[]	[]	2	2	1.0	0.57	retembl, retent	
+2472	e	->	y	/	X ik	__	br	[]	[]	2	2	1.0	0.57	pernikebr, alikebr	
+2492	e	->	y	/	X asos	__	g	[]	[]	2	2	1.0	0.57	desasoseg, asoseg	
+2494	e	->	y	/	at	__	s y	[]	[]	2	2	1.0	0.57	atest, ates	
+2594	e	->	y	/	X af	__	rr	[]	[]	2	2	1.0	0.57	aferr, desaferr	
+2624	e	->	y	/	X at	__	rr	[]	[]	2	2	1.0	0.57	aterr, desaterr	
+2625	e	->	y	/	desat	__	 y	[]	[]	2	2	1.0	0.57	desatent, desaterr	
+2627	e	->	y	/	X sim	__	nt	[]	[]	2	2	1.0	0.57	siment, desiment	
+2641	e	->	y	/	X ens	__	rr	[]	[]	2	2	1.0	0.57	enserr, desenserr	
+2648	e	->	y	/	X trop	__	s	[]	[]	2	2	1.0	0.57	tropes, desentropes	
+2652	e	->	y	/	X es	__	rr	[]	[]	2	2	1.0	0.57	entreserr, deserr	
+2658	e	->	y	/	desm	__	 y	[]	[]	2	2	1.0	0.57	desmembr, desmel	
+2664	e	->	y	/	X n	__	b	[]	[]	2	2	1.0	0.57	neb, desneb	
+2670	e	->	y	/	desp	__	r y	[]	[]	2	2	1.0	0.57	despert, despern	
+2722	e	->	y	/	enm	__	 y	[]	[]	2	2	1.0	0.57	enmend, enmel	
+2750	e	->	y	/	X estr	__	g	[]	[]	2	2	1.0	0.57	restreg, estreg	
+2827	e	->	y	/	X rekal	__	nt	[]	[]	2	2	1.0	0.57	rekalent, sobrekalent	
+2832	e	->	y	/	X s	__	mbr	[]	[]	2	2	1.0	0.57	sembr, sobresembr	
+1622	e	->	y	/	X b	__	nt	[]	[]	7	5	0.714	0.561	rebent, bent, abent, desbent, erbent	inbent, solbent
+331	e	->	y	/	X kom	__	n y	[]	[]	4	3	0.75	0.526	komens, rekomend, eNkomend	koment
+2088	e	->	y	/	X d	__	nt	[]	[]	4	3	0.75	0.526	dent, desdent, endent	aksident
+2286	e	->	y	/	X b	__	rn	[]	[]	4	3	0.75	0.526	gobern, inbern, desgobern	ibern
+2480	e	->	y	/	X n	__	b y	[]	[]	4	3	0.75	0.526	neb, anebl, desneb	enebr
+2030	e	->	y	/	X f	__	r y	[]	[]	6	4	0.667	0.5	aferr, infern, desaferr, ferr	enferm, bosifer
+410	e	->	y	/	X 	__	g	[]	[]	37	20	0.541	0.484	neg, despleg, seg, pleg, reg, freg, reneg, restreg, repleg, soseg, deneg, aneg, desasoseg, seg, refreg, traseg, abneg, asoseg, estreg	entreg, peg, agreg, nabeg, aleg, despeg, segreg, releg, dobleg, koNgreg, deleg, leg, apeg, breg, disgreg, eNxalbeg, desagreg
+924	e	->	y	/	X 	__	b y	[]	[]	17	9	0.529	0.442	kebr, neb, pernikebr, rekebr, alebr, alikebr, anebl, desneb, reskebr	selebr, eleb, subleb, seb, abrebj, releb, enebr, leb
+345	e	->	y	/	X 	__	nt	[]	[]	77	37	0.481	0.442	sent, kalent, asent, rebent, alent, atent, ment, tent, akresent, resent, ensaNgrent, desalent, rekalent, siment, eskarment, dent, bent, apasent, abent	present, intent, represent, koment, awment, enfrent, inbent, aliment, eksperiment, lament, iNkrement, argument, kontent, foment, aparent, sustent, ostent, atorment, awsent
+650	e	->	y	/	X ns	__	r y	[]	[]	7	4	0.571	0.428	enserr, deskonsert, konsert, desenserr	konserb, insert, enser
+651	e	->	y	/	X s	__	rt	[]	[]	7	4	0.571	0.428	asert, deskonsert, konsert, desasert	insert, desert, disert
+2707	e	->	y	/	X ens	__	 y	[]	[]	5	3	0.6	0.42	enserr, desenserr, ensent	enseñ, enser
+2029	e	->	y	/	X 	__	rn	[]	[]	12	6	0.5	0.399	gobern, infern, inbern, desgobern, entrepern, despern	intern, altern, eNkwadern, konstern, ibern, empern
+1690	e	->	y	/	s	__	r y	[]	[]	3	2	0.667	0.396	serr, serr	serk
+2529	e	->	y	/	X am	__	nt	[]	[]	3	2	0.667	0.396	ament, kasament	lament
+2616	e	->	y	/	desas	__	 y	[]	[]	3	2	0.667	0.396	desasert, desasent	desase
+2621	e	->	y	/	X at	__	nt	[]	[]	3	2	0.667	0.396	atent, desatent	patent
+2653	e	->	y	/	des	__	r y	[]	[]	3	2	0.667	0.396	deserb, deserr	desert
+2671	e	->	y	/	X p	__	rn	[]	[]	3	2	0.667	0.396	entrepern, despern	empern
+2723	e	->	y	/	X m	__	l	[]	[]	3	2	0.667	0.396	desmel, enmel	akaramel
+2727	e	->	y	/	ent	__	 y	[]	[]	3	2	0.667	0.396	enterr, entes	enter
+2776	e	->	y	/	X n	__	st	[]	[]	3	2	0.667	0.396	enest, inest	amonest
+2655	e	->	y	/	X 	__	nd y	[]	[]	16	9	0.563	0.393	rekomend, eNkomend, merend, enmend, arrend, remend, desarrend, deslendr, subarrend	bend, eNxendr, asend, insendj, prend, bilipendj, kompendj
+708	e	->	y	/	X t	__	nt	[]	[]	10	5	0.5	0.389	atent, tent, deskontent, retent, desatent	intent, kontent, sustent, ostent, patent
+682	e	->	y	/	X m	__	n y	[]	[]	32	14	0.438	0.38	komens, rekomend, ment, eNkomend, enmend, siment, eskarment, remend, reximent, salpiment, ament, kasament, desiment, sement	koment, awment, aliment, eksperiment, lament, iNkrement, argument, foment, atorment, komplement, dokument, ferment, kumpliment, kondiment, pabiment, sement, menstrw, suplement
+300	e	->	y	/	X 	__	rt	[]	[]	11	5	0.455	0.353	despert, asert, deskonsert, konsert, desasert	libert, alert, insert, desert, disert, iNxert
+373	e	->	y	/	X p	__	s	[]	[]	6	3	0.5	0.351	empes, tropes, desentropes	pes, espes, kontrapes
+2587	e	->	y	/	X es	__	nt	[]	[]	6	3	0.5	0.351	akresent, resent, desent	present, represent, adesent
+2650	e	->	y	/	X es	__	r y	[]	[]	6	3	0.5	0.351	entreserr, deserb, deserr	reserb, preserb, desert
+2193	e	->	y	/	X im	__	nt	[]	[]	9	4	0.444	0.332	siment, reximent, salpiment, desiment	aliment, eksperiment, kumpliment, kondiment, pabiment
+2588	e	->	y	/	des	__	 y	[]	[]	9	4	0.444	0.332	desel, desent, deserb, deserr	dese, deseC, desert, desek, desentr
+299	e	->	y	/	X s	__	r y	[]	[]	27	12	0.444	0.33	serr, enserr, asert, deskonsert, konsert, entreserr, serr, aserr, desasert, desenserr, deserb, deserr	aserk, obserb, konserb, reserb, serk, preserb, insert, desert, eksaserb, aser, disert, maser, ulser, laser, enser
+856	e	->	y	/	X r	__	g	[]	[]	12	5	0.417	0.323	reg, freg, restreg, refreg, estreg	entreg, agreg, segreg, koNgreg, breg, disgreg, desagreg
+46	e	->	y	/	s	__	 y	[]	[]	18	7	0.389	0.315	sent, serr, sembr, seg, seg, serr, sent	ses, sentr, sen, sek, serk, sed, sej, seb, sex, sens, sel
+1053	e	->	y	/	X res	__	nt	[]	[]	4	2	0.5	0.31	akresent, resent	present, represent
+2144	e	->	y	/	as	__	r y	[]	[]	4	2	0.5	0.31	asert, aserr	aserk, aser
+2481	e	->	y	/	an	__	 y	[]	[]	4	2	0.5	0.31	aneg, anebl	anel, aneks
+2678	e	->	y	/	X d	__	s y	[]	[]	4	2	0.5	0.31	adestr, desm	desbj, deslj
+2705	e	->	y	/	ens	__	 y	[]	[]	4	2	0.5	0.31	enserr, ensent	enseñ, enser
+2706	e	->	y	/	X ns	__	n y	[]	[]	4	2	0.5	0.31	insens, ensent	konsentr, insendj
+2730	e	->	y	/	X t	__	s	[]	[]	4	2	0.5	0.31	ates, entes	bostes, deskortes
+2728	e	->	y	/	X ent	__	 y	[]	[]	7	3	0.429	0.303	enterr, desenterr, entes	enter, sentensj, serpente, adentej
+1454	e	->	y	/	X m	__	nt	[]	[]	26	9	0.346	0.288	ment, siment, eskarment, reximent, salpiment, ament, kasament, desiment, sement	koment, awment, aliment, eksperiment, lament, iNkrement, argument, foment, atorment, komplement, dokument, ferment, kumpliment, kondiment, pabiment, sement, suplement
+2263	e	->	y	/	X es	__	 y	[]	[]	23	8	0.348	0.286	akresent, resent, entreserr, desel, desent, deserb, deserr, sobresembr	present, dese, represent, reserb, presensj, preserb, deseC, reset, kabese, resel, desert, adesent, desek, desentr, sese
+1335	e	->	y	/	X res	__	 y	[]	[]	11	4	0.364	0.273	akresent, resent, entreserr, sobresembr	present, represent, reserb, presensj, preserb, reset, resel
+2622	e	->	y	/	X at	__	 y	[]	[]	17	6	0.353	0.272	atent, aterr, atest, ates, desatent, desaterr	atenw, patent, pate, gate, regate, olfate, garabate, koNkaten, pirate, bate, prorrate
+2162	e	->	y	/	X as	__	r y	[]	[]	8	3	0.375	0.267	asert, aserr, desasert	aserk, eksaserb, aser, maser, laser
+142	e	->	y	/	X f	__	s y	[]	[]	5	2	0.4	0.254	manifest, konfes	profes, infest, kontramanifest
+2292	e	->	y	/	X p	__	ns	[]	[]	5	2	0.4	0.254	pens, repens	kompens, dispens, rekompens
+2371	e	->	y	/	emp	__	 y	[]	[]	5	2	0.4	0.254	empes, empedr	empeñ, emperr, empern
+2677	e	->	y	/	d	__	 y	[]	[]	5	2	0.4	0.254	dent, desm	dex, desbj, deslj
+2825	e	->	y	/	s	__	n y	[]	[]	5	2	0.4	0.254	sent, sent	sentr, sen, sens
+603	e	->	y	/	X f	__	 y	[]	[]	19	6	0.316	0.251	manifest, konfes, aferr, infern, desaferr, ferr	afekt, efektw, enferm, feC, infekt, profes, blasfem, infest, bosifer, afe, desinfekt, defek, kontramanifest
+2729	e	->	y	/	X t	__	s y	[]	[]	9	3	0.333	0.237	atest, ates, entes	kontest, protest, detest, bostes, anestesj, deskortes
+24	e	->	y	/	X 	__	ns	[]	[]	13	4	0.308	0.231	pens, komens, insens, repens	kompens, tens, dispens, rekompens, prens, trens, kondens, sens, adens
+170	e	->	y	/	X s	__	 y	[]	[]	134	32	0.239	0.215	sent, serr, enserr, asert, asent, sembr, deskonsert, seg, akresent, konsert, resent, soseg, asest, entreserr, desasoseg, seg, serr, apasent, traseg	present, asept, aserk, obserb, dese, represent, enseñ, konserb, pase, konsentr, ses, sentr, sen, diseñ, akonsex, reserb, sek, presensj, asentw
+2360	e	->	y	/	X emp	__	 y	[]	[]	10	3	0.3	0.215	empes, desempedr, empedr	empeñ, desempeñ, atemper, emperr, kontemper, empern, temper
+707	e	->	y	/	t	__	 y	[]	[]	6	2	0.333	0.214	tembl, tent	tens, tersj, templ, teC
+2028	e	->	y	/	X nf	__	 y	[]	[]	6	2	0.333	0.214	konfes, infern	enferm, infekt, infest, desinfekt
+2823	e	->	y	/	X em	__	n y	[]	[]	6	2	0.333	0.214	remend, sement	iNkrement, komplement, sement, suplement
+2182	e	->	y	/	X ns	__	 y	[]	[]	23	6	0.261	0.208	enserr, deskonsert, konsert, insens, desenserr, ensent	enseñ, konserb, konsentr, akonsex, insendj, balanse, insert, kansel, desakonsex, konseptw, bronse, sinsel, alanse, Canse, kontrabalanse, enser, deskonseptw
+2453	e	->	y	/	X 	__	st y	[]	[]	23	6	0.261	0.208	manifest, asest, enest, atest, adestr, inest	est, kontest, prest, molest, protest, rest, detest, kontrarrest, apest, aprest, arrest, infest, amonest, amaestr, estrj, kontramanifest, eNkabestr
+28	e	->	y	/	X 	__	n y	[]	[]	152	50	0.329	0.208	pens, komens, sent, rekomend, kalent, asent, rebent, alent, atent, ment, tent, akresent, eNkomend, merend, resent, enmend, ensaNgrent, desalent, rekalent	entr, present, intent, represent, koment, awment, enfrent, enbj, orden, inbent, konden, aliment, eksperiment, konsentr, sentr, sen, diferensj, lament, apen
+1304	e	->	y	/	X 	__	st	[]	[]	19	5	0.263	0.204	manifest, asest, enest, atest, inest	est, kontest, prest, molest, protest, rest, detest, kontrarrest, apest, aprest, arrest, infest, amonest, kontramanifest
+141	e	->	y	/	X 	__	s	[]	[]	33	8	0.242	0.199	empes, konfes, atrabes, tropes, trabes, ates, desentropes, entes	regres, interes, ekspres, pes, bes, res, ses, iNgres, eNkabes, proses, progres, enderes, apres, profes, embeles, espes, bostes, desperes, aderes
+1910	e	->	y	/	X as	__	 y	[]	[]	33	8	0.242	0.199	asert, asent, asest, apasent, traseg, aserr, desasert, desasent	asept, aserk, pase, asentw, almasen, asend, aseC, asedj, eskase, fantase, eksaserb, ase, aser, maser, ases, gase, parafrase, asekj, laser
+1534	e	->	y	/	X en	__	 y	[]	[]	11	3	0.273	0.196	reneg, deneg, enest	xener, penetr, enbenen, bener, mene, dexener, rexener, enebr
+369	e	->	y	/	as	__	 y	[]	[]	16	4	0.25	0.189	asert, asent, asest, aserr	asept, aserk, asentw, asend, aseC, asedj, ase, aser, ases, asekj, ased, asensw
+2469	e	->	y	/	al	__	 y	[]	[]	7	2	0.286	0.186	alent, alebr	alex, alegr, aleg, alert, ale
+2467	e	->	y	/	X al	__	 y	[]	[]	17	6	0.353	0.18	kalent, alent, desalent, rekalent, alebr, sobrekalent	alex, alegr, aleg, alert, tambale, apale, pedale, bale, ale, Capale, male
+2665	e	->	y	/	X 	__	b	[]	[]	7	2	0.286	0.175	neb, desneb	eleb, subleb, seb, releb, leb
+131	e	->	y	/	X 	__	s y	[]	[]	76	15	0.197	0.17	empes, manifest, konfes, atrabes, tropes, asest, enest, atest, trabes, adestr, ates, desentropes, desm, entes, inest	est, regres, kontest, interes, ekspres, pes, prest, bes, molest, meskl, res, ses, apresj, iNgres, protest, desbj, despresj, rest, eNkabes
+263	e	->	y	/	X b	__	 y	[]	[]	57	11	0.193	0.16	atrabes, gobern, rebent, bent, abent, trabes, inbern, desgobern, beld, desbent, erbent	aprobeC, inbent, rebel, bes, beNg, bend, bel, desbel, alberg, eNkabes, konbers, libert, bet, nabeg, rebel, bers, nibel, solbent, bed
+1913	e	->	y	/	X ab	__	 y	[]	[]	14	3	0.214	0.155	atrabes, abent, trabes	eNkabes, nabeg, aberj, deskabes, babe, alabe, aberr, abeNg, brabe, eNkabestr, eskabeC
+2181	e	->	y	/	X s	__	n y	[]	[]	27	10	0.37	0.155	sent, asent, akresent, resent, apasent, insens, desent, desasent, ensent, sent	present, represent, konsentr, sentr, sen, presensj, asentw, almasen, asend, awsent, insendj, lisensj, sersen, adesent, sens, desentr, asensw
+1535	e	->	y	/	en	__	 y	[]	[]	2	1	0.5	0.146	enest	enebr
+2757	e	->	y	/	f	__	 y	[]	[]	2	1	0.5	0.146	ferr	feC
+66	e	->	y	/	X 	__	r y	[]	[]	120	30	0.25	0.146	serr, despert, enserr, gobern, asert, enterr, aferr, deskonsert, aterr, konsert, desterr, err, desenterr, entreserr, soterr, serr, err, infern, aserr	esper, konsider, aserk, obserb, enter, super, rekuper, konserb, xener, alter, reserb, oper, eksaxer, aseler, serk, alberg, reiter, apoder, konbers
+2168	e	->	y	/	X nt	__	 y	[]	[]	21	4	0.19	0.144	enterr, desenterr, deskontent, entes	intent, kontempl, kontest, enter, integr, kontent, sentensj, intern, desintegr, desmantel, reintegr, serpente, punte, galante, karpinte, adentej, kontekstw
+25	e	->	y	/	X 	__	 y	[]	[]	864	140	0.162	0.135	pens, empes, komens, sent, serr, neg, despert, manifest, konfes, atrabes, enserr, apret, tembl, gobern, asert, rekomend, kalent, enterr, asent	est, dex, ked, entr, kre, esper, konsider, present, intent, eC, asept, aserk, obserb, dese, kontempl, represent, koment, regres, kontest
+411	e	->	y	/	X l	__	 y	[]	[]	60	11	0.183	0.133	kalent, despleg, alent, pleg, repleg, desalent, rekalent, alebr, deslendr, pleg, sobrekalent	selebr, alex, emple, eleb, reflex, molest, alegr, komplet, aseler, pele, toler, aleg, alert, silensj, subleb, releg, tambale, dobleg, sole
+925	e	->	y	/	X n	__	 y	[]	[]	59	10	0.169	0.128	neg, reneg, neb, deneg, aneg, enest, abneg, anebl, desneb, inest	xener, penetr, manex, konekt, plane, enbenen, aline, telefone, bener, mene, deskonekt, anel, berane, dexener, rexener, sane, kapitane, deline, enebr
+1874	e	->	y	/	X m	__	 y	[]	[]	69	17	0.246	0.124	komens, rekomend, ment, eNkomend, enmend, siment, eskarment, desmembr, remend, reximent, salpiment, ament, kasament, desiment, desmel, enmel, sement	koment, awment, aliment, eksperiment, meskl, medj, remedj, lament, iNkrement, argument, foment, brome, atorment, komplement, asemex, me, semex, enumer, numer
+16	e	->	y	/	X p	__	 y	[]	[]	67	10	0.149	0.124	pens, empes, despert, tropes, repens, desempedr, empedr, entrepern, desentropes, despern	esper, super, rekuper, pes, peg, respet, golpe, sospeC, empeñ, apen, oper, respekt, kompens, desempeñ, pek, pesk, desesper, despex, estrope
+2159	e	->	y	/	X rr	__	 y	[]	[]	21	4	0.19	0.123	arrend, derreNg, desarrend, subarrend	arregl, akarre, kontrarrest, kanturre, arresj, arrest, Corre, berre, Capurre, barren, desarregl, gerre, barre, senserre, Cokarre, komorre, kotorre
+1156	e	->	y	/	X r	__	n y	[]	[]	24	5	0.208	0.117	merend, ensaNgrent, arrend, desarrend, subarrend	enfrent, diferensj, fren, entren, estren, aparent, emparent, transparent, seren, amedrent, prend, rent, prens, trens, konferensj, refren, afrent, barren, enfren
+362	e	->	y	/	X t	__	 y	[]	[]	114	16	0.14	0.115	tembl, enterr, atent, tent, aterr, desterr, desenterr, soterr, atest, deskontent, retembl, retent, ates, desatent, desaterr, entes	intent, kontempl, kontest, enter, detekt, integr, alter, protest, kontent, potensj, reiter, sentensj, intern, detest, sustent, altern, ostent, tens, festex
+2388	e	->	y	/	X p	__	r y	[]	[]	20	3	0.15	0.109	despert, entrepern, despern	esper, super, rekuper, oper, desesper, prosper, dispers, imper, eksasper, kwoper, atemper, emperr, kontemper, empern, oper, temper, bituper
+2508	e	->	y	/	X 	__	l y	[]	[]	36	5	0.139	0.108	el, desel, beld, desmel, enmel	rebel, bel, desbel, koNxel, pel, model, apel, rebel, anel, kansel, eNkarsel, nibel, desmantel, resel, kawtel, interpel, parsel, empapel, flaxel
+1621	e	->	y	/	b	__	 y	[]	[]	13	2	0.154	0.104	bent, beld	bes, beNg, bend, bel, bet, bers, bed, bek, bex, bef, beNg
+2659	e	->	y	/	X 	__	l	[]	[]	35	4	0.114	0.087	el, desel, desmel, enmel	rebel, bel, desbel, koNxel, pel, model, apel, rebel, anel, kansel, eNkarsel, nibel, desmantel, resel, kawtel, interpel, parsel, empapel, flaxel
+792	e	->	y	/	X r	__	 y	[]	[]	146	14	0.096	0.082	apret, reg, freg, restreg, merend, ensaNgrent, arrend, refreg, derreNg, desapret, desarrend, estreg, reapret, subarrend	kre, regres, interes, entreg, enfrent, ekspres, prest, interpret, arregl, res, apresj, agreg, diferensj, iNgres, estrej, fren, entren, despresj, estreC
+2454	e	->	y	/	X d	__	 y	[]	[]	57	5	0.088	0.066	dent, desdent, endent, adestr, desm	dex, konsider, rode, orden, konden, desbj, deseNkaden, ide, adekw, adentr, apoder, ebidensj, borde, model, desdeñ, parpade, moder, lade, molde
+2759	e	->	y	/	f	__	r y	[]	[]	1	1	1.0	(known word)ferr	
+1108	e	->	y	/		__	 y	[]	[]	13	3	0.231	0.166	el, err, err	est, entr, eC, enbj, espj, enfrj, eskj, ekspj, estrj, esC
+1126	o	->	o	/		__	b y	[]	[]	3	3	1.0	0.718	obr, obj, obst	
+1975	o	->	o	/		__	r y	[]	[]	3	3	1.0	0.718	or, orn, orl	
+288	o	->	o	/		__	 y	[]	[]	13	10	0.769	0.666	odj, opt, obr, or, onr, obj, obst, osj, orn, orl	os, oj, olg
+1926	ptw	->	ptu	/	X se	__		[]	[]	3	3	1.0	0.718	ekseptw, konseptw, deskonseptw	
+2631	ptw	->	ptu	/	X konse	__		[]	[]	2	2	1.0	0.57	konseptw, deskonseptw	
+14	e	->	e	/	X 	__		[]	[]	254	254	1.0	0.996	kre, dese, rode, emple, pase, golpe, ide, pele, plane, bloke, estrope, borde, akarre, aline, rekre, telefone, brome, mare, sabore	
+22	e	->	e	/	X 	__	r	[]	[]	56	56	1.0	0.983	esper, konsider, enter, super, rekuper, xener, alter, oper, eksaxer, aseler, reiter, apoder, toler, desesper, bener, prosper, enumer, numer, moder	
+938	e	->	e	/	X t	__		[]	[]	47	47	1.0	0.98	sorte, rebolote, pate, gate, Capote, kwarte, regate, bolte, abofete, korrete, olfate, alete, tute, manote, gote, pikote, bwikote, kokete, serpente	
+710	e	->	e	/	X r	__		[]	[]	44	44	1.0	0.978	kre, akarre, rekre, mare, sabore, rastre, kolore, kanturre, Corre, tarare, atare, apare, flore, espolbore, prokre, berre, Capurre, sombre, rumore	
+56	e	->	e	/	X s	__		[]	[]	34	34	1.0	0.972	dese, pase, balbuse, balanse, eskase, buse, manose, kabese, kurjose, bose, fantase, ase, false, nawse, bokse, kose, bronse, sise, gase	
+423	e	->	e	/	X x	__	 y	[]	[]	31	31	1.0	0.969	suxet, eksaxer, eNxendr, obxet, koNxel, oxe, rexent, alixer, iNxenj, koxe, enaxen, oxe, Cantaxe, graNxe, flaxel, omenaxe, refrixer, kaNxe, iNxert	
+532	e	->	e	/	X n	__		[]	[]	30	30	1.0	0.968	plane, aline, telefone, mene, berane, sane, kapitane, deline, ronrone, orne, ramone, kontorne, sermone, remoline, fanfarrone, aragane, mone, akorne, arpone	
+178	e	->	e	/	X 	__	n	[]	[]	24	24	1.0	0.961	orden, konden, sen, apen, deseNkaden, fren, entren, estren, almasen, enbenen, pen, seren, eNkaden, desorden, sersen, enaxen, refren, oksixen, koNkaten	
+82	e	->	e	/	X d	__		[]	[]	23	23	1.0	0.959	rode, ide, borde, parpade, lade, molde, bombarde, onde, alarde, xade, palade, kalde, tartamude, kode, balde, bagabunde, bade, bastarde, anade	
+101	e	->	e	/	X 	__	x	[]	[]	23	23	1.0	0.959	dex, alex, reflex, kex, manex, akonsex, despex, akex, asemex, festex, semex, emparex, sex, kortex, desakonsex, aparex, boskex, motex, kotex	
+133	e	->	e	/	X l	__		[]	[]	20	20	1.0	0.953	emple, pele, tambale, sole, espole, apale, pedale, tekle, bale, bambole, kole, bapule, ale, Capale, asole, kaskabele, djable, gandule, male	
+751	e	->	e	/	X on	__	 y	[]	[]	19	19	1.0	0.95	konekt, telefone, deskonekt, amonest, ronrone, ramone, interkonekt, eksoner, sermone, fanfarrone, mone, amoned, arpone, bastone, bufone, kantone, dragone, timone, silofone	
+779	e	->	e	/	X ar	__	 y	[]	[]	17	17	1.0	0.945	aparent, mare, emparent, transparent, emparex, tarare, atare, apare, aparex, klare, areNg, kakare, pare, bare, desparex, kare, kuCare	
+116	e	->	e	/	X p	__	r	[]	[]	14	14	1.0	0.934	esper, super, rekuper, oper, desesper, prosper, imper, eksasper, kwoper, atemper, kontemper, oper, temper, bituper	
+524	e	->	e	/	X 	__	d	[]	[]	14	14	1.0	0.934	ked, ered, enred, sed, bed, osped, remed, desenred, desered, depred, abobed, ased, amoned, ked	
+596	e	->	e	/	X k	__		[]	[]	14	14	1.0	0.934	bloke, fraNke, arke, flaNke, blaNke, Caske, jorike, flake, biske, kloke, sejiske, Carke, Curraske, parke	
+252	e	->	e	/	X 	__	C	[]	[]	13	13	1.0	0.928	eC, aprobeC, sospeC, estreC, feC, aseC, deseC, koseC, desaprobeC, despeC, teC, meC, eskabeC	
+955	e	->	e	/	X x	__		[]	[]	13	13	1.0	0.928	oxe, koxe, oxe, Cantaxe, graNxe, omenaxe, kaNxe, kayxe, gorxe, burbuxe, lisoNxe, espumaxe, floxe	
+1022	e	->	e	/	X ot	__		[]	[]	13	13	1.0	0.928	rebolote, Capote, manote, gote, pikote, bwikote, parlote, ximote, Cisporrote, tirote, mote, Cakote, Cikote	
+1651	e	->	e	/	X on	__		[]	[]	13	13	1.0	0.928	telefone, ronrone, ramone, sermone, fanfarrone, mone, arpone, bastone, bufone, kantone, dragone, timone, silofone	
+279	e	->	e	/	X 	__	ñ	[]	[]	11	11	1.0	0.916	enseñ, empeñ, diseñ, desempeñ, desdeñ, preñ, ordeñ, despeñ, desgreñ, embeleñ, empreñ	
+448	e	->	e	/	X el	__	 y	[]	[]	11	11	1.0	0.916	selebr, eleb, aseler, pele, releg, deleg, embeles, releb, adelent, kaskabele, embeleñ	
+517	e	->	e	/	X 	__	k	[]	[]	11	11	1.0	0.916	sek, pek, disek, ipotek, bek, desek, Cek, defek, bisek, imprek, trisek	
+999	e	->	e	/	X or	__		[]	[]	11	11	1.0	0.916	sabore, kolore, flore, espolbore, rumore, tore, bitore, ore, señore, albore, pastore	
+1144	e	->	e	/	X rr	__		[]	[]	11	11	1.0	0.916	akarre, kanturre, Corre, berre, Capurre, gerre, barre, senserre, Cokarre, komorre, kotorre	
+1322	e	->	e	/	X et	__		[]	[]	11	11	1.0	0.916	abofete, korrete, alete, kokete, kastañete, klabete, ribete, trakete, tablete, karrete, tixerete	
+84	e	->	e	/	X r	__	s	[]	[]	10	10	1.0	0.908	regres, interes, ekspres, res, iNgres, progres, enderes, apres, desperes, aderes	
+175	e	->	e	/	X pr	__	s y	[]	[]	10	10	1.0	0.908	ekspres, prest, apresj, despresj, apres, presj, aprest, menospresj, depresj, desapresj	
+207	e	->	e	/	X as	__		[]	[]	10	10	1.0	0.908	pase, eskase, fantase, ase, gase, parafrase, desase, frase, mase, trapase	
+216	e	->	e	/	X 	__	kt	[]	[]	10	10	1.0	0.908	afekt, detekt, respekt, konekt, deskonekt, infekt, rekolekt, desinfekt, interkonekt, kolekt	
+501	e	->	e	/	X kr	__	 y	[]	[]	10	10	1.0	0.908	kre, koNkret, rekre, dekret, sekret, diskrep, eNkresp, prokre, ekskret, krem	
+612	e	->	e	/	X ol	__	 y	[]	[]	10	10	1.0	0.908	molest, toler, sole, espole, rekolekt, bambole, kole, kolekt, asole, bole	
+1224	e	->	e	/	X an	__		[]	[]	10	10	1.0	0.908	plane, berane, sane, kapitane, aragane, kampane, debane, olgasane, xarane, mañane	
+1297	e	->	e	/	X ar	__		[]	[]	10	10	1.0	0.908	mare, tarare, atare, apare, klare, kakare, pare, bare, kare, kuCare	
+1777	e	->	e	/	X ap	__	 y	[]	[]	10	10	1.0	0.908	apen, apel, ape, apest, apeg, empapel, kontrapes, traspapel, Cape, trape	
+623	e	->	e	/	X Nx	__	 y	[]	[]	9	9	1.0	0.898	eNxendr, koNxel, iNxenj, graNxe, kaNxe, iNxert, koNxenj, deskoNxel, lisoNxe	
+772	e	->	e	/	X m	__		[]	[]	9	9	1.0	0.898	brome, me, usme, palme, ume, flame, lagrime, jame, Cisme	
+1079	e	->	e	/	X rd	__	 y	[]	[]	9	9	1.0	0.898	orden, borde, bombarde, alarde, desorden, ordeñ, bastarde, akordel, kobarde	
+1110	e	->	e	/	X x	__	n y	[]	[]	9	9	1.0	0.898	eNxendr, rexent, iNxenj, enaxen, oksixen, abexent, koNxenj, arxent, idroxen	
+1430	e	->	e	/	X d	__	r y	[]	[]	9	9	1.0	0.898	konsider, apoder, moder, rekonsider, ponder, eNkwadern, embander, konfeder, preponder	
+542	e	->	e	/	X ot	__	 y	[]	[]	20	19	0.95	0.889	protest, potensj, rebolote, Capote, manote, gote, pikote, bwikote, ipotek, parlote, ximote, motex, Cisporrote, kotex, tirote, embotej, mote, Cakote, Cikote	soterr
+402	e	->	e	/	X 	__	nsj	[]	[]	8	8	1.0	0.887	diferensj, presensj, potensj, sentensj, ebidensj, silensj, lisensj, konferensj	
+508	e	->	e	/	X b	__	l	[]	[]	8	8	1.0	0.887	rebel, bel, desbel, rebel, nibel, desnibel, debel, rebel	
+548	e	->	e	/	X d	__	r	[]	[]	8	8	1.0	0.887	konsider, apoder, moder, rekonsider, ponder, embander, konfeder, preponder	
+1051	e	->	e	/	X m	__	r y	[]	[]	8	8	1.0	0.887	enumer, numer, merm, komersj, esmer, merk, aglomer, koNglomer	
+1233	e	->	e	/	X par	__	 y	[]	[]	8	8	1.0	0.887	aparent, emparent, transparent, emparex, apare, aparex, pare, desparex	
+1261	e	->	e	/	X at	__		[]	[]	8	8	1.0	0.887	pate, gate, regate, olfate, garabate, pirate, bate, prorrate	
+1352	e	->	e	/	X 	__	sj	[]	[]	8	8	1.0	0.887	apresj, despresj, presj, arresj, menospresj, anestesj, depresj, desapresj	
+2662	e	->	e	/	X n	__	r y	[]	[]	8	8	1.0	0.887	xener, bener, dexener, rexener, remuner, insiner, eksoner, desnerb	
+177	e	->	e	/	X d	__	n	[]	[]	7	7	1.0	0.872	orden, konden, deseNkaden, eNkaden, desorden, kaden, komden	
+221	e	->	e	/	X p	__		[]	[]	7	7	1.0	0.872	golpe, estrope, ape, Cispe, trampe, Cape, trape	
+418	e	->	e	/	X r	__	n	[]	[]	7	7	1.0	0.872	fren, entren, estren, seren, refren, barren, enfren	
+882	e	->	e	/	X is	__	 y	[]	[]	7	7	1.0	0.872	diseñ, lisensj, disek, disert, sise, bisek, trisek	
+941	e	->	e	/	X al	__		[]	[]	7	7	1.0	0.872	tambale, apale, pedale, bale, ale, Capale, male	
+982	e	->	e	/	X s	__	k y	[]	[]	7	7	1.0	0.872	sek, obsekj, disek, desek, asekj, bisek, trisek	
+1024	e	->	e	/	X 	__	j	[]	[]	7	7	1.0	0.872	estrej, sej, atropej, mej, destej, embotej, adentej	
+1046	e	->	e	/	X r	__	m y	[]	[]	7	7	1.0	0.872	premj, ekstrem, apremj, rem, agremj, krem, trem	
+1168	e	->	e	/	X r	__	sj	[]	[]	7	7	1.0	0.872	apresj, despresj, presj, arresj, menospresj, depresj, desapresj	
+1193	e	->	e	/	X os	__		[]	[]	7	7	1.0	0.872	manose, kurjose, bose, kose, maripose, ermose, akose	
+1243	e	->	e	/	X m	__	d y	[]	[]	7	7	1.0	0.872	medj, remedj, remed, komedj, medr, promedj, intermedj	
+1480	e	->	e	/	X rt	__	 y	[]	[]	7	7	1.0	0.872	sorte, kwarte, kortex, flirte, akwartel, amartel, deskortes	
+1613	e	->	e	/	X n	__	r	[]	[]	7	7	1.0	0.872	xener, bener, dexener, rexener, remuner, insiner, eksoner	
+173	e	->	e	/	X r	__	s y	[]	[]	26	24	0.923	0.869	regres, interes, ekspres, prest, res, apresj, iNgres, despresj, rest, progres, enderes, apres, presj, kontrarrest, refresk, aprest, arresj, arrest, eNkresp	resfrj, resfrj
+71	e	->	e	/	X r	__	 y	[]	[]	146	129	0.884	0.855	kre, regres, interes, entreg, enfrent, ekspres, prest, interpret, arregl, res, apresj, agreg, diferensj, iNgres, estrej, fren, entren, despresj, estreC	apret, reg, freg, restreg, merend, ensaNgrent, arrend, refreg, resfrj, derreNg, rekrj, desapret, desarrend, estreg, reapret, resfrj, subarrend
+254	e	->	e	/	X 	__	d y	[]	[]	23	21	0.913	0.852	ked, medj, remedj, ered, enred, sed, asedj, bed, osped, remed, komedj, medr, promedj, desenred, intermedj, desered, depred, abobed, ased	desempedr, empedr
+441	e	->	e	/	X pr	__	sj	[]	[]	6	6	1.0	0.852	apresj, despresj, presj, menospresj, depresj, desapresj	
+659	e	->	e	/	pr	__	 y	[]	[]	6	6	1.0	0.852	prest, premj, presj, prend, prens, preñ	
+945	e	->	e	/	X int	__	 y	[]	[]	6	6	1.0	0.852	intent, integr, intern, desintegr, reintegr, karpinte	
+963	e	->	e	/	X ol	__		[]	[]	6	6	1.0	0.852	sole, espole, bambole, kole, asole, bole	
+1045	e	->	e	/	X 	__	m	[]	[]	6	6	1.0	0.852	kem, ekstrem, blasfem, rem, krem, trem	
+1059	e	->	e	/	X ad	__		[]	[]	6	6	1.0	0.852	parpade, lade, xade, palade, bade, anade	
+1073	e	->	e	/	X 	__	dj	[]	[]	6	6	1.0	0.852	medj, remedj, asedj, komedj, promedj, intermedj	
+1319	e	->	e	/	X lt	__	 y	[]	[]	6	6	1.0	0.852	alter, altern, bolte, adulter, alterk, salte	
+1531	e	->	e	/	X ax	__	 y	[]	[]	6	6	1.0	0.852	eksaxer, enaxen, Cantaxe, flaxel, omenaxe, espumaxe	
+1630	e	->	e	/	X br	__	 y	[]	[]	6	6	1.0	0.852	abrebj, breg, sombre, kulebre, embre, ambre	
+2121	e	->	e	/	X mon	__	 y	[]	[]	6	6	1.0	0.852	amonest, ramone, sermone, mone, amoned, timone	
+2271	e	->	e	/	X mp	__	r y	[]	[]	6	6	1.0	0.852	imper, atemper, emperr, kontemper, empern, temper	
+622	e	->	e	/	X 	__	l	[]	[]	35	31	0.886	0.837	rebel, bel, desbel, koNxel, pel, model, apel, rebel, anel, kansel, eNkarsel, nibel, desmantel, resel, kawtel, interpel, parsel, empapel, flaxel	el, desel, desmel, enmel
+271	e	->	e	/	X t	__	r	[]	[]	5	5	1.0	0.825	enter, alter, reiter, adulter, iter	
+312	e	->	e	/	X m	__	dj	[]	[]	5	5	1.0	0.825	medj, remedj, komedj, promedj, intermedj	
+417	e	->	e	/	X fr	__	n y	[]	[]	5	5	1.0	0.825	enfrent, fren, refren, afrent, enfren	
+470	e	->	e	/	X id	__	 y	[]	[]	5	5	1.0	0.825	konsider, ide, ebidensj, aksident, rekonsider	
+511	e	->	e	/	X 	__	ntr	[]	[]	5	5	1.0	0.825	entr, konsentr, sentr, adentr, desentr	
+512	e	->	e	/	X ad	__	n y	[]	[]	5	5	1.0	0.825	deseNkaden, adentr, eNkaden, adens, kaden	
+521	e	->	e	/	X r	__	st	[]	[]	5	5	1.0	0.825	prest, rest, kontrarrest, aprest, arrest	
+527	e	->	e	/	X r	__	d	[]	[]	5	5	1.0	0.825	ered, enred, desenred, desered, depred	
+549	e	->	e	/	X od	__	 y	[]	[]	5	5	1.0	0.825	rode, apoder, model, moder, kode	
+680	e	->	e	/	X ord	__	 y	[]	[]	5	5	1.0	0.825	orden, borde, desorden, ordeñ, akordel	
+785	e	->	e	/	X gr	__	g	[]	[]	5	5	1.0	0.825	agreg, segreg, koNgreg, disgreg, desagreg	
+822	e	->	e	/	ap	__	 y	[]	[]	5	5	1.0	0.825	apen, apel, ape, apest, apeg	
+823	e	->	e	/	X p	__	l	[]	[]	5	5	1.0	0.825	pel, apel, interpel, empapel, traspapel	
+914	e	->	e	/	X ns	__		[]	[]	5	5	1.0	0.825	balanse, bronse, alanse, Canse, kontrabalanse	
+953	e	->	e	/	X um	__	 y	[]	[]	5	5	1.0	0.825	argument, enumer, numer, dokument, ume	
+966	e	->	e	/	X 	__	rs y	[]	[]	5	5	1.0	0.825	konbers, dispers, tersj, bers, komersj	
+1039	e	->	e	/	X ans	__	 y	[]	[]	5	5	1.0	0.825	balanse, kansel, alanse, Canse, kontrabalanse	
+1080	e	->	e	/	X rd	__		[]	[]	5	5	1.0	0.825	borde, bombarde, alarde, bastarde, kobarde	
+1087	e	->	e	/	X ib	__	 y	[]	[]	5	5	1.0	0.825	libert, nibel, deliber, ibern, desnibel	
+1128	e	->	e	/	X ond	__	 y	[]	[]	5	5	1.0	0.825	konden, onde, ponder, kondens, preponder	
+1176	e	->	e	/	X b	__		[]	[]	5	5	1.0	0.825	titube, bombe, babe, alabe, brabe	
+1312	e	->	e	/	X rs	__	 y	[]	[]	5	5	1.0	0.825	eNkarsel, intersept, sersen, parsel, deseNkarsel	
+1491	e	->	e	/	X s	__	k	[]	[]	5	5	1.0	0.825	sek, disek, desek, bisek, trisek	
+1625	e	->	e	/	X s	__	r	[]	[]	5	5	1.0	0.825	aser, maser, ulser, laser, enser	
+1641	e	->	e	/	X m	__	r	[]	[]	5	5	1.0	0.825	enumer, numer, esmer, aglomer, koNglomer	
+1865	e	->	e	/	X kot	__	 y	[]	[]	5	5	1.0	0.825	pikote, bwikote, kotex, Cakote, Cikote	
+2272	e	->	e	/	X emp	__	r y	[]	[]	5	5	1.0	0.825	atemper, emperr, kontemper, empern, temper	
+2768	e	->	e	/	X ox	__	 y	[]	[]	5	5	1.0	0.825	oxe, koxe, oxe, floxe, idroxen	
+251	e	->	e	/	X sp	__	 y	[]	[]	18	16	0.889	0.813	esper, respet, sospeC, respekt, desesper, despex, despeg, prosper, dispens, dispers, eksasper, osped, espes, despeC, despeñ, Cispe	despert, despern
+21	e	->	e	/	X d	__	 y	[]	[]	57	49	0.86	0.807	dex, konsider, rode, orden, konden, deseNkaden, ide, adentr, apoder, ebidensj, borde, model, desdeñ, parpade, moder, lade, molde, bombarde, eNkaden	desbj, adekw, dent, desdent, deslj, endent, adestr, desm
+323	e	->	e	/	X gr	__	 y	[]	[]	11	10	0.909	0.805	regres, agreg, iNgres, progres, segreg, koNgreg, desgreñ, disgreg, agremj, desagreg	ensaNgrent
+196	e	->	e	/	X pr	__	 y	[]	[]	23	20	0.87	0.804	ekspres, prest, interpret, apresj, despresj, premj, impregn, apres, presj, aprest, prend, menospresj, prens, apremj, preñ, depresj, depred, desapresj, empreñ	apret, desapret, reapret
+152	e	->	e	/	X p	__	 y	[]	[]	67	56	0.836	0.8	esper, super, rekuper, pes, peg, respet, golpe, sospeC, empeñ, apen, oper, respekt, kompens, desempeñ, pek, pesk, desesper, despex, estrope	pens, empes, despert, tropes, perpetw, repens, desempedr, empedr, entrepern, desentropes, despern
+891	e	->	e	/	X st	__	 y	[]	[]	16	14	0.875	0.792	sustent, ostent, festex, posterg, bostes, anestesj, konstern, koste, destej, destet, destempl, baste, embuste, tempeste	desterr, ekstenw
+326	e	->	e	/	X er	__	 y	[]	[]	10	9	0.9	0.788	interes, diferensj, ered, enderes, seren, desperes, aderes, konferensj, desered	merend
+1985	e	->	e	/	X nd	__	 y	[]	[]	10	9	0.9	0.788	konden, onde, ponder, kondens, bagabunde, kontrabande, embander, blande, preponder	endent
+317	e	->	e	/	X 	__	gr	[]	[]	4	4	1.0	0.786	integr, alegr, desintegr, reintegr	
+580	e	->	e	/	X pres	__	 y	[]	[]	4	4	1.0	0.786	present, represent, presensj, preserb	
+713	e	->	e	/	X l	__	r y	[]	[]	4	4	1.0	0.786	aseler, toler, alert, alfiler	
+788	e	->	e	/	X l	__	b	[]	[]	4	4	1.0	0.786	eleb, subleb, releb, leb	
+811	e	->	e	/	X en	__	r	[]	[]	4	4	1.0	0.786	xener, bener, dexener, rexener	
+818	e	->	e	/	X sp	__	r	[]	[]	4	4	1.0	0.786	esper, desesper, prosper, eksasper	
+852	e	->	e	/	X er	__	s	[]	[]	4	4	1.0	0.786	interes, enderes, desperes, aderes	
+975	e	->	e	/	X kr	__	t	[]	[]	4	4	1.0	0.786	koNkret, dekret, sekret, ekskret	
+1141	e	->	e	/	X ard	__		[]	[]	4	4	1.0	0.786	bombarde, alarde, bastarde, kobarde	
+1290	e	->	e	/	X ost	__	 y	[]	[]	4	4	1.0	0.786	ostent, posterg, bostes, koste	
+1358	e	->	e	/	X ox	__		[]	[]	4	4	1.0	0.786	oxe, koxe, oxe, floxe	
+1372	e	->	e	/	X r	__	ns y	[]	[]	4	4	1.0	0.786	diferensj, prens, trens, konferensj	
+1388	e	->	e	/	X t	__	l	[]	[]	4	4	1.0	0.786	desmantel, kawtel, akwartel, amartel	
+1448	e	->	e	/	X b	__	r	[]	[]	4	4	1.0	0.786	aseber, deliber, perseber, adber	
+1478	e	->	e	/	X t	__	x	[]	[]	4	4	1.0	0.786	festex, kortex, motex, kotex	
+1609	e	->	e	/	X r	__	m	[]	[]	4	4	1.0	0.786	ekstrem, rem, krem, trem	
+1616	e	->	e	/	X nt	__		[]	[]	4	4	1.0	0.786	serpente, punte, galante, karpinte	
+1660	e	->	e	/	X mp	__	r	[]	[]	4	4	1.0	0.786	imper, atemper, kontemper, temper	
+1674	e	->	e	/	X st	__		[]	[]	4	4	1.0	0.786	koste, baste, embuste, tempeste	
+1686	e	->	e	/	X 	__	rk	[]	[]	4	4	1.0	0.786	aserk, serk, merk, alterk	
+1695	e	->	e	/	X br	__		[]	[]	4	4	1.0	0.786	sombre, kulebre, embre, ambre	
+1714	e	->	e	/	X lt	__	r y	[]	[]	4	4	1.0	0.786	alter, altern, adulter, alterk	
+1814	e	->	e	/	X C	__	 y	[]	[]	4	4	1.0	0.786	abuCe, atrinCer, Cek, CiCe	
+1854	e	->	e	/	X sk	__		[]	[]	4	4	1.0	0.786	Caske, biske, sejiske, Curraske	
+1962	e	->	e	/	X x	__	r y	[]	[]	4	4	1.0	0.786	eksaxer, alixer, refrixer, iNxert	
+1986	e	->	e	/	X nd	__		[]	[]	4	4	1.0	0.786	onde, bagabunde, kontrabande, blande	
+2048	e	->	e	/	X g	__		[]	[]	4	4	1.0	0.786	ormige, sigsage, relampage, gage	
+2099	e	->	e	/	X b	__	Ng	[]	[]	4	4	1.0	0.786	beNg, debeNg, abeNg, beNg	
+2122	e	->	e	/	X mon	__		[]	[]	4	4	1.0	0.786	ramone, sermone, mone, timone	
+2140	e	->	e	/	X n	__	k y	[]	[]	4	4	1.0	0.786	konekt, deskonekt, interkonekt, aneks	
+2225	e	->	e	/	X ans	__		[]	[]	4	4	1.0	0.786	balanse, alanse, Canse, kontrabalanse	
+2248	e	->	e	/	X us	__		[]	[]	4	4	1.0	0.786	balbuse, buse, Capuse, eskaramuse	
+2402	e	->	e	/	X oNx	__	 y	[]	[]	4	4	1.0	0.786	koNxel, koNxenj, deskoNxel, lisoNxe	
+2537	e	->	e	/	X kot	__		[]	[]	4	4	1.0	0.786	pikote, bwikote, Cakote, Cikote	
+2584	e	->	e	/	X eb	__	l	[]	[]	4	4	1.0	0.786	rebel, rebel, debel, rebel	
+2607	e	->	e	/	X apr	__	s y	[]	[]	4	4	1.0	0.786	apresj, apres, aprest, desapresj	
+2739	e	->	e	/	X kab	__	 y	[]	[]	4	4	1.0	0.786	eNkabes, deskabes, eNkabestr, eskabeC	
+2820	e	->	e	/	X alt	__	 y	[]	[]	4	4	1.0	0.786	alter, altern, alterk, salte	
+390	e	->	e	/	X 	__	k y	[]	[]	30	25	0.833	0.775	afekt, detekt, respekt, sek, konekt, pek, obsekj, deskonekt, infekt, pretekst, disek, rekolekt, ipotek, bek, desek, Cek, desinfekt, interkonekt, aneks	efektw, adekw, ekspj, rekrj, kontekstw
+204	e	->	e	/	X 	__	t	[]	[]	19	16	0.842	0.765	interpret, respet, komplet, suxet, koNkret, obxet, bet, dekret, sekret, replet, reset, empaket, ret, flet, ekskret, destet	apret, desapret, reapret
+895	e	->	e	/	X ad	__	 y	[]	[]	14	12	0.857	0.765	deseNkaden, adentr, parpade, lade, eNkaden, xade, palade, eNkwadern, bade, adens, anade, kaden	adekw, adestr
+266	e	->	e	/	X 	__	t y	[]	[]	23	19	0.826	0.757	interpret, respet, penetr, komplet, suxet, koNkret, obxet, bet, dekret, perpetr, sekret, replet, reset, empaket, ret, flet, kronometr, ekskret, destet	apret, perpetw, desapret, reapret
+215	e	->	e	/	X t	__	 y	[]	[]	114	95	0.833	0.751	intent, kontempl, kontest, enter, detekt, integr, alter, protest, kontent, potensj, reiter, sentensj, intern, detest, sustent, altern, ostent, tens, festex	tembl, enterr, atent, tent, aterr, desterr, atenw, desenterr, soterr, ekstenw, atest, deskontent, retembl, retent, ates, kontekstw, desatent, desaterr, entes
+150	e	->	e	/	X b	__	 y	[]	[]	57	45	0.789	0.747	aprobeC, inbent, rebel, bes, beNg, bend, bel, desbel, alberg, eNkabes, konbers, libert, bet, nabeg, rebel, bers, nibel, solbent, bed	atrabes, gobern, rebent, aberj, bent, abent, trabes, inbern, desgobern, beld, desbent, erbent
+198	e	->	e	/	b	__	 y	[]	[]	13	11	0.846	0.747	bes, beNg, bend, bel, bet, bers, bed, bek, bex, bef, beNg	bent, beld
+392	e	->	e	/	X tr	__	 y	[]	[]	13	11	0.846	0.747	entreg, estrej, entren, estreC, estren, trep, rastre, ekstrem, trens, deletre, trem	restreg, estreg
+533	e	->	e	/	X an	__	 y	[]	[]	15	13	0.867	0.746	manex, plane, anel, berane, sane, kapitane, aneks, aragane, kampane, debane, olgasane, xarane, mañane	aneg, anebl
+1321	e	->	e	/	X et	__	 y	[]	[]	16	14	0.875	0.746	detekt, detest, abofete, korrete, pretekst, alete, kokete, kastañete, klabete, ribete, trakete, tablete, karrete, tixerete	retembl, retent
+102	e	->	e	/	X l	__	 y	[]	[]	60	48	0.8	0.745	selebr, alex, emple, eleb, reflex, molest, alegr, komplet, aseler, pele, toler, aleg, alert, silensj, subleb, releg, tambale, dobleg, sole	kalent, despleg, alent, pleg, repleg, desalent, rekalent, alebr, deslendr, enlexj, pleg, sobrekalent
+6	e	->	e	/	X 	__	 y	[]	[]	864	699	0.809	0.741	dex, ked, entr, kre, esper, konsider, present, intent, eC, asept, aserk, obserb, dese, kontempl, represent, koment, regres, kontest, awment	est, pens, empes, komens, sent, serr, neg, despert, enbj, manifest, konfes, atrabes, enserr, apret, tembl, gobern, efektw, asert, rekomend
+648	e	->	e	/	X r	__	nt	[]	[]	8	7	0.875	0.74	enfrent, aparent, emparent, transparent, amedrent, rent, afrent	ensaNgrent
+1041	e	->	e	/	X s	__	l	[]	[]	8	7	0.875	0.74	kansel, eNkarsel, resel, parsel, sel, sinsel, deseNkarsel	desel
+1340	e	->	e	/	X 	__	Ng y	[]	[]	8	7	0.875	0.74	beNg, meNgw, areNg, debeNg, ameNgw, abeNg, beNg	derreNg
+1447	e	->	e	/	X eb	__	 y	[]	[]	8	7	0.875	0.74	rebel, rebel, aseber, perseber, debeNg, debel, rebel	rebent
+327	e	->	e	/	X r	__	n y	[]	[]	24	19	0.792	0.723	enfrent, diferensj, fren, entren, estren, aparent, emparent, transparent, seren, amedrent, prend, rent, prens, trens, konferensj, refren, afrent, barren, enfren	merend, ensaNgrent, arrend, desarrend, subarrend
+120	e	->	e	/	X up	__	r	[]	[]	3	3	1.0	0.718	super, rekuper, bituper	
+185	e	->	e	/	X el	__	b y	[]	[]	3	3	1.0	0.718	selebr, eleb, releb	
+193	e	->	e	/	X l	__	x	[]	[]	3	3	1.0	0.718	alex, reflex, asulex	
+227	e	->	e	/	int	__	 y	[]	[]	3	3	1.0	0.718	intent, integr, intern	
+285	e	->	e	/	X s	__	ntr	[]	[]	3	3	1.0	0.718	konsentr, sentr, desentr	
+341	e	->	e	/	X gr	__	s	[]	[]	3	3	1.0	0.718	regres, iNgres, progres	
+401	e	->	e	/	X pres	__	n y	[]	[]	3	3	1.0	0.718	present, represent, presensj	
+440	e	->	e	/	X spr	__	s y	[]	[]	3	3	1.0	0.718	ekspres, despresj, menospresj	
+552	e	->	e	/	X s	__	n	[]	[]	3	3	1.0	0.718	sen, almasen, sersen	
+579	e	->	e	/	pres	__	 y	[]	[]	3	3	1.0	0.718	present, presensj, preserb	
+613	e	->	e	/	X l	__	r	[]	[]	3	3	1.0	0.718	aseler, toler, alfiler	
+637	e	->	e	/	tr	__	 y	[]	[]	3	3	1.0	0.718	trep, trens, trem	
+678	e	->	e	/	X s	__	s	[]	[]	3	3	1.0	0.718	ses, proses, ases	
+697	e	->	e	/	X p	__	g	[]	[]	3	3	1.0	0.718	peg, despeg, apeg	
+716	e	->	e	/	alt	__	r y	[]	[]	3	3	1.0	0.718	alter, altern, alterk	
+717	e	->	e	/	X t	__	rn	[]	[]	3	3	1.0	0.718	intern, altern, konstern	
+749	e	->	e	/	X kr	__		[]	[]	3	3	1.0	0.718	kre, rekre, prokre	
+807	e	->	e	/	X s	__	C	[]	[]	3	3	1.0	0.718	aseC, deseC, koseC	
+819	e	->	e	/	X osp	__	 y	[]	[]	3	3	1.0	0.718	sospeC, prosper, osped	
+836	e	->	e	/	X k	__	x	[]	[]	3	3	1.0	0.718	kex, akex, boskex	
+847	e	->	e	/	X t	__	ns y	[]	[]	3	3	1.0	0.718	potensj, sentensj, tens	
+864	e	->	e	/	apr	__	s y	[]	[]	3	3	1.0	0.718	apresj, apres, aprest	
+920	e	->	e	/	X 	__	rs	[]	[]	3	3	1.0	0.718	konbers, dispers, bers	
+946	e	->	e	/	X int	__	gr	[]	[]	3	3	1.0	0.718	integr, desintegr, reintegr	
+948	e	->	e	/	X bl	__	 y	[]	[]	3	3	1.0	0.718	subleb, dobleg, djable	
+976	e	->	e	/	X ekr	__	 y	[]	[]	3	3	1.0	0.718	rekre, dekret, sekret	
+1008	e	->	e	/	X kon	__	kt	[]	[]	3	3	1.0	0.718	konekt, deskonekt, interkonekt	
+1011	e	->	e	/	X f	__	kt	[]	[]	3	3	1.0	0.718	afekt, infekt, desinfekt	
+1020	e	->	e	/	X par	__	nt	[]	[]	3	3	1.0	0.718	aparent, emparent, transparent	
+1032	e	->	e	/	X 	__	tr	[]	[]	3	3	1.0	0.718	penetr, perpetr, kronometr	
+1074	e	->	e	/	X s	__	d y	[]	[]	3	3	1.0	0.718	sed, asedj, ased	
+1114	e	->	e	/	X lb	__	 y	[]	[]	3	3	1.0	0.718	alberg, solbent, eNxalbeg	
+1121	e	->	e	/	X ad	__	n	[]	[]	3	3	1.0	0.718	deseNkaden, eNkaden, kaden	
+1169	e	->	e	/	X arr	__	s y	[]	[]	3	3	1.0	0.718	kontrarrest, arresj, arrest	
+1250	e	->	e	/	X sid	__	 y	[]	[]	3	3	1.0	0.718	konsider, aksident, rekonsider	
+1255	e	->	e	/	X es	__		[]	[]	3	3	1.0	0.718	dese, kabese, sese	
+1270	e	->	e	/	X t	__	mpl	[]	[]	3	3	1.0	0.718	kontempl, templ, destempl	
+1278	e	->	e	/	X pot	__	 y	[]	[]	3	3	1.0	0.718	potensj, Capote, ipotek	
+1280	e	->	e	/	X rt	__		[]	[]	3	3	1.0	0.718	sorte, kwarte, flirte	
+1282	e	->	e	/	X xen	__	r	[]	[]	3	3	1.0	0.718	xener, dexener, rexener	
+1301	e	->	e	/	X x	__	r	[]	[]	3	3	1.0	0.718	eksaxer, alixer, refrixer	
+1309	e	->	e	/	X Nx	__	n y	[]	[]	3	3	1.0	0.718	eNxendr, iNxenj, koNxenj	
+1327	e	->	e	/	X op	__	r	[]	[]	3	3	1.0	0.718	oper, kwoper, oper	
+1376	e	->	e	/	X tr	__	n y	[]	[]	3	3	1.0	0.718	entren, estren, trens	
+1408	e	->	e	/	X d	__	ns y	[]	[]	3	3	1.0	0.718	ebidensj, kondens, adens	
+1411	e	->	e	/	X aNk	__		[]	[]	3	3	1.0	0.718	fraNke, flaNke, blaNke	
+1450	e	->	e	/	X ld	__		[]	[]	3	3	1.0	0.718	molde, kalde, balde	
+1452	e	->	e	/	X s	__	x	[]	[]	3	3	1.0	0.718	akonsex, sex, desakonsex	
+1479	e	->	e	/	X ort	__	 y	[]	[]	3	3	1.0	0.718	sorte, kortex, deskortes	
+1484	e	->	e	/	X lin	__		[]	[]	3	3	1.0	0.718	aline, deline, remoline	
+1490	e	->	e	/	dis	__	 y	[]	[]	3	3	1.0	0.718	diseñ, disek, disert	
+1508	e	->	e	/	apar	__	 y	[]	[]	3	3	1.0	0.718	aparent, apare, aparex	
+1529	e	->	e	/	X ak	__	 y	[]	[]	3	3	1.0	0.718	akex, empaket, flake	
+1532	e	->	e	/	X x	__	n	[]	[]	3	3	1.0	0.718	enaxen, oksixen, idroxen	
+1565	e	->	e	/	X bor	__		[]	[]	3	3	1.0	0.718	sabore, espolbore, albore	
+1580	e	->	e	/	X ikot	__		[]	[]	3	3	1.0	0.718	pikote, bwikote, Cikote	
+1647	e	->	e	/	X ars	__	l	[]	[]	3	3	1.0	0.718	eNkarsel, parsel, deseNkarsel	
+1657	e	->	e	/	X par	__	x	[]	[]	3	3	1.0	0.718	emparex, aparex, desparex	
+1679	e	->	e	/	X p	__	ñ	[]	[]	3	3	1.0	0.718	empeñ, desempeñ, despeñ	
+1684	e	->	e	/	X l	__	t	[]	[]	3	3	1.0	0.718	komplet, replet, flet	
+1702	e	->	e	/	X 	__	ndj	[]	[]	3	3	1.0	0.718	insendj, bilipendj, kompendj	
+1722	e	->	e	/	X ax	__		[]	[]	3	3	1.0	0.718	Cantaxe, omenaxe, espumaxe	
+1725	e	->	e	/	X isp	__	 y	[]	[]	3	3	1.0	0.718	dispens, dispers, Cispe	
+1742	e	->	e	/	X Nx	__		[]	[]	3	3	1.0	0.718	graNxe, kaNxe, lisoNxe	
+1765	e	->	e	/	X ab	__		[]	[]	3	3	1.0	0.718	babe, alabe, brabe	
+1778	e	->	e	/	X ap	__	l	[]	[]	3	3	1.0	0.718	apel, empapel, traspapel	
+1780	e	->	e	/	X x	__	l	[]	[]	3	3	1.0	0.718	koNxel, flaxel, deskoNxel	
+1799	e	->	e	/	X 	__	pt	[]	[]	3	3	1.0	0.718	asept, intersept, rept	
+1800	e	->	e	/	X r	__	p y	[]	[]	3	3	1.0	0.718	trep, diskrep, rept	
+1810	e	->	e	/	X om	__	r y	[]	[]	3	3	1.0	0.718	komersj, aglomer, koNglomer	
+1842	e	->	e	/	X mot	__	 y	[]	[]	3	3	1.0	0.718	ximote, motex, mote	
+1844	e	->	e	/	X fr	__	n	[]	[]	3	3	1.0	0.718	fren, refren, enfren	
+1857	e	->	e	/	X rot	__	 y	[]	[]	3	3	1.0	0.718	protest, Cisporrote, tirote	
+1861	e	->	e	/	X kol	__	 y	[]	[]	3	3	1.0	0.718	rekolekt, kole, kolekt	
+1894	e	->	e	/	X amon	__	 y	[]	[]	3	3	1.0	0.718	amonest, ramone, amoned	
+1923	e	->	e	/	X komp	__	n y	[]	[]	3	3	1.0	0.718	kompens, rekompens, kompendj	
+1936	e	->	e	/	X r	__	ñ	[]	[]	3	3	1.0	0.718	preñ, desgreñ, empreñ	
+1948	e	->	e	/	X t	__	j	[]	[]	3	3	1.0	0.718	destej, embotej, adentej	
+1969	e	->	e	/	X mas	__	 y	[]	[]	3	3	1.0	0.718	almasen, maser, mase	
+1970	e	->	e	/	X as	__	r	[]	[]	3	3	1.0	0.718	aser, maser, laser	
+1977	e	->	e	/	X ix	__	 y	[]	[]	3	3	1.0	0.718	alixer, refrixer, oksixen	
+1988	e	->	e	/	X tor	__		[]	[]	3	3	1.0	0.718	tore, bitore, pastore	
+2010	e	->	e	/	X orn	__		[]	[]	3	3	1.0	0.718	orne, kontorne, akorne	
+2024	e	->	e	/	X ib	__	r y	[]	[]	3	3	1.0	0.718	libert, deliber, ibern	
+2084	e	->	e	/	X koNx	__	 y	[]	[]	3	3	1.0	0.718	koNxel, koNxenj, deskoNxel	
+2179	e	->	e	/	X err	__		[]	[]	3	3	1.0	0.718	berre, gerre, senserre	
+2198	e	->	e	/	X ag	__		[]	[]	3	3	1.0	0.718	sigsage, relampage, gage	
+2200	e	->	e	/	X in	__		[]	[]	3	3	1.0	0.718	aline, deline, remoline	
+2220	e	->	e	/	X r	__	mj	[]	[]	3	3	1.0	0.718	premj, apremj, agremj	
+2224	e	->	e	/	X alans	__		[]	[]	3	3	1.0	0.718	balanse, alanse, kontrabalanse	
+2267	e	->	e	/	X nd	__	r	[]	[]	3	3	1.0	0.718	ponder, embander, preponder	
+2320	e	->	e	/	X x	__	nt	[]	[]	3	3	1.0	0.718	rexent, abexent, arxent	
+2328	e	->	e	/	X ul	__	 y	[]	[]	3	3	1.0	0.718	bapule, asulex, gandule	
+2369	e	->	e	/	X mbr	__		[]	[]	3	3	1.0	0.718	sombre, embre, ambre	
+2437	e	->	e	/	X kos	__	 y	[]	[]	3	3	1.0	0.718	koseC, kose, akose	
+2474	e	->	e	/	X art	__	 y	[]	[]	3	3	1.0	0.718	kwarte, akwartel, amartel	
+2500	e	->	e	/	X arr	__		[]	[]	3	3	1.0	0.718	akarre, barre, Cokarre	
+2510	e	->	e	/	X is	__	k	[]	[]	3	3	1.0	0.718	disek, bisek, trisek	
+2513	e	->	e	/	X and	__	 y	[]	[]	3	3	1.0	0.718	kontrabande, embander, blande	
+2516	e	->	e	/	X fon	__		[]	[]	3	3	1.0	0.718	telefone, bufone, silofone	
+2518	e	->	e	/	X kad	__	n	[]	[]	3	3	1.0	0.718	deseNkaden, eNkaden, kaden	
+2527	e	->	e	/	X ret	__		[]	[]	3	3	1.0	0.718	korrete, karrete, tixerete	
+2531	e	->	e	/	X bel	__	 y	[]	[]	3	3	1.0	0.718	embeles, kaskabele, embeleñ	
+2539	e	->	e	/	X ap	__		[]	[]	3	3	1.0	0.718	ape, Cape, trape	
+2543	e	->	e	/	X ark	__		[]	[]	3	3	1.0	0.718	arke, Carke, parke	
+2555	e	->	e	/	X dr	__	 y	[]	[]	3	3	1.0	0.718	amedrent, apedre, komadre	
+2559	e	->	e	/	X orr	__		[]	[]	3	3	1.0	0.718	Corre, komorre, kotorre	
+2569	e	->	e	/	X temp	__	r	[]	[]	3	3	1.0	0.718	atemper, kontemper, temper	
+2570	e	->	e	/	X emp	__	r	[]	[]	3	3	1.0	0.718	atemper, kontemper, temper	
+2597	e	->	e	/	X agr	__	 y	[]	[]	3	3	1.0	0.718	agreg, agremj, desagreg	
+2697	e	->	e	/	X mpr	__	 y	[]	[]	3	3	1.0	0.718	impregn, empreñ, imprek	
+2702	e	->	e	/	X kab	__	s y	[]	[]	3	3	1.0	0.718	eNkabes, deskabes, eNkabestr	
+2738	e	->	e	/	X b	__	C	[]	[]	3	3	1.0	0.718	aprobeC, desaprobeC, eskabeC	
+334	e	->	e	/	X n	__	 y	[]	[]	59	49	0.831	0.71	xener, penetr, manex, konekt, plane, enbenen, aline, telefone, bener, mene, deskonekt, anel, berane, dexener, rexener, sane, kapitane, deline, enebr	neg, reneg, neb, deneg, aneg, enest, abneg, anebl, desneb, inest
+413	e	->	e	/	X mp	__	 y	[]	[]	15	12	0.8	0.708	empeñ, kompens, desempeñ, rekompens, imper, atemper, kompendj, trampe, emperr, kontemper, empern, temper	empes, desempedr, empedr
+510	e	->	e	/	X d	__	n y	[]	[]	15	12	0.8	0.708	orden, konden, deseNkaden, adentr, ebidensj, eNkaden, aksident, kondens, desorden, adens, kaden, komden	dent, desdent, endent
+153	e	->	e	/	p	__	 y	[]	[]	7	6	0.857	0.706	pes, peg, pek, pesk, pel, pen	pens
+1353	e	->	e	/	X est	__	 y	[]	[]	7	6	0.857	0.706	festex, anestesj, destej, destet, destempl, tempeste	desterr
+2661	e	->	e	/	X 	__	rb	[]	[]	7	6	0.857	0.706	obserb, konserb, reserb, preserb, eksaserb, desnerb	deserb
+203	e	->	e	/	X esp	__	 y	[]	[]	11	9	0.818	0.706	esper, respet, respekt, desesper, despex, despeg, espes, despeC, despeñ	despert, despern
+239	e	->	e	/	m	__	 y	[]	[]	11	9	0.818	0.706	meskl, medj, me, merm, meNgw, medr, mej, merk, meC	ment, menstrw
+825	e	->	e	/	X em	__	 y	[]	[]	11	9	0.818	0.706	remedj, iNkrement, komplement, asemex, semex, remed, sement, suplement, remes	remend, sement
+1143	e	->	e	/	X rr	__	 y	[]	[]	21	17	0.81	0.7	arregl, akarre, kontrarrest, kanturre, arresj, arrest, Corre, berre, Capurre, barren, desarregl, gerre, barre, senserre, Cokarre, komorre, kotorre	arrend, derreNg, desarrend, subarrend
+238	e	->	e	/	X m	__	 y	[]	[]	69	51	0.739	0.7	koment, awment, aliment, eksperiment, meskl, medj, remedj, lament, iNkrement, argument, foment, brome, atorment, komplement, asemex, me, semex, enumer, numer	komens, rekomend, ment, eNkomend, enmend, siment, eskarment, desmembr, remend, menstrw, reximent, salpiment, ament, kasament, desiment, desmel, enmel, sement
+85	e	->	e	/	X 	__	s	[]	[]	33	25	0.758	0.699	regres, interes, ekspres, pes, bes, res, ses, iNgres, eNkabes, proses, progres, enderes, apres, profes, embeles, espes, bostes, desperes, aderes	empes, konfes, atrabes, tropes, trabes, ates, desentropes, entes
+59	e	->	e	/	X nt	__	 y	[]	[]	21	16	0.762	0.685	intent, kontempl, kontest, enter, integr, kontent, sentensj, intern, desintegr, desmantel, reintegr, serpente, punte, galante, karpinte, adentej	enterr, desenterr, deskontent, kontekstw, entes
+595	e	->	e	/	X k	__	 y	[]	[]	26	21	0.808	0.677	ked, kex, kem, bloke, akex, fraNke, arke, flaNke, blaNke, Caske, empaket, jorike, boskex, flake, biske, kloke, sejiske, Carke, Curraske	kebr, pernikebr, rekebr, alikebr, reskebr
+414	e	->	e	/	X 	__	ns y	[]	[]	23	17	0.739	0.666	diferensj, presensj, kompens, potensj, sentensj, ebidensj, silensj, tens, lisensj, dispens, rekompens, prens, trens, kondens, konferensj, sens, adens	pens, komens, insens, menstrw, repens, asensw
+122	e	->	e	/	X s	__	rb	[]	[]	6	5	0.833	0.663	obserb, konserb, reserb, preserb, eksaserb	deserb
+787	e	->	e	/	X l	__	b y	[]	[]	6	5	0.833	0.663	selebr, eleb, subleb, releb, leb	alebr
+1817	e	->	e	/	X sk	__	 y	[]	[]	6	5	0.833	0.663	Caske, boskex, biske, sejiske, Curraske	reskebr
+2065	e	->	e	/	X 	__	Ng	[]	[]	6	5	0.833	0.663	beNg, areNg, debeNg, abeNg, beNg	derreNg
+41	e	->	e	/	X s	__	 y	[]	[]	134	97	0.724	0.662	present, asept, aserk, obserb, dese, represent, enseñ, konserb, pase, konsentr, ses, sentr, sen, diseñ, akonsex, reserb, sek, presensj, serk	sent, serr, enserr, asert, asent, asentw, sembr, deskonsert, seg, akresent, konsert, resent, ekseptw, soseg, asest, entreserr, desasoseg, seg, serr
+919	e	->	e	/	X p	__	r y	[]	[]	20	17	0.85	0.649	esper, super, rekuper, oper, desesper, prosper, dispers, imper, eksasper, kwoper, atemper, emperr, kontemper, empern, oper, temper, bituper	despert, entrepern, despern
+415	e	->	e	/	X p	__	n y	[]	[]	9	7	0.778	0.648	apen, kompens, pen, dispens, rekompens, bilipendj, kompendj	pens, repens
+711	e	->	e	/	X arr	__	 y	[]	[]	12	9	0.75	0.641	arregl, akarre, kontrarrest, arresj, arrest, barren, desarregl, barre, Cokarre	arrend, desarrend, subarrend
+771	e	->	e	/	X om	__	 y	[]	[]	12	9	0.75	0.641	koment, foment, brome, komersj, komedj, promedj, kronometr, aglomer, koNglomer	komens, rekomend, eNkomend
+206	e	->	e	/	X as	__	 y	[]	[]	33	23	0.697	0.633	asept, aserk, pase, almasen, asend, aseC, asedj, eskase, fantase, eksaserb, ase, aser, maser, ases, gase, parafrase, asekj, laser, desase	asert, asent, asentw, asest, apasent, traseg, aserr, desasert, asensw, desasent
+74	e	->	e	/	X 	__	s y	[]	[]	76	53	0.697	0.626	regres, kontest, interes, ekspres, pes, prest, bes, molest, meskl, res, ses, apresj, iNgres, protest, despresj, rest, eNkabes, pesk, detest	est, empes, manifest, konfes, atrabes, tropes, desbj, espj, asest, enest, atest, eskj, resfrj, trabes, estrj, deslj, adestr, ates, desentropes
+561	e	->	e	/	X b	__	r y	[]	[]	14	10	0.714	0.615	alberg, konbers, libert, bers, aseber, deliber, perseber, ibern, aberr, adber	gobern, aberj, inbern, desgobern
+615	e	->	e	/	X ab	__	 y	[]	[]	14	10	0.714	0.615	eNkabes, nabeg, deskabes, babe, alabe, aberr, abeNg, brabe, eNkabestr, eskabeC	atrabes, aberj, abent, trabes
+265	e	->	e	/	X en	__	 y	[]	[]	11	8	0.727	0.612	xener, penetr, enbenen, bener, mene, dexener, rexener, enebr	reneg, deneg, enest
+256	e	->	e	/	X 	__	m y	[]	[]	17	12	0.706	0.611	kontempl, kem, premj, ekstrem, templ, blasfem, apremj, rem, agremj, destempl, krem, trem	tembl, sembr, desmembr, retembl, sobresembr
+249	e	->	e	/	k	__	 y	[]	[]	5	4	0.8	0.607	ked, kex, kem, ked	kebr
+438	e	->	e	/	X rem	__	 y	[]	[]	5	4	0.8	0.607	remedj, iNkrement, remed, remes	remend
+826	e	->	e	/	X em	__	nt	[]	[]	5	4	0.8	0.607	iNkrement, komplement, sement, suplement	sement
+1382	e	->	e	/	apr	__	 y	[]	[]	5	4	0.8	0.607	apresj, apres, aprest, apremj	apret
+1839	e	->	e	/	X in	__	 y	[]	[]	5	4	0.8	0.607	aline, deline, insiner, remoline	inest
+2154	e	->	e	/	X f	__	k y	[]	[]	5	4	0.8	0.607	afekt, infekt, desinfekt, defek	efektw
+1162	e	->	e	/	X fr	__	 y	[]	[]	8	6	0.75	0.604	enfrent, fren, refresk, refren, afrent, enfren	freg, refreg
+174	e	->	e	/	X 	__	st	[]	[]	19	13	0.684	0.601	kontest, prest, molest, protest, rest, detest, kontrarrest, apest, aprest, arrest, infest, amonest, kontramanifest	est, manifest, asest, enest, atest, inest
+135	e	->	e	/	X 	__	n y	[]	[]	152	96	0.632	0.591	entr, present, intent, represent, koment, awment, enfrent, orden, inbent, konden, aliment, eksperiment, konsentr, sentr, sen, diferensj, lament, apen, deseNkaden	pens, komens, sent, enbj, rekomend, kalent, asent, asentw, rebent, alent, atent, ment, tent, akresent, eNkomend, atenw, merend, resent, enmend
+846	e	->	e	/	X 	__	ns	[]	[]	13	9	0.692	0.588	kompens, tens, dispens, rekompens, prens, trens, kondens, sens, adens	pens, komens, insens, repens
+80	e	->	e	/	X m	__	nt	[]	[]	26	17	0.654	0.584	koment, awment, aliment, eksperiment, lament, iNkrement, argument, foment, atorment, komplement, dokument, ferment, kumpliment, kondiment, pabiment, sement, suplement	ment, siment, eskarment, reximent, salpiment, ament, kasament, desiment, sement
+1100	e	->	e	/	X os	__	 y	[]	[]	12	9	0.75	0.58	proses, koseC, manose, kurjose, bose, kose, maripose, ermose, akose	soseg, desasoseg, asoseg
+1659	e	->	e	/	X emp	__	 y	[]	[]	10	7	0.7	0.579	empeñ, desempeñ, atemper, emperr, kontemper, empern, temper	empes, desempedr, empedr
+55	e	->	e	/	X es	__	 y	[]	[]	23	15	0.652	0.578	present, dese, represent, reserb, presensj, preserb, deseC, reset, kabese, resel, desert, adesent, desek, desentr, sese	akresent, resent, entreserr, desel, desent, deserb, deserr, sobresembr
+123	e	->	e	/	X ns	__	 y	[]	[]	23	15	0.652	0.578	enseñ, konserb, konsentr, akonsex, insendj, balanse, insert, kansel, desakonsex, bronse, sinsel, alanse, Canse, kontrabalanse, enser	enserr, deskonsert, konsert, konseptw, insens, deskonseptw, desenserr, ensent
+1905	e	->	e	/	X 	__	st y	[]	[]	23	15	0.652	0.578	kontest, prest, molest, protest, rest, detest, kontrarrest, apest, aprest, arrest, infest, amonest, amaestr, kontramanifest, eNkabestr	est, manifest, asest, enest, atest, estrj, adestr, inest
+243	e	->	e	/	X r	__	g y	[]	[]	15	10	0.667	0.572	entreg, arregl, agreg, impregn, segreg, koNgreg, breg, disgreg, desarregl, desagreg	reg, freg, restreg, refreg, estreg
+61	e	->	e	/	X pres	__	nt	[]	[]	2	2	1.0	0.57	present, represent	
+319	e	->	e	/	X mpl	__	 y	[]	[]	2	2	1.0	0.57	emple, komplet	
+339	e	->	e	/	X s	__	ñ	[]	[]	2	2	1.0	0.57	enseñ, diseñ	
+385	e	->	e	/	resp	__	 y	[]	[]	2	2	1.0	0.57	respet, respekt	
+400	e	->	e	/	pres	__	n y	[]	[]	2	2	1.0	0.57	present, presensj	
+421	e	->	e	/	X emp	__	ñ	[]	[]	2	2	1.0	0.57	empeñ, desempeñ	
+434	e	->	e	/	entr	__	 y	[]	[]	2	2	1.0	0.57	entreg, entren	
+447	e	->	e	/	X sel	__	 y	[]	[]	2	2	1.0	0.57	selebr, aseler	
+475	e	->	e	/	X s	__	rk	[]	[]	2	2	1.0	0.57	aserk, serk	
+478	e	->	e	/	X el	__		[]	[]	2	2	1.0	0.57	pele, kaskabele	
+492	e	->	e	/	X tr	__	n	[]	[]	2	2	1.0	0.57	entren, estren	
+516	e	->	e	/	X p	__	k y	[]	[]	2	2	1.0	0.57	respekt, pek	
+529	e	->	e	/	X x	__	t	[]	[]	2	2	1.0	0.57	suxet, obxet	
+570	e	->	e	/	X om	__	nt	[]	[]	2	2	1.0	0.57	koment, foment	
+581	e	->	e	/	X res	__	rb	[]	[]	2	2	1.0	0.57	reserb, preserb	
+600	e	->	e	/	X t	__	nsj	[]	[]	2	2	1.0	0.57	potensj, sentensj	
+605	e	->	e	/	p	__	s y	[]	[]	2	2	1.0	0.57	pes, pesk	
+632	e	->	e	/	X esp	__	r	[]	[]	2	2	1.0	0.57	esper, desesper	
+639	e	->	e	/	al	__	g y	[]	[]	2	2	1.0	0.57	alegr, aleg	
+668	e	->	e	/	det	__	 y	[]	[]	2	2	1.0	0.57	detekt, detest	
+747	e	->	e	/	X st	__	nt	[]	[]	2	2	1.0	0.57	sustent, ostent	
+784	e	->	e	/	X egr	__	 y	[]	[]	2	2	1.0	0.57	regres, segreg	
+801	e	->	e	/	X p	__	n	[]	[]	2	2	1.0	0.57	apen, pen	
+812	e	->	e	/	X ben	__	 y	[]	[]	2	2	1.0	0.57	enbenen, bener	
+863	e	->	e	/	X pr	__	s	[]	[]	2	2	1.0	0.57	ekspres, apres	
+872	e	->	e	/	X s	__	nd y	[]	[]	2	2	1.0	0.57	asend, insendj	
+875	e	->	e	/	pr	__	s y	[]	[]	2	2	1.0	0.57	prest, presj	
+883	e	->	e	/	X s	__	nsj	[]	[]	2	2	1.0	0.57	presensj, lisensj	
+911	e	->	e	/	X tr	__		[]	[]	2	2	1.0	0.57	rastre, deletre	
+921	e	->	e	/	disp	__	 y	[]	[]	2	2	1.0	0.57	dispens, dispers	
+931	e	->	e	/	X sem	__	x	[]	[]	2	2	1.0	0.57	asemex, semex	
+960	e	->	e	/	X num	__	r	[]	[]	2	2	1.0	0.57	enumer, numer	
+978	e	->	e	/	X od	__	r	[]	[]	2	2	1.0	0.57	apoder, moder	
+979	e	->	e	/	mod	__	 y	[]	[]	2	2	1.0	0.57	model, moder	
+981	e	->	e	/	obs	__	 y	[]	[]	2	2	1.0	0.57	obserb, obsekj	
+986	e	->	e	/	X komp	__	ns	[]	[]	2	2	1.0	0.57	kompens, rekompens	
+1050	e	->	e	/	X 	__	rm	[]	[]	2	2	1.0	0.57	enferm, merm	
+1068	e	->	e	/	X b	__	rs	[]	[]	2	2	1.0	0.57	konbers, bers	
+1090	e	->	e	/	X ekr	__	t	[]	[]	2	2	1.0	0.57	dekret, sekret	
+1106	e	->	e	/	X el	__	g	[]	[]	2	2	1.0	0.57	releg, deleg	
+1120	e	->	e	/	X eNkad	__	n	[]	[]	2	2	1.0	0.57	deseNkaden, eNkaden	
+1133	e	->	e	/	X pl	__	t	[]	[]	2	2	1.0	0.57	komplet, replet	
+1160	e	->	e	/	pat	__	 y	[]	[]	2	2	1.0	0.57	patent, pate	
+1163	e	->	e	/	X 	__	sk	[]	[]	2	2	1.0	0.57	pesk, refresk	
+1165	e	->	e	/	X pr	__	st	[]	[]	2	2	1.0	0.57	prest, aprest	
+1180	e	->	e	/	X bus	__		[]	[]	2	2	1.0	0.57	balbuse, buse	
+1183	e	->	e	/	X 	__	rsj	[]	[]	2	2	1.0	0.57	tersj, komersj	
+1188	e	->	e	/	X r	__	p	[]	[]	2	2	1.0	0.57	trep, diskrep	
+1189	e	->	e	/	X 	__	p	[]	[]	2	2	1.0	0.57	trep, diskrep	
+1202	e	->	e	/	X arr	__	st	[]	[]	2	2	1.0	0.57	kontrarrest, arrest	
+1203	e	->	e	/	arr	__	s y	[]	[]	2	2	1.0	0.57	arresj, arrest	
+1209	e	->	e	/	X l	__	s y	[]	[]	2	2	1.0	0.57	molest, embeles	
+1211	e	->	e	/	X Nkr	__	 y	[]	[]	2	2	1.0	0.57	koNkret, eNkresp	
+1234	e	->	e	/	empar	__	 y	[]	[]	2	2	1.0	0.57	emparent, emparex	
+1244	e	->	e	/	rem	__	d y	[]	[]	2	2	1.0	0.57	remedj, remed	
+1252	e	->	e	/	X id	__	n y	[]	[]	2	2	1.0	0.57	ebidensj, aksident	
+1289	e	->	e	/	X 	__	rg	[]	[]	2	2	1.0	0.57	alberg, posterg	
+1295	e	->	e	/	X gat	__		[]	[]	2	2	1.0	0.57	gate, regate	
+1306	e	->	e	/	esp	__	 y	[]	[]	2	2	1.0	0.57	esper, espes	
+1311	e	->	e	/	X s	__	pt	[]	[]	2	2	1.0	0.57	asept, intersept	
+1338	e	->	e	/	l	__	 y	[]	[]	2	2	1.0	0.57	leg, leb	
+1342	e	->	e	/	X spr	__	sj	[]	[]	2	2	1.0	0.57	despresj, menospresj	
+1345	e	->	e	/	X et	__	k y	[]	[]	2	2	1.0	0.57	detekt, pretekst	
+1348	e	->	e	/	X konsid	__	r	[]	[]	2	2	1.0	0.57	konsider, rekonsider	
+1354	e	->	e	/	X st	__	s y	[]	[]	2	2	1.0	0.57	bostes, anestesj	
+1373	e	->	e	/	pr	__	n y	[]	[]	2	2	1.0	0.57	prend, prens	
+1378	e	->	e	/	X r	__	ns	[]	[]	2	2	1.0	0.57	prens, trens	
+1383	e	->	e	/	X pr	__	mj	[]	[]	2	2	1.0	0.57	premj, apremj	
+1393	e	->	e	/	X lad	__		[]	[]	2	2	1.0	0.57	lade, palade	
+1395	e	->	e	/	X exen	__	r	[]	[]	2	2	1.0	0.57	dexener, rexener	
+1407	e	->	e	/	kond	__	n y	[]	[]	2	2	1.0	0.57	konden, kondens	
+1426	e	->	e	/	X ord	__	n	[]	[]	2	2	1.0	0.57	orden, desorden	
+1428	e	->	e	/	X um	__	nt	[]	[]	2	2	1.0	0.57	argument, dokument	
+1435	e	->	e	/	m	__	d y	[]	[]	2	2	1.0	0.57	medj, medr	
+1443	e	->	e	/	X der	__	s	[]	[]	2	2	1.0	0.57	enderes, aderes	
+1462	e	->	e	/	X el	__	b	[]	[]	2	2	1.0	0.57	eleb, releb	
+1463	e	->	e	/	rel	__	 y	[]	[]	2	2	1.0	0.57	releg, releb	
+1471	e	->	e	/	X laNk	__		[]	[]	2	2	1.0	0.57	flaNke, blaNke	
+1482	e	->	e	/	X lib	__	r y	[]	[]	2	2	1.0	0.57	libert, deliber	
+1500	e	->	e	/	X rom	__	 y	[]	[]	2	2	1.0	0.57	brome, promedj	
+1501	e	->	e	/	X om	__	dj	[]	[]	2	2	1.0	0.57	komedj, promedj	
+1509	e	->	e	/	X par	__		[]	[]	2	2	1.0	0.57	apare, pare	
+1514	e	->	e	/	X ers	__	 y	[]	[]	2	2	1.0	0.57	intersept, sersen	
+1516	e	->	e	/	X fer	__	nsj	[]	[]	2	2	1.0	0.57	diferensj, konferensj	
+1518	e	->	e	/	X aprob	__	C	[]	[]	2	2	1.0	0.57	aprobeC, desaprobeC	
+1545	e	->	e	/	X lor	__		[]	[]	2	2	1.0	0.57	kolore, flore	
+1549	e	->	e	/	ord	__	 y	[]	[]	2	2	1.0	0.57	orden, ordeñ	
+1550	e	->	e	/	X d	__	ñ	[]	[]	2	2	1.0	0.57	desdeñ, ordeñ	
+1556	e	->	e	/	X lim	__	nt	[]	[]	2	2	1.0	0.57	aliment, kumpliment	
+1559	e	->	e	/	X sp	__	C	[]	[]	2	2	1.0	0.57	sospeC, despeC	
+1585	e	->	e	/	X akons	__	x	[]	[]	2	2	1.0	0.57	akonsex, desakonsex	
+1632	e	->	e	/	X od	__		[]	[]	2	2	1.0	0.57	rode, kode	
+1644	e	->	e	/	X aws	__	 y	[]	[]	2	2	1.0	0.57	awsent, nawse	
+1667	e	->	e	/	X bal	__		[]	[]	2	2	1.0	0.57	tambale, bale	
+1672	e	->	e	/	X urr	__		[]	[]	2	2	1.0	0.57	kanturre, Capurre	
+1677	e	->	e	/	X enr	__	d	[]	[]	2	2	1.0	0.57	enred, desenred	
+1683	e	->	e	/	X fl	__	 y	[]	[]	2	2	1.0	0.57	reflex, flet	
+1687	e	->	e	/	m	__	r y	[]	[]	2	2	1.0	0.57	merm, merk	
+1713	e	->	e	/	X lt	__	r	[]	[]	2	2	1.0	0.57	alter, adulter	
+1729	e	->	e	/	X kab	__	s	[]	[]	2	2	1.0	0.57	eNkabes, deskabes	
+1750	e	->	e	/	X lot	__		[]	[]	2	2	1.0	0.57	rebolote, parlote	
+1752	e	->	e	/	X seb	__	r	[]	[]	2	2	1.0	0.57	aseber, perseber	
+1789	e	->	e	/	X erm	__	 y	[]	[]	2	2	1.0	0.57	ferment, intermedj	
+1823	e	->	e	/	X ap	__	s y	[]	[]	2	2	1.0	0.57	apest, kontrapes	
+1859	e	->	e	/	kos	__	 y	[]	[]	2	2	1.0	0.57	koseC, kose	
+1866	e	->	e	/	X ot	__	x	[]	[]	2	2	1.0	0.57	motex, kotex	
+1888	e	->	e	/	X enax	__	 y	[]	[]	2	2	1.0	0.57	enaxen, omenaxe	
+1896	e	->	e	/	X ix	__	r	[]	[]	2	2	1.0	0.57	alixer, refrixer	
+1901	e	->	e	/	X rot	__		[]	[]	2	2	1.0	0.57	Cisporrote, tirote	
+1915	e	->	e	/	X ald	__		[]	[]	2	2	1.0	0.57	kalde, balde	
+1917	e	->	e	/	X aNx	__		[]	[]	2	2	1.0	0.57	graNxe, kaNxe	
+1922	e	->	e	/	komp	__	n y	[]	[]	2	2	1.0	0.57	kompens, kompendj	
+1924	e	->	e	/	X p	__	ndj	[]	[]	2	2	1.0	0.57	bilipendj, kompendj	
+1938	e	->	e	/	X er	__	d	[]	[]	2	2	1.0	0.57	ered, desered	
+1939	e	->	e	/	X ser	__	 y	[]	[]	2	2	1.0	0.57	seren, desered	
+1943	e	->	e	/	X inf	__	kt	[]	[]	2	2	1.0	0.57	infekt, desinfekt	
+1946	e	->	e	/	X sgr	__	 y	[]	[]	2	2	1.0	0.57	desgreñ, disgreg	
+1957	e	->	e	/	X lam	__	 y	[]	[]	2	2	1.0	0.57	lament, flame	
+1963	e	->	e	/	iNx	__	 y	[]	[]	2	2	1.0	0.57	iNxenj, iNxert	
+1972	e	->	e	/	X mot	__		[]	[]	2	2	1.0	0.57	ximote, mote	
+1973	e	->	e	/	mot	__	 y	[]	[]	2	2	1.0	0.57	motex, mote	
+1990	e	->	e	/	X fr	__	nt	[]	[]	2	2	1.0	0.57	enfrent, afrent	
+1992	e	->	e	/	X il	__	 y	[]	[]	2	2	1.0	0.57	silensj, alfiler	
+1996	e	->	e	/	X ex	__	nt	[]	[]	2	2	1.0	0.57	rexent, abexent	
+2003	e	->	e	/	X ns	__	l	[]	[]	2	2	1.0	0.57	kansel, sinsel	
+2022	e	->	e	/	X skr	__	 y	[]	[]	2	2	1.0	0.57	diskrep, ekskret	
+2033	e	->	e	/	X rim	__	 y	[]	[]	2	2	1.0	0.57	eksperiment, lagrime	
+2044	e	->	e	/	X ls	__	 y	[]	[]	2	2	1.0	0.57	false, ulser	
+2052	e	->	e	/	ad	__	n y	[]	[]	2	2	1.0	0.57	adentr, adens	
+2054	e	->	e	/	X d	__	ns	[]	[]	2	2	1.0	0.57	kondens, adens	
+2058	e	->	e	/	X edr	__	 y	[]	[]	2	2	1.0	0.57	amedrent, apedre	
+2074	e	->	e	/	koNx	__	 y	[]	[]	2	2	1.0	0.57	koNxel, koNxenj	
+2075	e	->	e	/	X Nx	__	nj	[]	[]	2	2	1.0	0.57	iNxenj, koNxenj	
+2083	e	->	e	/	X koNx	__	l	[]	[]	2	2	1.0	0.57	koNxel, deskoNxel	
+2092	e	->	e	/	X nib	__	l	[]	[]	2	2	1.0	0.57	nibel, desnibel	
+2106	e	->	e	/	X alb	__	 y	[]	[]	2	2	1.0	0.57	alberg, eNxalbeg	
+2107	e	->	e	/	X b	__	g	[]	[]	2	2	1.0	0.57	nabeg, eNxalbeg	
+2111	e	->	e	/	X ant	__	 y	[]	[]	2	2	1.0	0.57	desmantel, galante	
+2114	e	->	e	/	X am	__		[]	[]	2	2	1.0	0.57	flame, jame	
+2119	e	->	e	/	X bet	__		[]	[]	2	2	1.0	0.57	klabete, ribete	
+2127	e	->	e	/	X ket	__		[]	[]	2	2	1.0	0.57	kokete, trakete	
+2151	e	->	e	/	X kol	__	kt	[]	[]	2	2	1.0	0.57	rekolekt, kolekt	
+2152	e	->	e	/	kol	__	 y	[]	[]	2	2	1.0	0.57	kole, kolekt	
+2157	e	->	e	/	depr	__	 y	[]	[]	2	2	1.0	0.57	depresj, depred	
+2166	e	->	e	/	X arr	__	gl	[]	[]	2	2	1.0	0.57	arregl, desarregl	
+2175	e	->	e	/	X a	__	s y	[]	[]	2	2	1.0	0.57	amaestr, eNxaes	
+2184	e	->	e	/	X it	__	r	[]	[]	2	2	1.0	0.57	reiter, iter	
+2207	e	->	e	/	X plem	__	nt	[]	[]	2	2	1.0	0.57	komplement, suplement	
+2213	e	->	e	/	X s	__	kj	[]	[]	2	2	1.0	0.57	obsekj, asekj	
+2217	e	->	e	/	X kwart	__	 y	[]	[]	2	2	1.0	0.57	kwarte, akwartel	
+2219	e	->	e	/	agr	__	 y	[]	[]	2	2	1.0	0.57	agreg, agremj	
+2227	e	->	e	/	X lbor	__		[]	[]	2	2	1.0	0.57	espolbore, albore	
+2230	e	->	e	/	X m	__	Ngw	[]	[]	2	2	1.0	0.57	meNgw, ameNgw	
+2246	e	->	e	/	X apal	__		[]	[]	2	2	1.0	0.57	apale, Capale	
+2250	e	->	e	/	X lok	__		[]	[]	2	2	1.0	0.57	bloke, kloke	
+2252	e	->	e	/	X glom	__	r	[]	[]	2	2	1.0	0.57	aglomer, koNglomer	
+2253	e	->	e	/	X om	__	r	[]	[]	2	2	1.0	0.57	aglomer, koNglomer	
+2268	e	->	e	/	X band	__	 y	[]	[]	2	2	1.0	0.57	kontrabande, embander	
+2283	e	->	e	/	X ron	__		[]	[]	2	2	1.0	0.57	ronrone, fanfarrone	
+2294	e	->	e	/	X let	__		[]	[]	2	2	1.0	0.57	alete, tablete	
+2321	e	->	e	/	X rx	__	 y	[]	[]	2	2	1.0	0.57	gorxe, arxent	
+2323	e	->	e	/	X sol	__		[]	[]	2	2	1.0	0.57	sole, asole	
+2330	e	->	e	/	X añ	__	 y	[]	[]	2	2	1.0	0.57	pestañe, añex	
+2336	e	->	e	/	X ux	__	 y	[]	[]	2	2	1.0	0.57	suxet, burbuxe	
+2343	e	->	e	/	X sm	__		[]	[]	2	2	1.0	0.57	usme, Cisme	
+2350	e	->	e	/	X balans	__		[]	[]	2	2	1.0	0.57	balanse, kontrabalanse	
+2365	e	->	e	/	X spar	__	 y	[]	[]	2	2	1.0	0.57	transparent, desparex	
+2382	e	->	e	/	enfr	__	n y	[]	[]	2	2	1.0	0.57	enfrent, enfren	
+2395	e	->	e	/	X ks	__		[]	[]	2	2	1.0	0.57	bokse, fakse	
+2418	e	->	e	/	X pap	__	l	[]	[]	2	2	1.0	0.57	empapel, traspapel	
+2426	e	->	e	/	X b	__	d	[]	[]	2	2	1.0	0.57	bed, abobed	
+2429	e	->	e	/	X s	__	d	[]	[]	2	2	1.0	0.57	sed, ased	
+2430	e	->	e	/	as	__	d y	[]	[]	2	2	1.0	0.57	asedj, ased	
+2438	e	->	e	/	X kos	__		[]	[]	2	2	1.0	0.57	kose, akose	
+2442	e	->	e	/	X d	__	l	[]	[]	2	2	1.0	0.57	model, akordel	
+2450	e	->	e	/	X del	__	 y	[]	[]	2	2	1.0	0.57	deleg, adelent	
+2475	e	->	e	/	X art	__	l	[]	[]	2	2	1.0	0.57	akwartel, amartel	
+2478	e	->	e	/	amon	__	 y	[]	[]	2	2	1.0	0.57	amonest, amoned	
+2501	e	->	e	/	barr	__	 y	[]	[]	2	2	1.0	0.57	barren, barre	
+2505	e	->	e	/	X bat	__		[]	[]	2	2	1.0	0.57	garabate, bate	
+2512	e	->	e	/	X and	__		[]	[]	2	2	1.0	0.57	kontrabande, blande	
+2522	e	->	e	/	X ton	__		[]	[]	2	2	1.0	0.57	bastone, kantone	
+2524	e	->	e	/	X kar	__		[]	[]	2	2	1.0	0.57	kakare, kare	
+2526	e	->	e	/	X rret	__		[]	[]	2	2	1.0	0.57	korrete, karrete	
+2534	e	->	e	/	X isk	__		[]	[]	2	2	1.0	0.57	biske, sejiske	
+2545	e	->	e	/	X C	__		[]	[]	2	2	1.0	0.57	abuCe, CiCe	
+2548	e	->	e	/	X karr	__		[]	[]	2	2	1.0	0.57	akarre, Cokarre	
+2550	e	->	e	/	X ask	__		[]	[]	2	2	1.0	0.57	Caske, Curraske	
+2553	e	->	e	/	X bard	__		[]	[]	2	2	1.0	0.57	bombarde, kobarde	
+2556	e	->	e	/	X dr	__		[]	[]	2	2	1.0	0.57	apedre, komadre	
+2564	e	->	e	/	X ed	__	 y	[]	[]	2	2	1.0	0.57	torpede, konfeder	
+2581	e	->	e	/	kr	__	 y	[]	[]	2	2	1.0	0.57	kre, krem	
+2585	e	->	e	/	deb	__	 y	[]	[]	2	2	1.0	0.57	debeNg, debel	
+2596	e	->	e	/	X agr	__	g	[]	[]	2	2	1.0	0.57	agreg, desagreg	
+2606	e	->	e	/	X apr	__	sj	[]	[]	2	2	1.0	0.57	apresj, desapresj	
+2637	e	->	e	/	X kort	__	 y	[]	[]	2	2	1.0	0.57	kortex, deskortes	
+2639	e	->	e	/	X eNkars	__	l	[]	[]	2	2	1.0	0.57	eNkarsel, deseNkarsel	
+2688	e	->	e	/	embel	__	 y	[]	[]	2	2	1.0	0.57	embeles, embeleñ	
+2692	e	->	e	/	X ust	__	 y	[]	[]	2	2	1.0	0.57	sustent, embuste	
+2694	e	->	e	/	emp	__	r y	[]	[]	2	2	1.0	0.57	emperr, empern	
+2698	e	->	e	/	X pr	__	ñ	[]	[]	2	2	1.0	0.57	preñ, empreñ	
+2701	e	->	e	/	eNkab	__	s y	[]	[]	2	2	1.0	0.57	eNkabes, eNkabestr	
+2740	e	->	e	/	X eskab	__	 y	[]	[]	2	2	1.0	0.57	deskabes, eskabeC	
+2762	e	->	e	/	X fras	__		[]	[]	2	2	1.0	0.57	parafrase, frase	
+2765	e	->	e	/	X ul	__		[]	[]	2	2	1.0	0.57	bapule, gandule	
+2770	e	->	e	/	X san	__		[]	[]	2	2	1.0	0.57	sane, olgasane	
+2772	e	->	e	/	impr	__	 y	[]	[]	2	2	1.0	0.57	impregn, imprek	
+2782	e	->	e	/	X ran	__		[]	[]	2	2	1.0	0.57	berane, xarane	
+2784	e	->	e	/	mas	__	 y	[]	[]	2	2	1.0	0.57	maser, mase	
+2788	e	->	e	/	op	__	 y	[]	[]	2	2	1.0	0.57	oper, oper	
+2794	e	->	e	/	X pond	__	r	[]	[]	2	2	1.0	0.57	ponder, preponder	
+2797	e	->	e	/	X rat	__		[]	[]	2	2	1.0	0.57	pirate, prorrate	
+2806	e	->	e	/	X m	__	s y	[]	[]	2	2	1.0	0.57	meskl, remes	
+2821	e	->	e	/	X lt	__		[]	[]	2	2	1.0	0.57	bolte, salte	
+2847	e	->	e	/	X pas	__		[]	[]	2	2	1.0	0.57	pase, trapase	
+2849	e	->	e	/	X trap	__	 y	[]	[]	2	2	1.0	0.57	kontrapes, trape	
+2859	e	->	e	/	X tr	__	m	[]	[]	2	2	1.0	0.57	ekstrem, trem	
+2867	e	->	e	/	X bol	__		[]	[]	2	2	1.0	0.57	bambole, bole	
+316	e	->	e	/	al	__	 y	[]	[]	7	5	0.714	0.561	alex, alegr, aleg, alert, ale	alent, alebr
+661	e	->	e	/	X op	__	 y	[]	[]	7	5	0.714	0.561	oper, estrope, atropej, kwoper, oper	tropes, desentropes
+910	e	->	e	/	X str	__	 y	[]	[]	7	5	0.714	0.561	estrej, estreC, estren, rastre, ekstrem	restreg, estreg
+918	e	->	e	/	X sp	__	r y	[]	[]	7	5	0.714	0.561	esper, desesper, prosper, dispers, eksasper	despert, despern
+1098	e	->	e	/	X 	__	b	[]	[]	7	5	0.714	0.561	eleb, subleb, seb, releb, leb	neb, desneb
+2113	e	->	e	/	X am	__	 y	[]	[]	7	5	0.714	0.561	lament, flame, jame, akaramel, ameNgw	ament, kasament
+644	e	->	e	/	X t	__	r y	[]	[]	17	11	0.647	0.559	enter, alter, reiter, intern, altern, tersj, posterg, konstern, adulter, alterk, iter	enterr, aterr, desterr, desenterr, soterr, desaterr
+43	e	->	e	/	X 	__	r y	[]	[]	120	89	0.742	0.558	esper, konsider, aserk, obserb, enter, super, rekuper, konserb, xener, alter, reserb, oper, eksaxer, aseler, serk, alberg, reiter, apoder, konbers	serr, despert, enserr, gobern, asert, enterr, aferr, deskonsert, aterr, konsert, desterr, err, aberj, desenterr, entreserr, soterr, serr, err, infern
+665	e	->	e	/	X f	__	 y	[]	[]	19	12	0.632	0.548	afekt, enferm, feC, infekt, profes, blasfem, infest, bosifer, afe, desinfekt, defek, kontramanifest	manifest, konfes, efektw, aferr, infern, desaferr, ferr
+502	e	->	e	/	X r	__	t	[]	[]	9	6	0.667	0.537	interpret, koNkret, dekret, sekret, ret, ekskret	apret, desapret, reapret
+1325	e	->	e	/	X t	__	s y	[]	[]	9	6	0.667	0.537	kontest, protest, detest, bostes, anestesj, deskortes	atest, ates, entes
+44	e	->	e	/	as	__	 y	[]	[]	16	10	0.625	0.534	asept, aserk, asend, aseC, asedj, ase, aser, ases, asekj, ased	asert, asent, asentw, asest, aserr, asensw
+73	e	->	e	/	kont	__	 y	[]	[]	4	3	0.75	0.526	kontempl, kontest, kontent	kontekstw
+371	e	->	e	/	X t	__	st	[]	[]	4	3	0.75	0.526	kontest, protest, detest	atest
+445	e	->	e	/	estr	__	 y	[]	[]	4	3	0.75	0.526	estrej, estreC, estren	estreg
+598	e	->	e	/	X nt	__	n y	[]	[]	4	3	0.75	0.526	intent, kontent, sentensj	deskontent
+606	e	->	e	/	X 	__	sk y	[]	[]	4	3	0.75	0.526	meskl, pesk, refresk	eskj
+1104	e	->	e	/	X er	__	n y	[]	[]	4	3	0.75	0.526	diferensj, seren, konferensj	merend
+1167	e	->	e	/	arr	__	 y	[]	[]	4	3	0.75	0.526	arregl, arresj, arrest	arrend
+1182	e	->	e	/	kom	__	 y	[]	[]	4	3	0.75	0.526	koment, komersj, komedj	komens
+1241	e	->	e	/	res	__	 y	[]	[]	4	3	0.75	0.526	reserb, reset, resel	resent
+1245	e	->	e	/	rem	__	 y	[]	[]	4	3	0.75	0.526	remedj, remed, remes	remend
+1744	e	->	e	/	X t	__	k y	[]	[]	4	3	0.75	0.526	detekt, pretekst, ipotek	kontekstw
+1788	e	->	e	/	X rm	__	 y	[]	[]	4	3	0.75	0.526	atorment, ferment, intermedj	eskarment
+1944	e	->	e	/	X inf	__	 y	[]	[]	4	3	0.75	0.526	infekt, infest, desinfekt	infern
+2002	e	->	e	/	X ins	__	 y	[]	[]	4	3	0.75	0.526	insendj, insert, sinsel	insens
+2095	e	->	e	/	dest	__	 y	[]	[]	4	3	0.75	0.526	destej, destet, destempl	desterr
+2147	e	->	e	/	X sem	__	 y	[]	[]	4	3	0.75	0.526	asemex, semex, sement	sement
+283	e	->	e	/	s	__	 y	[]	[]	18	11	0.611	0.526	ses, sentr, sen, sek, serk, sed, sej, seb, sex, sens, sel	sent, serr, sembr, seg, seg, serr, sent
+350	e	->	e	/	X res	__	 y	[]	[]	11	7	0.636	0.523	present, represent, reserb, presensj, preserb, reset, resel	akresent, resent, entreserr, sobresembr
+940	e	->	e	/	X al	__	 y	[]	[]	17	11	0.647	0.518	alex, alegr, aleg, alert, tambale, apale, pedale, bale, ale, Capale, male	kalent, alent, desalent, rekalent, alebr, sobrekalent
+276	e	->	e	/	X 	__	nt y	[]	[]	83	45	0.542	0.504	entr, present, intent, represent, koment, awment, enfrent, inbent, aliment, eksperiment, konsentr, sentr, lament, iNkrement, argument, adentr, kontent, foment, aparent	sent, kalent, asent, asentw, rebent, alent, atent, ment, tent, akresent, resent, ensaNgrent, desalent, rekalent, siment, eskarment, dent, bent, apasent
+698	e	->	e	/	desp	__	 y	[]	[]	6	4	0.667	0.5	despex, despeg, despeC, despeñ	despert, despern
+845	e	->	e	/	t	__	 y	[]	[]	6	4	0.667	0.5	tens, tersj, templ, teC	tembl, tent
+1012	e	->	e	/	X nf	__	 y	[]	[]	6	4	0.667	0.5	enferm, infekt, infest, desinfekt	konfes, infern
+1346	e	->	e	/	X ret	__	 y	[]	[]	6	4	0.667	0.5	korrete, pretekst, karrete, tixerete	retembl, retent
+2700	e	->	e	/	X b	__	s y	[]	[]	6	4	0.667	0.5	bes, eNkabes, deskabes, eNkabestr	atrabes, trabes
+228	e	->	e	/	X 	__	g y	[]	[]	44	24	0.545	0.493	entreg, peg, integr, arregl, alegr, agreg, nabeg, aleg, impregn, despeg, segreg, releg, desintegr, dobleg, koNgreg, deleg, leg, reintegr, apeg	neg, despleg, seg, pleg, reg, freg, reneg, restreg, repleg, soseg, deneg, aneg, desasoseg, seg, refreg, traseg, abneg, asoseg, estreg
+636	e	->	e	/	X 	__	p y	[]	[]	8	5	0.625	0.489	asept, trep, diskrep, intersept, rept	ekseptw, konseptw, deskonseptw
+1092	e	->	e	/	X p	__	s y	[]	[]	8	5	0.625	0.489	pes, pesk, apest, espes, kontrapes	empes, tropes, desentropes
+1541	e	->	e	/	X as	__	r y	[]	[]	8	5	0.625	0.489	aserk, eksaserb, aser, maser, laser	asert, aserr, desasert
+1711	e	->	e	/	X es	__	n y	[]	[]	8	5	0.625	0.489	present, represent, presensj, adesent, desentr	akresent, resent, desent
+48	e	->	e	/	X s	__	r y	[]	[]	27	15	0.556	0.489	aserk, obserb, konserb, reserb, serk, preserb, insert, desert, eksaserb, aser, disert, maser, ulser, laser, enser	serr, enserr, asert, deskonsert, konsert, entreserr, serr, aserr, desasert, desenserr, deserb, deserr
+302	e	->	e	/	X s	__	n y	[]	[]	27	15	0.556	0.489	present, represent, konsentr, sentr, sen, presensj, almasen, asend, awsent, insendj, lisensj, sersen, adesent, sens, desentr	sent, asent, asentw, akresent, resent, apasent, insens, asensw, desent, desasent, ensent, sent
+258	e	->	e	/	r	__	 y	[]	[]	10	6	0.6	0.482	res, rest, rent, rem, ret, rept	reg, resfrj, rekrj, resfrj
+928	e	->	e	/	X l	__	g y	[]	[]	10	6	0.6	0.482	alegr, aleg, releg, dobleg, deleg, leg	despleg, pleg, repleg, pleg
+1710	e	->	e	/	X des	__	 y	[]	[]	10	6	0.6	0.482	dese, deseC, desert, adesent, desek, desentr	desel, desent, deserb, deserr
+2032	e	->	e	/	X im	__	 y	[]	[]	10	6	0.6	0.482	aliment, eksperiment, kumpliment, kondiment, lagrime, pabiment	siment, reximent, salpiment, desiment
+30	e	->	e	/	X 	__	nt	[]	[]	77	40	0.519	0.481	present, intent, represent, koment, awment, enfrent, inbent, aliment, eksperiment, lament, iNkrement, argument, kontent, foment, aparent, sustent, ostent, atorment, awsent	sent, kalent, asent, rebent, alent, atent, ment, tent, akresent, resent, ensaNgrent, desalent, rekalent, siment, eskarment, dent, bent, apasent, abent
+2608	e	->	e	/	X apr	__	 y	[]	[]	8	5	0.625	0.474	apresj, apres, aprest, apremj, desapresj	apret, desapret, reapret
+541	e	->	e	/	X t	__	n y	[]	[]	16	9	0.563	0.473	intent, kontent, potensj, sentensj, sustent, ostent, tens, patent, koNkaten	atent, tent, atenw, ekstenw, deskontent, retent, desatent
+324	e	->	e	/	X r	__	g	[]	[]	12	7	0.583	0.439	entreg, agreg, segreg, koNgreg, breg, disgreg, desagreg	reg, freg, restreg, refreg, estreg
+714	e	->	e	/	X 	__	rt	[]	[]	11	6	0.545	0.437	libert, alert, insert, desert, disert, iNxert	despert, asert, deskonsert, konsert, desasert
+232	e	->	e	/	X im	__	nt	[]	[]	9	5	0.556	0.432	aliment, eksperiment, kumpliment, kondiment, pabiment	siment, reximent, salpiment, desiment
+806	e	->	e	/	des	__	 y	[]	[]	9	5	0.556	0.432	dese, deseC, desert, desek, desentr	desel, desent, deserb, deserr
+929	e	->	e	/	X l	__	g	[]	[]	9	5	0.556	0.432	aleg, releg, dobleg, deleg, leg	despleg, pleg, repleg, pleg
+1998	e	->	e	/	X ons	__	 y	[]	[]	9	5	0.556	0.432	konserb, konsentr, akonsex, desakonsex, bronse	deskonsert, konsert, konseptw, deskonseptw
+599	e	->	e	/	X ent	__	 y	[]	[]	7	4	0.571	0.428	enter, sentensj, serpente, adentej	enterr, desenterr, entes
+2080	e	->	e	/	X es	__	nt y	[]	[]	7	4	0.571	0.428	present, represent, adesent, desentr	akresent, resent, desent
+303	e	->	e	/	s	__	n y	[]	[]	5	3	0.6	0.42	sentr, sen, sens	sent, sent
+539	e	->	e	/	X b	__	s	[]	[]	5	3	0.6	0.42	bes, eNkabes, deskabes	atrabes, trabes
+916	e	->	e	/	X p	__	ns	[]	[]	5	3	0.6	0.42	kompens, dispens, rekompens	pens, repens
+1459	e	->	e	/	X f	__	s y	[]	[]	5	3	0.6	0.42	profes, infest, kontramanifest	manifest, konfes
+1642	e	->	e	/	X sm	__	 y	[]	[]	5	3	0.6	0.42	usme, esmer, Cisme	desmembr, desmel
+1719	e	->	e	/	X s	__	ns y	[]	[]	5	3	0.6	0.42	presensj, lisensj, sens	insens, asensw
+2270	e	->	e	/	emp	__	 y	[]	[]	5	3	0.6	0.42	empeñ, emperr, empern	empes, empedr
+2425	e	->	e	/	X ob	__	 y	[]	[]	5	3	0.6	0.42	aprobeC, desaprobeC, abobed	gobern, desgobern
+156	e	->	e	/	X 	__	g	[]	[]	37	17	0.459	0.405	entreg, peg, agreg, nabeg, aleg, despeg, segreg, releg, dobleg, koNgreg, deleg, leg, apeg, breg, disgreg, eNxalbeg, desagreg	neg, despleg, seg, pleg, reg, freg, reneg, restreg, repleg, soseg, deneg, aneg, desasoseg, seg, refreg, traseg, abneg, asoseg, estreg
+1431	e	->	e	/	X 	__	rn	[]	[]	12	6	0.5	0.399	intern, altern, eNkwadern, konstern, ibern, empern	gobern, infern, inbern, desgobern, entrepern, despern
+537	e	->	e	/	X nt	__	nt	[]	[]	3	2	0.667	0.396	intent, kontent	deskontent
+560	e	->	e	/	X nb	__	 y	[]	[]	3	2	0.667	0.396	inbent, konbers	inbern
+958	e	->	e	/	ins	__	 y	[]	[]	3	2	0.667	0.396	insendj, insert	insens
+991	e	->	e	/	X Ngr	__	 y	[]	[]	3	2	0.667	0.396	iNgres, koNgreg	ensaNgrent
+1031	e	->	e	/	X p	__	t y	[]	[]	3	2	0.667	0.396	respet, perpetr	perpetw
+1413	e	->	e	/	X erp	__	 y	[]	[]	3	2	0.667	0.396	perpetr, interpel	perpetw
+1458	e	->	e	/	inf	__	 y	[]	[]	3	2	0.667	0.396	infekt, infest	infern
+1543	e	->	e	/	X rm	__	nt	[]	[]	3	2	0.667	0.396	atorment, ferment	eskarment
+1636	e	->	e	/	X st	__	r y	[]	[]	3	2	0.667	0.396	posterg, konstern	desterr
+1758	e	->	e	/	af	__	 y	[]	[]	3	2	0.667	0.396	afekt, afe	aferr
+1845	e	->	e	/	refr	__	 y	[]	[]	3	2	0.667	0.396	refresk, refren	refreg
+2081	e	->	e	/	X des	__	nt y	[]	[]	3	2	0.667	0.396	adesent, desentr	desent
+2148	e	->	e	/	sem	__	 y	[]	[]	3	2	0.667	0.396	semex, sement	sement
+2573	e	->	e	/	X f	__	st	[]	[]	3	2	0.667	0.396	infest, kontramanifest	manifest
+2574	e	->	e	/	X if	__	 y	[]	[]	3	2	0.667	0.396	bosifer, kontramanifest	manifest
+2703	e	->	e	/	X 	__	str	[]	[]	3	2	0.667	0.396	amaestr, eNkabestr	adestr
+684	e	->	e	/	X t	__	nt	[]	[]	10	5	0.5	0.389	intent, kontent, sustent, ostent, patent	atent, tent, deskontent, retent, desatent
+1097	e	->	e	/	X 	__	b y	[]	[]	17	8	0.471	0.388	selebr, eleb, subleb, seb, abrebj, releb, enebr, leb	kebr, neb, pernikebr, rekebr, alebr, alikebr, anebl, desneb, reskebr
+347	e	->	e	/	X kons	__	 y	[]	[]	8	4	0.5	0.374	konserb, konsentr, akonsex, desakonsex	deskonsert, konsert, konseptw, deskonseptw
+514	e	->	e	/	X 	__	nd y	[]	[]	16	7	0.438	0.356	bend, eNxendr, asend, insendj, prend, bilipendj, kompendj	rekomend, eNkomend, merend, enmend, arrend, remend, desarrend, deslendr, subarrend
+1260	e	->	e	/	X at	__	 y	[]	[]	17	10	0.588	0.352	patent, pate, gate, regate, olfate, garabate, koNkaten, pirate, bate, prorrate	atent, aterr, atenw, atest, ates, desatent, desaterr
+1307	e	->	e	/	X p	__	s	[]	[]	6	3	0.5	0.351	pes, espes, kontrapes	empes, tropes, desentropes
+1390	e	->	e	/	X es	__	r y	[]	[]	6	3	0.5	0.351	reserb, preserb, desert	entreserr, deserb, deserr
+1709	e	->	e	/	X es	__	nt	[]	[]	6	3	0.5	0.351	present, represent, adesent	akresent, resent, desent
+275	e	->	e	/	X s	__	nt y	[]	[]	17	7	0.412	0.334	present, represent, konsentr, sentr, awsent, adesent, desentr	sent, asent, asentw, akresent, resent, apasent, desent, desasent, ensent, sent
+277	e	->	e	/	kons	__	 y	[]	[]	4	2	0.5	0.31	konserb, konsentr	konsert, konseptw
+520	e	->	e	/	r	__	s y	[]	[]	4	2	0.5	0.31	res, rest	resfrj, resfrj
+643	e	->	e	/	X nt	__	r y	[]	[]	4	2	0.5	0.31	enter, intern	enterr, desenterr
+871	e	->	e	/	X ns	__	n y	[]	[]	4	2	0.5	0.31	konsentr, insendj	insens, ensent
+1018	e	->	e	/	an	__	 y	[]	[]	4	2	0.5	0.31	anel, aneks	aneg, anebl
+1057	e	->	e	/	X trop	__	 y	[]	[]	4	2	0.5	0.31	estrope, atropej	tropes, desentropes
+1624	e	->	e	/	as	__	r y	[]	[]	4	2	0.5	0.31	aserk, aser	asert, aserr
+2053	e	->	e	/	ad	__	 y	[]	[]	4	2	0.5	0.31	adentr, adens	adekw, adestr
+2141	e	->	e	/	X 	__	ks y	[]	[]	4	2	0.5	0.31	pretekst, aneks	ekspj, kontekstw
+2358	e	->	e	/	X sas	__	 y	[]	[]	4	2	0.5	0.31	eksaserb, desase	desasert, desasent
+2378	e	->	e	/	ens	__	 y	[]	[]	4	2	0.5	0.31	enseñ, enser	enserr, ensent
+2420	e	->	e	/	ab	__	 y	[]	[]	4	2	0.5	0.31	aberr, abeNg	aberj, abent
+2636	e	->	e	/	X t	__	s	[]	[]	4	2	0.5	0.31	bostes, deskortes	ates, entes
+957	e	->	e	/	X ns	__	r y	[]	[]	7	3	0.429	0.303	konserb, insert, enser	enserr, deskonsert, konsert, desenserr
+1132	e	->	e	/	X pl	__	 y	[]	[]	7	3	0.429	0.303	emple, komplet, replet	despleg, pleg, repleg, pleg
+1391	e	->	e	/	X s	__	rt	[]	[]	7	3	0.429	0.303	insert, desert, disert	asert, deskonsert, konsert, desasert
+497	e	->	e	/	X b	__	n y	[]	[]	8	3	0.375	0.267	inbent, bend, solbent	rebent, bent, abent, desbent, erbent
+1251	e	->	e	/	X d	__	nt y	[]	[]	5	2	0.4	0.254	adentr, aksident	dent, desdent, endent
+2006	e	->	e	/	X at	__	n y	[]	[]	5	2	0.4	0.254	patent, koNkaten	atent, atenw, desatent
+804	e	->	e	/	X s	__	nt	[]	[]	13	4	0.308	0.231	present, represent, awsent, adesent	sent, asent, akresent, resent, apasent, desent, desasent, ensent, sent
+1466	e	->	e	/	X f	__	r y	[]	[]	6	2	0.333	0.214	enferm, bosifer	aferr, infern, desaferr, ferr
+557	e	->	e	/	X 	__	nd	[]	[]	11	3	0.273	0.196	bend, asend, prend	rekomend, eNkomend, merend, enmend, arrend, remend, desarrend, subarrend
+558	e	->	e	/	X as	__	n y	[]	[]	7	2	0.286	0.186	almasen, asend	asent, asentw, apasent, asensw, desasent
+1113	e	->	e	/	X b	__	nt	[]	[]	7	2	0.286	0.186	inbent, solbent	rebent, bent, abent, desbent, erbent
+1496	e	->	e	/	X 	__	br	[]	[]	8	2	0.25	0.165	selebr, enebr	kebr, pernikebr, rekebr, alebr, alikebr, reskebr
+2449	e	->	e	/	X l	__	n y	[]	[]	8	2	0.25	0.165	silensj, adelent	kalent, alent, desalent, rekalent, deslendr, sobrekalent
+670	e	->	e	/	f	__	 y	[]	[]	2	1	0.5	0.146	feC	ferr
+848	e	->	e	/	t	__	n y	[]	[]	2	1	0.5	0.146	tens	tent
+1497	e	->	e	/	en	__	 y	[]	[]	2	1	0.5	0.146	enebr	enest
+2231	e	->	e	/	am	__	 y	[]	[]	2	1	0.5	0.146	ameNgw	ament
+286	e	->	e	/	s	__	nt y	[]	[]	3	1	0.333	0.146	sentr	sent, sent
+476	e	->	e	/	s	__	r y	[]	[]	3	1	0.333	0.146	serk	serr, serr
+2421	e	->	e	/	X 	__	rr	[]	[]	20	2	0.1	0.069	emperr, aberr	serr, enserr, enterr, aferr, aterr, desterr, err, desenterr, entreserr, soterr, serr, err, aserr, desaferr, desaterr, desenserr, deserr, ferr
+525	e	->	e	/	er	__	 y	[]	[]	1	1	1.0	(known word)ered	
+849	e	->	e	/	t	__	ns y	[]	[]	1	1	1.0	(known word)tens	
+912	e	->	e	/	X str	__		[]	[]	1	1	1.0	(known word)rastre	
+965	e	->	e	/	t	__	r y	[]	[]	1	1	1.0	(known word)tersj	
+994	e	->	e	/	X en	__		[]	[]	1	1	1.0	(known word)mene	
+1069	e	->	e	/	b	__	r y	[]	[]	1	1	1.0	(known word)bers	
+1217	e	->	e	/	osp	__	 y	[]	[]	1	1	1.0	(known word)osped	
+1315	e	->	e	/	r	__	n y	[]	[]	1	1	1.0	(known word)rent	
+1377	e	->	e	/	tr	__	n y	[]	[]	1	1	1.0	(known word)trens	
+1600	e	->	e	/	um	__	 y	[]	[]	1	1	1.0	(known word)ume	
+1617	e	->	e	/	X ent	__		[]	[]	1	1	1.0	(known word)serpente	
+1675	e	->	e	/	X ost	__		[]	[]	1	1	1.0	(known word)koste	
+1720	e	->	e	/	s	__	ns y	[]	[]	1	1	1.0	(known word)sens	
+1724	e	->	e	/	X sp	__		[]	[]	1	1	1.0	(known word)Cispe	
+1726	e	->	e	/	X isp	__		[]	[]	1	1	1.0	(known word)Cispe	
+1745	e	->	e	/	X t	__	k	[]	[]	1	1	1.0	(known word)ipotek	
+1759	e	->	e	/	X f	__		[]	[]	1	1	1.0	(known word)afe	
+1801	e	->	e	/	r	__	p y	[]	[]	1	1	1.0	(known word)rept	
+1835	e	->	e	/	X ak	__		[]	[]	1	1	1.0	(known word)flake	
+1920	e	->	e	/	C	__	 y	[]	[]	1	1	1.0	(known word)Cek	
+1983	e	->	e	/	X mp	__		[]	[]	1	1	1.0	(known word)trampe	
+1999	e	->	e	/	X ons	__		[]	[]	1	1	1.0	(known word)bronse	
+2005	e	->	e	/	X t	__	n	[]	[]	1	1	1.0	(known word)koNkaten	
+2025	e	->	e	/	ib	__	 y	[]	[]	1	1	1.0	(known word)ibern	
+2066	e	->	e	/	ar	__	 y	[]	[]	1	1	1.0	(known word)areNg	
+2125	e	->	e	/	X is	__		[]	[]	1	1	1.0	(known word)sise	
+2190	e	->	e	/	par	__	 y	[]	[]	1	1	1.0	(known word)pare	
+2338	e	->	e	/	X int	__		[]	[]	1	1	1.0	(known word)karpinte	
+2379	e	->	e	/	X ns	__	r	[]	[]	1	1	1.0	(known word)enser	
+2403	e	->	e	/	X oNx	__		[]	[]	1	1	1.0	(known word)lisoNxe	
+2680	e	->	e	/	X bl	__		[]	[]	1	1	1.0	(known word)djable	
+2840	e	->	e	/	X est	__		[]	[]	1	1	1.0	(known word)tempeste	
+809	e	->	e	/		__	n y	[]	[]	3	2	0.667	0.396	entr, enfrj	enbj
+35	e	->	e	/		__	 y	[]	[]	13	4	0.308	0.231	entr, eC, enfrj, esC	est, enbj, espj, el, err, eskj, err, ekspj, estrj
+1597	nw	->	nu	/	X te	__		[]	[]	2	2	1.0	0.57	atenw, ekstenw	

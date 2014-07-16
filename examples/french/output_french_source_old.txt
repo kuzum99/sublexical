@@ -1,0 +1,314 @@
+base	base.harmony	change	derivative	derivative.harmony	harmony.sum	probability	^([-syllabic] ?)*([+syllabic] ?)+([-syllabic] ?)*$	[+sonorant,-continuant,-syllabic]$	[+sonorant,+continuant,-syllabic]$	[-sonorant]$	[+sonorant,+continuant,+lateral,-syllabic]$	[+sonorant,+continuant,-lateral,-syllabic]$	[+low,+syllabic] [-syllabic]$	[-low,+syllabic] [-syllabic]$	[+coronal] [+low,+syllabic] [-syllabic]$	[+dorsal] [+low,+syllabic] [-syllabic]$	[+labial] [+low,+syllabic] [-syllabic]$	[+sonorant] [+low,+syllabic] [-syllabic]$	[-syllabic] [-syllabic] [+low,+syllabic] [-syllabic]$	^([-syllabic] ?)*([+syllabic] ?)+([-syllabic] ?)*$	[+sonorant,-continuant,-syllabic]$	[+sonorant,+continuant,-syllabic]$	[-sonorant]$	[+sonorant,+continuant,+lateral,-syllabic]$	[+sonorant,+continuant,-lateral,-syllabic]$	[+low,+syllabic] [-syllabic]$	[-low,+syllabic] [-syllabic]$	[+coronal] [+low,+syllabic] [-syllabic]$	[+dorsal] [+low,+syllabic] [-syllabic]$	[+labial] [+low,+syllabic] [-syllabic]$	[+sonorant] [+low,+syllabic] [-syllabic]$	[-syllabic] [-syllabic] [+low,+syllabic] [-syllabic]$
+		No change					0	0	-0.060465513380596636	0	-0.2149671247078764	-0.000001815091379808731	-0.23375779458307622	0	-0.10239924725231582	-0.12034389404728976	0	-0.1533575941010366	-0.06524364618078843	0	0	-0.060465513380596636	0	-0.2149671247078764	-0.000001815091379808731	-0.23375779458307622	0	-0.10239924725231582	-0.12034389404728976	0	-0.1533575941010366	-0.06524364618078843
+		Delete [l] at -2, Mutate [a] at -4 to [o]					-0.6740213186354126	-6.3043262050385085	0	-7.796804591600353	0	-6.831237451525023	0	-7.691249123805324	0	0	0	0	0	-1.7265833962678039	0	0	0	0	0	0	0	0	0	0	0	0
+		Delete [j] at -2, Mutate [a] at -4 to [o]					0	-6.5883258515601755	0	-8.127789331340603	-8.511497338842004	0	0	-7.778070104826536	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+							GK	GK	GK	GK	GK	GK	GK	GK	GK	GK	GK	GK	GK	GP	GP	GP	GP	GP	GP	GP	GP	GP	GP	GP	GP	GP
+k ʁ a l	-0.695	No change	k ʁ a l	-0.695	-1.39	0.7332158052408108	1	0	1	0	1	0	1	0	0	1	0	0	1	1	0	1	0	1	0	1	0	0	1	0	0	1
+k ʁ a l	-0.674	Delete [l] at -2, Mutate [a] at -4 to [o]	k ʁ o	-1.727	-2.4010000000000002	0.26678419475918913	1	0	1	0	1	0	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+k ʁ a l	-8.511	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.511	0	1	0	1	0	1	0	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+d a l	-0.612	No change	d a l	-0.612	-1.224	0.764407967099184	1	0	1	0	1	0	1	0	1	0	0	0	0	1	0	1	0	1	0	1	0	1	0	0	0	0
+d a l	-0.674	Delete [l] at -2, Mutate [a] at -4 to [o]	d o	-1.727	-2.4010000000000002	0.23559203290081612	1	0	1	0	1	0	1	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+d a l	-8.511	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.511	0	1	0	1	0	1	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+f a l	-0.509	No change	f a l	-0.509	-1.018	0.7994723812479857	1	0	1	0	1	0	1	0	0	0	1	0	0	1	0	1	0	1	0	1	0	0	0	1	0	0
+f a l	-0.674	Delete [l] at -2, Mutate [a] at -4 to [o]	f o	-1.727	-2.4010000000000002	0.20052761875201436	1	0	1	0	1	0	1	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+f a l	-8.511	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.511	0	1	0	1	0	1	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+f ʁ a l	-0.695	No change	f ʁ a l	-0.695	-1.39	0.7332158052408108	1	0	1	0	1	0	1	0	0	1	0	0	1	1	0	1	0	1	0	1	0	0	1	0	0	1
+f ʁ a l	-0.674	Delete [l] at -2, Mutate [a] at -4 to [o]	f ʁ o	-1.727	-2.4010000000000002	0.26678419475918913	1	0	1	0	1	0	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+f ʁ a l	-8.511	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.511	0	1	0	1	0	1	0	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+ɡ n a l	-0.83	No change	ɡ n a l	-0.83	-1.66	0.67721448998991	1	0	1	0	1	0	1	0	1	0	0	1	1	1	0	1	0	1	0	1	0	1	0	0	1	1
+ɡ n a l	-0.674	Delete [l] at -2, Mutate [a] at -4 to [o]	ɡ n o	-1.727	-2.4010000000000002	0.32278551001009004	1	0	1	0	1	0	1	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+ɡ n a l	-8.511	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.511	0	1	0	1	0	1	0	1	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʒ a l	-0.612	No change	ʒ a l	-0.612	-1.224	0.764407967099184	1	0	1	0	1	0	1	0	1	0	0	0	0	1	0	1	0	1	0	1	0	1	0	0	0	0
+ʒ a l	-0.674	Delete [l] at -2, Mutate [a] at -4 to [o]	ʒ o	-1.727	-2.4010000000000002	0.23559203290081612	1	0	1	0	1	0	1	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+ʒ a l	-8.511	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.511	0	1	0	1	0	1	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+p n a l	-0.83	No change	p n a l	-0.83	-1.66	0.67721448998991	1	0	1	0	1	0	1	0	1	0	0	1	1	1	0	1	0	1	0	1	0	1	0	0	1	1
+p n a l	-0.674	Delete [l] at -2, Mutate [a] at -4 to [o]	p n o	-1.727	-2.4010000000000002	0.32278551001009004	1	0	1	0	1	0	1	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+p n a l	-8.511	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.511	0	1	0	1	0	1	0	1	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+p ʁ a l	-0.695	No change	p ʁ a l	-0.695	-1.39	0.7332158052408108	1	0	1	0	1	0	1	0	0	1	0	0	1	1	0	1	0	1	0	1	0	0	1	0	0	1
+p ʁ a l	-0.674	Delete [l] at -2, Mutate [a] at -4 to [o]	p ʁ o	-1.727	-2.4010000000000002	0.26678419475918913	1	0	1	0	1	0	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+p ʁ a l	-8.511	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.511	0	1	0	1	0	1	0	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+p s a l	-0.677	No change	p s a l	-0.677	-1.354	0.740198400851774	1	0	1	0	1	0	1	0	1	0	0	0	1	1	0	1	0	1	0	1	0	1	0	0	0	1
+p s a l	-0.674	Delete [l] at -2, Mutate [a] at -4 to [o]	p s o	-1.727	-2.4010000000000002	0.25980159914822587	1	0	1	0	1	0	1	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+p s a l	-8.511	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.511	0	1	0	1	0	1	0	1	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+s a l	-0.612	No change	s a l	-0.612	-1.224	0.764407967099184	1	0	1	0	1	0	1	0	1	0	0	0	0	1	0	1	0	1	0	1	0	1	0	0	0	0
+s a l	-0.674	Delete [l] at -2, Mutate [a] at -4 to [o]	s o	-1.727	-2.4010000000000002	0.23559203290081612	1	0	1	0	1	0	1	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+s a l	-8.511	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.511	0	1	0	1	0	1	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+s k ʁ a l	-0.695	No change	s k ʁ a l	-0.695	-1.39	0.7332158052408108	1	0	1	0	1	0	1	0	0	1	0	0	1	1	0	1	0	1	0	1	0	0	1	0	0	1
+s k ʁ a l	-0.674	Delete [l] at -2, Mutate [a] at -4 to [o]	s k ʁ o	-1.727	-2.4010000000000002	0.26678419475918913	1	0	1	0	1	0	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+s k ʁ a l	-8.511	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.511	0	1	0	1	0	1	0	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+s n a l	-0.83	No change	s n a l	-0.83	-1.66	0.67721448998991	1	0	1	0	1	0	1	0	1	0	0	1	1	1	0	1	0	1	0	1	0	1	0	0	1	1
+s n a l	-0.674	Delete [l] at -2, Mutate [a] at -4 to [o]	s n o	-1.727	-2.4010000000000002	0.32278551001009004	1	0	1	0	1	0	1	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+s n a l	-8.511	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.511	0	1	0	1	0	1	0	1	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+s p ʁ a l	-0.695	No change	s p ʁ a l	-0.695	-1.39	0.7332158052408108	1	0	1	0	1	0	1	0	0	1	0	0	1	1	0	1	0	1	0	1	0	0	1	0	0	1
+s p ʁ a l	-0.674	Delete [l] at -2, Mutate [a] at -4 to [o]	s p ʁ o	-1.727	-2.4010000000000002	0.26678419475918913	1	0	1	0	1	0	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+s p ʁ a l	-8.511	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.511	0	1	0	1	0	1	0	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+s t ʁ a l	-0.695	No change	s t ʁ a l	-0.695	-1.39	0.7332158052408108	1	0	1	0	1	0	1	0	0	1	0	0	1	1	0	1	0	1	0	1	0	0	1	0	0	1
+s t ʁ a l	-0.674	Delete [l] at -2, Mutate [a] at -4 to [o]	s t ʁ o	-1.727	-2.4010000000000002	0.26678419475918913	1	0	1	0	1	0	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+s t ʁ a l	-8.511	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.511	0	1	0	1	0	1	0	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+s v a l	-0.574	No change	s v a l	-0.574	-1.148	0.7778187434885261	1	0	1	0	1	0	1	0	0	0	1	0	1	1	0	1	0	1	0	1	0	0	0	1	0	1
+s v a l	-0.674	Delete [l] at -2, Mutate [a] at -4 to [o]	s v o	-1.727	-2.4010000000000002	0.22218125651147377	1	0	1	0	1	0	1	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+s v a l	-8.511	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.511	0	1	0	1	0	1	0	1	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+t ʁ a l	-0.695	No change	t ʁ a l	-0.695	-1.39	0.7332158052408108	1	0	1	0	1	0	1	0	0	1	0	0	1	1	0	1	0	1	0	1	0	0	1	0	0	1
+t ʁ a l	-0.674	Delete [l] at -2, Mutate [a] at -4 to [o]	t ʁ o	-1.727	-2.4010000000000002	0.26678419475918913	1	0	1	0	1	0	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+t ʁ a l	-8.511	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.511	0	1	0	1	0	1	0	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+v ʁ a l	-0.695	No change	v ʁ a l	-0.695	-1.39	0.7332158052408108	1	0	1	0	1	0	1	0	0	1	0	0	1	1	0	1	0	1	0	1	0	0	1	0	0	1
+v ʁ a l	-0.674	Delete [l] at -2, Mutate [a] at -4 to [o]	v ʁ o	-1.727	-2.4010000000000002	0.26678419475918913	1	0	1	0	1	0	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+v ʁ a l	-8.511	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.511	0	1	0	1	0	1	0	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+z a l	-0.612	No change	z a l	-0.612	-1.224	0.764407967099184	1	0	1	0	1	0	1	0	1	0	0	0	0	1	0	1	0	1	0	1	0	1	0	0	0	0
+z a l	-0.674	Delete [l] at -2, Mutate [a] at -4 to [o]	z o	-1.727	-2.4010000000000002	0.23559203290081612	1	0	1	0	1	0	1	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+z a l	-8.511	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.511	0	1	0	1	0	1	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+k ʁ a j	0	Delete [j] at -2, Mutate [a] at -4 to [o]	k ʁ o	0	0	0.7231218051243898	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+k ʁ a j	-0.48	No change	k ʁ a j	-0.48	-0.96	0.27687819487561016	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	1	0	0	1	1	0	0	1	0	0	1
+k ʁ a j	-7.505	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.505	0	1	0	1	0	0	1	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+f a j	0	Delete [j] at -2, Mutate [a] at -4 to [o]	f o	0	0	0.642906121361229	1	0	1	0	0	1	1	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+f a j	-0.294	No change	f a j	-0.294	-0.588	0.357093878638771	1	0	1	0	0	1	1	0	0	0	1	0	0	1	0	1	0	0	1	1	0	0	0	1	0	0
+f a j	-7.505	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.505	0	1	0	1	0	0	1	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+f ʁ a j	0	Delete [j] at -2, Mutate [a] at -4 to [o]	f ʁ o	0	0	0.7231218051243898	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+f ʁ a j	-0.48	No change	f ʁ a j	-0.48	-0.96	0.27687819487561016	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	1	0	0	1	1	0	0	1	0	0	1
+f ʁ a j	-7.505	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.505	0	1	0	1	0	0	1	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+ɡ n a j	0	Delete [j] at -2, Mutate [a] at -4 to [o]	ɡ n o	0	0	0.7738185742694539	1	0	1	0	0	1	1	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+ɡ n a j	-0.615	No change	ɡ n a j	-0.615	-1.23	0.2261814257305462	1	0	1	0	0	1	1	0	1	0	0	1	1	1	0	1	0	0	1	1	0	1	0	0	1	1
+ɡ n a j	-7.505	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.505	0	1	0	1	0	0	1	1	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʒ a j	0	Delete [j] at -2, Mutate [a] at -4 to [o]	ʒ o	0	0	0.6886895621923972	1	0	1	0	0	1	1	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+ʒ a j	-0.397	No change	ʒ a j	-0.397	-0.794	0.3113104378076028	1	0	1	0	0	1	1	0	1	0	0	0	0	1	0	1	0	0	1	1	0	1	0	0	0	0
+ʒ a j	-7.505	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.505	0	1	0	1	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+p n a j	0	Delete [j] at -2, Mutate [a] at -4 to [o]	p n o	0	0	0.7738185742694539	1	0	1	0	0	1	1	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+p n a j	-0.615	No change	p n a j	-0.615	-1.23	0.2261814257305462	1	0	1	0	0	1	1	0	1	0	0	1	1	1	0	1	0	0	1	1	0	1	0	0	1	1
+p n a j	-7.505	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.505	0	1	0	1	0	0	1	1	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+p ʁ a j	0	Delete [j] at -2, Mutate [a] at -4 to [o]	p ʁ o	0	0	0.7231218051243898	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+p ʁ a j	-0.48	No change	p ʁ a j	-0.48	-0.96	0.27687819487561016	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	1	0	0	1	1	0	0	1	0	0	1
+p ʁ a j	-7.505	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.505	0	1	0	1	0	0	1	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+p s a j	0	Delete [j] at -2, Mutate [a] at -4 to [o]	p s o	0	0	0.7158564317287899	1	0	1	0	0	1	1	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+p s a j	-0.462	No change	p s a j	-0.462	-0.924	0.2841435682712103	1	0	1	0	0	1	1	0	1	0	0	0	1	1	0	1	0	0	1	1	0	1	0	0	0	1
+p s a j	-7.505	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.505	0	1	0	1	0	0	1	1	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+s a j	0	Delete [j] at -2, Mutate [a] at -4 to [o]	s o	0	0	0.6886895621923972	1	0	1	0	0	1	1	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+s a j	-0.397	No change	s a j	-0.397	-0.794	0.3113104378076028	1	0	1	0	0	1	1	0	1	0	0	0	0	1	0	1	0	0	1	1	0	1	0	0	0	0
+s a j	-7.505	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.505	0	1	0	1	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+s k ʁ a j	0	Delete [j] at -2, Mutate [a] at -4 to [o]	s k ʁ o	0	0	0.7231218051243898	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+s k ʁ a j	-0.48	No change	s k ʁ a j	-0.48	-0.96	0.27687819487561016	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	1	0	0	1	1	0	0	1	0	0	1
+s k ʁ a j	-7.505	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.505	0	1	0	1	0	0	1	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+s n a j	0	Delete [j] at -2, Mutate [a] at -4 to [o]	s n o	0	0	0.7738185742694539	1	0	1	0	0	1	1	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+s n a j	-0.615	No change	s n a j	-0.615	-1.23	0.2261814257305462	1	0	1	0	0	1	1	0	1	0	0	1	1	1	0	1	0	0	1	1	0	1	0	0	1	1
+s n a j	-7.505	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.505	0	1	0	1	0	0	1	1	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+s p ʁ a j	0	Delete [j] at -2, Mutate [a] at -4 to [o]	s p ʁ o	0	0	0.7231218051243898	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+s p ʁ a j	-0.48	No change	s p ʁ a j	-0.48	-0.96	0.27687819487561016	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	1	0	0	1	1	0	0	1	0	0	1
+s p ʁ a j	-7.505	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.505	0	1	0	1	0	0	1	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+s t ʁ a j	0	Delete [j] at -2, Mutate [a] at -4 to [o]	s t ʁ o	0	0	0.7231218051243898	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+s t ʁ a j	-0.48	No change	s t ʁ a j	-0.48	-0.96	0.27687819487561016	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	1	0	0	1	1	0	0	1	0	0	1
+s t ʁ a j	-7.505	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.505	0	1	0	1	0	0	1	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+s v a j	0	Delete [j] at -2, Mutate [a] at -4 to [o]	s v o	0	0	0.6721664514898772	1	0	1	0	0	1	1	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+s v a j	-0.359	No change	s v a j	-0.359	-0.718	0.3278335485101228	1	0	1	0	0	1	1	0	0	0	1	0	1	1	0	1	0	0	1	1	0	0	0	1	0	1
+s v a j	-7.505	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.505	0	1	0	1	0	0	1	1	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+t ʁ a j	0	Delete [j] at -2, Mutate [a] at -4 to [o]	t ʁ o	0	0	0.7231218051243898	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+t ʁ a j	-0.48	No change	t ʁ a j	-0.48	-0.96	0.27687819487561016	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	1	0	0	1	1	0	0	1	0	0	1
+t ʁ a j	-7.505	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.505	0	1	0	1	0	0	1	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+v ʁ a j	0	Delete [j] at -2, Mutate [a] at -4 to [o]	v ʁ o	0	0	0.7231218051243898	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+v ʁ a j	-0.48	No change	v ʁ a j	-0.48	-0.96	0.27687819487561016	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	1	0	0	1	1	0	0	1	0	0	1
+v ʁ a j	-7.505	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.505	0	1	0	1	0	0	1	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+z a j	0	Delete [j] at -2, Mutate [a] at -4 to [o]	z o	0	0	0.6886895621923972	1	0	1	0	0	1	1	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+z a j	-0.397	No change	z a j	-0.397	-0.794	0.3113104378076028	1	0	1	0	0	1	1	0	1	0	0	0	0	1	0	1	0	0	1	1	0	1	0	0	0	0
+z a j	-7.505	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.505	0	1	0	1	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+o s k ʁ a l	0	Delete [l] at -2, Mutate [a] at -4 to [o]	o s k ʁ o	0	0	0.8005922431513315	0	0	1	0	1	0	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+o s k ʁ a l	-0.695	No change	o s k ʁ a l	-0.695	-1.39	0.1994077568486685	0	0	1	0	1	0	1	0	0	1	0	0	1	0	0	1	0	1	0	1	0	0	1	0	0	1
+o s k ʁ a l	-8.511	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.511	0	0	0	1	0	1	0	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+d e ʁ n a l	0	Delete [l] at -2, Mutate [a] at -4 to [o]	d e ʁ n o	0	0	0.840238003056331	0	0	1	0	1	0	1	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+d e ʁ n a l	-0.83	No change	d e ʁ n a l	-0.83	-1.66	0.15976199694366908	0	0	1	0	1	0	1	0	1	0	0	1	1	0	0	1	0	1	0	1	0	1	0	0	1	1
+d e ʁ n a l	-8.511	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.511	0	0	0	1	0	1	0	1	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʒ i s t a l	0	Delete [l] at -2, Mutate [a] at -4 to [o]	ʒ i s t o	0	0	0.7947828098950483	0	0	1	0	1	0	1	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʒ i s t a l	-0.677	No change	ʒ i s t a l	-0.677	-1.354	0.2052171901049516	0	0	1	0	1	0	1	0	1	0	0	0	1	0	0	1	0	1	0	1	0	1	0	0	0	1
+ʒ i s t a l	-8.511	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.511	0	0	0	1	0	1	0	1	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+ɡ u v a l	0	Delete [l] at -2, Mutate [a] at -4 to [o]	ɡ u v o	0	0	0.7345828406761663	0	0	1	0	1	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ɡ u v a l	-0.509	No change	ɡ u v a l	-0.509	-1.018	0.2654171593238337	0	0	1	0	1	0	1	0	0	0	1	0	0	0	0	1	0	1	0	1	0	0	0	1	0	0
+ɡ u v a l	-8.511	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.511	0	0	0	1	0	1	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+i s t ʁ a l	0	Delete [l] at -2, Mutate [a] at -4 to [o]	i s t ʁ o	0	0	0.8005922431513315	0	0	1	0	1	0	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+i s t ʁ a l	-0.695	No change	i s t ʁ a l	-0.695	-1.39	0.1994077568486685	0	0	1	0	1	0	1	0	0	1	0	0	1	0	0	1	0	1	0	1	0	0	1	0	0	1
+i s t ʁ a l	-8.511	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.511	0	0	0	1	0	1	0	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+m o ʁ n a l	0	Delete [l] at -2, Mutate [a] at -4 to [o]	m o ʁ n o	0	0	0.840238003056331	0	0	1	0	1	0	1	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+m o ʁ n a l	-0.83	No change	m o ʁ n a l	-0.83	-1.66	0.15976199694366908	0	0	1	0	1	0	1	0	1	0	0	1	1	0	0	1	0	1	0	1	0	1	0	0	1	1
+m o ʁ n a l	-8.511	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.511	0	0	0	1	0	1	0	1	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+o ʁ s o d a l	0	Delete [l] at -2, Mutate [a] at -4 to [o]	o ʁ s o d o	0	0	0.7727667089732031	0	0	1	0	1	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+o ʁ s o d a l	-0.612	No change	o ʁ s o d a l	-0.612	-1.224	0.22723329102679693	0	0	1	0	1	0	1	0	1	0	0	0	0	0	0	1	0	1	0	1	0	1	0	0	0	0
+o ʁ s o d a l	-8.511	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.511	0	0	0	1	0	1	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+p e ʁ e t a l	0	Delete [l] at -2, Mutate [a] at -4 to [o]	p e ʁ e t o	0	0	0.7727667089732031	0	0	1	0	1	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+p e ʁ e t a l	-0.612	No change	p e ʁ e t a l	-0.612	-1.224	0.22723329102679693	0	0	1	0	1	0	1	0	1	0	0	0	0	0	0	1	0	1	0	1	0	1	0	0	0	0
+p e ʁ e t a l	-8.511	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.511	0	0	0	1	0	1	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+p ʁ y k a l	0	Delete [l] at -2, Mutate [a] at -4 to [o]	p ʁ y k o	0	0	0.7790261077798121	0	0	1	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+p ʁ y k a l	-0.63	No change	p ʁ y k a l	-0.63	-1.26	0.2209738922201879	0	0	1	0	1	0	1	0	0	1	0	0	0	0	0	1	0	1	0	1	0	0	1	0	0	0
+p ʁ y k a l	-8.511	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.511	0	0	0	1	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+s k ʁ ə n a l	0	Delete [l] at -2, Mutate [a] at -4 to [o]	s k ʁ ə n o	0	0	0.8220063142137536	0	0	1	0	1	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+s k ʁ ə n a l	-0.765	No change	s k ʁ ə n a l	-0.765	-1.53	0.17799368578624647	0	0	1	0	1	0	1	0	1	0	0	1	0	0	0	1	0	1	0	1	0	1	0	0	1	0
+s k ʁ ə n a l	-8.511	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.511	0	0	0	1	0	1	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+s e ɡ a l	0	Delete [l] at -2, Mutate [a] at -4 to [o]	s e ɡ o	0	0	0.7790261077798121	0	0	1	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+s e ɡ a l	-0.63	No change	s e ɡ a l	-0.63	-1.26	0.2209738922201879	0	0	1	0	1	0	1	0	0	1	0	0	0	0	0	1	0	1	0	1	0	0	1	0	0	0
+s e ɡ a l	-8.511	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.511	0	0	0	1	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+s m ø n a l	0	Delete [l] at -2, Mutate [a] at -4 to [o]	s m ø n o	0	0	0.8220063142137536	0	0	1	0	1	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+s m ø n a l	-0.765	No change	s m ø n a l	-0.765	-1.53	0.17799368578624647	0	0	1	0	1	0	1	0	1	0	0	1	0	0	0	1	0	1	0	1	0	1	0	0	1	0
+s m ø n a l	-8.511	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.511	0	0	0	1	0	1	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+s m y ʁ k a l	0	Delete [l] at -2, Mutate [a] at -4 to [o]	s m y ʁ k o	0	0	0.8005922431513315	0	0	1	0	1	0	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+s m y ʁ k a l	-0.695	No change	s m y ʁ k a l	-0.695	-1.39	0.1994077568486685	0	0	1	0	1	0	1	0	0	1	0	0	1	0	0	1	0	1	0	1	0	0	1	0	0	1
+s m y ʁ k a l	-8.511	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.511	0	0	0	1	0	1	0	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+v ø z a l	0	Delete [l] at -2, Mutate [a] at -4 to [o]	v ø z o	0	0	0.7727667089732031	0	0	1	0	1	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+v ø z a l	-0.612	No change	v ø z a l	-0.612	-1.224	0.22723329102679693	0	0	1	0	1	0	1	0	1	0	0	0	0	0	0	1	0	1	0	1	0	1	0	0	0	0
+v ø z a l	-8.511	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.511	0	0	0	1	0	1	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ɡ z o v ʁ a l	0	Delete [l] at -2, Mutate [a] at -4 to [o]	ɡ z o v ʁ o	0	0	0.8005922431513315	0	0	1	0	1	0	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+ɡ z o v ʁ a l	-0.695	No change	ɡ z o v ʁ a l	-0.695	-1.39	0.1994077568486685	0	0	1	0	1	0	1	0	0	1	0	0	1	0	0	1	0	1	0	1	0	0	1	0	0	1
+ɡ z o v ʁ a l	-8.511	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.511	0	0	0	1	0	1	0	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+o s k ʁ a j	0	Delete [j] at -2, Mutate [a] at -4 to [o]	o s k ʁ o	0	0	0.7231218051243897	0	0	1	0	0	1	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+o s k ʁ a j	-0.48	No change	o s k ʁ a j	-0.48	-0.96	0.2768781948756101	0	0	1	0	0	1	1	0	0	1	0	0	1	0	0	1	0	0	1	1	0	0	1	0	0	1
+o s k ʁ a j	-6.831	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-6.831	0	0	0	1	0	0	1	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+d e ʁ n a j	0	Delete [j] at -2, Mutate [a] at -4 to [o]	d e ʁ n o	0	0	0.7738185742694539	0	0	1	0	0	1	1	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+d e ʁ n a j	-0.615	No change	d e ʁ n a j	-0.615	-1.23	0.22618142573054623	0	0	1	0	0	1	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	1	0	0	1	1
+d e ʁ n a j	-6.831	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-6.831	0	0	0	1	0	0	1	1	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʒ i s t a j	0	Delete [j] at -2, Mutate [a] at -4 to [o]	ʒ i s t o	0	0	0.7158564317287898	0	0	1	0	0	1	1	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʒ i s t a j	-0.462	No change	ʒ i s t a j	-0.462	-0.924	0.2841435682712102	0	0	1	0	0	1	1	0	1	0	0	0	1	0	0	1	0	0	1	1	0	1	0	0	0	1
+ʒ i s t a j	-6.831	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-6.831	0	0	0	1	0	0	1	1	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+ɡ u v a j	0	Delete [j] at -2, Mutate [a] at -4 to [o]	ɡ u v o	0	0	0.642906121361229	0	0	1	0	0	1	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ɡ u v a j	-0.294	No change	ɡ u v a j	-0.294	-0.588	0.357093878638771	0	0	1	0	0	1	1	0	0	0	1	0	0	0	0	1	0	0	1	1	0	0	0	1	0	0
+ɡ u v a j	-6.831	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-6.831	0	0	0	1	0	0	1	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+i s t ʁ a j	0	Delete [j] at -2, Mutate [a] at -4 to [o]	i s t ʁ o	0	0	0.7231218051243897	0	0	1	0	0	1	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+i s t ʁ a j	-0.48	No change	i s t ʁ a j	-0.48	-0.96	0.2768781948756101	0	0	1	0	0	1	1	0	0	1	0	0	1	0	0	1	0	0	1	1	0	0	1	0	0	1
+i s t ʁ a j	-6.831	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-6.831	0	0	0	1	0	0	1	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+m o ʁ n a j	0	Delete [j] at -2, Mutate [a] at -4 to [o]	m o ʁ n o	0	0	0.7738185742694539	0	0	1	0	0	1	1	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+m o ʁ n a j	-0.615	No change	m o ʁ n a j	-0.615	-1.23	0.22618142573054623	0	0	1	0	0	1	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	1	0	0	1	1
+m o ʁ n a j	-6.831	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-6.831	0	0	0	1	0	0	1	1	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+o ʁ s o d a j	0	Delete [j] at -2, Mutate [a] at -4 to [o]	o ʁ s o d o	0	0	0.6886895621923971	0	0	1	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+o ʁ s o d a j	-0.397	No change	o ʁ s o d a j	-0.397	-0.794	0.3113104378076028	0	0	1	0	0	1	1	0	1	0	0	0	0	0	0	1	0	0	1	1	0	1	0	0	0	0
+o ʁ s o d a j	-6.831	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-6.831	0	0	0	1	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+p e ʁ e t a j	0	Delete [j] at -2, Mutate [a] at -4 to [o]	p e ʁ e t o	0	0	0.6886895621923971	0	0	1	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+p e ʁ e t a j	-0.397	No change	p e ʁ e t a j	-0.397	-0.794	0.3113104378076028	0	0	1	0	0	1	1	0	1	0	0	0	0	0	0	1	0	0	1	1	0	1	0	0	0	0
+p e ʁ e t a j	-6.831	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-6.831	0	0	0	1	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+p ʁ y k a j	0	Delete [j] at -2, Mutate [a] at -4 to [o]	p ʁ y k o	0	0	0.6963549298238342	0	0	1	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+p ʁ y k a j	-0.415	No change	p ʁ y k a j	-0.415	-0.83	0.30364507017616593	0	0	1	0	0	1	1	0	0	1	0	0	0	0	0	1	0	0	1	1	0	0	1	0	0	0
+p ʁ y k a j	-6.831	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-6.831	0	0	0	1	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+s k ʁ ə n a j	0	Delete [j] at -2, Mutate [a] at -4 to [o]	s k ʁ ə n o	0	0	0.7502601055951177	0	0	1	0	0	1	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+s k ʁ ə n a j	-0.55	No change	s k ʁ ə n a j	-0.55	-1.1	0.24973989440488237	0	0	1	0	0	1	1	0	1	0	0	1	0	0	0	1	0	0	1	1	0	1	0	0	1	0
+s k ʁ ə n a j	-6.831	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-6.831	0	0	0	1	0	0	1	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+s e ɡ a j	0	Delete [j] at -2, Mutate [a] at -4 to [o]	s e ɡ o	0	0	0.6963549298238342	0	0	1	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+s e ɡ a j	-0.415	No change	s e ɡ a j	-0.415	-0.83	0.30364507017616593	0	0	1	0	0	1	1	0	0	1	0	0	0	0	0	1	0	0	1	1	0	0	1	0	0	0
+s e ɡ a j	-6.831	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-6.831	0	0	0	1	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+s m ø n a j	0	Delete [j] at -2, Mutate [a] at -4 to [o]	s m ø n o	0	0	0.7502601055951177	0	0	1	0	0	1	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+s m ø n a j	-0.55	No change	s m ø n a j	-0.55	-1.1	0.24973989440488237	0	0	1	0	0	1	1	0	1	0	0	1	0	0	0	1	0	0	1	1	0	1	0	0	1	0
+s m ø n a j	-6.831	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-6.831	0	0	0	1	0	0	1	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+s m y ʁ k a j	0	Delete [j] at -2, Mutate [a] at -4 to [o]	s m y ʁ k o	0	0	0.7231218051243897	0	0	1	0	0	1	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+s m y ʁ k a j	-0.48	No change	s m y ʁ k a j	-0.48	-0.96	0.2768781948756101	0	0	1	0	0	1	1	0	0	1	0	0	1	0	0	1	0	0	1	1	0	0	1	0	0	1
+s m y ʁ k a j	-6.831	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-6.831	0	0	0	1	0	0	1	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+v ø z a j	0	Delete [j] at -2, Mutate [a] at -4 to [o]	v ø z o	0	0	0.6886895621923971	0	0	1	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+v ø z a j	-0.397	No change	v ø z a j	-0.397	-0.794	0.3113104378076028	0	0	1	0	0	1	1	0	1	0	0	0	0	0	0	1	0	0	1	1	0	1	0	0	0	0
+v ø z a j	-6.831	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-6.831	0	0	0	1	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ɡ z o v ʁ a j	0	Delete [j] at -2, Mutate [a] at -4 to [o]	ɡ z o v ʁ o	0	0	0.7231218051243897	0	0	1	0	0	1	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+ɡ z o v ʁ a j	-0.48	No change	ɡ z o v ʁ a j	-0.48	-0.96	0.2768781948756101	0	0	1	0	0	1	1	0	0	1	0	0	1	0	0	1	0	0	1	1	0	0	1	0	0	1
+ɡ z o v ʁ a j	-6.831	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-6.831	0	0	0	1	0	0	1	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+k n ɛ l	-0.275	No change	k n ɛ l	-0.275	-0.55	1	1	0	1	0	1	0	0	1	0	0	0	0	0	1	0	1	0	1	0	0	1	0	0	0	0	0
+k n ɛ l	-8.365	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.365	0	1	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+k n ɛ l	-16.29	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-16.29	0	1	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+k ʁ ɛ l	-0.275	No change	k ʁ ɛ l	-0.275	-0.55	1	1	0	1	0	1	0	0	1	0	0	0	0	0	1	0	1	0	1	0	0	1	0	0	0	0	0
+k ʁ ɛ l	-8.365	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.365	0	1	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+k ʁ ɛ l	-16.29	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-16.29	0	1	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+d ɛ l	-0.275	No change	d ɛ l	-0.275	-0.55	1	1	0	1	0	1	0	0	1	0	0	0	0	0	1	0	1	0	1	0	0	1	0	0	0	0	0
+d ɛ l	-8.365	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.365	0	1	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+d ɛ l	-16.29	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-16.29	0	1	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+d ʁ ɛ l	-0.275	No change	d ʁ ɛ l	-0.275	-0.55	1	1	0	1	0	1	0	0	1	0	0	0	0	0	1	0	1	0	1	0	0	1	0	0	0	0	0
+d ʁ ɛ l	-8.365	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.365	0	1	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+d ʁ ɛ l	-16.29	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-16.29	0	1	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+n ɛ l	-0.275	No change	n ɛ l	-0.275	-0.55	1	1	0	1	0	1	0	0	1	0	0	0	0	0	1	0	1	0	1	0	0	1	0	0	0	0	0
+n ɛ l	-8.365	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.365	0	1	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+n ɛ l	-16.29	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-16.29	0	1	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+p ʁ ɛ l	-0.275	No change	p ʁ ɛ l	-0.275	-0.55	1	1	0	1	0	1	0	0	1	0	0	0	0	0	1	0	1	0	1	0	0	1	0	0	0	0	0
+p ʁ ɛ l	-8.365	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.365	0	1	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+p ʁ ɛ l	-16.29	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-16.29	0	1	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+p s ɛ l	-0.275	No change	p s ɛ l	-0.275	-0.55	1	1	0	1	0	1	0	0	1	0	0	0	0	0	1	0	1	0	1	0	0	1	0	0	0	0	0
+p s ɛ l	-8.365	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.365	0	1	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+p s ɛ l	-16.29	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-16.29	0	1	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʁ ɛ l	-0.275	No change	ʁ ɛ l	-0.275	-0.55	1	1	0	1	0	1	0	0	1	0	0	0	0	0	1	0	1	0	1	0	0	1	0	0	0	0	0
+ʁ ɛ l	-8.365	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.365	0	1	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʁ ɛ l	-16.29	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-16.29	0	1	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+z ɛ l	-0.275	No change	z ɛ l	-0.275	-0.55	1	1	0	1	0	1	0	0	1	0	0	0	0	0	1	0	1	0	1	0	0	1	0	0	0	0	0
+z ɛ l	-8.365	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.365	0	1	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+z ɛ l	-16.29	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-16.29	0	1	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+k n ɛ j	-0.06	No change	k n ɛ j	-0.06	-0.12	1	1	0	1	0	0	1	0	1	0	0	0	0	0	1	0	1	0	0	1	0	1	0	0	0	0	0
+k n ɛ j	-15.197	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-15.197	0	1	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+k n ɛ j	-7.778	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.778	0	1	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+k ʁ ɛ j	-0.06	No change	k ʁ ɛ j	-0.06	-0.12	1	1	0	1	0	0	1	0	1	0	0	0	0	0	1	0	1	0	0	1	0	1	0	0	0	0	0
+k ʁ ɛ j	-15.197	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-15.197	0	1	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+k ʁ ɛ j	-7.778	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.778	0	1	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+d ɛ j	-0.06	No change	d ɛ j	-0.06	-0.12	1	1	0	1	0	0	1	0	1	0	0	0	0	0	1	0	1	0	0	1	0	1	0	0	0	0	0
+d ɛ j	-15.197	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-15.197	0	1	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+d ɛ j	-7.778	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.778	0	1	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+d ʁ ɛ j	-0.06	No change	d ʁ ɛ j	-0.06	-0.12	1	1	0	1	0	0	1	0	1	0	0	0	0	0	1	0	1	0	0	1	0	1	0	0	0	0	0
+d ʁ ɛ j	-15.197	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-15.197	0	1	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+d ʁ ɛ j	-7.778	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.778	0	1	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+n ɛ j	-0.06	No change	n ɛ j	-0.06	-0.12	1	1	0	1	0	0	1	0	1	0	0	0	0	0	1	0	1	0	0	1	0	1	0	0	0	0	0
+n ɛ j	-15.197	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-15.197	0	1	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+n ɛ j	-7.778	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.778	0	1	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+p ʁ ɛ j	-0.06	No change	p ʁ ɛ j	-0.06	-0.12	1	1	0	1	0	0	1	0	1	0	0	0	0	0	1	0	1	0	0	1	0	1	0	0	0	0	0
+p ʁ ɛ j	-15.197	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-15.197	0	1	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+p ʁ ɛ j	-7.778	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.778	0	1	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+p s ɛ j	-0.06	No change	p s ɛ j	-0.06	-0.12	1	1	0	1	0	0	1	0	1	0	0	0	0	0	1	0	1	0	0	1	0	1	0	0	0	0	0
+p s ɛ j	-15.197	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-15.197	0	1	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+p s ɛ j	-7.778	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.778	0	1	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʁ ɛ j	-0.06	No change	ʁ ɛ j	-0.06	-0.12	1	1	0	1	0	0	1	0	1	0	0	0	0	0	1	0	1	0	0	1	0	1	0	0	0	0	0
+ʁ ɛ j	-15.197	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-15.197	0	1	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʁ ɛ j	-7.778	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.778	0	1	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+z ɛ j	-0.06	No change	z ɛ j	-0.06	-0.12	1	1	0	1	0	0	1	0	1	0	0	0	0	0	1	0	1	0	0	1	0	1	0	0	0	0	0
+z ɛ j	-15.197	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-15.197	0	1	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+z ɛ j	-7.778	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.778	0	1	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʃ o t ɛ j	-0.06	No change	ʃ o t ɛ j	-0.06	-0.12	1	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	1	0	0	1	0	1	0	0	0	0	0
+ʃ o t ɛ j	-14.522	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-14.522	0	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʃ o t ɛ j	-7.778	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.778	0	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+f a n ɛ j	-0.06	No change	f a n ɛ j	-0.06	-0.12	1	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	1	0	0	1	0	1	0	0	0	0	0
+f a n ɛ j	-14.522	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-14.522	0	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+f a n ɛ j	-7.778	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.778	0	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+f a ʁ a s ɛ j	-0.06	No change	f a ʁ a s ɛ j	-0.06	-0.12	1	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	1	0	0	1	0	1	0	0	0	0	0
+f a ʁ a s ɛ j	-14.522	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-14.522	0	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+f a ʁ a s ɛ j	-7.778	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.778	0	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ɡ ʁ a s ɛ j	-0.06	No change	ɡ ʁ a s ɛ j	-0.06	-0.12	1	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	1	0	0	1	0	1	0	0	0	0	0
+ɡ ʁ a s ɛ j	-14.522	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-14.522	0	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ɡ ʁ a s ɛ j	-7.778	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.778	0	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʒ y v ɛ j	-0.06	No change	ʒ y v ɛ j	-0.06	-0.12	1	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	1	0	0	1	0	1	0	0	0	0	0
+ʒ y v ɛ j	-14.522	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-14.522	0	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʒ y v ɛ j	-7.778	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.778	0	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+p a ʁ t ɛ j	-0.06	No change	p a ʁ t ɛ j	-0.06	-0.12	1	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	1	0	0	1	0	1	0	0	0	0	0
+p a ʁ t ɛ j	-14.522	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-14.522	0	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+p a ʁ t ɛ j	-7.778	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.778	0	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʁ a f ɛ j	-0.06	No change	ʁ a f ɛ j	-0.06	-0.12	1	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	1	0	0	1	0	1	0	0	0	0	0
+ʁ a f ɛ j	-14.522	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-14.522	0	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʁ a f ɛ j	-7.778	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.778	0	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʁ o m ɛ j	-0.06	No change	ʁ o m ɛ j	-0.06	-0.12	1	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	1	0	0	1	0	1	0	0	0	0	0
+ʁ o m ɛ j	-14.522	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-14.522	0	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʁ o m ɛ j	-7.778	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.778	0	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʃ o t ɛ l	-0.275	No change	ʃ o t ɛ l	-0.275	-0.55	1	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	1	0	1	0	0	1	0	0	0	0	0
+ʃ o t ɛ l	-7.691	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.691	0	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʃ o t ɛ l	-16.29	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-16.29	0	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+f a n ɛ l	-0.275	No change	f a n ɛ l	-0.275	-0.55	1	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	1	0	1	0	0	1	0	0	0	0	0
+f a n ɛ l	-7.691	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.691	0	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+f a n ɛ l	-16.29	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-16.29	0	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+f a ʁ a s ɛ l	-0.275	No change	f a ʁ a s ɛ l	-0.275	-0.55	1	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	1	0	1	0	0	1	0	0	0	0	0
+f a ʁ a s ɛ l	-7.691	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.691	0	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+f a ʁ a s ɛ l	-16.29	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-16.29	0	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ɡ ʁ a s ɛ l	-0.275	No change	ɡ ʁ a s ɛ l	-0.275	-0.55	1	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	1	0	1	0	0	1	0	0	0	0	0
+ɡ ʁ a s ɛ l	-7.691	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.691	0	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ɡ ʁ a s ɛ l	-16.29	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-16.29	0	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʒ y v ɛ l	-0.275	No change	ʒ y v ɛ l	-0.275	-0.55	1	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	1	0	1	0	0	1	0	0	0	0	0
+ʒ y v ɛ l	-7.691	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.691	0	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʒ y v ɛ l	-16.29	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-16.29	0	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+p a ʁ t ɛ l	-0.275	No change	p a ʁ t ɛ l	-0.275	-0.55	1	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	1	0	1	0	0	1	0	0	0	0	0
+p a ʁ t ɛ l	-7.691	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.691	0	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+p a ʁ t ɛ l	-16.29	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-16.29	0	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʁ a f ɛ l	-0.275	No change	ʁ a f ɛ l	-0.275	-0.55	1	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	1	0	1	0	0	1	0	0	0	0	0
+ʁ a f ɛ l	-7.691	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.691	0	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʁ a f ɛ l	-16.29	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-16.29	0	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʁ o m ɛ l	-0.275	No change	ʁ o m ɛ l	-0.275	-0.55	1	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	1	0	1	0	0	1	0	0	0	0	0
+ʁ o m ɛ l	-7.691	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.691	0	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʁ o m ɛ l	-16.29	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-16.29	0	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+d a g	-0.336	No change	d a g	-0.336	-0.672	1	1	0	0	1	0	0	1	0	1	0	0	0	0	1	0	0	1	0	0	1	0	1	0	0	0	0
+d a g	-8.471	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.471	0	1	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+d a g	-8.128	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.128	0	1	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+m i d a g	-0.336	No change	m i d a g	-0.336	-0.672	1	0	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	1	0	0	1	0	1	0	0	0	0
+m i d a g	-7.797	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.797	0	0	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+m i d a g	-8.128	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.128	0	0	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+d a s	-0.336	No change	d a s	-0.336	-0.672	1	1	0	0	1	0	0	1	0	1	0	0	0	0	1	0	0	1	0	0	1	0	1	0	0	0	0
+d a s	-8.471	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.471	0	1	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+d a s	-8.128	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.128	0	1	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+m i d a s	-0.336	No change	m i d a s	-0.336	-0.672	1	0	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	1	0	0	1	0	1	0	0	0	0
+m i d a s	-7.797	Delete [l] at -2, Mutate [a] at -4 to [o]	incompatible	null	-7.797	0	0	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+m i d a s	-8.128	Delete [j] at -2, Mutate [a] at -4 to [o]	incompatible	null	-8.128	0	0	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0

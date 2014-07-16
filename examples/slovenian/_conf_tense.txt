@@ -1,0 +1,30 @@
+{
+    "files": {
+        "features": "features.txt",
+        "constraints": "constraints.txt",
+        "training": "training.tense.C.txt",
+        "testing": "testing.txt",
+        "output": "output.txt"
+    },
+    "learner": {
+        "mutationType": "both",
+        "useGrammarsProper": true,
+        "changeOrientations": {
+            "delete": "product", 
+            "mutate": "product", 
+            "metathesize": "product"
+        },
+        "minProductiveSize": 4,
+        "trainingSize": "all"
+    },
+    "aligner": {
+        "features": true
+    },
+    "grammar": {
+        "useGaussianPriors": false
+    },
+    "maxent": {
+    },
+    "name": "variable paradigms as tense",
+    "description": "Slovenian stress shift and laxness alternations, with items that allow either a tense or lax vowel in the genitive as tense (to increase the number of alternators).<br>Data from Becker & Jurgec (in prep). " 
+}

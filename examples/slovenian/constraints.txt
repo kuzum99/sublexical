@@ -1,0 +1,25 @@
+[+stress,+syllabic] .* ?[+stress,+syllabic]
+[+stress,+syllabic] .* ?[+syllabic]
+[+stress,+syllabic] .* ?[+syllabic] .* ?[+syllabic]
+
+[-stress,+lax]
+[-stress,-low,+lax]
+[-stress,+low,+lax]	
+[-stress,+low,-lax]
+
+[+stress,+lax]
+[+stress,-low,+lax]
+[+stress,+low,+lax]	
+[+stress,+low,-lax]
+
+
+^([-syllabic] ?)*([+syllabic] ?)+([-syllabic] ?)*$
+e j
+[-lax] [+son]
+
+F: Ident [stress]
+F: Ident [lax]
+F: Ident [lax] [+stress]
+F: Ident [lax] [+initial]
+F: Ident [lax] [+stress,+initial]
+

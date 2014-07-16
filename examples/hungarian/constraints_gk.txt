@@ -1,0 +1,8 @@
+(u|U|o|O|a|A) ([-syll] ?)*$
+(u|U|o|O|a|A) ([-syll] ?)* ((i|I|e|E) ?) ([-syll] ?)*$
+(ue|UE|oe|OE) ([-syll] ?)*$
+(ue|UE|oe|OE) ([-syll] ?)* ((i|I|e|E) ?) ([-syll] ?)*$
+(i|I|e|E|ue|UE|oe|OE) ([-syll] ?)*$
+(e|E|oe|OE) ([-syll] ?)*$
+(E) ([-syll] ?)*$
+(i|I|e|E|ue|UE|oe|OE) ([-syll] ?)* (i|I|e|E|ue|UE|oe|OE) ([-syll] ?)*$

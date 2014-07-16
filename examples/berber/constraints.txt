@@ -1,0 +1,12 @@
+^x
+t$
+[-syllabic]$
+[+syllabic]$
+[-sonorant,-continuant]$
+
+F: Ident [continuant]
+F: Ident [voice]
+F: Ident [voice] [+continuant]
+F: Ident [voice] [+continuant,+coronal]
+F: Ident [continuant] [+voice]
+F: Ident [continuant] [-voice,-coronal]

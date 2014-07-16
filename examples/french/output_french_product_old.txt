@@ -1,0 +1,210 @@
+base	base.harmony	change	derivative	derivative.harmony	harmony.sum	probability	^([-syllabic] ?)*([+syllabic] ?)+([-syllabic] ?)*$	[+sonorant,-continuant,-syllabic]$	[+sonorant,+continuant,-syllabic]$	[-sonorant]$	[+sonorant,+continuant,+lateral,-syllabic]$	[+sonorant,+continuant,-lateral,-syllabic]$	[+low,+syllabic] [-syllabic]$	[-low,+syllabic] [-syllabic]$	[+coronal] [+low,+syllabic] [-syllabic]$	[+dorsal] [+low,+syllabic] [-syllabic]$	[+labial] [+low,+syllabic] [-syllabic]$	[+sonorant] [+low,+syllabic] [-syllabic]$	[-syllabic] [-syllabic] [+low,+syllabic] [-syllabic]$	^([-syllabic] ?)*([+syllabic] ?)+([-syllabic] ?)*$	[+sonorant,-continuant,-syllabic]$	[+sonorant,+continuant,-syllabic]$	[-sonorant]$	[+sonorant,+continuant,+lateral,-syllabic]$	[+sonorant,+continuant,-lateral,-syllabic]$	[+low,+syllabic] [-syllabic]$	[-low,+syllabic] [-syllabic]$	[+coronal] [+low,+syllabic] [-syllabic]$	[+dorsal] [+low,+syllabic] [-syllabic]$	[+labial] [+low,+syllabic] [-syllabic]$	[+sonorant] [+low,+syllabic] [-syllabic]$	[-syllabic] [-syllabic] [+low,+syllabic] [-syllabic]$
+		Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]					-0.4524460548661154	-6.219243577020426	0	-7.724099188444874	0	0	0	-8.187146302896014	0	0	0	0	0	-0.6940983772601551	0	-0.522171013402673	-3.946541771529572	-0.522171013402673	0	0	-3.6471246420151573	0	0	0	0	0
+		No change					0	0	-0.06046551338071715	0	-0.21496712470775559	-0.0000018150912589609547	-0.2337577945830743	0	-0.10239924725231685	-0.12034389404729133	0	-0.15335759410103683	-0.06524364618078832	0	0	-0.06046551338071715	0	-0.21496712470775559	-0.0000018150912589609547	-0.2337577945830743	0	-0.10239924725231685	-0.12034389404729133	0	-0.15335759410103683	-0.06524364618078832
+							GK	GK	GK	GK	GK	GK	GK	GK	GK	GK	GK	GK	GK	GP	GP	GP	GP	GP	GP	GP	GP	GP	GP	GP	GP	GP
+k ʁ a l	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	k ʁ o	-0.694	-1.146	0.560699149682253	1	0	1	0	1	0	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+k ʁ a l	-0.695	No change	k ʁ a l	-0.695	-1.39	0.43930085031774707	1	0	1	0	1	0	1	0	0	1	0	0	1	1	0	1	0	1	0	1	0	0	1	0	0	1
+d a l	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	d o	-0.694	-1.146	0.5194901195112457	1	0	1	0	1	0	1	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+d a l	-0.612	No change	d a l	-0.612	-1.224	0.48050988048875426	1	0	1	0	1	0	1	0	1	0	0	0	0	1	0	1	0	1	0	1	0	1	0	0	0	0
+f a l	-0.509	No change	f a l	-0.509	-1.018	0.5319563807976408	1	0	1	0	1	0	1	0	0	0	1	0	0	1	0	1	0	1	0	1	0	0	0	1	0	0
+f a l	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	f o	-0.694	-1.146	0.4680436192023592	1	0	1	0	1	0	1	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+f ʁ a l	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	f ʁ o	-0.694	-1.146	0.560699149682253	1	0	1	0	1	0	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+f ʁ a l	-0.695	No change	f ʁ a l	-0.695	-1.39	0.43930085031774707	1	0	1	0	1	0	1	0	0	1	0	0	1	1	0	1	0	1	0	1	0	0	1	0	0	1
+ɡ n a l	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	ɡ n o	-0.694	-1.146	0.6257436987079078	1	0	1	0	1	0	1	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+ɡ n a l	-0.83	No change	ɡ n a l	-0.83	-1.66	0.37425630129209214	1	0	1	0	1	0	1	0	1	0	0	1	1	1	0	1	0	1	0	1	0	1	0	0	1	1
+ʒ a l	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	ʒ o	-0.694	-1.146	0.5194901195112457	1	0	1	0	1	0	1	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+ʒ a l	-0.612	No change	ʒ a l	-0.612	-1.224	0.48050988048875426	1	0	1	0	1	0	1	0	1	0	0	0	0	1	0	1	0	1	0	1	0	1	0	0	0	0
+p n a l	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	p n o	-0.694	-1.146	0.6257436987079078	1	0	1	0	1	0	1	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+p n a l	-0.83	No change	p n a l	-0.83	-1.66	0.37425630129209214	1	0	1	0	1	0	1	0	1	0	0	1	1	1	0	1	0	1	0	1	0	1	0	0	1	1
+p ʁ a l	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	p ʁ o	-0.694	-1.146	0.560699149682253	1	0	1	0	1	0	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+p ʁ a l	-0.695	No change	p ʁ a l	-0.695	-1.39	0.43930085031774707	1	0	1	0	1	0	1	0	0	1	0	0	1	1	0	1	0	1	0	1	0	0	1	0	0	1
+p s a l	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	p s o	-0.694	-1.146	0.5518133302331703	1	0	1	0	1	0	1	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+p s a l	-0.677	No change	p s a l	-0.677	-1.354	0.44818666976682975	1	0	1	0	1	0	1	0	1	0	0	0	1	1	0	1	0	1	0	1	0	1	0	0	0	1
+s a l	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	s o	-0.694	-1.146	0.5194901195112457	1	0	1	0	1	0	1	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+s a l	-0.612	No change	s a l	-0.612	-1.224	0.48050988048875426	1	0	1	0	1	0	1	0	1	0	0	0	0	1	0	1	0	1	0	1	0	1	0	0	0	0
+s k ʁ a l	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	s k ʁ o	-0.694	-1.146	0.560699149682253	1	0	1	0	1	0	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+s k ʁ a l	-0.695	No change	s k ʁ a l	-0.695	-1.39	0.43930085031774707	1	0	1	0	1	0	1	0	0	1	0	0	1	1	0	1	0	1	0	1	0	0	1	0	0	1
+s n a l	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	s n o	-0.694	-1.146	0.6257436987079078	1	0	1	0	1	0	1	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+s n a l	-0.83	No change	s n a l	-0.83	-1.66	0.37425630129209214	1	0	1	0	1	0	1	0	1	0	0	1	1	1	0	1	0	1	0	1	0	1	0	0	1	1
+s p ʁ a l	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	s p ʁ o	-0.694	-1.146	0.560699149682253	1	0	1	0	1	0	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+s p ʁ a l	-0.695	No change	s p ʁ a l	-0.695	-1.39	0.43930085031774707	1	0	1	0	1	0	1	0	0	1	0	0	1	1	0	1	0	1	0	1	0	0	1	0	0	1
+s t ʁ a l	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	s t ʁ o	-0.694	-1.146	0.560699149682253	1	0	1	0	1	0	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+s t ʁ a l	-0.695	No change	s t ʁ a l	-0.695	-1.39	0.43930085031774707	1	0	1	0	1	0	1	0	0	1	0	0	1	1	0	1	0	1	0	1	0	0	1	0	0	1
+s v a l	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	s v o	-0.694	-1.146	0.5004999998333334	1	0	1	0	1	0	1	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+s v a l	-0.574	No change	s v a l	-0.574	-1.148	0.4995000001666666	1	0	1	0	1	0	1	0	0	0	1	0	1	1	0	1	0	1	0	1	0	0	0	1	0	1
+t ʁ a l	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	t ʁ o	-0.694	-1.146	0.560699149682253	1	0	1	0	1	0	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+t ʁ a l	-0.695	No change	t ʁ a l	-0.695	-1.39	0.43930085031774707	1	0	1	0	1	0	1	0	0	1	0	0	1	1	0	1	0	1	0	1	0	0	1	0	0	1
+v ʁ a l	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	v ʁ o	-0.694	-1.146	0.560699149682253	1	0	1	0	1	0	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+v ʁ a l	-0.695	No change	v ʁ a l	-0.695	-1.39	0.43930085031774707	1	0	1	0	1	0	1	0	0	1	0	0	1	1	0	1	0	1	0	1	0	0	1	0	0	1
+z a l	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	z o	-0.694	-1.146	0.5194901195112457	1	0	1	0	1	0	1	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+z a l	-0.612	No change	z a l	-0.612	-1.224	0.48050988048875426	1	0	1	0	1	0	1	0	1	0	0	0	0	1	0	1	0	1	0	1	0	1	0	0	0	0
+k ʁ a j	-0.48	No change	k ʁ a j	-0.48	-0.96	0.5463664026742796	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	1	0	0	1	1	0	0	1	0	0	1
+k ʁ a j	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	k ʁ o	-0.694	-1.146	0.45363359732572034	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+f a j	-0.294	No change	f a j	-0.294	-0.588	0.6359896527029888	1	0	1	0	0	1	1	0	0	0	1	0	0	1	0	1	0	0	1	1	0	0	0	1	0	0
+f a j	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	f o	-0.694	-1.146	0.3640103472970111	1	0	1	0	0	1	1	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+f ʁ a j	-0.48	No change	f ʁ a j	-0.48	-0.96	0.5463664026742796	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	1	0	0	1	1	0	0	1	0	0	1
+f ʁ a j	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	f ʁ o	-0.694	-1.146	0.45363359732572034	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+ɡ n a j	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	ɡ n o	-0.694	-1.146	0.5209876607065322	1	0	1	0	0	1	1	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+ɡ n a j	-0.615	No change	ɡ n a j	-0.615	-1.23	0.47901233929346765	1	0	1	0	0	1	1	0	1	0	0	1	1	1	0	1	0	0	1	1	0	1	0	0	1	1
+ʒ a j	-0.397	No change	ʒ a j	-0.397	-0.794	0.5871024895421696	1	0	1	0	0	1	1	0	1	0	0	0	0	1	0	1	0	0	1	1	0	1	0	0	0	0
+ʒ a j	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	ʒ o	-0.694	-1.146	0.41289751045783046	1	0	1	0	0	1	1	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+p n a j	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	p n o	-0.694	-1.146	0.5209876607065322	1	0	1	0	0	1	1	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+p n a j	-0.615	No change	p n a j	-0.615	-1.23	0.47901233929346765	1	0	1	0	0	1	1	0	1	0	0	1	1	1	0	1	0	0	1	1	0	1	0	0	1	1
+p ʁ a j	-0.48	No change	p ʁ a j	-0.48	-0.96	0.5463664026742796	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	1	0	0	1	1	0	0	1	0	0	1
+p ʁ a j	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	p ʁ o	-0.694	-1.146	0.45363359732572034	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+p s a j	-0.462	No change	p s a j	-0.462	-0.924	0.5552731792975989	1	0	1	0	0	1	1	0	1	0	0	0	1	1	0	1	0	0	1	1	0	1	0	0	0	1
+p s a j	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	p s o	-0.694	-1.146	0.44472682070240105	1	0	1	0	0	1	1	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+s a j	-0.397	No change	s a j	-0.397	-0.794	0.5871024895421696	1	0	1	0	0	1	1	0	1	0	0	0	0	1	0	1	0	0	1	1	0	1	0	0	0	0
+s a j	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	s o	-0.694	-1.146	0.41289751045783046	1	0	1	0	0	1	1	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+s k ʁ a j	-0.48	No change	s k ʁ a j	-0.48	-0.96	0.5463664026742796	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	1	0	0	1	1	0	0	1	0	0	1
+s k ʁ a j	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	s k ʁ o	-0.694	-1.146	0.45363359732572034	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+s n a j	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	s n o	-0.694	-1.146	0.5209876607065322	1	0	1	0	0	1	1	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+s n a j	-0.615	No change	s n a j	-0.615	-1.23	0.47901233929346765	1	0	1	0	0	1	1	0	1	0	0	1	1	1	0	1	0	0	1	1	0	1	0	0	1	1
+s p ʁ a j	-0.48	No change	s p ʁ a j	-0.48	-0.96	0.5463664026742796	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	1	0	0	1	1	0	0	1	0	0	1
+s p ʁ a j	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	s p ʁ o	-0.694	-1.146	0.45363359732572034	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+s t ʁ a j	-0.48	No change	s t ʁ a j	-0.48	-0.96	0.5463664026742796	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	1	0	0	1	1	0	0	1	0	0	1
+s t ʁ a j	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	s t ʁ o	-0.694	-1.146	0.45363359732572034	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+s v a j	-0.359	No change	s v a j	-0.359	-0.718	0.6053959859103208	1	0	1	0	0	1	1	0	0	0	1	0	1	1	0	1	0	0	1	1	0	0	0	1	0	1
+s v a j	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	s v o	-0.694	-1.146	0.3946040140896792	1	0	1	0	0	1	1	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+t ʁ a j	-0.48	No change	t ʁ a j	-0.48	-0.96	0.5463664026742796	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	1	0	0	1	1	0	0	1	0	0	1
+t ʁ a j	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	t ʁ o	-0.694	-1.146	0.45363359732572034	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+v ʁ a j	-0.48	No change	v ʁ a j	-0.48	-0.96	0.5463664026742796	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	1	0	0	1	1	0	0	1	0	0	1
+v ʁ a j	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	v ʁ o	-0.694	-1.146	0.45363359732572034	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0
+z a j	-0.397	No change	z a j	-0.397	-0.794	0.5871024895421696	1	0	1	0	0	1	1	0	1	0	0	0	0	1	0	1	0	0	1	1	0	1	0	0	0	0
+z a j	-0.452	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	z o	-0.694	-1.146	0.41289751045783046	1	0	1	0	0	1	1	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+o s k ʁ a l	0	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	o s k ʁ o	0	0	0.8005922431513316	0	0	1	0	1	0	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+o s k ʁ a l	-0.695	No change	o s k ʁ a l	-0.695	-1.39	0.1994077568486685	0	0	1	0	1	0	1	0	0	1	0	0	1	0	0	1	0	1	0	1	0	0	1	0	0	1
+d e ʁ n a l	0	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	d e ʁ n o	0	0	0.8402380030563309	0	0	1	0	1	0	1	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+d e ʁ n a l	-0.83	No change	d e ʁ n a l	-0.83	-1.66	0.15976199694366908	0	0	1	0	1	0	1	0	1	0	0	1	1	0	0	1	0	1	0	1	0	1	0	0	1	1
+ʒ i s t a l	0	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	ʒ i s t o	0	0	0.7947828098950485	0	0	1	0	1	0	1	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʒ i s t a l	-0.677	No change	ʒ i s t a l	-0.677	-1.354	0.20521719010495165	0	0	1	0	1	0	1	0	1	0	0	0	1	0	0	1	0	1	0	1	0	1	0	0	0	1
+ɡ u v a l	0	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	ɡ u v o	0	0	0.7345828406761663	0	0	1	0	1	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ɡ u v a l	-0.509	No change	ɡ u v a l	-0.509	-1.018	0.2654171593238337	0	0	1	0	1	0	1	0	0	0	1	0	0	0	0	1	0	1	0	1	0	0	0	1	0	0
+i s t ʁ a l	0	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	i s t ʁ o	0	0	0.8005922431513316	0	0	1	0	1	0	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+i s t ʁ a l	-0.695	No change	i s t ʁ a l	-0.695	-1.39	0.1994077568486685	0	0	1	0	1	0	1	0	0	1	0	0	1	0	0	1	0	1	0	1	0	0	1	0	0	1
+m o ʁ n a l	0	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	m o ʁ n o	0	0	0.8402380030563309	0	0	1	0	1	0	1	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+m o ʁ n a l	-0.83	No change	m o ʁ n a l	-0.83	-1.66	0.15976199694366908	0	0	1	0	1	0	1	0	1	0	0	1	1	0	0	1	0	1	0	1	0	1	0	0	1	1
+o ʁ s o d a l	0	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	o ʁ s o d o	0	0	0.772766708973203	0	0	1	0	1	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+o ʁ s o d a l	-0.612	No change	o ʁ s o d a l	-0.612	-1.224	0.22723329102679693	0	0	1	0	1	0	1	0	1	0	0	0	0	0	0	1	0	1	0	1	0	1	0	0	0	0
+p e ʁ e t a l	0	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	p e ʁ e t o	0	0	0.772766708973203	0	0	1	0	1	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+p e ʁ e t a l	-0.612	No change	p e ʁ e t a l	-0.612	-1.224	0.22723329102679693	0	0	1	0	1	0	1	0	1	0	0	0	0	0	0	1	0	1	0	1	0	1	0	0	0	0
+p ʁ y k a l	0	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	p ʁ y k o	0	0	0.7790261077798121	0	0	1	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+p ʁ y k a l	-0.63	No change	p ʁ y k a l	-0.63	-1.26	0.22097389222018785	0	0	1	0	1	0	1	0	0	1	0	0	0	0	0	1	0	1	0	1	0	0	1	0	0	0
+s k ʁ ə n a l	0	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	s k ʁ ə n o	0	0	0.8220063142137536	0	0	1	0	1	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+s k ʁ ə n a l	-0.765	No change	s k ʁ ə n a l	-0.765	-1.53	0.17799368578624641	0	0	1	0	1	0	1	0	1	0	0	1	0	0	0	1	0	1	0	1	0	1	0	0	1	0
+s e ɡ a l	0	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	s e ɡ o	0	0	0.7790261077798121	0	0	1	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+s e ɡ a l	-0.63	No change	s e ɡ a l	-0.63	-1.26	0.22097389222018785	0	0	1	0	1	0	1	0	0	1	0	0	0	0	0	1	0	1	0	1	0	0	1	0	0	0
+s m ø n a l	0	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	s m ø n o	0	0	0.8220063142137536	0	0	1	0	1	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+s m ø n a l	-0.765	No change	s m ø n a l	-0.765	-1.53	0.17799368578624641	0	0	1	0	1	0	1	0	1	0	0	1	0	0	0	1	0	1	0	1	0	1	0	0	1	0
+s m y ʁ k a l	0	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	s m y ʁ k o	0	0	0.8005922431513316	0	0	1	0	1	0	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+s m y ʁ k a l	-0.695	No change	s m y ʁ k a l	-0.695	-1.39	0.1994077568486685	0	0	1	0	1	0	1	0	0	1	0	0	1	0	0	1	0	1	0	1	0	0	1	0	0	1
+v ø z a l	0	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	v ø z o	0	0	0.772766708973203	0	0	1	0	1	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+v ø z a l	-0.612	No change	v ø z a l	-0.612	-1.224	0.22723329102679693	0	0	1	0	1	0	1	0	1	0	0	0	0	0	0	1	0	1	0	1	0	1	0	0	0	0
+ɡ z o v ʁ a l	0	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	ɡ z o v ʁ o	0	0	0.8005922431513316	0	0	1	0	1	0	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+ɡ z o v ʁ a l	-0.695	No change	ɡ z o v ʁ a l	-0.695	-1.39	0.1994077568486685	0	0	1	0	1	0	1	0	0	1	0	0	1	0	0	1	0	1	0	1	0	0	1	0	0	1
+o s k ʁ a j	0	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	o s k ʁ o	0	0	0.7231218051243898	0	0	1	0	0	1	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+o s k ʁ a j	-0.48	No change	o s k ʁ a j	-0.48	-0.96	0.2768781948756101	0	0	1	0	0	1	1	0	0	1	0	0	1	0	0	1	0	0	1	1	0	0	1	0	0	1
+d e ʁ n a j	0	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	d e ʁ n o	0	0	0.7738185742694538	0	0	1	0	0	1	1	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+d e ʁ n a j	-0.615	No change	d e ʁ n a j	-0.615	-1.23	0.22618142573054614	0	0	1	0	0	1	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	1	0	0	1	1
+ʒ i s t a j	0	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	ʒ i s t o	0	0	0.7158564317287898	0	0	1	0	0	1	1	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʒ i s t a j	-0.462	No change	ʒ i s t a j	-0.462	-0.924	0.2841435682712102	0	0	1	0	0	1	1	0	1	0	0	0	1	0	0	1	0	0	1	1	0	1	0	0	0	1
+ɡ u v a j	0	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	ɡ u v o	0	0	0.642906121361229	0	0	1	0	0	1	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ɡ u v a j	-0.294	No change	ɡ u v a j	-0.294	-0.588	0.357093878638771	0	0	1	0	0	1	1	0	0	0	1	0	0	0	0	1	0	0	1	1	0	0	0	1	0	0
+i s t ʁ a j	0	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	i s t ʁ o	0	0	0.7231218051243898	0	0	1	0	0	1	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+i s t ʁ a j	-0.48	No change	i s t ʁ a j	-0.48	-0.96	0.2768781948756101	0	0	1	0	0	1	1	0	0	1	0	0	1	0	0	1	0	0	1	1	0	0	1	0	0	1
+m o ʁ n a j	0	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	m o ʁ n o	0	0	0.7738185742694538	0	0	1	0	0	1	1	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+m o ʁ n a j	-0.615	No change	m o ʁ n a j	-0.615	-1.23	0.22618142573054614	0	0	1	0	0	1	1	0	1	0	0	1	1	0	0	1	0	0	1	1	0	1	0	0	1	1
+o ʁ s o d a j	0	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	o ʁ s o d o	0	0	0.6886895621923972	0	0	1	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+o ʁ s o d a j	-0.397	No change	o ʁ s o d a j	-0.397	-0.794	0.31131043780760287	0	0	1	0	0	1	1	0	1	0	0	0	0	0	0	1	0	0	1	1	0	1	0	0	0	0
+p e ʁ e t a j	0	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	p e ʁ e t o	0	0	0.6886895621923972	0	0	1	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+p e ʁ e t a j	-0.397	No change	p e ʁ e t a j	-0.397	-0.794	0.31131043780760287	0	0	1	0	0	1	1	0	1	0	0	0	0	0	0	1	0	0	1	1	0	1	0	0	0	0
+p ʁ y k a j	0	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	p ʁ y k o	0	0	0.6963549298238341	0	0	1	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+p ʁ y k a j	-0.415	No change	p ʁ y k a j	-0.415	-0.83	0.30364507017616593	0	0	1	0	0	1	1	0	0	1	0	0	0	0	0	1	0	0	1	1	0	0	1	0	0	0
+s k ʁ ə n a j	0	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	s k ʁ ə n o	0	0	0.7502601055951177	0	0	1	0	0	1	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+s k ʁ ə n a j	-0.55	No change	s k ʁ ə n a j	-0.55	-1.1	0.24973989440488237	0	0	1	0	0	1	1	0	1	0	0	1	0	0	0	1	0	0	1	1	0	1	0	0	1	0
+s e ɡ a j	0	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	s e ɡ o	0	0	0.6963549298238341	0	0	1	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+s e ɡ a j	-0.415	No change	s e ɡ a j	-0.415	-0.83	0.30364507017616593	0	0	1	0	0	1	1	0	0	1	0	0	0	0	0	1	0	0	1	1	0	0	1	0	0	0
+s m ø n a j	0	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	s m ø n o	0	0	0.7502601055951177	0	0	1	0	0	1	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+s m ø n a j	-0.55	No change	s m ø n a j	-0.55	-1.1	0.24973989440488237	0	0	1	0	0	1	1	0	1	0	0	1	0	0	0	1	0	0	1	1	0	1	0	0	1	0
+s m y ʁ k a j	0	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	s m y ʁ k o	0	0	0.7231218051243898	0	0	1	0	0	1	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+s m y ʁ k a j	-0.48	No change	s m y ʁ k a j	-0.48	-0.96	0.2768781948756101	0	0	1	0	0	1	1	0	0	1	0	0	1	0	0	1	0	0	1	1	0	0	1	0	0	1
+v ø z a j	0	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	v ø z o	0	0	0.6886895621923972	0	0	1	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+v ø z a j	-0.397	No change	v ø z a j	-0.397	-0.794	0.31131043780760287	0	0	1	0	0	1	1	0	1	0	0	0	0	0	0	1	0	0	1	1	0	1	0	0	0	0
+ɡ z o v ʁ a j	0	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	ɡ z o v ʁ o	0	0	0.7231218051243898	0	0	1	0	0	1	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+ɡ z o v ʁ a j	-0.48	No change	ɡ z o v ʁ a j	-0.48	-0.96	0.2768781948756101	0	0	1	0	0	1	1	0	0	1	0	0	1	0	0	1	0	0	1	1	0	0	1	0	0	1
+k n ɛ l	-0.275	No change	k n ɛ l	-0.275	-0.55	0.9998468592542361	1	0	1	0	1	0	0	1	0	0	0	0	0	1	0	1	0	1	0	0	1	0	0	0	0	0
+k n ɛ l	-8.64	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	k n o	-0.694	-9.334	0.00015314074576395118	1	0	1	0	1	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+k ʁ ɛ l	-0.275	No change	k ʁ ɛ l	-0.275	-0.55	0.9998468592542361	1	0	1	0	1	0	0	1	0	0	0	0	0	1	0	1	0	1	0	0	1	0	0	0	0	0
+k ʁ ɛ l	-8.64	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	k ʁ o	-0.694	-9.334	0.00015314074576395118	1	0	1	0	1	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+d ɛ l	-0.275	No change	d ɛ l	-0.275	-0.55	0.9998468592542361	1	0	1	0	1	0	0	1	0	0	0	0	0	1	0	1	0	1	0	0	1	0	0	0	0	0
+d ɛ l	-8.64	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	d o	-0.694	-9.334	0.00015314074576395118	1	0	1	0	1	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+d ʁ ɛ l	-0.275	No change	d ʁ ɛ l	-0.275	-0.55	0.9998468592542361	1	0	1	0	1	0	0	1	0	0	0	0	0	1	0	1	0	1	0	0	1	0	0	0	0	0
+d ʁ ɛ l	-8.64	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	d ʁ o	-0.694	-9.334	0.00015314074576395118	1	0	1	0	1	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+n ɛ l	-0.275	No change	n ɛ l	-0.275	-0.55	0.9998468592542361	1	0	1	0	1	0	0	1	0	0	0	0	0	1	0	1	0	1	0	0	1	0	0	0	0	0
+n ɛ l	-8.64	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	n o	-0.694	-9.334	0.00015314074576395118	1	0	1	0	1	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+p ʁ ɛ l	-0.275	No change	p ʁ ɛ l	-0.275	-0.55	0.9998468592542361	1	0	1	0	1	0	0	1	0	0	0	0	0	1	0	1	0	1	0	0	1	0	0	0	0	0
+p ʁ ɛ l	-8.64	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	p ʁ o	-0.694	-9.334	0.00015314074576395118	1	0	1	0	1	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+p s ɛ l	-0.275	No change	p s ɛ l	-0.275	-0.55	0.9998468592542361	1	0	1	0	1	0	0	1	0	0	0	0	0	1	0	1	0	1	0	0	1	0	0	0	0	0
+p s ɛ l	-8.64	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	p s o	-0.694	-9.334	0.00015314074576395118	1	0	1	0	1	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+ʁ ɛ l	-0.275	No change	ʁ ɛ l	-0.275	-0.55	0.9998468592542361	1	0	1	0	1	0	0	1	0	0	0	0	0	1	0	1	0	1	0	0	1	0	0	0	0	0
+ʁ ɛ l	-8.64	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	ʁ o	-0.694	-9.334	0.00015314074576395118	1	0	1	0	1	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+z ɛ l	-0.275	No change	z ɛ l	-0.275	-0.55	0.9998468592542361	1	0	1	0	1	0	0	1	0	0	0	0	0	1	0	1	0	1	0	0	1	0	0	0	0	0
+z ɛ l	-8.64	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	z o	-0.694	-9.334	0.00015314074576395118	1	0	1	0	1	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+k n ɛ j	-0.06	No change	k n ɛ j	-0.06	-0.12	0.9999003752200603	1	0	1	0	0	1	0	1	0	0	0	0	0	1	0	1	0	0	1	0	1	0	0	0	0	0
+k n ɛ j	-8.64	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	k n o	-0.694	-9.334	0.00009962477993968402	1	0	1	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+k ʁ ɛ j	-0.06	No change	k ʁ ɛ j	-0.06	-0.12	0.9999003752200603	1	0	1	0	0	1	0	1	0	0	0	0	0	1	0	1	0	0	1	0	1	0	0	0	0	0
+k ʁ ɛ j	-8.64	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	k ʁ o	-0.694	-9.334	0.00009962477993968402	1	0	1	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+d ɛ j	-0.06	No change	d ɛ j	-0.06	-0.12	0.9999003752200603	1	0	1	0	0	1	0	1	0	0	0	0	0	1	0	1	0	0	1	0	1	0	0	0	0	0
+d ɛ j	-8.64	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	d o	-0.694	-9.334	0.00009962477993968402	1	0	1	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+d ʁ ɛ j	-0.06	No change	d ʁ ɛ j	-0.06	-0.12	0.9999003752200603	1	0	1	0	0	1	0	1	0	0	0	0	0	1	0	1	0	0	1	0	1	0	0	0	0	0
+d ʁ ɛ j	-8.64	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	d ʁ o	-0.694	-9.334	0.00009962477993968402	1	0	1	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+n ɛ j	-0.06	No change	n ɛ j	-0.06	-0.12	0.9999003752200603	1	0	1	0	0	1	0	1	0	0	0	0	0	1	0	1	0	0	1	0	1	0	0	0	0	0
+n ɛ j	-8.64	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	n o	-0.694	-9.334	0.00009962477993968402	1	0	1	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+p ʁ ɛ j	-0.06	No change	p ʁ ɛ j	-0.06	-0.12	0.9999003752200603	1	0	1	0	0	1	0	1	0	0	0	0	0	1	0	1	0	0	1	0	1	0	0	0	0	0
+p ʁ ɛ j	-8.64	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	p ʁ o	-0.694	-9.334	0.00009962477993968402	1	0	1	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+p s ɛ j	-0.06	No change	p s ɛ j	-0.06	-0.12	0.9999003752200603	1	0	1	0	0	1	0	1	0	0	0	0	0	1	0	1	0	0	1	0	1	0	0	0	0	0
+p s ɛ j	-8.64	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	p s o	-0.694	-9.334	0.00009962477993968402	1	0	1	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+ʁ ɛ j	-0.06	No change	ʁ ɛ j	-0.06	-0.12	0.9999003752200603	1	0	1	0	0	1	0	1	0	0	0	0	0	1	0	1	0	0	1	0	1	0	0	0	0	0
+ʁ ɛ j	-8.64	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	ʁ o	-0.694	-9.334	0.00009962477993968402	1	0	1	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+z ɛ j	-0.06	No change	z ɛ j	-0.06	-0.12	0.9999003752200603	1	0	1	0	0	1	0	1	0	0	0	0	0	1	0	1	0	0	1	0	1	0	0	0	0	0
+z ɛ j	-8.64	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	z o	-0.694	-9.334	0.00009962477993968402	1	0	1	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+ʃ o t ɛ j	-0.06	No change	ʃ o t ɛ j	-0.06	-0.12	0.9996863753514358	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	1	0	0	1	0	1	0	0	0	0	0
+ʃ o t ɛ j	-8.187	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	ʃ o t o	0	-8.187	0.0003136246485641371	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+f a n ɛ j	-0.06	No change	f a n ɛ j	-0.06	-0.12	0.9996863753514358	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	1	0	0	1	0	1	0	0	0	0	0
+f a n ɛ j	-8.187	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	f a n o	0	-8.187	0.0003136246485641371	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+f a ʁ a s ɛ j	-0.06	No change	f a ʁ a s ɛ j	-0.06	-0.12	0.9996863753514358	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	1	0	0	1	0	1	0	0	0	0	0
+f a ʁ a s ɛ j	-8.187	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	f a ʁ a s o	0	-8.187	0.0003136246485641371	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ɡ ʁ a s ɛ j	-0.06	No change	ɡ ʁ a s ɛ j	-0.06	-0.12	0.9996863753514358	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	1	0	0	1	0	1	0	0	0	0	0
+ɡ ʁ a s ɛ j	-8.187	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	ɡ ʁ a s o	0	-8.187	0.0003136246485641371	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʒ y v ɛ j	-0.06	No change	ʒ y v ɛ j	-0.06	-0.12	0.9996863753514358	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	1	0	0	1	0	1	0	0	0	0	0
+ʒ y v ɛ j	-8.187	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	ʒ y v o	0	-8.187	0.0003136246485641371	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+p a ʁ t ɛ j	-0.06	No change	p a ʁ t ɛ j	-0.06	-0.12	0.9996863753514358	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	1	0	0	1	0	1	0	0	0	0	0
+p a ʁ t ɛ j	-8.187	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	p a ʁ t o	0	-8.187	0.0003136246485641371	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʁ a f ɛ j	-0.06	No change	ʁ a f ɛ j	-0.06	-0.12	0.9996863753514358	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	1	0	0	1	0	1	0	0	0	0	0
+ʁ a f ɛ j	-8.187	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	ʁ a f o	0	-8.187	0.0003136246485641371	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʁ o m ɛ j	-0.06	No change	ʁ o m ɛ j	-0.06	-0.12	0.9996863753514358	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	1	0	0	1	0	1	0	0	0	0	0
+ʁ o m ɛ j	-8.187	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	ʁ o m o	0	-8.187	0.0003136246485641371	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʃ o t ɛ l	-0.275	No change	ʃ o t ɛ l	-0.275	-0.55	0.9995179593719217	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	1	0	1	0	0	1	0	0	0	0	0
+ʃ o t ɛ l	-8.187	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	ʃ o t o	0	-8.187	0.0004820406280783186	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+f a n ɛ l	-0.275	No change	f a n ɛ l	-0.275	-0.55	0.9995179593719217	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	1	0	1	0	0	1	0	0	0	0	0
+f a n ɛ l	-8.187	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	f a n o	0	-8.187	0.0004820406280783186	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+f a ʁ a s ɛ l	-0.275	No change	f a ʁ a s ɛ l	-0.275	-0.55	0.9995179593719217	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	1	0	1	0	0	1	0	0	0	0	0
+f a ʁ a s ɛ l	-8.187	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	f a ʁ a s o	0	-8.187	0.0004820406280783186	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ɡ ʁ a s ɛ l	-0.275	No change	ɡ ʁ a s ɛ l	-0.275	-0.55	0.9995179593719217	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	1	0	1	0	0	1	0	0	0	0	0
+ɡ ʁ a s ɛ l	-8.187	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	ɡ ʁ a s o	0	-8.187	0.0004820406280783186	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʒ y v ɛ l	-0.275	No change	ʒ y v ɛ l	-0.275	-0.55	0.9995179593719217	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	1	0	1	0	0	1	0	0	0	0	0
+ʒ y v ɛ l	-8.187	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	ʒ y v o	0	-8.187	0.0004820406280783186	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+p a ʁ t ɛ l	-0.275	No change	p a ʁ t ɛ l	-0.275	-0.55	0.9995179593719217	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	1	0	1	0	0	1	0	0	0	0	0
+p a ʁ t ɛ l	-8.187	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	p a ʁ t o	0	-8.187	0.0004820406280783186	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʁ a f ɛ l	-0.275	No change	ʁ a f ɛ l	-0.275	-0.55	0.9995179593719217	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	1	0	1	0	0	1	0	0	0	0	0
+ʁ a f ɛ l	-8.187	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	ʁ a f o	0	-8.187	0.0004820406280783186	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ʁ o m ɛ l	-0.275	No change	ʁ o m ɛ l	-0.275	-0.55	0.9995179593719217	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	1	0	1	0	0	1	0	0	0	0	0
+ʁ o m ɛ l	-8.187	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	ʁ o m o	0	-8.187	0.0004820406280783186	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+d a g	-0.336	No change	d a g	-0.336	-0.672	0.999725147203914	1	0	0	1	0	0	1	0	1	0	0	0	0	1	0	0	1	0	0	1	0	1	0	0	0	0
+d a g	-8.177	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	d o	-0.694	-8.870999999999999	0.00027485279608596583	1	0	0	1	0	0	1	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+m i d a g	-0.336	No change	m i d a g	-0.336	-0.672	0.999135072873491	0	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	1	0	0	1	0	1	0	0	0	0
+m i d a g	-7.724	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	m i d o	0	-7.724	0.0008649271265089665	0	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+d a s	-0.336	No change	d a s	-0.336	-0.672	0.999725147203914	1	0	0	1	0	0	1	0	1	0	0	0	0	1	0	0	1	0	0	1	0	1	0	0	0	0
+d a s	-8.177	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	d o	-0.694	-8.870999999999999	0.00027485279608596583	1	0	0	1	0	0	1	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+m i d a s	-0.336	No change	m i d a s	-0.336	-0.672	0.999135072873491	0	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	1	0	0	1	0	1	0	0	0	0
+m i d a s	-7.724	Delete 1 segment at -2, Mutate the segment(s) at last nucleus to [o]	m i d o	0	-7.724	0.0008649271265089665	0	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0

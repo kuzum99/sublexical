@@ -1,0 +1,10 @@
+[+syllabic] [+syllabic]$
+[-syllabic] [+syllabic]$
+[+segment] k [+syllabic]$
+[+segment] g [+syllabic]$
+[+segment] s [+syllabic]$
+[+segment] t͡s [+syllabic]$
+[+segment] n [+syllabic]$
+[+segment] b [+syllabic]$
+[+segment] m [+syllabic]$
+[+segment] ɾ [+syllabic]$

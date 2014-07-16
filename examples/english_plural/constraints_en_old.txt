@@ -1,0 +1,40 @@
+F: Ident-voice
+^([-syllabic] ?)* ?([+syllabic] ?)+ ?([-syllabic] ?)*$
+[+strident]$
+[0strident]$
+[-strident]$
+[+voice]$
+[0voice]$
+[-voice]$
+[+syllabic]$
+[-syllabic]$
+[+continuant,-voice,+labiodental]$
+[+continuant,-voice,-strident,-sonorant]$
+[+continuant,+voice,+labiodental]$
+[+continuant,+voice,-strident,-sonorant]$
+[+sonorant,-syllabic] [+continuant,-voice,+labiodental]$
+[+sonorant,-syllabic] [+continuant,-voice,-strident,-sonorant]$
+[+sonorant,-syllabic] [+continuant,+voice,+labiodental]$
+[+sonorant,-syllabic] [+continuant,+voice,-strident,-sonorant]$
+[+syllabic] [+continuant,-voice,+labiodental]$
+[+syllabic] [+continuant,-voice,-strident,-sonorant]$
+[+syllabic] [+continuant,+voice,+labiodental]$
+[+syllabic] [+continuant,+voice,-strident,-sonorant]$
+[+syllabic,+stress] [+continuant,-voice,+labiodental]$
+[+syllabic,+stress] [+continuant,-voice,-strident,-sonorant]$
+[+syllabic,+stress] [+continuant,+voice,+labiodental]$
+[+syllabic,+stress] [+continuant,+voice,-strident,-sonorant]$
+[+syllabic,-stress] [+continuant,-voice,+labiodental]$
+[+syllabic,-stress] [+continuant,-voice,-strident,-sonorant]$
+[+syllabic,-stress] [+continuant,+voice,+labiodental]$
+[+syllabic,-stress] [+continuant,+voice,-strident,-sonorant]$
+[+syllabic,+long] [+continuant,-voice,+labiodental]$
+[+syllabic,+long] [+continuant,-voice,-strident,-sonorant]$
+[+syllabic,+long] [+continuant,+voice,+labiodental]$
+[+syllabic,+long] [+continuant,+voice,-strident,-sonorant]$
+[+syllabic,-long] [+continuant,-voice,+labiodental]$
+[+syllabic,-long] [+continuant,-voice,-strident,-sonorant]$
+[+syllabic,-long] [+continuant,+voice,+labiodental]$
+[+syllabic,-long] [+continuant,+voice,-strident,-sonorant]$
+
+

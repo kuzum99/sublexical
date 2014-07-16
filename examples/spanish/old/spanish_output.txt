@@ -1,0 +1,648 @@
+base	base.harmony	change	derivative	derivative.harmony	harmony.sum	probability	e . .?$	o . .?$	r r$	e . .?$	o . .?$	r r$
+		Mutate the segment(s) at last nucleus to [+glide]					0	0	0	-4.852691455447766	-5.2611753460315684	0
+		Insert [k] at -1					-2.3914446762620254	-2.093915854531658	-4.5230443189699985	0	-1.4559877580295422	0
+		Insert [o j] at -1					0	-6.5184756303773765	-4.652014115695493	-6.673414893686851	-2.302780836572826	0
+		Insert [i g] at -1					0	-6.518475630377376	-4.652014115695493	-6.673414893686851	-2.302780836572826	0
+		Mutate the segment(s) at last nucleus to [+high]					0	-6.518700330542282	-4.652236854877997	-4.862962212779734	-5.271472941609032	-4.828745471332697
+		Insert [w] at -1					-6.910152567586768	-6.613322679073461	-4.477942288506199	0	-7.082357301967261	0
+		Insert [e] at -1					-6.910152567586768	-6.613322679073461	-4.477942288506199	0	-7.082357301967261	0
+		Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]					-6.910152567586768	-6.613322679073461	-4.477942288506199	-4.862746062173939	-5.27125622646704	-4.828529379324793
+		Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]					-6.910152567586768	-6.613322679073461	-4.477942288506199	-1.6231301496599813	-7.192064445879636	0
+		Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]					-6.910399920698827	-6.613569857187312	-4.478186316219044	0	0	0
+		Insert [g] at -1					-6.91138994791314	-6.614559184343204	-4.479163041439033	-7.3081259628792345	-7.22182490427579	0
+		Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]					0	-6.518475630377376	-4.652014115695493	0	-6.518475630377376	-4.652014115695493
+		Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]					0	-6.518475630377376	-4.652014115695493	0	-6.518475630377376	-4.652014115695493
+		Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]					-6.910152567586768	-6.613322679073461	-4.477942288506199	-7.313991043530981	-6.54914813478686	-4.42094210908974
+		Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]					-6.910152567586768	-6.613322679073461	-4.477942288506199	-6.910152567586768	-6.613322679073461	-4.477942288506199
+		Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]					-6.910152567586768	-6.613322679073461	-4.477942288506199	-6.910152567586768	-6.613322679073461	-4.477942288506199
+		Mutate the segment(s) at -4 to [-high,+glide]					-6.910152567586768	-6.613322679073461	-4.477942288506199	-6.910152567586768	-6.613322679073461	-4.477942288506199
+		Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]					-6.910399920698827	-6.613569857187312	-4.478186316219044	-7.158099467204669	-6.6565553734418454	-4.35306028876121
+		Delete 4 segments at 13,15,17,19					-6.910152567586768	-6.613322679073461	-4.477942288506199	0	-6.707789505047618	-4.6207127828469465
+							GK	GK	GK	GP	GP	GP
+r e t o l b	0	Mutate the segment(s) at last nucleus to [+glide]	r e t q l b	0	0	0.8805223030813105	0	1	0	0	0	0
+r e t o l b	-2.094	Insert [k] at -1	r e t o l b k	0	-2.094	0.1084745146784654	0	1	0	0	0	0
+r e t o l b	-6.518	Insert [o j] at -1	r e t o l b o j	0	-6.518	0.001300196305936498	0	1	0	0	0	0
+r e t o l b	-6.518	Insert [i g] at -1	r e t o l b i g	0	-6.518	0.001300196305936498	0	1	0	0	0	0
+r e t o l b	-6.519	Mutate the segment(s) at last nucleus to [+high]	r e t u l b	0	-6.519	0.0012988967595120677	0	1	0	0	0	0
+r e t o l b	-6.613	Insert [w] at -1	r e t o l b w	0	-6.613	0.0011823633301142264	0	1	0	0	0	0
+r e t o l b	-6.613	Insert [e] at -1	r e t o l b e	0	-6.613	0.0011823633301142264	0	1	0	0	0	0
+r e t o l b	-6.613	Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	r e t u l b	0	-6.613	0.0011823633301142264	0	1	0	0	0	0
+r e t o l b	-6.613	Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	r e t o l b j	0	-6.613	0.0011823633301142264	0	1	0	0	0	0
+r e t o l b	-6.614	Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	r e t o l b g	0	-6.614	0.0011811815577687668	0	1	0	0	0	0
+r e t o l b	-6.615	Insert [g] at -1	r e t o l b g	0	-6.615	0.0011800009666049613	0	1	0	0	0	0
+r e t o l b	-6.518	Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]	r e t o l b	-6.518	-13.036	0.0000019198950759737966	0	1	0	0	1	0
+r e t o l b	-6.518	Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	r e t o l b	-6.518	-13.036	0.0000019198950759737966	0	1	0	0	1	0
+r e t o l b	-6.613	Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]	r e o l b	-6.549	-13.162	0.000001692608003244871	0	1	0	0	1	0
+r e t o l b	-6.613	Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]	r e t o l b	-6.613	-13.226	0.0000015876747692894141	0	1	0	0	1	0
+r e t o l b	-6.613	Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	r e t o l b	-6.613	-13.226	0.0000015876747692894141	0	1	0	0	1	0
+r e t o l b	-6.613	Mutate the segment(s) at -4 to [-high,+glide]	r e t o l b	-6.613	-13.226	0.0000015876747692894141	0	1	0	0	1	0
+r e t o l b	-6.614	Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]	r e t o l b	-6.657	-13.271	0.00000151781308141063	0	1	0	0	1	0
+r e t o l b	-6.613	Delete 4 segments at 13,15,17,19	r e t o l b	-6.708	-13.321000000000002	0.0000014437884639298868	0	1	0	0	1	0
+e n t	0	Mutate the segment(s) at last nucleus to [+glide]	y n t	0	0	0.16394724828760185	1	0	0	0	0	0
+e n t	0	Mutate the segment(s) at last nucleus to [+high]	i n t	0	0	0.16394724828760185	1	0	0	0	0	0
+e n t	0	Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	e n t	0	0	0.16394724828760185	1	0	0	1	0	0
+e n t	0	Insert [i g] at -1	e n t i g	0	0	0.16394724828760185	1	0	0	0	0	0
+e n t	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]	e n d	0	0	0.16394724828760185	1	0	0	1	0	0
+e n t	0	Insert [o j] at -1	e n t o j	0	0	0.16394724828760185	1	0	0	0	0	0
+e n t	-2.391	Insert [k] at -1	e n t k	0	-2.391	0.015007419607360736	1	0	0	0	0	0
+e n t	-6.91	Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	i n g	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+e n t	-6.91	Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	e n t j	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+e n t	-6.91	Delete 4 segments at 13,15,17,19	e n t	0	-6.91	0.0001635796451911041	1	0	0	1	0	0
+e n t	-6.91	Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]	e n	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+e n t	-6.91	Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	e n k g	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+e n t	-6.91	Insert [e] at -1	e n t e	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+e n t	-6.91	Insert [w] at -1	e n t w	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+e n t	-6.911	Insert [g] at -1	e n t g	0	-6.911	0.00016341614730847905	1	0	0	0	0	0
+e n t	-6.91	Mutate the segment(s) at -4 to [-high,+glide]	e n t	-6.91	-13.82	1.6321286633556162e-7	1	0	0	1	0	0
+e n t	-6.91	Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]	e n t	-6.91	-13.82	1.6321286633556162e-7	1	0	0	1	0	0
+e n t	-6.91	Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	e n k	-6.91	-13.82	1.6321286633556162e-7	1	0	0	1	0	0
+e n t	-6.91	Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]	e n t	-7.158	-14.068000000000001	1.2736478311586414e-7	1	0	0	1	0	0
+p r e	0	Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	p r e	0	0	0.05881477916164477	0	0	0	0	0	0
+p r e	0	Mutate the segment(s) at last nucleus to [+glide]	p r y	0	0	0.05881477916164477	0	0	0	0	0	0
+p r e	0	Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	p r i g	0	0	0.05881477916164477	0	0	0	0	0	0
+p r e	0	Mutate the segment(s) at last nucleus to [+high]	p r i	0	0	0.05881477916164477	0	0	0	0	0	0
+p r e	0	Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	p r e j	0	0	0.05881477916164477	0	0	0	0	0	0
+p r e	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	p r e	0	0	0.05881477916164477	0	0	0	0	0	0
+p r e	0	Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	p r e	0	0	0.05881477916164477	0	0	0	0	0	0
+p r e	0	Delete 4 segments at 13,15,17,19	p r e	0	0	0.05881477916164477	0	0	0	0	0	0
+p r e	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]	p r e	0	0	0.05881477916164477	0	0	0	0	0	0
+p r e	0	Insert [k] at -1	p r e k	0	0	0.05881477916164477	0	0	0	0	0	0
+p r e	0	Insert [g] at -1	p r e g	0	0	0.05881477916164477	0	0	0	0	0	0
+p r e	0	Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]	p r e	0	0	0.05881477916164477	0	0	0	0	0	0
+p r e	0	Insert [e] at -1	p r e e	0	0	0.05881477916164477	0	0	0	0	0	0
+p r e	0	Insert [w] at -1	p r e w	0	0	0.05881477916164477	0	0	0	0	0	0
+p r e	0	Mutate the segment(s) at -4 to [-high,+glide]	p r e	0	0	0.05881477916164477	0	0	0	0	0	0
+p r e	0	Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]	p r	0	0	0.05881477916164477	0	0	0	0	0	0
+p r e	0	Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]	p r e	0	0	0.05881477916164477	0	0	0	0	0	0
+p r e	0	Insert [o j] at -1	p r e o j	-6.673	-6.673	0.00007437712601932347	0	0	0	1	0	0
+p r e	0	Insert [i g] at -1	p r e i g	-6.673	-6.673	0.00007437712601932347	0	0	0	1	0	0
+s e n d r	0	Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	s i n d r	0	0	0.055553499621989806	0	0	0	0	0	0
+s e n d r	0	Mutate the segment(s) at last nucleus to [+glide]	s y n d r	0	0	0.055553499621989806	0	0	0	0	0	0
+s e n d r	0	Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	s e n d r g	0	0	0.055553499621989806	0	0	0	0	0	0
+s e n d r	0	Mutate the segment(s) at last nucleus to [+high]	s i n d r	0	0	0.055553499621989806	0	0	0	0	0	0
+s e n d r	0	Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	s e n d r j	0	0	0.055553499621989806	0	0	0	0	0	0
+s e n d r	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	s e n d r	0	0	0.055553499621989806	0	0	0	0	0	0
+s e n d r	0	Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	s e n d r	0	0	0.055553499621989806	0	0	0	0	0	0
+s e n d r	0	Insert [i g] at -1	s e n d r i g	0	0	0.055553499621989806	0	0	0	0	0	0
+s e n d r	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]	s e n d r	0	0	0.055553499621989806	0	0	0	0	0	0
+s e n d r	0	Insert [k] at -1	s e n d r k	0	0	0.055553499621989806	0	0	0	0	0	0
+s e n d r	0	Insert [g] at -1	s e n d r g	0	0	0.055553499621989806	0	0	0	0	0	0
+s e n d r	0	Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]	s e n d r	0	0	0.055553499621989806	0	0	0	0	0	0
+s e n d r	0	Insert [e] at -1	s e n d r e	0	0	0.055553499621989806	0	0	0	0	0	0
+s e n d r	0	Insert [w] at -1	s e n d r w	0	0	0.055553499621989806	0	0	0	0	0	0
+s e n d r	0	Mutate the segment(s) at -4 to [-high,+glide]	s e n d r	0	0	0.055553499621989806	0	0	0	0	0	0
+s e n d r	0	Insert [o j] at -1	s e n d r o j	0	0	0.055553499621989806	0	0	0	0	0	0
+s e n d r	0	Delete 4 segments at 13,15,17,19	s e n d r	0	0	0.055553499621989806	0	0	0	0	0	0
+s e n d r	0	Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]	s e n d r	0	0	0.055553499621989806	0	0	0	0	0	0
+s e n d r	0	Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]	s e d r	-7.314	-7.314	0.00003700680418314972	0	0	0	1	0	0
+n o r r	0	Mutate the segment(s) at last nucleus to [+glide]	n q r r	0	0	0.9985448333312348	0	1	1	0	0	1
+n o r r	-6.617	Insert [k] at -1	n o r r k	0	-6.617	0.0013354910507940617	0	1	1	0	0	0
+n o r r	-11.091	Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]	n o r	0	-11.091	0.00001522675886186373	0	1	1	0	0	0
+n o r r	-11.091	Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	n o r r j	0	-11.091	0.00001522675886186373	0	1	1	0	0	0
+n o r r	-11.091	Insert [w] at -1	n o r r w	0	-11.091	0.00001522675886186373	0	1	1	0	0	0
+n o r r	-11.091	Insert [e] at -1	n o r r e	0	-11.091	0.00001522675886186373	0	1	1	0	0	0
+n o r r	-11.092	Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	n o r r g	0	-11.092	0.000015211539713844113	0	1	1	0	0	0
+n o r r	-11.094	Insert [g] at -1	n o r r g	0	-11.094	0.000015181147037223957	0	1	1	0	0	0
+n o r r	-11.17	Insert [o j] at -1	n o r r o j	0	-11.17	0.000014070133108260097	0	1	1	0	0	0
+n o r r	-11.17	Insert [i g] at -1	n o r r i g	0	-11.17	0.000014070133108260097	0	1	1	0	0	0
+n o r r	-11.091	Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	n u r r	-4.829	-15.919999999999998	1.2173050312000293e-7	0	1	1	0	0	1
+n o r r	-11.171	Mutate the segment(s) at last nucleus to [+high]	n u r r	-4.829	-16	1.123714172839441e-7	0	1	1	0	0	1
+n o r r	-11.092	Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]	n o r r	-11.01	-22.102	2.5153065970275984e-10	0	1	1	0	1	1
+n o r r	-11.091	Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]	n o r r	-11.091	-22.182	2.3219206358903222e-10	0	1	1	0	1	1
+n o r r	-11.091	Mutate the segment(s) at -4 to [-high,+glide]	n o r r	-11.091	-22.182	2.3219206358903222e-10	0	1	1	0	1	1
+n o r r	-11.091	Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	n o r r	-11.091	-22.182	2.3219206358903222e-10	0	1	1	0	1	1
+n o r r	-11.17	Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]	n o r r	-11.17	-22.34	1.9825714287030644e-10	0	1	1	0	1	1
+n o r r	-11.17	Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	n o r r	-11.17	-22.34	1.9825714287030644e-10	0	1	1	0	1	1
+n o r r	-11.091	Delete 4 segments at 13,15,17,19	n o r r	-11.329	-22.42	1.8301440937149077e-10	0	1	1	0	1	1
+g e C	0	Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	g i g	0	0	0.05814637706031729	0	0	0	0	0	0
+g e C	0	Mutate the segment(s) at last nucleus to [+glide]	g y C	0	0	0.05814637706031729	0	0	0	0	0	0
+g e C	0	Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	g e C g	0	0	0.05814637706031729	0	0	0	1	0	0
+g e C	0	Mutate the segment(s) at last nucleus to [+high]	g i C	0	0	0.05814637706031729	0	0	0	0	0	0
+g e C	0	Delete 4 segments at 13,15,17,19	g e C	0	0	0.05814637706031729	0	0	0	0	0	0
+g e C	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	g e k	0	0	0.05814637706031729	0	0	0	0	0	0
+g e C	0	Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	g e C	0	0	0.05814637706031729	0	0	0	0	0	0
+g e C	0	Insert [i g] at -1	g e C i g	0	0	0.05814637706031729	0	0	0	0	0	0
+g e C	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]	g e C	0	0	0.05814637706031729	0	0	0	0	0	0
+g e C	0	Insert [k] at -1	g e C k	0	0	0.05814637706031729	0	0	0	1	0	0
+g e C	0	Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]	g e	0	0	0.05814637706031729	0	0	0	0	0	0
+g e C	0	Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]	g e C	0	0	0.05814637706031729	0	0	0	0	0	0
+g e C	0	Insert [e] at -1	g e C e	0	0	0.05814637706031729	0	0	0	1	0	0
+g e C	0	Insert [w] at -1	g e C w	0	0	0.05814637706031729	0	0	0	1	0	0
+g e C	0	Mutate the segment(s) at -4 to [-high,+glide]	g y C	0	0	0.05814637706031729	0	0	0	0	0	0
+g e C	0	Insert [o j] at -1	g e C o j	0	0	0.05814637706031729	0	0	0	0	0	0
+g e C	0	Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]	g e C	0	0	0.05814637706031729	0	0	0	0	0	0
+g e C	0	Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	g e C j	-1.623	-1.623	0.01147262282970473	0	0	0	1	0	0
+g e C	0	Insert [g] at -1	g e C g	-7.308	-7.308	0.00003896714490157927	0	0	0	1	0	0
+b o t r	0	Mutate the segment(s) at last nucleus to [+glide]	b q t r	0	0	0.8794839221638444	0	1	0	0	0	0
+b o t r	-2.094	Insert [k] at -1	b o t r k	0	-2.094	0.10834659302823652	0	1	0	0	0	0
+b o t r	-6.518	Insert [o j] at -1	b o t r o j	0	-6.518	0.001298663012539704	0	1	0	0	0	0
+b o t r	-6.518	Insert [i g] at -1	b o t r i g	0	-6.518	0.001298663012539704	0	1	0	0	0	0
+b o t r	-6.519	Mutate the segment(s) at last nucleus to [+high]	b u t r	0	-6.519	0.0012973649986422794	0	1	0	0	0	0
+b o t r	-6.613	Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]	b o r	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+b o t r	-6.613	Insert [w] at -1	b o t r w	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+b o t r	-6.613	Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	b u t r	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+b o t r	-6.613	Insert [e] at -1	b o t r e	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+b o t r	-6.613	Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	b o t r j	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+b o t r	-6.614	Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	b o t r g	0	-6.614	0.001179788615891704	0	1	0	0	0	0
+b o t r	-6.615	Insert [g] at -1	b o t r g	0	-6.615	0.0011786094169735364	0	1	0	0	0	0
+b o t r	-6.518	Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]	b o t r	-6.518	-13.036	0.0000019176309852137425	0	1	0	0	1	0
+b o t r	-6.518	Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	b o t r	-6.518	-13.036	0.0000019176309852137425	0	1	0	0	1	0
+b o t r	-6.613	Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]	b o t r	-6.613	-13.226	0.0000015858024587553104	0	1	0	0	1	0
+b o t r	-6.613	Mutate the segment(s) at -4 to [-high,+glide]	b o t r	-6.613	-13.226	0.0000015858024587553104	0	1	0	0	1	0
+b o t r	-6.613	Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	b o t r	-6.613	-13.226	0.0000015858024587553104	0	1	0	0	1	0
+b o t r	-6.614	Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]	b o t r	-6.657	-13.271	0.0000015160231572548167	0	1	0	0	1	0
+b o t r	-6.613	Delete 4 segments at 13,15,17,19	b o t r	-6.708	-13.321000000000002	0.0000014420858354052529	0	1	0	0	1	0
+C o s t r	0	Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	C u s t r	0	0	0.05555113755374425	0	0	0	0	0	0
+C o s t r	0	Mutate the segment(s) at last nucleus to [+glide]	C q s t r	0	0	0.05555113755374425	0	0	0	0	0	0
+C o s t r	0	Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	C o s t r g	0	0	0.05555113755374425	0	0	0	0	0	0
+C o s t r	0	Mutate the segment(s) at last nucleus to [+high]	C u s t r	0	0	0.05555113755374425	0	0	0	0	0	0
+C o s t r	0	Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	C o s t r j	0	0	0.05555113755374425	0	0	0	0	0	0
+C o s t r	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	C o s t r	0	0	0.05555113755374425	0	0	0	0	0	0
+C o s t r	0	Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	C o s t r	0	0	0.05555113755374425	0	0	0	0	0	0
+C o s t r	0	Insert [i g] at -1	C o s t r i g	0	0	0.05555113755374425	0	0	0	0	0	0
+C o s t r	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]	C o s t r	0	0	0.05555113755374425	0	0	0	0	0	0
+C o s t r	0	Insert [k] at -1	C o s t r k	0	0	0.05555113755374425	0	0	0	0	0	0
+C o s t r	0	Insert [g] at -1	C o s t r g	0	0	0.05555113755374425	0	0	0	0	0	0
+C o s t r	0	Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]	C o s t r	0	0	0.05555113755374425	0	0	0	0	0	0
+C o s t r	0	Insert [e] at -1	C o s t r e	0	0	0.05555113755374425	0	0	0	0	0	0
+C o s t r	0	Insert [w] at -1	C o s t r w	0	0	0.05555113755374425	0	0	0	0	0	0
+C o s t r	0	Mutate the segment(s) at -4 to [-high,+glide]	C o s t r	0	0	0.05555113755374425	0	0	0	0	0	0
+C o s t r	0	Insert [o j] at -1	C o s t r o j	0	0	0.05555113755374425	0	0	0	0	0	0
+C o s t r	0	Delete 4 segments at 13,15,17,19	C o s t r	0	0	0.05555113755374425	0	0	0	0	0	0
+C o s t r	0	Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]	C o s t r	0	0	0.05555113755374425	0	0	0	0	0	0
+C o s t r	0	Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]	C o t r	-6.549	-6.549	0.00007952403260319353	0	0	0	0	1	0
+d e C	0	Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	d i g	0	0	0.05814637706031729	0	0	0	0	0	0
+d e C	0	Mutate the segment(s) at last nucleus to [+glide]	d y C	0	0	0.05814637706031729	0	0	0	0	0	0
+d e C	0	Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	d e C g	0	0	0.05814637706031729	0	0	0	1	0	0
+d e C	0	Mutate the segment(s) at last nucleus to [+high]	d i C	0	0	0.05814637706031729	0	0	0	0	0	0
+d e C	0	Delete 4 segments at 13,15,17,19	d e C	0	0	0.05814637706031729	0	0	0	0	0	0
+d e C	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	d e k	0	0	0.05814637706031729	0	0	0	0	0	0
+d e C	0	Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	d e C	0	0	0.05814637706031729	0	0	0	0	0	0
+d e C	0	Insert [i g] at -1	d e C i g	0	0	0.05814637706031729	0	0	0	0	0	0
+d e C	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]	d e C	0	0	0.05814637706031729	0	0	0	0	0	0
+d e C	0	Insert [k] at -1	d e C k	0	0	0.05814637706031729	0	0	0	1	0	0
+d e C	0	Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]	d e	0	0	0.05814637706031729	0	0	0	0	0	0
+d e C	0	Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]	d e C	0	0	0.05814637706031729	0	0	0	0	0	0
+d e C	0	Insert [e] at -1	d e C e	0	0	0.05814637706031729	0	0	0	1	0	0
+d e C	0	Insert [w] at -1	d e C w	0	0	0.05814637706031729	0	0	0	1	0	0
+d e C	0	Mutate the segment(s) at -4 to [-high,+glide]	d y C	0	0	0.05814637706031729	0	0	0	0	0	0
+d e C	0	Insert [o j] at -1	d e C o j	0	0	0.05814637706031729	0	0	0	0	0	0
+d e C	0	Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]	d e C	0	0	0.05814637706031729	0	0	0	0	0	0
+d e C	0	Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	d e C j	-1.623	-1.623	0.01147262282970473	0	0	0	1	0	0
+d e C	0	Insert [g] at -1	d e C g	-7.308	-7.308	0.00003896714490157927	0	0	0	1	0	0
+f o t	0	Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	f u g	0	0	0.07024282149756311	0	0	0	0	0	0
+f o t	0	Mutate the segment(s) at last nucleus to [+glide]	f q t	0	0	0.07024282149756311	0	0	0	0	0	0
+f o t	0	Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	f o k g	0	0	0.07024282149756311	0	0	0	0	1	0
+f o t	0	Mutate the segment(s) at last nucleus to [+high]	f u t	0	0	0.07024282149756311	0	0	0	0	0	0
+f o t	0	Delete 4 segments at 13,15,17,19	f o t	0	0	0.07024282149756311	0	0	0	0	0	0
+f o t	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	f o k	0	0	0.07024282149756311	0	0	0	0	0	0
+f o t	0	Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	f o t	0	0	0.07024282149756311	0	0	0	0	0	0
+f o t	0	Insert [i g] at -1	f o t i g	0	0	0.07024282149756311	0	0	0	0	0	0
+f o t	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]	f o d	0	0	0.07024282149756311	0	0	0	0	0	0
+f o t	0	Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]	f o	0	0	0.07024282149756311	0	0	0	0	0	0
+f o t	0	Insert [o j] at -1	f o t o j	0	0	0.07024282149756311	0	0	0	0	0	0
+f o t	0	Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]	f o t	0	0	0.07024282149756311	0	0	0	0	0	0
+f o t	0	Mutate the segment(s) at -4 to [-high,+glide]	f q t	0	0	0.07024282149756311	0	0	0	0	0	0
+f o t	0	Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]	f o t	0	0	0.07024282149756311	0	0	0	0	0	0
+f o t	0	Insert [k] at -1	f o t k	-1.456	-1.456	0.01637831359349415	0	0	0	0	1	0
+f o t	0	Insert [w] at -1	f o t w	-7.082	-7.082	0.000059010382139233545	0	0	0	0	1	0
+f o t	0	Insert [e] at -1	f o t e	-7.082	-7.082	0.000059010382139233545	0	0	0	0	1	0
+f o t	0	Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	f o t j	-7.192	-7.192	0.00005286351465721794	0	0	0	0	1	0
+f o t	0	Insert [g] at -1	f o t g	-7.222	-7.222	0.00005130116168677321	0	0	0	0	1	0
+d e r r	0	Mutate the segment(s) at last nucleus to [+glide]	d y r r	0	0	0.9800027328553084	1	0	1	0	0	1
+d e r r	-4.652	Insert [o j] at -1	d e r r o j	0	-4.652	0.00935167395866684	1	0	1	0	0	0
+d e r r	-4.652	Insert [i g] at -1	d e r r i g	0	-4.652	0.00935167395866684	1	0	1	0	0	0
+d e r r	-6.914	Insert [k] at -1	d e r r k	0	-6.914	0.0009739019578366235	1	0	1	0	0	0
+d e r r	-4.652	Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]	d e r r	-4.652	-9.304	0.00008923832852425274	1	0	1	1	0	1
+d e r r	-4.652	Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	d e r r	-4.652	-9.304	0.00008923832852425274	1	0	1	1	0	1
+d e r r	-4.652	Mutate the segment(s) at last nucleus to [+high]	d i r r	-4.829	-9.481	0.00007476206764224069	1	0	1	0	0	1
+d e r r	-11.388	Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]	d e r	0	-11.388	0.000011104058135213958	1	0	1	0	0	0
+d e r r	-11.388	Insert [e] at -1	d e r r e	0	-11.388	0.000011104058135213958	1	0	1	0	0	0
+d e r r	-11.388	Insert [w] at -1	d e r r w	0	-11.388	0.000011104058135213958	1	0	1	0	0	0
+d e r r	-11.388	Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	d e r r j	0	-11.388	0.000011104058135213958	1	0	1	0	0	0
+d e r r	-11.389	Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	d e r r g	0	-11.389	0.000011092959627257593	1	0	1	0	0	0
+d e r r	-11.391	Insert [g] at -1	d e r r g	0	-11.391	0.000011070795879139112	1	0	1	0	0	0
+d e r r	-11.388	Delete 4 segments at 13,15,17,19	d e r r	-4.621	-16.009	1.0929666892235287e-7	1	0	1	1	0	1
+d e r r	-11.388	Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	d i r r	-4.829	-16.217	8.877152358791018e-8	1	0	1	0	0	1
+d e r r	-11.388	Mutate the segment(s) at -4 to [-high,+glide]	d e r r	-11.388	-22.776	1.2581608493168943e-10	1	0	1	1	0	1
+d e r r	-11.388	Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]	d e r r	-11.388	-22.776	1.2581608493168943e-10	1	0	1	1	0	1
+d e r r	-11.388	Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	d e r r	-11.388	-22.776	1.2581608493168943e-10	1	0	1	1	0	1
+d e r r	-11.389	Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]	d e r r	-11.511	-22.9	1.1114339308744657e-10	1	0	1	1	0	1
+l e k	0	Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	l i g	0	0	0.05814637706031729	0	0	0	0	0	0
+l e k	0	Mutate the segment(s) at last nucleus to [+glide]	l y k	0	0	0.05814637706031729	0	0	0	0	0	0
+l e k	0	Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	l e k g	0	0	0.05814637706031729	0	0	0	1	0	0
+l e k	0	Mutate the segment(s) at last nucleus to [+high]	l i k	0	0	0.05814637706031729	0	0	0	0	0	0
+l e k	0	Delete 4 segments at 13,15,17,19	l e k	0	0	0.05814637706031729	0	0	0	0	0	0
+l e k	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	l e k	0	0	0.05814637706031729	0	0	0	0	0	0
+l e k	0	Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	l e k	0	0	0.05814637706031729	0	0	0	0	0	0
+l e k	0	Insert [i g] at -1	l e k i g	0	0	0.05814637706031729	0	0	0	0	0	0
+l e k	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]	l e g	0	0	0.05814637706031729	0	0	0	0	0	0
+l e k	0	Insert [k] at -1	l e k k	0	0	0.05814637706031729	0	0	0	1	0	0
+l e k	0	Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]	l e	0	0	0.05814637706031729	0	0	0	0	0	0
+l e k	0	Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]	l e k	0	0	0.05814637706031729	0	0	0	0	0	0
+l e k	0	Insert [e] at -1	l e k e	0	0	0.05814637706031729	0	0	0	1	0	0
+l e k	0	Insert [w] at -1	l e k w	0	0	0.05814637706031729	0	0	0	1	0	0
+l e k	0	Mutate the segment(s) at -4 to [-high,+glide]	l y k	0	0	0.05814637706031729	0	0	0	0	0	0
+l e k	0	Insert [o j] at -1	l e k o j	0	0	0.05814637706031729	0	0	0	0	0	0
+l e k	0	Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]	l e k	0	0	0.05814637706031729	0	0	0	0	0	0
+l e k	0	Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	l e k j	-1.623	-1.623	0.01147262282970473	0	0	0	1	0	0
+l e k	0	Insert [g] at -1	l e k g	-7.308	-7.308	0.00003896714490157927	0	0	0	1	0	0
+d e l	0	Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	d i l	0	0	0.05814637706031729	0	0	0	0	0	0
+d e l	0	Mutate the segment(s) at last nucleus to [+glide]	d y l	0	0	0.05814637706031729	0	0	0	0	0	0
+d e l	0	Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	d e l g	0	0	0.05814637706031729	0	0	0	1	0	0
+d e l	0	Mutate the segment(s) at last nucleus to [+high]	d i l	0	0	0.05814637706031729	0	0	0	0	0	0
+d e l	0	Delete 4 segments at 13,15,17,19	d e l	0	0	0.05814637706031729	0	0	0	0	0	0
+d e l	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	d e l	0	0	0.05814637706031729	0	0	0	0	0	0
+d e l	0	Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	d e l	0	0	0.05814637706031729	0	0	0	0	0	0
+d e l	0	Insert [i g] at -1	d e l i g	0	0	0.05814637706031729	0	0	0	0	0	0
+d e l	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]	d e l	0	0	0.05814637706031729	0	0	0	0	0	0
+d e l	0	Insert [k] at -1	d e l k	0	0	0.05814637706031729	0	0	0	1	0	0
+d e l	0	Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]	d e	0	0	0.05814637706031729	0	0	0	0	0	0
+d e l	0	Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]	d e l	0	0	0.05814637706031729	0	0	0	0	0	0
+d e l	0	Insert [e] at -1	d e l e	0	0	0.05814637706031729	0	0	0	1	0	0
+d e l	0	Insert [w] at -1	d e l w	0	0	0.05814637706031729	0	0	0	1	0	0
+d e l	0	Mutate the segment(s) at -4 to [-high,+glide]	d y l	0	0	0.05814637706031729	0	0	0	0	0	0
+d e l	0	Insert [o j] at -1	d e l o j	0	0	0.05814637706031729	0	0	0	0	0	0
+d e l	0	Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]	d e l	0	0	0.05814637706031729	0	0	0	0	0	0
+d e l	0	Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	d e l j	-1.623	-1.623	0.01147262282970473	0	0	0	1	0	0
+d e l	0	Insert [g] at -1	d e l g	-7.308	-7.308	0.00003896714490157927	0	0	0	1	0	0
+s o l m	0	Mutate the segment(s) at last nucleus to [+glide]	s q l m	0	0	0.8794839221638444	0	1	0	0	0	0
+s o l m	-2.094	Insert [k] at -1	s o l m k	0	-2.094	0.10834659302823652	0	1	0	0	0	0
+s o l m	-6.518	Insert [o j] at -1	s o l m o j	0	-6.518	0.001298663012539704	0	1	0	0	0	0
+s o l m	-6.518	Insert [i g] at -1	s o l m i g	0	-6.518	0.001298663012539704	0	1	0	0	0	0
+s o l m	-6.519	Mutate the segment(s) at last nucleus to [+high]	s u l m	0	-6.519	0.0012973649986422794	0	1	0	0	0	0
+s o l m	-6.613	Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]	s o m	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+s o l m	-6.613	Insert [w] at -1	s o l m w	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+s o l m	-6.613	Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	s u l m	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+s o l m	-6.613	Insert [e] at -1	s o l m e	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+s o l m	-6.613	Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	s o l m j	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+s o l m	-6.614	Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	s o l m g	0	-6.614	0.001179788615891704	0	1	0	0	0	0
+s o l m	-6.615	Insert [g] at -1	s o l m g	0	-6.615	0.0011786094169735364	0	1	0	0	0	0
+s o l m	-6.518	Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]	s o l m	-6.518	-13.036	0.0000019176309852137425	0	1	0	0	1	0
+s o l m	-6.518	Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	s o l m	-6.518	-13.036	0.0000019176309852137425	0	1	0	0	1	0
+s o l m	-6.613	Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]	s o l m	-6.613	-13.226	0.0000015858024587553104	0	1	0	0	1	0
+s o l m	-6.613	Mutate the segment(s) at -4 to [-high,+glide]	s o l m	-6.613	-13.226	0.0000015858024587553104	0	1	0	0	1	0
+s o l m	-6.613	Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	s o l m	-6.613	-13.226	0.0000015858024587553104	0	1	0	0	1	0
+s o l m	-6.614	Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]	s o l m	-6.657	-13.271	0.0000015160231572548167	0	1	0	0	1	0
+s o l m	-6.613	Delete 4 segments at 13,15,17,19	s o l m	-6.708	-13.321000000000002	0.0000014420858354052529	0	1	0	0	1	0
+k e r t	0	Mutate the segment(s) at last nucleus to [+glide]	k y r t	0	0	0.16394724828760185	1	0	0	0	0	0
+k e r t	0	Mutate the segment(s) at last nucleus to [+high]	k i r t	0	0	0.16394724828760185	1	0	0	0	0	0
+k e r t	0	Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	k e r t	0	0	0.16394724828760185	1	0	0	1	0	0
+k e r t	0	Insert [i g] at -1	k e r t i g	0	0	0.16394724828760185	1	0	0	0	0	0
+k e r t	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]	k e r d	0	0	0.16394724828760185	1	0	0	1	0	0
+k e r t	0	Insert [o j] at -1	k e r t o j	0	0	0.16394724828760185	1	0	0	0	0	0
+k e r t	-2.391	Insert [k] at -1	k e r t k	0	-2.391	0.015007419607360736	1	0	0	0	0	0
+k e r t	-6.91	Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	k i r g	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+k e r t	-6.91	Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	k e r t j	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+k e r t	-6.91	Delete 4 segments at 13,15,17,19	k e r t	0	-6.91	0.0001635796451911041	1	0	0	1	0	0
+k e r t	-6.91	Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]	k e t	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+k e r t	-6.91	Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	k e r k g	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+k e r t	-6.91	Insert [e] at -1	k e r t e	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+k e r t	-6.91	Insert [w] at -1	k e r t w	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+k e r t	-6.911	Insert [g] at -1	k e r t g	0	-6.911	0.00016341614730847905	1	0	0	0	0	0
+k e r t	-6.91	Mutate the segment(s) at -4 to [-high,+glide]	k e r t	-6.91	-13.82	1.6321286633556162e-7	1	0	0	1	0	0
+k e r t	-6.91	Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]	k e r t	-6.91	-13.82	1.6321286633556162e-7	1	0	0	1	0	0
+k e r t	-6.91	Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	k e r k	-6.91	-13.82	1.6321286633556162e-7	1	0	0	1	0	0
+k e r t	-6.91	Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]	k e r t	-7.158	-14.068000000000001	1.2736478311586414e-7	1	0	0	1	0	0
+t e b r	0	Mutate the segment(s) at last nucleus to [+glide]	t y b r	0	0	0.16394724828760185	1	0	0	0	0	0
+t e b r	0	Mutate the segment(s) at last nucleus to [+high]	t i b r	0	0	0.16394724828760185	1	0	0	0	0	0
+t e b r	0	Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	t e b r	0	0	0.16394724828760185	1	0	0	1	0	0
+t e b r	0	Insert [i g] at -1	t e b r i g	0	0	0.16394724828760185	1	0	0	0	0	0
+t e b r	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]	t e b r	0	0	0.16394724828760185	1	0	0	1	0	0
+t e b r	0	Insert [o j] at -1	t e b r o j	0	0	0.16394724828760185	1	0	0	0	0	0
+t e b r	-2.391	Insert [k] at -1	t e b r k	0	-2.391	0.015007419607360736	1	0	0	0	0	0
+t e b r	-6.91	Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	t i b r	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+t e b r	-6.91	Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	t e b r j	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+t e b r	-6.91	Delete 4 segments at 13,15,17,19	t e b r	0	-6.91	0.0001635796451911041	1	0	0	1	0	0
+t e b r	-6.91	Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]	t e r	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+t e b r	-6.91	Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	t e b r g	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+t e b r	-6.91	Insert [e] at -1	t e b r e	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+t e b r	-6.91	Insert [w] at -1	t e b r w	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+t e b r	-6.911	Insert [g] at -1	t e b r g	0	-6.911	0.00016341614730847905	1	0	0	0	0	0
+t e b r	-6.91	Mutate the segment(s) at -4 to [-high,+glide]	t e b r	-6.91	-13.82	1.6321286633556162e-7	1	0	0	1	0	0
+t e b r	-6.91	Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]	t e b r	-6.91	-13.82	1.6321286633556162e-7	1	0	0	1	0	0
+t e b r	-6.91	Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	t e b r	-6.91	-13.82	1.6321286633556162e-7	1	0	0	1	0	0
+t e b r	-6.91	Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]	t e p r	-7.158	-14.068000000000001	1.2736478311586414e-7	1	0	0	1	0	0
+g e m b l	0	Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	g i m b l	0	0	0.055553499621989806	0	0	0	0	0	0
+g e m b l	0	Mutate the segment(s) at last nucleus to [+glide]	g y m b l	0	0	0.055553499621989806	0	0	0	0	0	0
+g e m b l	0	Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	g e m b l g	0	0	0.055553499621989806	0	0	0	0	0	0
+g e m b l	0	Mutate the segment(s) at last nucleus to [+high]	g i m b l	0	0	0.055553499621989806	0	0	0	0	0	0
+g e m b l	0	Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	g e m b l j	0	0	0.055553499621989806	0	0	0	0	0	0
+g e m b l	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	g e m b l	0	0	0.055553499621989806	0	0	0	0	0	0
+g e m b l	0	Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	g e m b l	0	0	0.055553499621989806	0	0	0	0	0	0
+g e m b l	0	Insert [i g] at -1	g e m b l i g	0	0	0.055553499621989806	0	0	0	0	0	0
+g e m b l	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]	g e m b l	0	0	0.055553499621989806	0	0	0	0	0	0
+g e m b l	0	Insert [k] at -1	g e m b l k	0	0	0.055553499621989806	0	0	0	0	0	0
+g e m b l	0	Insert [g] at -1	g e m b l g	0	0	0.055553499621989806	0	0	0	0	0	0
+g e m b l	0	Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]	g e m b l	0	0	0.055553499621989806	0	0	0	0	0	0
+g e m b l	0	Insert [e] at -1	g e m b l e	0	0	0.055553499621989806	0	0	0	0	0	0
+g e m b l	0	Insert [w] at -1	g e m b l w	0	0	0.055553499621989806	0	0	0	0	0	0
+g e m b l	0	Mutate the segment(s) at -4 to [-high,+glide]	g e m b l	0	0	0.055553499621989806	0	0	0	0	0	0
+g e m b l	0	Insert [o j] at -1	g e m b l o j	0	0	0.055553499621989806	0	0	0	0	0	0
+g e m b l	0	Delete 4 segments at 13,15,17,19	g e m b l	0	0	0.055553499621989806	0	0	0	0	0	0
+g e m b l	0	Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]	g e m b l	0	0	0.055553499621989806	0	0	0	0	0	0
+g e m b l	0	Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]	g e b l	-7.314	-7.314	0.00003700680418314972	0	0	0	1	0	0
+s o l t r	0	Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	s u l t r	0	0	0.05555113755374425	0	0	0	0	0	0
+s o l t r	0	Mutate the segment(s) at last nucleus to [+glide]	s q l t r	0	0	0.05555113755374425	0	0	0	0	0	0
+s o l t r	0	Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	s o l t r g	0	0	0.05555113755374425	0	0	0	0	0	0
+s o l t r	0	Mutate the segment(s) at last nucleus to [+high]	s u l t r	0	0	0.05555113755374425	0	0	0	0	0	0
+s o l t r	0	Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	s o l t r j	0	0	0.05555113755374425	0	0	0	0	0	0
+s o l t r	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	s o l t r	0	0	0.05555113755374425	0	0	0	0	0	0
+s o l t r	0	Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	s o l t r	0	0	0.05555113755374425	0	0	0	0	0	0
+s o l t r	0	Insert [i g] at -1	s o l t r i g	0	0	0.05555113755374425	0	0	0	0	0	0
+s o l t r	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]	s o l t r	0	0	0.05555113755374425	0	0	0	0	0	0
+s o l t r	0	Insert [k] at -1	s o l t r k	0	0	0.05555113755374425	0	0	0	0	0	0
+s o l t r	0	Insert [g] at -1	s o l t r g	0	0	0.05555113755374425	0	0	0	0	0	0
+s o l t r	0	Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]	s o l t r	0	0	0.05555113755374425	0	0	0	0	0	0
+s o l t r	0	Insert [e] at -1	s o l t r e	0	0	0.05555113755374425	0	0	0	0	0	0
+s o l t r	0	Insert [w] at -1	s o l t r w	0	0	0.05555113755374425	0	0	0	0	0	0
+s o l t r	0	Mutate the segment(s) at -4 to [-high,+glide]	s o l t r	0	0	0.05555113755374425	0	0	0	0	0	0
+s o l t r	0	Insert [o j] at -1	s o l t r o j	0	0	0.05555113755374425	0	0	0	0	0	0
+s o l t r	0	Delete 4 segments at 13,15,17,19	s o l t r	0	0	0.05555113755374425	0	0	0	0	0	0
+s o l t r	0	Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]	s o l t r	0	0	0.05555113755374425	0	0	0	0	0	0
+s o l t r	0	Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]	s o t r	-6.549	-6.549	0.00007952403260319353	0	0	0	0	1	0
+t o x	0	Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	t u g	0	0	0.07024282149756311	0	0	0	0	0	0
+t o x	0	Mutate the segment(s) at last nucleus to [+glide]	t q x	0	0	0.07024282149756311	0	0	0	0	0	0
+t o x	0	Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	t o x g	0	0	0.07024282149756311	0	0	0	0	1	0
+t o x	0	Mutate the segment(s) at last nucleus to [+high]	t u x	0	0	0.07024282149756311	0	0	0	0	0	0
+t o x	0	Delete 4 segments at 13,15,17,19	t o x	0	0	0.07024282149756311	0	0	0	0	0	0
+t o x	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	t o k	0	0	0.07024282149756311	0	0	0	0	0	0
+t o x	0	Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	t o x	0	0	0.07024282149756311	0	0	0	0	0	0
+t o x	0	Insert [i g] at -1	t o x i g	0	0	0.07024282149756311	0	0	0	0	0	0
+t o x	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]	t o g	0	0	0.07024282149756311	0	0	0	0	0	0
+t o x	0	Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]	t o	0	0	0.07024282149756311	0	0	0	0	0	0
+t o x	0	Insert [o j] at -1	t o x o j	0	0	0.07024282149756311	0	0	0	0	0	0
+t o x	0	Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]	t o x	0	0	0.07024282149756311	0	0	0	0	0	0
+t o x	0	Mutate the segment(s) at -4 to [-high,+glide]	t q x	0	0	0.07024282149756311	0	0	0	0	0	0
+t o x	0	Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]	t o x	0	0	0.07024282149756311	0	0	0	0	0	0
+t o x	0	Insert [k] at -1	t o x k	-1.456	-1.456	0.01637831359349415	0	0	0	0	1	0
+t o x	0	Insert [w] at -1	t o x w	-7.082	-7.082	0.000059010382139233545	0	0	0	0	1	0
+t o x	0	Insert [e] at -1	t o x e	-7.082	-7.082	0.000059010382139233545	0	0	0	0	1	0
+t o x	0	Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	t o x j	-7.192	-7.192	0.00005286351465721794	0	0	0	0	1	0
+t o x	0	Insert [g] at -1	t o x g	-7.222	-7.222	0.00005130116168677321	0	0	0	0	1	0
+C e j	0	Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	C i j	0	0	0.05814637706031729	0	0	0	0	0	0
+C e j	0	Mutate the segment(s) at last nucleus to [+glide]	C y j	0	0	0.05814637706031729	0	0	0	0	0	0
+C e j	0	Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	C e j g	0	0	0.05814637706031729	0	0	0	1	0	0
+C e j	0	Mutate the segment(s) at last nucleus to [+high]	C i j	0	0	0.05814637706031729	0	0	0	0	0	0
+C e j	0	Delete 4 segments at 13,15,17,19	C e j	0	0	0.05814637706031729	0	0	0	0	0	0
+C e j	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	C e j	0	0	0.05814637706031729	0	0	0	0	0	0
+C e j	0	Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	C e i	0	0	0.05814637706031729	0	0	0	0	0	0
+C e j	0	Insert [i g] at -1	C e j i g	0	0	0.05814637706031729	0	0	0	0	0	0
+C e j	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]	C e j	0	0	0.05814637706031729	0	0	0	0	0	0
+C e j	0	Insert [k] at -1	C e j k	0	0	0.05814637706031729	0	0	0	1	0	0
+C e j	0	Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]	C e	0	0	0.05814637706031729	0	0	0	0	0	0
+C e j	0	Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]	C e j	0	0	0.05814637706031729	0	0	0	0	0	0
+C e j	0	Insert [e] at -1	C e j e	0	0	0.05814637706031729	0	0	0	1	0	0
+C e j	0	Insert [w] at -1	C e j w	0	0	0.05814637706031729	0	0	0	1	0	0
+C e j	0	Mutate the segment(s) at -4 to [-high,+glide]	C y j	0	0	0.05814637706031729	0	0	0	0	0	0
+C e j	0	Insert [o j] at -1	C e j o j	0	0	0.05814637706031729	0	0	0	0	0	0
+C e j	0	Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]	C e j	0	0	0.05814637706031729	0	0	0	0	0	0
+C e j	0	Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	C e i j	-1.623	-1.623	0.01147262282970473	0	0	0	1	0	0
+C e j	0	Insert [g] at -1	C e j g	-7.308	-7.308	0.00003896714490157927	0	0	0	1	0	0
+l o p	0	Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	l u p	0	0	0.07024282149756311	0	0	0	0	0	0
+l o p	0	Mutate the segment(s) at last nucleus to [+glide]	l q p	0	0	0.07024282149756311	0	0	0	0	0	0
+l o p	0	Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	l o p g	0	0	0.07024282149756311	0	0	0	0	1	0
+l o p	0	Mutate the segment(s) at last nucleus to [+high]	l u p	0	0	0.07024282149756311	0	0	0	0	0	0
+l o p	0	Delete 4 segments at 13,15,17,19	l o p	0	0	0.07024282149756311	0	0	0	0	0	0
+l o p	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	l o p	0	0	0.07024282149756311	0	0	0	0	0	0
+l o p	0	Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	l o p	0	0	0.07024282149756311	0	0	0	0	0	0
+l o p	0	Insert [i g] at -1	l o p i g	0	0	0.07024282149756311	0	0	0	0	0	0
+l o p	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]	l o b	0	0	0.07024282149756311	0	0	0	0	0	0
+l o p	0	Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]	l o	0	0	0.07024282149756311	0	0	0	0	0	0
+l o p	0	Insert [o j] at -1	l o p o j	0	0	0.07024282149756311	0	0	0	0	0	0
+l o p	0	Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]	l o p	0	0	0.07024282149756311	0	0	0	0	0	0
+l o p	0	Mutate the segment(s) at -4 to [-high,+glide]	l q p	0	0	0.07024282149756311	0	0	0	0	0	0
+l o p	0	Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]	l o p	0	0	0.07024282149756311	0	0	0	0	0	0
+l o p	0	Insert [k] at -1	l o p k	-1.456	-1.456	0.01637831359349415	0	0	0	0	1	0
+l o p	0	Insert [w] at -1	l o p w	-7.082	-7.082	0.000059010382139233545	0	0	0	0	1	0
+l o p	0	Insert [e] at -1	l o p e	-7.082	-7.082	0.000059010382139233545	0	0	0	0	1	0
+l o p	0	Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	l o p j	-7.192	-7.192	0.00005286351465721794	0	0	0	0	1	0
+l o p	0	Insert [g] at -1	l o p g	-7.222	-7.222	0.00005130116168677321	0	0	0	0	1	0
+r e m p	0	Mutate the segment(s) at last nucleus to [+glide]	r y m p	0	0	0.16394724828760185	1	0	0	0	0	0
+r e m p	0	Mutate the segment(s) at last nucleus to [+high]	r i m p	0	0	0.16394724828760185	1	0	0	0	0	0
+r e m p	0	Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	r e m p	0	0	0.16394724828760185	1	0	0	1	0	0
+r e m p	0	Insert [i g] at -1	r e m p i g	0	0	0.16394724828760185	1	0	0	0	0	0
+r e m p	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]	r e m b	0	0	0.16394724828760185	1	0	0	1	0	0
+r e m p	0	Insert [o j] at -1	r e m p o j	0	0	0.16394724828760185	1	0	0	0	0	0
+r e m p	-2.391	Insert [k] at -1	r e m p k	0	-2.391	0.015007419607360736	1	0	0	0	0	0
+r e m p	-6.91	Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	r i m p	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+r e m p	-6.91	Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	r e m p j	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+r e m p	-6.91	Delete 4 segments at 13,15,17,19	r e m p	0	-6.91	0.0001635796451911041	1	0	0	1	0	0
+r e m p	-6.91	Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]	r e p	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+r e m p	-6.91	Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	r e m p g	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+r e m p	-6.91	Insert [e] at -1	r e m p e	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+r e m p	-6.91	Insert [w] at -1	r e m p w	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+r e m p	-6.911	Insert [g] at -1	r e m p g	0	-6.911	0.00016341614730847905	1	0	0	0	0	0
+r e m p	-6.91	Mutate the segment(s) at -4 to [-high,+glide]	r e m p	-6.91	-13.82	1.6321286633556162e-7	1	0	0	1	0	0
+r e m p	-6.91	Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]	r e m p	-6.91	-13.82	1.6321286633556162e-7	1	0	0	1	0	0
+r e m p	-6.91	Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	r e m p	-6.91	-13.82	1.6321286633556162e-7	1	0	0	1	0	0
+r e m p	-6.91	Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]	r e m p	-7.158	-14.068000000000001	1.2736478311586414e-7	1	0	0	1	0	0
+n o m	0	Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	n u m	0	0	0.07024282149756311	0	0	0	0	0	0
+n o m	0	Mutate the segment(s) at last nucleus to [+glide]	n q m	0	0	0.07024282149756311	0	0	0	0	0	0
+n o m	0	Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	n o m g	0	0	0.07024282149756311	0	0	0	0	1	0
+n o m	0	Mutate the segment(s) at last nucleus to [+high]	n u m	0	0	0.07024282149756311	0	0	0	0	0	0
+n o m	0	Delete 4 segments at 13,15,17,19	n o m	0	0	0.07024282149756311	0	0	0	0	0	0
+n o m	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	n o m	0	0	0.07024282149756311	0	0	0	0	0	0
+n o m	0	Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	n o m	0	0	0.07024282149756311	0	0	0	0	0	0
+n o m	0	Insert [i g] at -1	n o m i g	0	0	0.07024282149756311	0	0	0	0	0	0
+n o m	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]	n o m	0	0	0.07024282149756311	0	0	0	0	0	0
+n o m	0	Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]	n o	0	0	0.07024282149756311	0	0	0	0	0	0
+n o m	0	Insert [o j] at -1	n o m o j	0	0	0.07024282149756311	0	0	0	0	0	0
+n o m	0	Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]	n o m	0	0	0.07024282149756311	0	0	0	0	0	0
+n o m	0	Mutate the segment(s) at -4 to [-high,+glide]	n q m	0	0	0.07024282149756311	0	0	0	0	0	0
+n o m	0	Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]	n o m	0	0	0.07024282149756311	0	0	0	0	0	0
+n o m	0	Insert [k] at -1	n o m k	-1.456	-1.456	0.01637831359349415	0	0	0	0	1	0
+n o m	0	Insert [w] at -1	n o m w	-7.082	-7.082	0.000059010382139233545	0	0	0	0	1	0
+n o m	0	Insert [e] at -1	n o m e	-7.082	-7.082	0.000059010382139233545	0	0	0	0	1	0
+n o m	0	Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	n o m j	-7.192	-7.192	0.00005286351465721794	0	0	0	0	1	0
+n o m	0	Insert [g] at -1	n o m g	-7.222	-7.222	0.00005130116168677321	0	0	0	0	1	0
+f o s t r	0	Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	f u s t r	0	0	0.05555113755374425	0	0	0	0	0	0
+f o s t r	0	Mutate the segment(s) at last nucleus to [+glide]	f q s t r	0	0	0.05555113755374425	0	0	0	0	0	0
+f o s t r	0	Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	f o s t r g	0	0	0.05555113755374425	0	0	0	0	0	0
+f o s t r	0	Mutate the segment(s) at last nucleus to [+high]	f u s t r	0	0	0.05555113755374425	0	0	0	0	0	0
+f o s t r	0	Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	f o s t r j	0	0	0.05555113755374425	0	0	0	0	0	0
+f o s t r	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	f o s t r	0	0	0.05555113755374425	0	0	0	0	0	0
+f o s t r	0	Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	f o s t r	0	0	0.05555113755374425	0	0	0	0	0	0
+f o s t r	0	Insert [i g] at -1	f o s t r i g	0	0	0.05555113755374425	0	0	0	0	0	0
+f o s t r	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]	f o s t r	0	0	0.05555113755374425	0	0	0	0	0	0
+f o s t r	0	Insert [k] at -1	f o s t r k	0	0	0.05555113755374425	0	0	0	0	0	0
+f o s t r	0	Insert [g] at -1	f o s t r g	0	0	0.05555113755374425	0	0	0	0	0	0
+f o s t r	0	Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]	f o s t r	0	0	0.05555113755374425	0	0	0	0	0	0
+f o s t r	0	Insert [e] at -1	f o s t r e	0	0	0.05555113755374425	0	0	0	0	0	0
+f o s t r	0	Insert [w] at -1	f o s t r w	0	0	0.05555113755374425	0	0	0	0	0	0
+f o s t r	0	Mutate the segment(s) at -4 to [-high,+glide]	f o s t r	0	0	0.05555113755374425	0	0	0	0	0	0
+f o s t r	0	Insert [o j] at -1	f o s t r o j	0	0	0.05555113755374425	0	0	0	0	0	0
+f o s t r	0	Delete 4 segments at 13,15,17,19	f o s t r	0	0	0.05555113755374425	0	0	0	0	0	0
+f o s t r	0	Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]	f o s t r	0	0	0.05555113755374425	0	0	0	0	0	0
+f o s t r	0	Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]	f o t r	-6.549	-6.549	0.00007952403260319353	0	0	0	0	1	0
+C o r t	0	Mutate the segment(s) at last nucleus to [+glide]	C q r t	0	0	0.8794839221638444	0	1	0	0	0	0
+C o r t	-2.094	Insert [k] at -1	C o r t k	0	-2.094	0.10834659302823652	0	1	0	0	0	0
+C o r t	-6.518	Insert [o j] at -1	C o r t o j	0	-6.518	0.001298663012539704	0	1	0	0	0	0
+C o r t	-6.518	Insert [i g] at -1	C o r t i g	0	-6.518	0.001298663012539704	0	1	0	0	0	0
+C o r t	-6.519	Mutate the segment(s) at last nucleus to [+high]	C u r t	0	-6.519	0.0012973649986422794	0	1	0	0	0	0
+C o r t	-6.613	Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]	C o t	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+C o r t	-6.613	Insert [w] at -1	C o r t w	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+C o r t	-6.613	Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	C u r g	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+C o r t	-6.613	Insert [e] at -1	C o r t e	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+C o r t	-6.613	Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	C o r t j	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+C o r t	-6.614	Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	C o r k g	0	-6.614	0.001179788615891704	0	1	0	0	0	0
+C o r t	-6.615	Insert [g] at -1	C o r t g	0	-6.615	0.0011786094169735364	0	1	0	0	0	0
+C o r t	-6.518	Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]	C o r d	-6.518	-13.036	0.0000019176309852137425	0	1	0	0	1	0
+C o r t	-6.518	Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	C o r t	-6.518	-13.036	0.0000019176309852137425	0	1	0	0	1	0
+C o r t	-6.613	Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]	C o r t	-6.613	-13.226	0.0000015858024587553104	0	1	0	0	1	0
+C o r t	-6.613	Mutate the segment(s) at -4 to [-high,+glide]	C o r t	-6.613	-13.226	0.0000015858024587553104	0	1	0	0	1	0
+C o r t	-6.613	Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	C o r k	-6.613	-13.226	0.0000015858024587553104	0	1	0	0	1	0
+C o r t	-6.614	Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]	C o r t	-6.657	-13.271	0.0000015160231572548167	0	1	0	0	1	0
+C o r t	-6.613	Delete 4 segments at 13,15,17,19	C o r t	-6.708	-13.321000000000002	0.0000014420858354052529	0	1	0	0	1	0
+m o b r	0	Mutate the segment(s) at last nucleus to [+glide]	m q b r	0	0	0.8794839221638444	0	1	0	0	0	0
+m o b r	-2.094	Insert [k] at -1	m o b r k	0	-2.094	0.10834659302823652	0	1	0	0	0	0
+m o b r	-6.518	Insert [o j] at -1	m o b r o j	0	-6.518	0.001298663012539704	0	1	0	0	0	0
+m o b r	-6.518	Insert [i g] at -1	m o b r i g	0	-6.518	0.001298663012539704	0	1	0	0	0	0
+m o b r	-6.519	Mutate the segment(s) at last nucleus to [+high]	m u b r	0	-6.519	0.0012973649986422794	0	1	0	0	0	0
+m o b r	-6.613	Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]	m o r	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+m o b r	-6.613	Insert [w] at -1	m o b r w	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+m o b r	-6.613	Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	m u b r	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+m o b r	-6.613	Insert [e] at -1	m o b r e	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+m o b r	-6.613	Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	m o b r j	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+m o b r	-6.614	Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	m o b r g	0	-6.614	0.001179788615891704	0	1	0	0	0	0
+m o b r	-6.615	Insert [g] at -1	m o b r g	0	-6.615	0.0011786094169735364	0	1	0	0	0	0
+m o b r	-6.518	Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]	m o b r	-6.518	-13.036	0.0000019176309852137425	0	1	0	0	1	0
+m o b r	-6.518	Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	m o b r	-6.518	-13.036	0.0000019176309852137425	0	1	0	0	1	0
+m o b r	-6.613	Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]	m o b r	-6.613	-13.226	0.0000015858024587553104	0	1	0	0	1	0
+m o b r	-6.613	Mutate the segment(s) at -4 to [-high,+glide]	m o b r	-6.613	-13.226	0.0000015858024587553104	0	1	0	0	1	0
+m o b r	-6.613	Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	m o b r	-6.613	-13.226	0.0000015858024587553104	0	1	0	0	1	0
+m o b r	-6.614	Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]	m o p r	-6.657	-13.271	0.0000015160231572548167	0	1	0	0	1	0
+m o b r	-6.613	Delete 4 segments at 13,15,17,19	m o b r	-6.708	-13.321000000000002	0.0000014420858354052529	0	1	0	0	1	0
+b e k t	0	Mutate the segment(s) at last nucleus to [+glide]	b y k t	0	0	0.16394724828760185	1	0	0	0	0	0
+b e k t	0	Mutate the segment(s) at last nucleus to [+high]	b i k t	0	0	0.16394724828760185	1	0	0	0	0	0
+b e k t	0	Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	b e k t	0	0	0.16394724828760185	1	0	0	1	0	0
+b e k t	0	Insert [i g] at -1	b e k t i g	0	0	0.16394724828760185	1	0	0	0	0	0
+b e k t	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]	b e k d	0	0	0.16394724828760185	1	0	0	1	0	0
+b e k t	0	Insert [o j] at -1	b e k t o j	0	0	0.16394724828760185	1	0	0	0	0	0
+b e k t	-2.391	Insert [k] at -1	b e k t k	0	-2.391	0.015007419607360736	1	0	0	0	0	0
+b e k t	-6.91	Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	b i k g	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+b e k t	-6.91	Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	b e k t j	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+b e k t	-6.91	Delete 4 segments at 13,15,17,19	b e k t	0	-6.91	0.0001635796451911041	1	0	0	1	0	0
+b e k t	-6.91	Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]	b e t	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+b e k t	-6.91	Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	b e k k g	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+b e k t	-6.91	Insert [e] at -1	b e k t e	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+b e k t	-6.91	Insert [w] at -1	b e k t w	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+b e k t	-6.911	Insert [g] at -1	b e k t g	0	-6.911	0.00016341614730847905	1	0	0	0	0	0
+b e k t	-6.91	Mutate the segment(s) at -4 to [-high,+glide]	b e k t	-6.91	-13.82	1.6321286633556162e-7	1	0	0	1	0	0
+b e k t	-6.91	Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]	b e k t	-6.91	-13.82	1.6321286633556162e-7	1	0	0	1	0	0
+b e k t	-6.91	Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	b e k k	-6.91	-13.82	1.6321286633556162e-7	1	0	0	1	0	0
+b e k t	-6.91	Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]	b e k t	-7.158	-14.068000000000001	1.2736478311586414e-7	1	0	0	1	0	0
+l e r r	0	Mutate the segment(s) at last nucleus to [+glide]	l y r r	0	0	0.9800027328553084	1	0	1	0	0	1
+l e r r	-4.652	Insert [o j] at -1	l e r r o j	0	-4.652	0.00935167395866684	1	0	1	0	0	0
+l e r r	-4.652	Insert [i g] at -1	l e r r i g	0	-4.652	0.00935167395866684	1	0	1	0	0	0
+l e r r	-6.914	Insert [k] at -1	l e r r k	0	-6.914	0.0009739019578366235	1	0	1	0	0	0
+l e r r	-4.652	Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]	l e r r	-4.652	-9.304	0.00008923832852425274	1	0	1	1	0	1
+l e r r	-4.652	Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	l e r r	-4.652	-9.304	0.00008923832852425274	1	0	1	1	0	1
+l e r r	-4.652	Mutate the segment(s) at last nucleus to [+high]	l i r r	-4.829	-9.481	0.00007476206764224069	1	0	1	0	0	1
+l e r r	-11.388	Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]	l e r	0	-11.388	0.000011104058135213958	1	0	1	0	0	0
+l e r r	-11.388	Insert [e] at -1	l e r r e	0	-11.388	0.000011104058135213958	1	0	1	0	0	0
+l e r r	-11.388	Insert [w] at -1	l e r r w	0	-11.388	0.000011104058135213958	1	0	1	0	0	0
+l e r r	-11.388	Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	l e r r j	0	-11.388	0.000011104058135213958	1	0	1	0	0	0
+l e r r	-11.389	Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	l e r r g	0	-11.389	0.000011092959627257593	1	0	1	0	0	0
+l e r r	-11.391	Insert [g] at -1	l e r r g	0	-11.391	0.000011070795879139112	1	0	1	0	0	0
+l e r r	-11.388	Delete 4 segments at 13,15,17,19	l e r r	-4.621	-16.009	1.0929666892235287e-7	1	0	1	1	0	1
+l e r r	-11.388	Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	l i r r	-4.829	-16.217	8.877152358791018e-8	1	0	1	0	0	1
+l e r r	-11.388	Mutate the segment(s) at -4 to [-high,+glide]	l e r r	-11.388	-22.776	1.2581608493168943e-10	1	0	1	1	0	1
+l e r r	-11.388	Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]	l e r r	-11.388	-22.776	1.2581608493168943e-10	1	0	1	1	0	1
+l e r r	-11.388	Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	l e r r	-11.388	-22.776	1.2581608493168943e-10	1	0	1	1	0	1
+l e r r	-11.389	Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]	l e r r	-11.511	-22.9	1.1114339308744657e-10	1	0	1	1	0	1
+s o l k	0	Mutate the segment(s) at last nucleus to [+glide]	s q l k	0	0	0.8794839221638444	0	1	0	0	0	0
+s o l k	-2.094	Insert [k] at -1	s o l k k	0	-2.094	0.10834659302823652	0	1	0	0	0	0
+s o l k	-6.518	Insert [o j] at -1	s o l k o j	0	-6.518	0.001298663012539704	0	1	0	0	0	0
+s o l k	-6.518	Insert [i g] at -1	s o l k i g	0	-6.518	0.001298663012539704	0	1	0	0	0	0
+s o l k	-6.519	Mutate the segment(s) at last nucleus to [+high]	s u l k	0	-6.519	0.0012973649986422794	0	1	0	0	0	0
+s o l k	-6.613	Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]	s o k	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+s o l k	-6.613	Insert [w] at -1	s o l k w	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+s o l k	-6.613	Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	s u l g	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+s o l k	-6.613	Insert [e] at -1	s o l k e	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+s o l k	-6.613	Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	s o l k j	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+s o l k	-6.614	Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	s o l k g	0	-6.614	0.001179788615891704	0	1	0	0	0	0
+s o l k	-6.615	Insert [g] at -1	s o l k g	0	-6.615	0.0011786094169735364	0	1	0	0	0	0
+s o l k	-6.518	Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]	s o l g	-6.518	-13.036	0.0000019176309852137425	0	1	0	0	1	0
+s o l k	-6.518	Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	s o l k	-6.518	-13.036	0.0000019176309852137425	0	1	0	0	1	0
+s o l k	-6.613	Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]	s o l k	-6.613	-13.226	0.0000015858024587553104	0	1	0	0	1	0
+s o l k	-6.613	Mutate the segment(s) at -4 to [-high,+glide]	s o l k	-6.613	-13.226	0.0000015858024587553104	0	1	0	0	1	0
+s o l k	-6.613	Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	s o l k	-6.613	-13.226	0.0000015858024587553104	0	1	0	0	1	0
+s o l k	-6.614	Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]	s o l k	-6.657	-13.271	0.0000015160231572548167	0	1	0	0	1	0
+s o l k	-6.613	Delete 4 segments at 13,15,17,19	s o l k	-6.708	-13.321000000000002	0.0000014420858354052529	0	1	0	0	1	0
+d e b r	0	Mutate the segment(s) at last nucleus to [+glide]	d y b r	0	0	0.16394724828760185	1	0	0	0	0	0
+d e b r	0	Mutate the segment(s) at last nucleus to [+high]	d i b r	0	0	0.16394724828760185	1	0	0	0	0	0
+d e b r	0	Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	d e b r	0	0	0.16394724828760185	1	0	0	1	0	0
+d e b r	0	Insert [i g] at -1	d e b r i g	0	0	0.16394724828760185	1	0	0	0	0	0
+d e b r	0	Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]	d e b r	0	0	0.16394724828760185	1	0	0	1	0	0
+d e b r	0	Insert [o j] at -1	d e b r o j	0	0	0.16394724828760185	1	0	0	0	0	0
+d e b r	-2.391	Insert [k] at -1	d e b r k	0	-2.391	0.015007419607360736	1	0	0	0	0	0
+d e b r	-6.91	Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	d i b r	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+d e b r	-6.91	Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	d e b r j	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+d e b r	-6.91	Delete 4 segments at 13,15,17,19	d e b r	0	-6.91	0.0001635796451911041	1	0	0	1	0	0
+d e b r	-6.91	Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]	d e r	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+d e b r	-6.91	Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	d e b r g	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+d e b r	-6.91	Insert [e] at -1	d e b r e	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+d e b r	-6.91	Insert [w] at -1	d e b r w	0	-6.91	0.0001635796451911041	1	0	0	0	0	0
+d e b r	-6.911	Insert [g] at -1	d e b r g	0	-6.911	0.00016341614730847905	1	0	0	0	0	0
+d e b r	-6.91	Mutate the segment(s) at -4 to [-high,+glide]	d e b r	-6.91	-13.82	1.6321286633556162e-7	1	0	0	1	0	0
+d e b r	-6.91	Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]	d e b r	-6.91	-13.82	1.6321286633556162e-7	1	0	0	1	0	0
+d e b r	-6.91	Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	d e b r	-6.91	-13.82	1.6321286633556162e-7	1	0	0	1	0	0
+d e b r	-6.91	Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]	d e p r	-7.158	-14.068000000000001	1.2736478311586414e-7	1	0	0	1	0	0
+b o l d	0	Mutate the segment(s) at last nucleus to [+glide]	b q l d	0	0	0.8794839221638444	0	1	0	0	0	0
+b o l d	-2.094	Insert [k] at -1	b o l d k	0	-2.094	0.10834659302823652	0	1	0	0	0	0
+b o l d	-6.518	Insert [o j] at -1	b o l d o j	0	-6.518	0.001298663012539704	0	1	0	0	0	0
+b o l d	-6.518	Insert [i g] at -1	b o l d i g	0	-6.518	0.001298663012539704	0	1	0	0	0	0
+b o l d	-6.519	Mutate the segment(s) at last nucleus to [+high]	b u l d	0	-6.519	0.0012973649986422794	0	1	0	0	0	0
+b o l d	-6.613	Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]	b o d	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+b o l d	-6.613	Insert [w] at -1	b o l d w	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+b o l d	-6.613	Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	b u l g	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+b o l d	-6.613	Insert [e] at -1	b o l d e	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+b o l d	-6.613	Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	b o l d j	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+b o l d	-6.614	Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	b o l g g	0	-6.614	0.001179788615891704	0	1	0	0	0	0
+b o l d	-6.615	Insert [g] at -1	b o l d g	0	-6.615	0.0011786094169735364	0	1	0	0	0	0
+b o l d	-6.518	Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]	b o l d	-6.518	-13.036	0.0000019176309852137425	0	1	0	0	1	0
+b o l d	-6.518	Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	b o l d	-6.518	-13.036	0.0000019176309852137425	0	1	0	0	1	0
+b o l d	-6.613	Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]	b o l d	-6.613	-13.226	0.0000015858024587553104	0	1	0	0	1	0
+b o l d	-6.613	Mutate the segment(s) at -4 to [-high,+glide]	b o l d	-6.613	-13.226	0.0000015858024587553104	0	1	0	0	1	0
+b o l d	-6.613	Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	b o l g	-6.613	-13.226	0.0000015858024587553104	0	1	0	0	1	0
+b o l d	-6.614	Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]	b o l d	-6.657	-13.271	0.0000015160231572548167	0	1	0	0	1	0
+b o l d	-6.613	Delete 4 segments at 13,15,17,19	b o l d	-6.708	-13.321000000000002	0.0000014420858354052529	0	1	0	0	1	0
+l o r r	0	Mutate the segment(s) at last nucleus to [+glide]	l q r r	0	0	0.9985448333312348	0	1	1	0	0	1
+l o r r	-6.617	Insert [k] at -1	l o r r k	0	-6.617	0.0013354910507940617	0	1	1	0	0	0
+l o r r	-11.091	Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]	l o r	0	-11.091	0.00001522675886186373	0	1	1	0	0	0
+l o r r	-11.091	Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	l o r r j	0	-11.091	0.00001522675886186373	0	1	1	0	0	0
+l o r r	-11.091	Insert [w] at -1	l o r r w	0	-11.091	0.00001522675886186373	0	1	1	0	0	0
+l o r r	-11.091	Insert [e] at -1	l o r r e	0	-11.091	0.00001522675886186373	0	1	1	0	0	0
+l o r r	-11.092	Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	l o r r g	0	-11.092	0.000015211539713844113	0	1	1	0	0	0
+l o r r	-11.094	Insert [g] at -1	l o r r g	0	-11.094	0.000015181147037223957	0	1	1	0	0	0
+l o r r	-11.17	Insert [o j] at -1	l o r r o j	0	-11.17	0.000014070133108260097	0	1	1	0	0	0
+l o r r	-11.17	Insert [i g] at -1	l o r r i g	0	-11.17	0.000014070133108260097	0	1	1	0	0	0
+l o r r	-11.091	Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	l u r r	-4.829	-15.919999999999998	1.2173050312000293e-7	0	1	1	0	0	1
+l o r r	-11.171	Mutate the segment(s) at last nucleus to [+high]	l u r r	-4.829	-16	1.123714172839441e-7	0	1	1	0	0	1
+l o r r	-11.092	Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]	l o r r	-11.01	-22.102	2.5153065970275984e-10	0	1	1	0	1	1
+l o r r	-11.091	Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]	l o r r	-11.091	-22.182	2.3219206358903222e-10	0	1	1	0	1	1
+l o r r	-11.091	Mutate the segment(s) at -4 to [-high,+glide]	l o r r	-11.091	-22.182	2.3219206358903222e-10	0	1	1	0	1	1
+l o r r	-11.091	Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	l o r r	-11.091	-22.182	2.3219206358903222e-10	0	1	1	0	1	1
+l o r r	-11.17	Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]	l o r r	-11.17	-22.34	1.9825714287030644e-10	0	1	1	0	1	1
+l o r r	-11.17	Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	l o r r	-11.17	-22.34	1.9825714287030644e-10	0	1	1	0	1	1
+l o r r	-11.091	Delete 4 segments at 13,15,17,19	l o r r	-11.329	-22.42	1.8301440937149077e-10	0	1	1	0	1	1
+k o l b	0	Mutate the segment(s) at last nucleus to [+glide]	k q l b	0	0	0.8794839221638444	0	1	0	0	0	0
+k o l b	-2.094	Insert [k] at -1	k o l b k	0	-2.094	0.10834659302823652	0	1	0	0	0	0
+k o l b	-6.518	Insert [o j] at -1	k o l b o j	0	-6.518	0.001298663012539704	0	1	0	0	0	0
+k o l b	-6.518	Insert [i g] at -1	k o l b i g	0	-6.518	0.001298663012539704	0	1	0	0	0	0
+k o l b	-6.519	Mutate the segment(s) at last nucleus to [+high]	k u l b	0	-6.519	0.0012973649986422794	0	1	0	0	0	0
+k o l b	-6.613	Delete 1 segment at 5, Mutate the segment(s) at 3 to [-low,+front,+tense]	k o b	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+k o l b	-6.613	Insert [w] at -1	k o l b w	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+k o l b	-6.613	Mutate the segment(s) at last nucleus to [+high], Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	k u l b	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+k o l b	-6.613	Insert [e] at -1	k o l b e	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+k o l b	-6.613	Insert [j] at -1, Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	k o l b j	0	-6.613	0.001180968994598583	0	1	0	0	0	0
+k o l b	-6.614	Insert [g] at -1, Mutate the segment(s) at -2 to [-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	k o l b g	0	-6.614	0.001179788615891704	0	1	0	0	0	0
+k o l b	-6.615	Insert [g] at -1	k o l b g	0	-6.615	0.0011786094169735364	0	1	0	0	0	0
+k o l b	-6.518	Mutate the segment(s) at -2 to [-continuant,-delayed_release,+voice]	k o l b	-6.518	-13.036	0.0000019176309852137425	0	1	0	0	1	0
+k o l b	-6.518	Mutate the segment(s) at -2 to [+syllabic,-labial,-glide]	k o l b	-6.518	-13.036	0.0000019176309852137425	0	1	0	0	1	0
+k o l b	-6.613	Mutate the segment(s) at -4 to [+syllabic,-labial,-glide]	k o l b	-6.613	-13.226	0.0000015858024587553104	0	1	0	0	1	0
+k o l b	-6.613	Mutate the segment(s) at -4 to [-high,+glide]	k o l b	-6.613	-13.226	0.0000015858024587553104	0	1	0	0	1	0
+k o l b	-6.613	Mutate the segment(s) at -2 to [-continuant,-delayed_release,-coronal,0anterior,0distributed,0strident,+dorsal,+high,-low]	k o l b	-6.613	-13.226	0.0000015858024587553104	0	1	0	0	1	0
+k o l b	-6.614	Mutate the segment(s) at 3 to [-low,+front,+tense], Mutate the segment(s) at 5 to [-voice]	k o l b	-6.657	-13.271	0.0000015160231572548167	0	1	0	0	1	0
+k o l b	-6.613	Delete 4 segments at 13,15,17,19	k o l b	-6.708	-13.321000000000002	0.0000014420858354052529	0	1	0	0	1	0

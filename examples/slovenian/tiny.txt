@@ -1,0 +1,64 @@
+b 'a l ˌa m	b 'a l ˌa m ˌa	1	# add [a] (penult)
+b l 'a p ˌa m	b l 'a p ˌa m ˌa	1	# add [a] (penult)
+	
+x 'a l ˌa m	x ˌa l 'a m ˌa	1	# add [a], shift stress
+t ɾ 'a l ˌa m	t ɾ ˌa l 'a m ˌa	1	# add [a], shift stress
+	
+k ˌa l 'a n	k ˌa l 'a n ˌa	1	# add [a] (final stress)
+l 'a m	l 'a m ˌa	1	# add [a] (final stress)
+'a t	'a t ˌa	1	# add [a] (final stress)
+	
+	
+	
+	
+b 'ɛ l ˌa m	b 'ɛ l ˌa m ˌa	1	# add [a] (penult)
+s p 'ɛ l ˌa m	s p 'ɛ l ˌa m ˌa	1	# add [a] (penult)
+b ˌa t 'ɛ m	b ˌa t 'ɛ m ˌa	1	# add [a] (final stress)
+ˌa d 'ɛ m	ˌa d 'ɛ m ˌa	1	# add [a] (final stress)
+l 'ɛ t	l 'ɛ t ˌa	1	# add [a] (final stress)
+s l 'ɛ t	s l 'ɛ t ˌa	1	# add [a] (final stress)
+	
+b 'ɛ k ˌa m	b ˌe k 'a m ˌa	1	# add [a], shift stress, make tense
+'ɛ d ˌa m	ˌe d 'a m ˌa	1	# add [a], shift stress, make tense
+t ɾ 'ɛ z ˌa m	t ɾ ˌe z 'a m ˌa	1	# add [a], shift stress, make tense
+b ˌa k 'ɛ z	b ˌa k 'e z ˌa	1	# add [a], tense (final stress)
+ˌa n 'ɛ z	ˌa n 'e z ˌa	1	# add [a], tense (final stress)
+l 'ɛ x	l 'e x ˌa	1	# add [a], tense (final stress)
+'ɛ p	'e p ˌa	1	# add [a], tense (final stress)
+k ɾ 'ɛ p	k ɾ 'e p ˌa	1	# add [a], tense (final stress)
+	
+b 'e l ˌa t	b 'e l ˌa t ˌa	1	# add [a] (penult)
+b ɾ 'e l ˌa t	b ɾ 'e l ˌa t ˌa	1	# add [a] (penult)
+b ˌa l 'e ɾ	b ˌa l 'e ɾ ˌa	1	# add [a] (final stress)
+b ɾ ˌa l 'e ɾ	b ɾ ˌa l 'e ɾ ˌa	1	# add [a] (final stress)
+l 'e f	l 'e f ˌa	1	# add [a] (final stress)
+	
+	
+	
+b 'ɔ l ˌa m	b 'ɔ l ˌa m ˌa	1	# add [a] (penult)
+b ˌa t 'ɔ m	b ˌa t 'ɔ m ˌa	1	# add [a] (final stress)
+
+b 'ɔ k ˌa m	b ˌo k 'a m ˌa	1	# add [a], shift stress, make tense
+b ˌa k 'ɔ z	b ˌa k 'o z ˌa	1	# add [a], tense (final stress)
+	
+b 'o l ˌa t	b 'o l ˌa t ˌa	1	# add [a] (penult)
+p ˌa z 'o ɾ	p ˌa z 'o ɾ ˌa	1	# add [a] (final stress)
+	
+	
+	
+p 'e x ˌo	p 'e x ˌa	1	# change final [o] to [a] 
+p ɾ 'o x ˌe	p ɾ 'o x ˌa	1	# change final [e] to [a] 
+s 'e x ˌe	s 'e x ˌa	1	# change final [e] to [a] 
+s t 'e l ˌe	s t 'e l ˌa	1	# change final [e] to [a] 
+	
+	
+b 'u d ˌa	b 'u d ˌa	1	# no change
+m 'a m ˌa	m 'a m ˌa	1	# no change
+	
+	
+b ˌa s 'ʌ ɡ	b ˌa s 'a ɡ ˌa	1	# add [a], make lax
+ˌa s 'ʌ ɡ	ˌa s 'a ɡ ˌa	1	# add [a], make lax
+s 'ʌ ɡ	s 'a ɡ ˌa	1	# add [a], make lax
+s t 'ʌ ɡ	s t 'a ɡ ˌa	1	# add [a], make lax
+	
+	

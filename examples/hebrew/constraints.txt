@@ -1,0 +1,20 @@
+^([-syll] ?)*([+syll] ?)+([-syll] ?)*$
+
+[+syll] .* [+syll] .* [+syll]
+[+stress] .* [+stress]
+([+stress] ?)([-syll] ?)*$
+([+stress] ?)([-syll] ?)*([+syll,-stress] ?)([-syll] ?)*$
+([+syll,-stress] ?)([-syll] ?)*$
+([+syll,-stress] ?)([-syll] ?)*([+syll,-stress] ?)([-syll] ?)*$
+
+[-syll] [-syll]$
+^[-syll] [-syll] [-syll]
+
+t$
+[pb]$
+^[fv]
+
+[+syll,+back,-high] [-syll]$
+[+syll,+back,-high]
+[+syll,+low]$
+[+syll,-back,-high,-low]$

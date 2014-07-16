@@ -1,0 +1,5516 @@
+bj e v	1 
+bj i bj e v	0 
+zj i b o v	0 
+b o v	1 
+l a bj e v	1 
+bj e v	1 
+n u b o v	1 
+b o v	1 
+b a b o v	0 
+tj i bj e v	0 
+zh u bj e v	0 
+kj i bj e v	0 
+b a b o v	0 
+k u bj e v	0 
+bj e v	0 
+t a bj e v	0 
+bj e d	0 
+b o d	0 
+l a bj e d	0 
+g a bj e d	1 
+sh i b o d	0 
+b o d	1 
+z u b o d	1 
+b a b o d	0 
+zj i bj e d	1 
+lj i b o d	0 
+b o d	1 
+gj i b o d	0 
+s u b o d	0 
+r a b o d	1 
+bj e d b	0 
+b d o b	0 
+b dj e b	0 
+n u bj e d b	0 
+b o d v	0 
+r u b o d v	0 
+m u b d o v	1 
+b a b dj e v	0 
+bj e d v	0 
+b d o v	0 
+sh u b d o v	0 
+b d o z	0 
+r u b dj e z	0 
+b d o z	0 
+b dj e z	1 
+bj e d z	0 
+b dj e z	0 
+bj e d z	0 
+b dj e z	1 
+b u bj e d r	1 
+zh u b o d r	0 
+kj i bj e d r	0 
+b d o r	0 
+sh u b dj e r	1 
+b o d r	1 
+gj e b	0 
+g o b	0 
+m u gj e b	0 
+b u g o b	1 
+b a gj e b	1 
+x a gj e b	0 
+g o b	0 
+g o b	0 
+g o b	0 
+k u g o b	0 
+b u g bj e v	0 
+kj i g o b v	0 
+g b o v	0 
+lj i g bj e v	0 
+gj i gj e b v	0 
+mj i g bj e v	1 
+gj e b v	0 
+xj i g o b v	0 
+xj i g o b v	0 
+pj i g o b v	0 
+g o b v	0 
+g u g bj e v	0 
+lj i g b o d	1 
+k u g b o d	0 
+sh u g b o d	0 
+zh u gj e b d	0 
+g a g bj e d	1 
+g bj e d	0 
+g b o d	0 
+gj e b d	0 
+t u g o b d	0 
+zh a g o v	1 
+l u gj e v	1 
+sh a g o v	0 
+g o v	0 
+g o v	0 
+gj e v	0 
+g o v	0 
+sh i g o zh	0 
+gj e zh	1 
+gj e zh	0 
+m a gj e zh	0 
+x u gj e zh	0 
+g o zh	1 
+zh u g o zh	1 
+g o zh	0 
+g o zh	1 
+rj i gj e zh	1 
+sh u gj e zh	1 
+gj e zh	1 
+xj i gj e zh	0 
+sh i gj e zh	1 
+g o zh	1 
+tj i gj e zh	0 
+b a g o zh b	1 
+zh u g o zh b	1 
+g zh o b	0 
+g zh o b	0 
+gj e zh b	0 
+g zh e b	0 
+x u g zh e b	1 
+g u gj e zh b	0 
+p u g zh o b	0 
+sh u g zh e v	1 
+g o zh v	0 
+gj e zh v	1 
+g zh e v	1 
+g o zh v	1 
+sj i g o zh v	0 
+gj e zh v	0 
+g o zh v	0 
+g zh e g	0 
+zh u g o zh g	0 
+b u g zh e g	0 
+zh a gj e zh g	0 
+p u gj e zh g	0 
+g zh e g	0 
+g zh o g	0 
+g zh e g	0 
+b u gj e zh g	0 
+gj e zh g	1 
+g zh e g	0 
+g o zh d	0 
+g o zh d	0 
+m a gj e zh d	0 
+rj i g zh o d	0 
+g zh e d	0 
+g zh e d	0 
+g zh e d	0 
+g zh o d	0 
+g zh e z	0 
+zh u g zh e z	0 
+g zh e z	0 
+pj i gj e zh z	0 
+g zh e z	1 
+bj i g zh e z	0 
+gj e zh z	0 
+gj e zh z	0 
+g o zh l	0 
+g o zh l	0 
+l u g zh e l	0 
+n u g o zh l	0 
+gj e zh l	0 
+gj e zh l	0 
+g o zh l	0 
+gj e zh l	1 
+g zh o l	0 
+gj e zh l	0 
+g zh e l	0 
+tj i g zh o n	0 
+k u gj e zh n	0 
+m a g zh e n	1 
+b a g o zh n	0 
+g zh o n	0 
+g zh o n	0 
+m a g zh o n	0 
+gj e zh n	0 
+p u g zh e n	1 
+g zh e n	0 
+z u g o zh n	1 
+m u g o zh n	0 
+lj i g zh e n	0 
+gj i gj e zh n	1 
+g o z	1 
+gj e z	0 
+sh i gj e z	0 
+g o z	0 
+g o z	0 
+x u gj e z	1 
+g o z	0 
+pj i g o z	1 
+g o z	0 
+t u gj e z	0 
+r a gj e z	0 
+gj e z	1 
+g o z	1 
+g a gj e z g	0 
+tj i g o z g	0 
+x a gj e z g	1 
+k u g zj e g	0 
+zh u g zj e g	0 
+gj e z g	0 
+r u g o z d	0 
+gj i g z o d	0 
+rj i g z o d	0 
+k a g z o d	0 
+k u g z o d	1 
+tj i gj e z d	0 
+zh u gj e z d	1 
+g u g o z d	0 
+g zj e zh	0 
+zh a gj e z zh	0 
+g zj e zh	0 
+gj e z zh	0 
+gj i g o z m	0 
+zh u g zj e m	0 
+gj e z m	0 
+l a gj e z m	0 
+gj e z m	0 
+t u gj e z m	0 
+tj i gj e z m	0 
+g z o m	0 
+g z o m	0 
+g o z m	1 
+tj i g z o m	0 
+g z o m	0 
+r u g o z m	0 
+g zj e n	0 
+l u g zj e n	0 
+rj i g o z n	1 
+p u gj e z n	0 
+g zj e n	1 
+g zj e n	0 
+g o z n	0 
+g zj e n	0 
+t a g z o n	1 
+gj e z r	0 
+p u g z o r	0 
+z u g o z r	0 
+t a gj e z r	1 
+g z o r	1 
+b a gj e z r	0 
+gj e z r	0 
+g z o r	1 
+g zj e r	0 
+z u gj e z r	1 
+g zj e r	0 
+zj i g o m	0 
+gj e m	0 
+gj e m	0 
+gj e m	0 
+g o m	0 
+tj i gj e m	0 
+g o m	0 
+g o m	1 
+l a g o m	1 
+gj e m	0 
+sh u gj e m	1 
+gj e m	0 
+g a gj e m	0 
+l a g o m	0 
+g o m	1 
+lj i g mj e v	0 
+g m o v	0 
+g mj e v	0 
+g mj e v	1 
+s u g mj e v	0 
+g mj e v	0 
+kj i g mj e v	1 
+g m o v	0 
+g o m v	0 
+m u g mj e v	0 
+g o m v	0 
+s u g mj e v	0 
+gj e m v	0 
+g mj e v	0 
+g mj e v	0 
+gj e m v	0 
+m u g m o v	1 
+g m o v	0 
+g mj e v	0 
+g mj e v	0 
+g mj e v	1 
+zh a g o m v	0 
+g u g m o v	0 
+gj i g mj e v	0 
+tj i g m o v	0 
+g o m v	1 
+g mj e v	0 
+g o m v	0 
+l u g mj e v	0 
+g m o v	0 
+g mj e v	1 
+gj e m v	1 
+g o m v	0 
+tj i g mj e v	1 
+gj e m v	0 
+r u g o m v	1 
+sh u g o m v	1 
+x a g o m v	1 
+gj e m v	0 
+r a gj e m v	0 
+g o r	0 
+zh u gj e r	0 
+g o r	1 
+g o r	0 
+z u gj e r	1 
+gj e r	0 
+k u g o r	0 
+g a g o r	1 
+sh u g o r	1 
+b u gj e r	1 
+gj i gj e r	1 
+zh a dj e b	1 
+pj i dj e b	1 
+dj e b	0 
+d o b	0 
+pj i d o b	0 
+sh u dj e b	1 
+b a d o b	1 
+d o b	1 
+d o b	1 
+d b o v	0 
+d o b v	1 
+lj i d b o v	0 
+dj e b v	0 
+d b o v	0 
+dj e b v	1 
+d b o v	0 
+mj i dj e b v	0 
+d o b v	0 
+sh i dj e b v	0 
+d b o v	0 
+dj e b v	0 
+m u d o b v	0 
+d b o d	0 
+d b o d	0 
+b u d b o d	0 
+dj e b d	0 
+zh a d o b d	0 
+l a d bj e d	0 
+dj e b d	0 
+b u d o b d	0 
+d o v	1 
+dj e v	0 
+d o v	1 
+l u dj e v	0 
+k u d o v	1 
+p u d o v	0 
+sj i dj e v	1 
+dj e v	0 
+xj i dj e v	0 
+sj i d o v	0 
+dj e v	0 
+dj e v	0 
+dj e v	0 
+bj i d o v	0 
+zh a dj e v	1 
+sh a dj e v	0 
+dj e v	0 
+m a d o v	0 
+d o z	1 
+sj i dj e z	1 
+zh a d o z	0 
+dj e z	0 
+zh a d o z	0 
+d o z	0 
+n u dj e z	0 
+m a dj e z	0 
+k a d o z	0 
+d o z	0 
+dj e z	1 
+dj e z	1 
+sh a dj e z	0 
+rj i d o z g	1 
+d z o g	0 
+d zj e g	0 
+sh i d o z g	0 
+d o z d	0 
+d o z d	0 
+p u d zj e d	0 
+d o z d	0 
+d zj e zh	0 
+d o z zh	0 
+sh i d o z zh	0 
+d zj e zh	0 
+sh i d z o zh	1 
+d zj e zh	0 
+d o z zh	0 
+gj i d zj e zh	1 
+x a d o z zh	0 
+m a d z o zh	0 
+d z o m	0 
+kj i d o z m	0 
+l a dj e z m	0 
+d zj e m	0 
+x a dj e z m	0 
+sh a d o z m	0 
+d zj e m	0 
+l u d zj e m	0 
+k a d zj e n	0 
+d z o n	0 
+sh i d zj e n	0 
+d z o n	0 
+d o z n	1 
+t a dj e z n	0 
+d o z n	1 
+dj e z n	0 
+r u d zj e r	0 
+k a d z o r	1 
+g u d zj e r	0 
+gj i d z o r	0 
+d zj e r	1 
+zh a dj e r	1 
+sh i d o r	0 
+sj i d o r	0 
+dj e r	0 
+dj e r	0 
+dj e r	0 
+k u dj e r	0 
+k a d o r	0 
+k a d o r	0 
+sh a dj e r	0 
+m a d o r	1 
+sj i d o r	1 
+zh o b	0 
+zh e b	1 
+pj i zh o b	0 
+b u zh e b	0 
+zh o b	1 
+t a zh o b	0 
+r u zh o b	0 
+b a zh e b	1 
+lj i zh o b	0 
+b u zh e b v	1 
+zh e b v	0 
+m a zh o b v	0 
+x u zh b o v	0 
+zh bj e v	0 
+x u zh o b v	0 
+zh bj e d	0 
+zh b o d	0 
+zh a zh o b d	0 
+zh b o d	0 
+zh bj e d	0 
+zh e v	1 
+sh a zh e v	1 
+zh o v	1 
+m a zh e v	1 
+r u zh e v	1 
+zh o v	0 
+k u zh e v	1 
+r a zh e v	1 
+zh o v	0 
+zh e v	1 
+kj i zh e v	0 
+zh e v	1 
+zh e v	0 
+r u zh o v	1 
+m a zh o v	0 
+lj i zh o v	0 
+zh e g	1 
+b a zh o g	1 
+zh o g	1 
+zh o g	1 
+m a zh e g	1 
+zh e g	0 
+mj i zh e g	1 
+zh e g	1 
+zh o g	0 
+sj i zh e g b	0 
+zh e g b	0 
+rj i zh g o b	0 
+zh e g v	1 
+zh gj e v	1 
+zh gj e v	0 
+z u zh g o v	1 
+n u zh e g v	0 
+l a zh g o v	0 
+zh gj e v	0 
+zh g o v	1 
+zh a zh o g zh	0 
+z u zh g o zh	1 
+zh o g zh	0 
+zh e g zh	0 
+mj i zh gj e zh	0 
+rj i zh o g zh	0 
+zh gj e zh	0 
+m a zh g o zh	0 
+x a zh gj e z	0 
+b u zh e g z	1 
+tj i zh gj e z	0 
+b a zh e g z	0 
+zh gj e z	0 
+zh e g z	0 
+x a zh gj e z	0 
+zh o g m	1 
+zh e g m	0 
+b u zh o g m	1 
+m a zh gj e m	0 
+zh o g m	0 
+x a zh e g m	0 
+sh a zh o g m	0 
+sh i zh e g m	0 
+r u zh e g r	1 
+zh gj e r	0 
+zh gj e r	0 
+xj i zh o g r	0 
+x u zh o g r	0 
+zh gj e r	1 
+n u zh g o r	0 
+m u zh e g r	0 
+l u zh gj e r	0 
+zh g o r	0 
+zh e g r	1 
+zh e d	0 
+lj i zh o d	0 
+l a zh o d	0 
+zh e d	0 
+zh o d	1 
+rj i zh o d	1 
+m u zh o d	0 
+k u zh o d	0 
+zh e d	1 
+zh o d	1 
+t a zh o d	0 
+zh o d	1 
+zh o d	0 
+zh e d	0 
+zh o d	0 
+g u zh e d	1 
+zh o d	1 
+zh o d	0 
+z u zh dj e b	0 
+zh e d b	0 
+xj i zh d o b	0 
+zh d o b	0 
+zj i zh dj e b	0 
+l u zh d o v	0 
+k u zh dj e v	0 
+zh d o v	1 
+zh dj e v	0 
+zh d o v	0 
+zh e d v	0 
+x a zh dj e v	0 
+l u zh dj e v	0 
+zh e d z	0 
+zh i zh d o z	0 
+zh e d z	0 
+zh dj e z	0 
+zh o d z	0 
+xj i zh dj e z	0 
+zh o d z	1 
+zh d o r	0 
+r a zh o d r	1 
+zh e d r	0 
+l u zh dj e r	1 
+x a zh dj e r	0 
+zh o d r	1 
+g u zh e d r	1 
+l a zh dj e r	0 
+m a zh o d r	0 
+zh dj e r	0 
+zh d o r	1 
+k a zh e z	0 
+zh e z	0 
+zh e z	0 
+zh e z	1 
+zh o z	0 
+zh o z	0 
+zh o z	0 
+lj i zh e z	1 
+sj i zh e z	0 
+b a zh o z	0 
+zh o z	0 
+zh u zh zj e g	0 
+gj i zh zj e g	0 
+zh e z g	0 
+zh zj e g	0 
+zh z o g	0 
+p u zh z o g	1 
+b u zh z o g	0 
+zh e z g	0 
+zh o z g	0 
+zh zj e g	0 
+p u zh z o g	0 
+zh zj e g	0 
+zh zj e g	0 
+g u zh e z g	0 
+zh z o g	0 
+l u zh zj e d	0 
+m u zh z o d	0 
+g a zh e z zh	0 
+zh z o zh	0 
+zh o z zh	0 
+g u zh zj e zh	0 
+zh z o zh	0 
+sh i zh z o zh	0 
+zh z o zh	0 
+zh e z zh	0 
+zh u zh z o zh	0 
+zh zj e zh	0 
+z u zh z o m	1 
+zh zj e m	0 
+zh z o m	0 
+zh zj e m	0 
+zh z o m	0 
+zh z o m	0 
+r a zh e z m	1 
+zh o z m	0 
+b a zh z o m	0 
+zh o z m	0 
+zh e z m	0 
+x u zh z o n	1 
+g a zh z o n	1 
+pj i zh o z n	0 
+zh z o n	0 
+t u zh z o n	0 
+zh zj e n	0 
+zj i zh zj e n	0 
+zh zj e n	1 
+s u zh o z n	0 
+zh o z n	0 
+s u zh zj e n	0 
+n u zh zj e n	0 
+n u zh zj e n	0 
+zh z o r	0 
+n u zh z o r	0 
+zh z o r	0 
+zh z o r	0 
+zh o z r	0 
+zj i zh o z r	1 
+zh zj e r	1 
+zh e l	0 
+zh e l	0 
+zh e l	0 
+zh e l	0 
+zh e l	1 
+p u zh e l	1 
+s u zh o l	1 
+zh o l	1 
+mj i zh o l	1 
+zh o l r	0 
+zh o l r	0 
+zh o l r	0 
+t u zh e l r	0 
+zh l o r	0 
+l u zh l o r	0 
+t a zh e l r	0 
+r u zh lj e r	0 
+sh i zh l o r	0 
+x a zh lj e r	0 
+r a zh l o r	0 
+sh u zh e l r	1 
+zh l o r	0 
+b u zh l o r	0 
+n u zh l o r	0 
+g u zh o l r	0 
+l a zh l o r	0 
+zh o l r	0 
+t u zh lj e r	0 
+zh lj e r	0 
+zh lj e r	0 
+g u zh o l r	0 
+rj i zh e l r	1 
+zh o l r	0 
+zh l o r	1 
+zh e l r	0 
+zh o l r	0 
+kj i zh e l r	0 
+tj i zh o l r	1 
+sj i zh o l r	0 
+zh e l r	0 
+b a zh e l r	0 
+xj i zh lj e r	0 
+zh o l r	0 
+n u zh o l r	0 
+zh o l r	0 
+l a zh lj e r	0 
+zh i zh e n	1 
+zh o n	0 
+l a zh e n	1 
+zh o n	1 
+bj i zh o n	0 
+zh o n	0 
+zh e n	1 
+zh e n	0 
+zh o n	1 
+zh o n	1 
+r a zh e n	1 
+kj i zh o n	1 
+zh o n	1 
+sh i zh o n	0 
+sh u zh e n	1 
+zh e n	1 
+zj e g	0 
+zj e g	0 
+gj i z o g	1 
+n u zj e g	1 
+z o g	1 
+z o g	1 
+kj i z o g	0 
+zj e g	0 
+sh u zj e g	0 
+g a z o g	1 
+m a z o g	0 
+zj e g b	0 
+z gj e b	0 
+z o g b	0 
+lj i z gj e b	0 
+sh a zj e g b	0 
+z o g b	0 
+x a z gj e b	1 
+l u z o g b	0 
+t u z gj e b	0 
+z g o b	0 
+z g o v	0 
+kj i z g o v	0 
+z gj e v	0 
+gj i z gj e v	1 
+b a z o g v	0 
+l u z gj e v	0 
+zj e g v	0 
+z o g v	0 
+b a z g o v	0 
+t a z g o v	1 
+zj e g v	0 
+k a z gj e zh	0 
+z o g zh	0 
+b a zj e g zh	0 
+z o g zh	0 
+b a z o g zh	0 
+b a z o g zh	0 
+m u z gj e zh	1 
+z o g zh	0 
+rj i z o g zh	0 
+sh a z gj e zh	0 
+t u z gj e zh	0 
+pj i zj e g z	0 
+zj e g z	0 
+z gj e z	0 
+z gj e z	0 
+zj e g z	1 
+z g o z	0 
+z g o z	0 
+zj e g z	0 
+m a zj e g z	0 
+t u z gj e z	0 
+z gj e m	0 
+kj i z g o m	0 
+z g o m	1 
+zh i zj e g m	1 
+t a z gj e m	0 
+z g o m	1 
+z g o m	0 
+rj i zj e g m	0 
+bj i zj e g m	0 
+rj i zj e g m	0 
+zj e g m	0 
+sh i z g o m	0 
+z g o m	1 
+zj e g m	0 
+zj e g r	0 
+z o g r	0 
+sh a zj e g r	0 
+x u z gj e r	0 
+z gj e r	1 
+s u z g o r	1 
+z u z o d	0 
+z o d	0 
+z o d	0 
+zj e d	0 
+mj i z o d	0 
+zj e d	0 
+zj e d	1 
+z d o b	0 
+z o d b	0 
+zj e d b	0 
+z o d b	0 
+zj e d v	0 
+sj i z dj e v	0 
+z u z d o v	0 
+mj i zj e d v	0 
+z o d v	0 
+z dj e v	0 
+z o d v	1 
+x u z d o z	0 
+mj i z dj e z	0 
+sh i z d o z	0 
+g a zj e d z	0 
+z d o z	0 
+x a z dj e z	0 
+zj e d z	0 
+z dj e z	1 
+m a zj e d r	0 
+z d o r	0 
+mj i zj e d r	0 
+sh i z d o r	1 
+g a zj e d r	1 
+g a z dj e r	1 
+zj e d r	0 
+p u z d o r	1 
+s u zj e d r	1 
+z d o r	0 
+z dj e r	1 
+x u z o zh	0 
+z o zh	0 
+l a zj e zh	1 
+k u zj e zh	0 
+zh i zj e zh	0 
+g a z o zh	1 
+lj i zj e zh	0 
+zj e zh	0 
+z u zj e zh	0 
+rj i zj e zh	1 
+sh i zj e zh	0 
+zh i zj e zh	0 
+x u zj e zh	0 
+z o zh	0 
+zj e zh	1 
+zj e zh	0 
+zj e zh	0 
+z o zh	1 
+m u z o zh	1 
+zj e zh	0 
+sh i z o zh	0 
+gj i zj e zh	0 
+r u z zh e b	0 
+z o zh b	0 
+sh u z o zh b	0 
+z zh o b	0 
+l a zj e zh b	1 
+l u z o zh b	1 
+z zh o b	1 
+z zh e v	0 
+zj i z o zh v	0 
+xj i z o zh v	0 
+z zh o v	0 
+zh i z zh e v	0 
+xj i z zh e v	0 
+l a z o zh v	0 
+zh a z zh o v	0 
+sj i zj e zh v	0 
+zj e zh v	0 
+z zh e v	1 
+z o zh g	1 
+lj i z zh o g	0 
+m u zj e zh g	0 
+z o zh g	0 
+z o zh g	1 
+z o zh d	1 
+n u z zh e d	0 
+r u z zh e d	0 
+r a z o zh d	1 
+sh u z o zh d	0 
+zj e zh d	0 
+zj e zh d	0 
+z zh o d	0 
+lj i z zh e d	0 
+n u z o zh d	0 
+sh u z zh e z	0 
+p u z zh e z	0 
+z zh e z	1 
+k u z zh e z	0 
+z o zh l	0 
+tj i zj e zh l	0 
+zj e zh l	0 
+k a z zh o l	0 
+z zh o l	0 
+rj i z o zh l	0 
+bj i z zh o l	1 
+z o zh l	0 
+z zh o l	0 
+zj e zh l	0 
+p u z zh o n	0 
+z o zh n	0 
+z zh e n	0 
+zj e zh n	0 
+z zh e n	1 
+zj e zh n	0 
+z zh o n	0 
+pj i zj e zh n	0 
+p u z zh e n	0 
+z zh o n	0 
+z zh e n	0 
+g u z o zh n	0 
+m a z zh e n	1 
+zj e zh n	0 
+z zh e n	0 
+k u z o zh n	1 
+z o m	0 
+t u zj e m	1 
+s u z o m	1 
+k a zj e m	1 
+g a z o m	0 
+m a zj e m	0 
+z u zj e m	1 
+zj e m	0 
+g a z o m	0 
+zj e m	0 
+x u zj e m	0 
+zj e m	1 
+sh u z o m	0 
+pj i z mj e v	0 
+k u z o m v	0 
+rj i z m o v	0 
+t a z o m v	0 
+zj e m v	0 
+bj i z m o v	0 
+z m o v	0 
+tj i z mj e v	0 
+zj e m v	0 
+m u zj e m v	0 
+sh u z o m v	1 
+b a z o m v	0 
+z m o v	0 
+z m o v	0 
+zj e m v	1 
+bj i z m o v	0 
+zj e m v	0 
+z mj e v	0 
+bj i z o m v	0 
+sh i z o m v	0 
+tj i z o m v	1 
+sj i z mj e v	0 
+z mj e v	0 
+z o m v	0 
+z m o v	0 
+lj i z o m v	1 
+lj i zj e m v	0 
+z mj e v	0 
+zj e m v	0 
+zj e m v	1 
+zh a zj e m v	0 
+zj e m v	0 
+z m o v	1 
+z mj e v	0 
+g a z mj e v	0 
+r a zj e m v	0 
+k u z m o v	1 
+x a z o m v	0 
+n u z m o v	0 
+z o m v	1 
+m u zj e m v	1 
+rj i z mj e v	0 
+z o m v	0 
+z o m v	0 
+x a z m o v	1 
+kj i z m o n	0 
+b a z o m n	0 
+l u z o m n	0 
+r u zj e m n	0 
+x a zj e m n	0 
+xj i zj e m n	0 
+sj i z mj e n	0 
+z m o n	0 
+z m o n	0 
+sj i zj e m n	0 
+zj e m n	0 
+p u z o m n	0 
+zh u zj e m n	1 
+k a z o m n	1 
+xj i z mj e n	0 
+zh i zj e m n	0 
+sh u z m o n	0 
+z m o n	0 
+zj e m n	0 
+zh i z o m n	0 
+z m o n	0 
+sh a z m o n	0 
+m u zj e m n	0 
+z m o n	0 
+z o m n	0 
+z o m n	0 
+zh a z mj e n	0 
+z mj e n	0 
+r a zj e m n	0 
+tj i z o m n	0 
+zj i z mj e n	0 
+s u zj e m n	0 
+z m o n	1 
+n u z o m n	0 
+sh i z mj e n	0 
+z mj e n	0 
+x a z mj e n	0 
+zj e n	0 
+zj e n	1 
+mj i z o n	0 
+mj i z o n	0 
+b u zj e n	1 
+k u zj e n	1 
+zj e n	1 
+zj e n	0 
+s u z o n	1 
+x a zj e n	1 
+sh a zj e n	1 
+zj e n	1 
+zj e n	1 
+n u z o n	1 
+zj e n	1 
+z o n	1 
+sj i zj e n	0 
+zj e n r	0 
+z nj e r	0 
+bj i zj e n r	0 
+z n o r	0 
+zj e n r	0 
+sj i z o n r	0 
+z nj e r	0 
+zj e n r	0 
+z nj e r	0 
+z o n r	0 
+z nj e r	0 
+z o n r	0 
+zh u zj e n r	1 
+l u zj e n r	0 
+k a z nj e r	0 
+z n o r	1 
+b a zj e n r	0 
+zh i z o n r	0 
+x a z n o r	0 
+zj e n r	1 
+zh i z n o r	0 
+z n o r	0 
+k a z n o r	0 
+z nj e r	0 
+rj i z nj e r	0 
+z nj e r	0 
+z o n r	0 
+g u z nj e r	0 
+tj i z nj e r	0 
+b a z o n r	0 
+k u zj e n r	0 
+z o n r	0 
+z nj e r	0 
+sh i z n o r	0 
+p u z n o r	0 
+z n o r	1 
+z n o r	0 
+zj i z nj e r	0 
+z o n r	0 
+z nj e r	1 
+zj e n r	0 
+p u z n o r	1 
+z o n r	0 
+sh i z nj e r	0 
+zj e n r	0 
+p u z o r	0 
+z o r	0 
+k u zj e r	1 
+k u z o r	1 
+z o r	0 
+b u zj e r	0 
+t u z o r	1 
+z o r	0 
+xj i z o r	0 
+zj e r	1 
+g u z o r	1 
+m a zj e r	0 
+z o r	1 
+z o r	1 
+s u z rj e n	0 
+z rj e n	0 
+t u z o r n	1 
+zh a z r o n	1 
+zh u zj e r n	0 
+z r o n	1 
+z r o n	0 
+rj i z r o n	0 
+gj i z o r n	0 
+l a z r o n	0 
+z r o n	0 
+z o r n	0 
+z o r n	0 
+z r o n	0 
+z r o n	1 
+z rj e n	0 
+z r o n	0 
+tj i zj e r n	0 
+zj e r n	0 
+l a zj e r n	0 
+tj i z o r n	0 
+g u z o r n	0 
+z rj e n	0 
+sj i zj e r n	0 
+z rj e n	0 
+z rj e n	0 
+z r o n	0 
+kj i z r o n	0 
+zj e r n	0 
+m a z rj e n	0 
+z r o n	1 
+z rj e n	0 
+zj e r n	0 
+z rj e n	0 
+t a z rj e n	1 
+b a z rj e n	0 
+z r o n	0 
+k u z rj e n	0 
+zj e r n	0 
+m a l o d	1 
+l o d	1 
+l o d	0 
+l o d	0 
+lj e d	0 
+l o d	0 
+l a lj e d	0 
+t u l o d	1 
+lj e d	0 
+x a lj e d	0 
+gj i l o d	0 
+g u l o d	1 
+tj i l o d	1 
+l o d	0 
+l o d	0 
+l o d	0 
+lj e d	0 
+k u lj e d v	0 
+l dj e v	0 
+rj i lj e d v	1 
+l u l d o v	1 
+l o d v	0 
+t a l d o v	1 
+mj i lj e d v	0 
+l d o v	0 
+lj e d v	1 
+lj e d v	0 
+l o d v	0 
+l o d v	0 
+lj e d v	0 
+b u l o d r	1 
+zj i l o d r	0 
+l d o r	0 
+b a l dj e r	1 
+lj e d r	0 
+l o d r	0 
+l d o r	0 
+g a l d o r	1 
+sh a lj e d r	0 
+lj e d r	0 
+rj i l d o r	1 
+l o d r	0 
+n u l o d r	0 
+l d o r	0 
+l o d r	0 
+rj i l dj e r	0 
+t u l o d r	1 
+l d o r	0 
+p u lj e z	1 
+b u l o z	1 
+l o z	0 
+l o z	1 
+lj e z	0 
+lj e z	0 
+sh a lj e z	0 
+lj i lj e z	1 
+m a l o z	0 
+g a lj e z	0 
+n u l zj e m	1 
+lj e z m	0 
+gj i l z o m	0 
+l u l zj e m	1 
+k u l zj e m	0 
+l z o m	0 
+l zj e m	0 
+l zj e m	0 
+mj i l z o m	0 
+sj i l zj e m	0 
+lj e z m	1 
+l o z m	0 
+zj i l o z n	1 
+mj i l o z n	0 
+l zj e n	0 
+l zj e n	1 
+gj i l zj e n	0 
+lj e z n	0 
+mj i l zj e n	0 
+sj i l o z n	0 
+m a l o z n	0 
+sh a l o z n	0 
+l z o r	0 
+k u lj e z r	0 
+l o z r	0 
+l zj e r	1 
+r a lj e z r	0 
+l zj e r	0 
+lj e z r	0 
+rj i l zj e r	0 
+b a l o z r	0 
+r u l zj e r	0 
+l z o r	0 
+lj e z r	0 
+g a l zj e r	0 
+l o z r	0 
+tj i l o z r	0 
+mj i l zj e r	0 
+l z o r	1 
+l z o r	0 
+l z o r	0 
+lj i lj e p	0 
+kj i l o p	0 
+p u lj e p	0 
+l o p	0 
+lj e p	0 
+l o p	1 
+lj e p	1 
+xj i lj e p	0 
+k u lj e p	0 
+gj i lj e p	0 
+l o p	1 
+lj e p	0 
+t u lj e p	1 
+g a lj e p	1 
+pj i lj e p	0 
+l o p	0 
+l o p	1 
+lj e p	0 
+l o p	1 
+n u lj e p	1 
+xj i l o p	0 
+lj e p	1 
+zj i l o p	1 
+l p o v	0 
+l p o v	1 
+sh i lj e p v	0 
+l p o v	1 
+l a lj e p v	0 
+l p o v	0 
+l pj e v	0 
+lj e p v	0 
+g a lj e p v	0 
+zh u l o p v	0 
+m a lj e p v	1 
+z u l p o v	0 
+lj e p v	1 
+m a l pj e v	1 
+l pj e v	0 
+tj i lj e p v	0 
+l o p v	1 
+m a lj e p v	0 
+l o p m	0 
+l pj e m	0 
+l p o m	1 
+l o p m	0 
+sh a l pj e m	0 
+l pj e m	0 
+l o p m	0 
+x a l pj e m	0 
+l p o m	0 
+lj e p m	1 
+zj i l pj e m	0 
+l pj e m	0 
+zh i lj e p m	0 
+k u lj e p m	0 
+zh a lj e p m	0 
+s u l pj e m	0 
+p u lj e p m	0 
+k u lj e p r	0 
+l o p r	1 
+l p o r	0 
+l pj e r	1 
+l o p r	0 
+zh a l o p r	0 
+lj e p r	0 
+sh a l o p r	0 
+b a l p o r	1 
+k u l p o r	1 
+xj i l o r	0 
+lj e r	0 
+k a lj e r	0 
+l u lj e r	1 
+sh u lj e r	0 
+t a l o r	1 
+l o r	0 
+lj e r	0 
+z u l o r	1 
+bj i l o r	0 
+lj e r	0 
+l a lj e r	0 
+l o r	0 
+xj i lj e r	0 
+lj e r	0 
+m a lj e r	0 
+zh u lj e r	0 
+s u lj e r	0 
+xj i l o r	0 
+lj e r	0 
+r a lj e r	1 
+m a l o r	0 
+l o r	0 
+t u l o r	1 
+sh u lj e r	0 
+gj i l o r	0 
+pj i l o r	0 
+l o r	0 
+l o r	0 
+l o r	1 
+l o r	0 
+l o r	0 
+pj i l o r	0 
+t u l o r	0 
+s u lj e r	0 
+l o r	0 
+gj i l o r	0 
+m u l o r	1 
+lj e r	0 
+g a l o r	0 
+zh i l o r	0 
+bj i l o r	1 
+l o r	0 
+kj i l o r	0 
+m u lj e r	0 
+l u l o r	0 
+lj e r	0 
+sh a l o r	0 
+l o r	0 
+lj e r	0 
+lj e r	0 
+z u lj e r	0 
+rj i lj e r	0 
+gj i lj e r	0 
+lj e r	0 
+r u lj e r	0 
+l o r	0 
+l o r	0 
+zh u l o r	0 
+l o r	0 
+l o r	0 
+l o r	0 
+sh a lj e r	0 
+sh u l o r	0 
+lj e r	0 
+lj e r	0 
+lj e r	0 
+l u l o r	0 
+l o r	1 
+l o r	0 
+t u lj e r	1 
+l o r	0 
+k u lj e r	0 
+lj e r	0 
+lj e r	0 
+tj i l o r	0 
+pj i l o r	1 
+b a l o r	1 
+x a lj e r	0 
+l o r	0 
+l o r	0 
+sh i lj e r	0 
+l o r	0 
+zh a lj e r	0 
+l o r	0 
+zh u lj e r	0 
+lj e r	0 
+lj e r	0 
+l o r	0 
+l o r	0 
+s u lj e r	0 
+pj i l o f	1 
+b a l o f	0 
+rj i lj e f	0 
+lj e f	0 
+lj i lj e f	0 
+m u lj e f	0 
+lj e f	0 
+l o f	0 
+lj e f	1 
+kj i l o f	0 
+l o f	1 
+m u l o f	1 
+lj e f	0 
+x a lj e f	0 
+l o f	1 
+l o f	1 
+lj e f	0 
+n u lj e f	0 
+bj i lj e f	1 
+s u l o f v	0 
+l o f v	0 
+s u l f o v	1 
+l o f v	0 
+zh u l f o v	0 
+lj i lj e f v	0 
+mj i lj e f v	0 
+lj e f v	1 
+lj e f v	0 
+l f o v	1 
+zj i lj e f v	0 
+l u l o f v	0 
+sj i l f o v	0 
+l f o m	0 
+k a lj e f m	0 
+x u l fj e m	1 
+l f o m	0 
+kj i l o f m	1 
+l u lj e f m	0 
+sh a l fj e m	1 
+k u l f o m	1 
+l o f m	0 
+l o f m	0 
+x u l o sh	0 
+t a l o sh	0 
+x a lj e sh	0 
+l o sh	1 
+l o sh	1 
+sh u l o sh	0 
+r u l o sh	1 
+l o sh	1 
+lj e sh	0 
+xj i lj e sh	1 
+l o sh	1 
+lj e sh	1 
+l o sh	1 
+xj i l o sh	0 
+k a lj e sh	1 
+m a l o sh	1 
+lj e sh	0 
+t a l o sh	1 
+lj e sh	0 
+gj i lj e sh	0 
+lj e sh l	0 
+lj e sh l	0 
+lj e sh l	0 
+l sh e l	1 
+l o sh l	0 
+sh i lj e sh l	0 
+n u lj e sh l	0 
+l sh o l	0 
+sh i l sh e l	0 
+l a l sh e l	0 
+l sh e l	0 
+tj i lj e sh l	0 
+l sh e l	0 
+xj i lj e sh l	1 
+bj i l sh e l	0 
+l sh e l	0 
+zh i l sh e m	1 
+lj i lj e sh m	0 
+zh a l sh e m	0 
+l sh o m	0 
+l sh e m	1 
+k a l sh e m	0 
+lj e sh m	0 
+b a l sh o m	0 
+z u l o sh m	1 
+m a l sh e m	1 
+l sh o m	1 
+s u l o sh m	0 
+l sh e m	0 
+l sh e m	0 
+l sh o m	0 
+lj e sh m	0 
+lj e sh m	0 
+p u l o sh m	0 
+lj e sh n	0 
+x u l o sh n	0 
+sh u l o sh n	0 
+z u l sh e n	0 
+k u lj e sh n	0 
+l sh e n	0 
+tj i l sh e n	0 
+s u lj e sh n	0 
+k u l sh o n	1 
+l sh o n	0 
+sj i l sh o n	0 
+l sh e n	0 
+l sh e n	0 
+l sh o n	1 
+lj e sh n	0 
+x u l sh o n	0 
+sj i l sh e r	0 
+lj e sh r	0 
+k a lj e sh r	0 
+k u l sh o r	1 
+m u l o sh r	0 
+bj i l sh o r	0 
+lj e sh r	0 
+l o sh r	0 
+l sh o r	0 
+k u lj e sh r	0 
+l o sh r	0 
+l o sh r	0 
+bj i l sh o r	0 
+l o sh r	0 
+kj i m o b	0 
+m o b	0 
+m o b	1 
+x a m o b	1 
+mj e b	0 
+b u m o b	1 
+m o b	0 
+zh u mj e b	0 
+g a mj e b	1 
+sh u m o b	1 
+mj e b	1 
+x a mj e b	1 
+zj i mj e b	0 
+m o b	0 
+t a mj e b	1 
+m o b	0 
+t a m o b	0 
+zh u mj e b	1 
+mj e b	0 
+r u mj e b	0 
+mj e b	0 
+m o b	0 
+mj e b	0 
+mj e b	0 
+m o b	0 
+m bj e v	0 
+mj e b v	0 
+k a m b o v	0 
+m b o v	1 
+m bj e v	1 
+m bj e v	0 
+mj e b v	0 
+s u m b o v	1 
+b u mj e b v	1 
+zj i m b o v	0 
+l a m o v	1 
+mj i mj e v	1 
+mj e v	1 
+sh a m o v	0 
+mj e v	1 
+mj e v	0 
+kj i mj e v	0 
+lj i m o v	1 
+mj e v	0 
+pj i m o v	0 
+m o v	0 
+mj e v	1 
+l a mj e v	0 
+m o v	1 
+mj e v	1 
+mj e v	0 
+m o v	0 
+m o v	0 
+m o v	1 
+sh u m o v	0 
+n u m o v	1 
+sh a mj e v	1 
+m o v	1 
+m o v	0 
+xj i mj e v	1 
+t u mj e v	1 
+m o v	0 
+mj e v	0 
+m o v	1 
+zh a mj e v	1 
+sj i mj e v	1 
+m o v	0 
+mj e v	0 
+kj i mj e v	1 
+t u m o v	0 
+mj e v	0 
+mj e v	1 
+mj e v	1 
+m o v	0 
+mj e v	0 
+t u mj e v	0 
+sh u m o v	0 
+l u m o v	0 
+zj i mj e v	1 
+pj i m o v	1 
+l a m o v	0 
+lj i m o v	0 
+m o v	1 
+mj e v	0 
+sj i mj e v	1 
+m a mj e v	0 
+lj i mj e v	1 
+m o v	1 
+m o v	1 
+g u mj e v	0 
+sh i m o v	0 
+m o v	0 
+mj e v	1 
+s u mj e v	0 
+mj e v	1 
+xj i m o v	0 
+m o v	1 
+tj i m o v	0 
+m o v	0 
+kj i mj e v	1 
+m o v	1 
+m o v	0 
+mj e v	0 
+m o v	0 
+b u mj e v	1 
+m o v	0 
+m o v	1 
+k u mj e v	0 
+m o v	1 
+mj e v	1 
+m o v	0 
+mj e v	0 
+m o v	1 
+m o v	0 
+b a mj e v	1 
+mj e v	1 
+tj i m o v	1 
+p u m o v	0 
+z u mj e v	1 
+sj i mj e v	0 
+mj e v	1 
+z u mj e v	1 
+m o v	1 
+m o v	0 
+mj e v	1 
+r a m o v	1 
+m o v	0 
+zh a m o v	1 
+pj i m o v	0 
+m o v	1 
+m o g	1 
+m o g	0 
+m o g	1 
+z u m o g	1 
+gj i m o g	0 
+m o g	1 
+zh u mj e g	1 
+mj e g	0 
+mj i mj e g	0 
+mj i mj e g	0 
+pj i mj e g	0 
+rj i m o g	1 
+kj i m o g	0 
+kj i m o g	1 
+mj e g	1 
+mj i m o g	0 
+sh u m o g	0 
+k u m o g	1 
+tj i m o g	0 
+mj e g	0 
+m o g v	0 
+mj e g v	0 
+m gj e v	1 
+g a m g o v	1 
+g a m g o v	0 
+mj e g v	0 
+l u m g o v	0 
+m o g v	1 
+m g o v	1 
+r a mj e g v	1 
+m o g v	0 
+m g o v	0 
+m g o v	1 
+m g o v	1 
+lj i m gj e v	0 
+l u mj e g v	0 
+k u m o g v	0 
+m g o v	0 
+s u m o g m	0 
+m o g m	1 
+lj i m g o m	0 
+m o g m	0 
+sj i m g o m	0 
+t a mj e g m	0 
+t a m gj e m	1 
+p u m o g m	0 
+lj i m gj e m	0 
+g u mj e g m	0 
+m o g m	1 
+m gj e m	0 
+mj e g m	0 
+m g o m	1 
+m gj e r	0 
+m gj e r	0 
+m gj e r	0 
+m a mj e g r	0 
+m o g r	0 
+mj e g r	0 
+b a m o g r	1 
+m o g r	0 
+r u mj e g r	1 
+m u m g o r	1 
+mj e z	0 
+t a m o z	1 
+p u mj e z	1 
+m o z	0 
+mj e z	1 
+m o z	1 
+zh i m o z	1 
+mj e z	0 
+tj i m o z	0 
+mj e z	0 
+mj e z	1 
+gj i m o z	1 
+m o z	1 
+m o z	1 
+zh a mj e z	0 
+n u m o z	1 
+mj e z m	0 
+rj i m z o m	0 
+m zj e m	0 
+m o z m	0 
+m zj e m	0 
+mj e z m	0 
+m zj e m	0 
+sh u m zj e m	1 
+mj e z m	0 
+mj e z m	1 
+mj e z m	0 
+mj e z m	1 
+m u m z o n	0 
+b u m o z n	0 
+mj e z n	0 
+m z o n	0 
+m zj e n	0 
+mj e z n	0 
+g u m z o n	0 
+m zj e n	1 
+m zj e n	0 
+g u m o z n	1 
+bj i mj e z n	0 
+mj e z n	0 
+mj e z n	1 
+n u m z o n	0 
+m o z r	0 
+m o z r	0 
+pj i m zj e r	0 
+r a m zj e r	0 
+m z o r	0 
+m o z r	0 
+k a m z o r	0 
+m o z r	0 
+pj i m zj e r	0 
+m zj e r	0 
+rj i m z o r	1 
+m o z r	1 
+m z o r	1 
+sh u mj e z r	0 
+m zj e r	0 
+m o n	0 
+r a m o n	0 
+mj e n	0 
+m o n	1 
+p u m o n	1 
+mj e n	1 
+mj e n	0 
+mj e n	0 
+m o n	1 
+b a m o n	1 
+g a mj e n	0 
+k u mj e n	1 
+pj i m o n	0 
+mj e n	0 
+m o n	1 
+lj i mj e n	1 
+m o n	0 
+m o n	1 
+m o n	0 
+mj e n	0 
+bj i m o n	1 
+m o n	1 
+mj e n	0 
+m o n	1 
+m o n	0 
+mj e n	1 
+m o n	0 
+mj e n	0 
+mj e n	0 
+m o n	0 
+r a mj e n	1 
+m o n	0 
+m o n	0 
+tj i mj e n	1 
+m o n	0 
+mj e n	0 
+z u mj e n	0 
+m u m o n	0 
+sh a m o n	0 
+lj i m o n	0 
+l a mj e n	0 
+mj e n	1 
+b a m o n	0 
+mj e n	0 
+sj i mj e n	0 
+kj i m o n	1 
+zh u m o n	1 
+m o n	1 
+mj e n	0 
+tj i mj e n	0 
+rj i mj e n	1 
+kj i mj e n	1 
+m o n	0 
+m o n	1 
+m o n	1 
+xj i mj e n	0 
+m o n	1 
+zh u mj e n	1 
+m o n	1 
+zh u m o n	0 
+m o n	0 
+sh a mj e n	1 
+pj i mj e n	1 
+mj e n	1 
+b u m o n	1 
+mj i mj e n	0 
+b a mj e n	1 
+b u m o n	0 
+mj e n	1 
+sh a m o n	0 
+mj e n	0 
+k u mj e n	0 
+pj i m o n	0 
+mj e n	0 
+pj i mj e n	0 
+m u m o n	1 
+b u mj e n	1 
+p u mj e n	1 
+k a mj e n	1 
+m o n	0 
+s u mj e n	0 
+l u m o n	0 
+x u m o n	1 
+r a mj e n	1 
+mj e n	0 
+m a mj e n	1 
+m o n	0 
+m o n	0 
+mj i mj e n	0 
+mj e p	0 
+n u m o p	0 
+mj e p	1 
+x a mj e p	1 
+mj e p	0 
+m o p	0 
+mj e p	0 
+m o p	0 
+g u mj e p	1 
+mj e p	1 
+k a m o p	0 
+z u m o p	1 
+mj e p	0 
+mj e p	1 
+m o p	0 
+mj e p	0 
+rj i mj e p	0 
+m o p v	0 
+m p o v	0 
+m u m pj e v	1 
+tj i mj e p v	1 
+x u m p o v	0 
+m pj e v	0 
+m o p v	0 
+sh u m o p v	0 
+sj i m p o v	0 
+zj i mj e p v	0 
+z u m p o v	0 
+xj i mj e p v	0 
+m pj e v	0 
+x a m pj e v	0 
+m a m pj e v	0 
+g u mj e p v	0 
+m u m p o v	0 
+m o p v	0 
+m p o v	0 
+r u mj e p m	0 
+rj i m pj e m	0 
+g a m o p m	0 
+mj e p m	0 
+m o p m	0 
+m p o m	0 
+m pj e m	0 
+xj i m o p m	0 
+sh u m pj e m	0 
+p u mj e p m	0 
+g u m pj e m	0 
+sj i m pj e m	0 
+m p o m	0 
+pj i m p o m	0 
+mj e p m	0 
+m pj e m	0 
+m p o r	1 
+m a m o p r	0 
+sh i mj e p r	0 
+r a m p o r	0 
+p u m p o r	1 
+l u m o p r	0 
+m o p r	0 
+kj i m o p r	1 
+x a m pj e r	0 
+xj i mj e p r	0 
+mj e p r	0 
+m pj e r	0 
+m o p r	0 
+m pj e r	0 
+pj i mj e p r	0 
+sh u mj e p r	1 
+m p o r	1 
+m p o r	1 
+tj i mj e p r	1 
+z u mj e s	0 
+s u mj e s	1 
+m a mj e s	0 
+r u mj e s	1 
+x a mj e s	0 
+mj e s	0 
+b u m o s	1 
+m a mj e s	0 
+mj e s	0 
+t a m o s	1 
+x a m o s	0 
+mj e s	1 
+lj i mj e s	0 
+mj e s	1 
+m o s	1 
+r u m o s	0 
+mj e s	0 
+kj i mj e s	1 
+m o s	1 
+m o s	1 
+mj e s	0 
+m o s	1 
+rj i m o f	1 
+m o f	1 
+mj i m o f	0 
+m o f	1 
+m o f	1 
+x a mj e f	1 
+mj e f	1 
+gj i m o f	0 
+mj e f	0 
+r a mj e f	0 
+m o f	0 
+mj e f	0 
+p u mj e f	0 
+b u mj e f	0 
+k u m o f	0 
+m o f	0 
+m o f	0 
+mj e f	0 
+l a m o f	1 
+r u mj e f	1 
+mj e f	0 
+m o f	0 
+k a m fj e v	0 
+zh a m f o v	1 
+sh u m f o v	1 
+r u m o f v	0 
+m f o v	0 
+m f o v	0 
+m a m f o v	0 
+m fj e v	0 
+l u m o f v	0 
+m o f v	0 
+kj i mj e f v	1 
+g u m o f v	0 
+mj e f v	0 
+m fj e v	0 
+mj i m f o v	0 
+t a mj e f v	0 
+mj e f v	0 
+l a m f o v	0 
+m o f v	0 
+m fj e m	1 
+m f o m	0 
+sh a m o f m	0 
+m o f m	0 
+m fj e m	1 
+xj i m fj e m	0 
+m fj e m	0 
+g a m fj e m	0 
+m fj e m	0 
+lj i m o f m	0 
+m fj e m	0 
+gj i m o sh	0 
+zh u m o sh	0 
+m o sh	1 
+mj e sh	1 
+mj e sh	0 
+l a m o sh	1 
+m o sh	0 
+mj e sh	0 
+r a m o sh	0 
+k a mj e sh	0 
+m o sh	0 
+mj e sh	0 
+sj i m o sh	1 
+mj e sh	0 
+m o sh	0 
+rj i mj e sh	1 
+mj e sh	0 
+bj i mj e sh	0 
+n u m o sh	1 
+k a mj e sh	0 
+mj e sh	0 
+kj i mj e sh	0 
+mj e sh	1 
+mj e sh	0 
+sj i m o sh l	0 
+m u mj e sh l	0 
+tj i m sh o l	0 
+m sh o l	1 
+n u mj e sh l	0 
+m sh e l	0 
+mj e sh l	0 
+l u m o sh l	0 
+m o sh l	1 
+mj e sh l	0 
+kj i m sh e l	1 
+mj e sh l	0 
+zh a m sh e l	0 
+k a m sh o l	0 
+mj e sh l	0 
+m sh o l	0 
+z u m sh e l	0 
+m sh o l	0 
+m sh o m	0 
+mj i m o sh m	0 
+x u m sh o m	1 
+m sh e m	0 
+sh a mj e sh m	0 
+m sh o m	0 
+m sh e m	0 
+m sh e m	0 
+zh u mj e sh m	0 
+m sh o m	0 
+m o sh m	0 
+p u m o sh m	1 
+pj i m sh o m	1 
+mj e sh m	1 
+m sh o n	0 
+l a m sh o n	0 
+zj i m sh o n	0 
+m sh o n	0 
+bj i m o sh n	0 
+m sh o n	1 
+r u m sh e n	0 
+k a m o sh n	0 
+s u m sh o n	1 
+mj e sh n	1 
+kj i m o sh n	0 
+t a m o sh r	0 
+m o sh r	0 
+sh u mj e sh r	0 
+b u m sh o r	1 
+mj e sh r	0 
+sj i m sh o r	0 
+l u m o sh r	0 
+kj i m sh o r	1 
+zj i mj e sh r	0 
+m a m sh e r	0 
+b u m o sh r	0 
+m o sh r	0 
+sh a m o sh r	0 
+m sh e r	1 
+m sh o r	0 
+x u m sh e r	1 
+m o sh r	0 
+m sh o r	0 
+zh a nj e b	0 
+kj i nj e b	1 
+n o b	0 
+nj e b	0 
+t a nj e b	0 
+nj e b	1 
+b u n o b	1 
+z u nj e b	0 
+n o b	0 
+n o b	1 
+nj e b	0 
+r u nj e b	0 
+nj e b	0 
+rj i n o b	0 
+n o b	0 
+nj e b	0 
+m u n o b	0 
+r a n o b	0 
+r a n o b	0 
+n bj e v	0 
+sh u n b o v	0 
+n bj e v	0 
+n o b v	1 
+n o b v	1 
+n b o v	0 
+t u n bj e v	0 
+nj e b v	1 
+n o b v	1 
+n o b v	0 
+n b o v	0 
+sj i n o b v	0 
+n bj e v	0 
+t u n o b v	0 
+nj e b v	0 
+k u n bj e v	1 
+sh a nj e b v	0 
+n o b v	0 
+sh a nj e g	1 
+nj e g	0 
+zh i nj e g	0 
+n u nj e g	1 
+n u n o g	1 
+b a nj e g	0 
+zh u n o g	0 
+nj e g	0 
+nj e g	1 
+tj i nj e g	0 
+nj e g	0 
+n o g	0 
+n o g	1 
+sj i nj e g	0 
+nj e g	0 
+m a nj e g	0 
+n o g v	0 
+nj e g v	0 
+zh u n gj e v	0 
+n g o v	0 
+gj i nj e g v	1 
+n g o v	0 
+n o g v	1 
+n o g v	0 
+b a n gj e v	1 
+n gj e v	0 
+n u nj e g v	1 
+lj i n gj e v	1 
+n u nj e g v	0 
+x u n gj e v	1 
+kj i n g o v	1 
+n gj e v	1 
+nj e g v	0 
+nj e g v	0 
+n g o m	0 
+n gj e m	0 
+zh i nj e g m	0 
+n o g m	0 
+nj e g m	0 
+g u n o g m	1 
+n gj e m	0 
+l u nj e g m	1 
+mj i n o g m	0 
+n g o m	0 
+n g o m	1 
+g a n gj e m	0 
+n g o m	0 
+lj i nj e g m	1 
+n o d	0 
+m u nj e d	0 
+nj e d	1 
+kj i nj e d	1 
+n o d	1 
+s u nj e d	1 
+n o d	0 
+tj i n o d	0 
+n o d	0 
+z u n o d	0 
+n o d	0 
+nj e d	0 
+n o d	0 
+sh a n o d	0 
+nj e d	0 
+sj i nj e d	1 
+m a n d o v	1 
+l a n dj e v	0 
+n d o v	1 
+nj e d v	0 
+gj i n o d v	0 
+rj i n dj e v	0 
+zh i n d o v	0 
+k u n o d v	0 
+n o d v	0 
+n o d v	0 
+xj i n d o v	1 
+bj i nj e d v	0 
+x a n o d v	1 
+n d o r	1 
+nj e d r	0 
+nj e d r	0 
+bj i n o d r	1 
+n dj e r	1 
+n d o r	0 
+g a n dj e r	0 
+sh u nj e d r	0 
+n o d r	0 
+n d o r	0 
+gj i n d o r	1 
+n dj e r	0 
+n o d r	0 
+p u n d o r	1 
+nj e d r	1 
+g u n o d r	0 
+n d o r	0 
+n o z	0 
+xj i n o z	1 
+z u n o z	0 
+nj e z	1 
+n o z	0 
+nj e z	1 
+b a nj e z	0 
+n o z	0 
+n o z	0 
+zj i nj e z	0 
+zh a nj e z	0 
+n o z	1 
+n o z	0 
+sh a n o z	1 
+nj e z	0 
+zh i n o z	0 
+n o z	0 
+kj i n z o m	0 
+x u nj e z m	0 
+n zj e m	0 
+nj e z m	0 
+xj i n o z m	1 
+nj e z m	1 
+n z o m	1 
+zh u n o z m	0 
+n zj e m	0 
+nj e z m	0 
+t u n zj e m	1 
+g a nj e z m	1 
+n zj e m	0 
+nj e z m	0 
+nj e z m	0 
+nj e z m	0 
+gj i nj e z n	0 
+zh u n zj e n	0 
+n zj e n	0 
+n o z n	0 
+g a n z o n	0 
+n z o n	1 
+zj i n o z n	0 
+n zj e r	1 
+mj i n z o r	0 
+n o z r	0 
+t u n zj e r	0 
+sh a n z o r	1 
+nj e z r	0 
+n z o r	0 
+z u nj e z r	1 
+n z o r	0 
+r a n z o r	0 
+sh i n z o r	0 
+k a n o z r	1 
+n zj e r	0 
+x a n z o r	0 
+n z o r	0 
+x a n o p	1 
+zh u n o p	0 
+r u n o p	0 
+rj i nj e p	0 
+sh a nj e p	1 
+n o p	0 
+nj e p	0 
+t u nj e p	0 
+n o p	0 
+n o p	0 
+n o p	0 
+n o p	1 
+mj i n o p	0 
+l a n o p	0 
+nj e p	1 
+sj i nj e p	1 
+b a nj e p	0 
+b u n p o v	0 
+n o p v	0 
+n pj e v	0 
+mj i nj e p v	0 
+n o p v	0 
+nj e p v	0 
+n o p v	0 
+x a nj e p v	0 
+m a n p o v	0 
+n p o v	0 
+s u n pj e v	0 
+n o p v	0 
+r u nj e p v	0 
+lj i n o p v	0 
+sh a nj e p v	0 
+pj i n pj e v	0 
+n o p v	0 
+n p o v	1 
+n o p m	0 
+x u n pj e m	0 
+bj i nj e p m	0 
+n pj e m	0 
+nj e p m	0 
+n o p m	0 
+n pj e m	0 
+pj i n o p m	0 
+m a n p o m	0 
+sh a n o p m	1 
+nj e p m	0 
+b a n p o m	0 
+nj e p m	0 
+nj e p m	0 
+sh u n pj e m	0 
+sh i n o p m	0 
+g u nj e p m	0 
+l a n p o m	1 
+n pj e m	0 
+m u n o p m	0 
+m u n pj e m	0 
+n o p m	0 
+bj i nj e p m	0 
+n o p m	0 
+n o p r	0 
+n o p r	0 
+g u n o p r	1 
+nj e p r	0 
+n pj e r	0 
+nj e p r	0 
+x a n p o r	1 
+n p o r	0 
+n o p r	0 
+tj i n o p r	0 
+g a n pj e r	0 
+n o p r	0 
+bj i n pj e r	0 
+n o p r	0 
+n pj e r	1 
+sh a n o p r	0 
+r u n p o r	0 
+zh a n pj e r	0 
+kj i n o p r	0 
+x u nj e r	1 
+sh i n o r	1 
+nj e r	1 
+nj e r	0 
+nj e r	0 
+t u nj e r	0 
+rj i n o r	0 
+l a nj e r	0 
+sj i n o r	0 
+x u nj e r	0 
+r u n o r	0 
+nj e r	0 
+bj i nj e r	1 
+bj i n o r	0 
+n o r	0 
+nj e r	0 
+b a nj e r	0 
+m u nj e r	1 
+n o r	0 
+nj e r	0 
+x a n o r	0 
+kj i nj e r	0 
+l u nj e r	0 
+nj e r	1 
+pj i nj e r	1 
+nj e r	0 
+nj e r	1 
+nj e r	0 
+k u nj e r	1 
+nj e r	0 
+n o r	1 
+b u n o r	1 
+nj e r	0 
+r a n o r	1 
+n o r	0 
+l a nj e r	1 
+x a n o r	1 
+k u nj e r	0 
+l a n o r	0 
+tj i n o r	0 
+g a nj e r	0 
+n o r	0 
+n o r	1 
+nj e r	0 
+s u n o r	0 
+s u n o r	1 
+g a n o r	1 
+nj e r	0 
+t a nj e r	0 
+nj e r	0 
+bj i n o r	1 
+r u nj e r	0 
+n o r	0 
+nj e r	1 
+m a n o r	0 
+n o r	1 
+k u n o r	1 
+n o r	0 
+z u n o r	1 
+n o r	0 
+zh a n o r	1 
+pj i n o r	0 
+nj e r	0 
+nj e r	1 
+zh i n o r	1 
+t a n o r	1 
+z u nj e r	0 
+m a n o r	1 
+n o r	1 
+x u n o r	0 
+g a nj e r	0 
+nj e r	0 
+z u n o r	1 
+nj e r	0 
+nj e r	0 
+nj e r	0 
+n o r	1 
+n o r	0 
+mj i n o r	0 
+nj e r	0 
+sh u nj e r	0 
+n o r	0 
+nj e r	1 
+z u nj e r	0 
+m a n o r	0 
+sh a n o r	1 
+nj e r	0 
+nj e r	0 
+n o r	0 
+nj e r	0 
+sh i n o r	0 
+m a nj e r	1 
+nj e x	0 
+nj e x	0 
+n o x	0 
+kj i nj e x	0 
+n o x	0 
+nj e x	1 
+zj i n o x	0 
+n o x	0 
+nj e x	1 
+pj i n o x	1 
+sj i n o x	1 
+n o x	1 
+t a nj e x	1 
+nj e x	1 
+sh i nj e x	1 
+m u nj e x	1 
+nj e x	1 
+z u nj e x	1 
+n u nj e x	0 
+r a nj e x	1 
+n o x v	0 
+n x o v	1 
+zj i n x o v	1 
+g a n x o v	1 
+s u n x o v	1 
+k u n x o v	1 
+p u n xj e v	0 
+n xj e v	1 
+n o x v	0 
+nj e x v	0 
+pj i nj e x v	0 
+n x o v	1 
+zh i n xj e v	1 
+n xj e v	0 
+n x o v	1 
+t a n o x l	1 
+n x o l	0 
+nj e x l	0 
+nj e x l	0 
+sh a n o x l	0 
+xj i n o x l	0 
+zj i n x o l	1 
+g a n x o l	1 
+nj e x l	0 
+pj i n o x l	1 
+r a n o x l	1 
+n o x l	0 
+x u n o x m	0 
+n xj e m	1 
+n x o m	0 
+n o x m	0 
+sh u n xj e m	1 
+t u n xj e m	0 
+z u n o x m	0 
+n o x m	0 
+n xj e m	0 
+n o x m	0 
+s u nj e x m	0 
+s u nj e x m	0 
+l u nj e x m	0 
+nj e x m	0 
+n x o m	0 
+r a n xj e m	1 
+nj e x m	0 
+l u n o x m	0 
+sj i nj e x m	0 
+nj e sh	0 
+nj e sh	0 
+r u n o sh	1 
+n o sh	0 
+n o sh	1 
+zh u nj e sh	0 
+n o sh	0 
+nj e sh	1 
+t u n o sh	1 
+xj i nj e sh	1 
+nj e sh	0 
+nj e sh	0 
+nj e sh	0 
+n o sh	1 
+n o sh	0 
+zj i n sh o l	0 
+n sh e l	1 
+n sh o l	0 
+zh i n o sh l	0 
+b u n sh o l	0 
+sj i nj e sh l	1 
+sj i n o sh l	0 
+n o sh l	0 
+n o sh m	0 
+k a n o sh m	0 
+t u n o sh m	0 
+n sh e m	0 
+n sh o m	1 
+n o sh m	0 
+zh u n o sh m	0 
+r u n sh o m	1 
+lj i n sh o m	0 
+n o sh m	0 
+n sh o m	1 
+zh i n sh o m	0 
+x a nj e sh m	0 
+n sh e m	1 
+n sh e m	0 
+nj e sh m	0 
+sh u nj e sh m	0 
+m a n sh e n	0 
+n sh e n	0 
+n o sh n	0 
+sj i n o sh n	0 
+zh a n o sh n	0 
+nj e sh n	0 
+r a n o sh n	0 
+x u n sh e n	0 
+n sh o n	0 
+n sh e n	0 
+pj i nj e sh n	0 
+p u n sh e n	1 
+tj i nj e sh n	1 
+r u n o sh n	1 
+bj i nj e sh n	0 
+n sh e n	0 
+n sh o r	0 
+n o sh r	1 
+n o sh r	0 
+n sh e r	0 
+r u n sh o r	0 
+nj e sh r	0 
+lj i n sh e r	1 
+s u n sh o r	1 
+n sh e r	0 
+n sh e r	0 
+zh i n o sh r	0 
+n sh o r	0 
+xj i nj e sh r	0 
+n sh e r	0 
+n sh e r	0 
+nj e sh r	0 
+g a p o v	0 
+pj e v	0 
+pj e v	0 
+sh a pj e v	0 
+p u pj e v	1 
+zh i pj e v	0 
+p o v	0 
+t u pj e v	1 
+zh i p o v	1 
+r a p o v	1 
+pj e v	1 
+sh u p o v	1 
+r u pj e v	0 
+l u pj e v	0 
+zh i pj e m	0 
+pj e m	0 
+bj i pj e m	0 
+p o m	0 
+p o m	1 
+p o m	0 
+s u p o m	0 
+p o m	1 
+pj e m	0 
+p o m	0 
+sj i p o m	0 
+xj i pj e m	0 
+pj e m	0 
+bj i pj e m	0 
+p o m	0 
+zj i p o m	1 
+bj i p o m	0 
+s u pj e m v	0 
+b u p o m v	0 
+p o m v	0 
+p mj e v	1 
+pj e m v	0 
+pj i p mj e v	0 
+pj e m v	0 
+p mj e v	0 
+pj e m v	1 
+rj i pj e m v	0 
+g u pj e m v	0 
+r u p m o v	0 
+p o m v	0 
+zh u pj e m v	1 
+m u p mj e v	0 
+p o m v	0 
+p m o v	1 
+x a p m o v	0 
+g a p mj e v	0 
+l a p mj e v	0 
+p mj e v	0 
+zh i p o m v	0 
+p mj e v	0 
+p o m v	0 
+p m o v	1 
+pj e m v	0 
+g a p m o v	0 
+sh u pj e m v	0 
+pj e m v	0 
+p mj e v	0 
+r u p o m v	1 
+p m o v	0 
+b u p mj e v	1 
+p o m v	0 
+p o m v	0 
+p o m v	1 
+p mj e v	0 
+p mj e v	1 
+p m o v	1 
+kj i pj e m n	0 
+t u p mj e n	0 
+p mj e n	0 
+sh i p mj e n	0 
+lj i p o m n	0 
+pj e m n	0 
+sh u p mj e n	0 
+zh a p mj e n	0 
+p mj e n	1 
+p mj e n	0 
+p o m n	0 
+z u p m o n	0 
+p mj e n	1 
+bj i p mj e n	0 
+x u p o m n	0 
+p o m n	0 
+xj i p o m n	0 
+zh i p o m n	0 
+t u p o m n	0 
+k a p o m n	0 
+pj e m n	1 
+gj i p m o n	1 
+pj e m n	0 
+p m o n	0 
+t u pj e m n	0 
+k u p m o n	1 
+p o m n	0 
+z u pj e m n	1 
+p mj e n	0 
+s u p o m n	0 
+p o m n	0 
+pj e m n	0 
+zh u p mj e n	0 
+p o m n	0 
+pj e m n	1 
+p mj e n	0 
+t u p mj e n	0 
+p mj e n	0 
+p o r	0 
+pj e r	1 
+pj i p o r	1 
+p o r	0 
+lj i pj e r	1 
+gj i p o r	1 
+x a pj e r	0 
+k a pj e r	1 
+pj e r	0 
+xj i pj e r	0 
+g u p o r	1 
+p o r	1 
+p o r	0 
+pj e r	1 
+pj e r	1 
+pj e r	0 
+n u pj e r	0 
+p o r	1 
+zh a p r o n	0 
+p r o n	0 
+bj i p r o n	0 
+g a p r o n	0 
+z u p r o n	0 
+p o r n	0 
+pj e r n	0 
+p o r n	0 
+p rj e n	0 
+p o r n	0 
+p rj e n	0 
+gj i p r o n	1 
+mj i pj e r n	0 
+p r o n	0 
+p o r n	0 
+kj i p r o n	0 
+p r o n	0 
+g a p rj e n	0 
+bj i p rj e n	0 
+p r o n	0 
+pj e r n	0 
+x a p rj e n	0 
+z u p o r n	0 
+p r o n	0 
+z u p rj e n	1 
+p rj e n	0 
+xj i p rj e n	0 
+p o r n	0 
+r a p o r n	0 
+sj i p o r n	0 
+tj i pj e r n	0 
+p rj e n	0 
+pj e r n	0 
+pj e r n	0 
+pj i pj e r n	0 
+p rj e n	1 
+p o r n	0 
+p o r n	0 
+zj i p rj e n	0 
+p o r n	0 
+z u p r o n	0 
+p r o n	1 
+p r o n	0 
+zh a p rj e n	0 
+lj i p r o n	0 
+p rj e n	0 
+k u p o f	1 
+bj i p o f	0 
+pj e f	0 
+p o f	1 
+pj e f	1 
+pj e f	0 
+pj e f	1 
+zh i pj e f	1 
+l u pj e f	1 
+pj e f	1 
+pj e f	1 
+pj e f v	0 
+p f o v	0 
+r a p f o v	0 
+p f o v	0 
+p fj e v	0 
+p f o v	0 
+sh i p fj e v	1 
+b a p fj e v	0 
+m u p o f v	0 
+pj e f m	0 
+pj e f m	0 
+p fj e m	0 
+xj i p f o m	0 
+pj e f m	0 
+g a pj e f m	0 
+rj i p fj e m	0 
+p f o m	0 
+mj i p o f m	1 
+bj i p fj e m	0 
+sh i pj e f m	0 
+pj e f m	0 
+pj e f p	0 
+n u p o f p	0 
+p o f p	0 
+t a p o f p	0 
+g u p f o p	0 
+p f o p	0 
+pj i p o f p	0 
+p f o p	0 
+xj i p o f x	0 
+lj i pj e f x	0 
+p fj e x	0 
+l a pj e f x	0 
+zh i p f o x	0 
+p fj e ch	0 
+pj e f ch	0 
+p o f ch	0 
+p f o ch	0 
+t a p fj e sh	0 
+pj i p f o sh	0 
+sh u p f o sh	0 
+p fj e sh	0 
+b u p o x	0 
+pj e x	1 
+p o x	1 
+p o x	1 
+zh a pj e x	0 
+pj e x	0 
+sh u p o x	1 
+p o x	0 
+x u p o x	1 
+zh u pj e x	0 
+p o x v	0 
+l a pj e x v	0 
+p o x v	1 
+lj i p xj e v	1 
+pj e x v	1 
+b a p x o v	1 
+p x o v	1 
+p x o v	1 
+pj e x l	0 
+p xj e l	0 
+p x o l	1 
+x u pj e x l	0 
+p o x l	1 
+g a p x o l	1 
+t a p xj e l	1 
+bj i p o x l	0 
+p o x l	0 
+p o x l	0 
+p xj e l	0 
+sh u p o x m	1 
+p xj e m	0 
+sh u p xj e m	0 
+zh a p o x m	0 
+k a p xj e m	0 
+rj i p xj e m	0 
+zh i p o x m	0 
+pj e x m	0 
+p x o m	1 
+m a p o x s	1 
+m u p o x s	0 
+p xj e s	1 
+pj e x s	0 
+pj i pj e x s	0 
+g a p xj e s	0 
+k u p x o s	0 
+p o x s	0 
+p o x f	0 
+m a p x o f	0 
+rj i p xj e f	1 
+p o x f	1 
+p xj e f	0 
+zh u p xj e f	0 
+pj e x f	0 
+g a p xj e f	0 
+r u p xj e f	0 
+p o x f	0 
+kj i p xj e ch	0 
+p o x ch	0 
+p x o ch	0 
+p o x ch	0 
+r a pj e x ch	0 
+m u p xj e ch	0 
+m u p o x sh	0 
+l u p x o sh	0 
+mj i p x o sh	0 
+x u p xj e sh	0 
+p o sh	0 
+sh i pj e sh	0 
+p u p o sh	1 
+p o sh	1 
+pj e sh	0 
+pj e sh	1 
+zh a p o sh l	1 
+sh i p sh e l	1 
+r a p sh e l	1 
+p sh e l	0 
+p sh o l	1 
+n u p sh o l	0 
+p sh o l	0 
+sh i p sh o m	0 
+pj e sh m	0 
+p sh e m	1 
+p sh e m	0 
+p o sh m	0 
+x u p o sh m	0 
+p o sh m	0 
+p sh e m	0 
+pj e sh m	0 
+p sh o m	0 
+p o sh n	0 
+p sh e n	1 
+p sh e n	0 
+pj e sh n	0 
+xj i pj e sh n	1 
+p sh e n	0 
+p sh o n	0 
+p sh e n	0 
+t a pj e sh n	1 
+r a p sh e n	0 
+zh i pj e sh n	0 
+p sh o n	1 
+p sh e p	0 
+r u pj e sh p	0 
+l a p o sh p	0 
+p sh o p	1 
+p sh e p	0 
+pj e sh r	0 
+s u pj e sh r	0 
+t u p sh o r	0 
+p o sh r	0 
+p u p o sh r	0 
+p sh o r	0 
+sh u pj e sh r	0 
+pj i p o sh r	0 
+sh a p sh e r	1 
+p sh o s	1 
+p o sh s	0 
+p sh e s	1 
+pj e sh s	0 
+p sh o s	0 
+zh i pj e sh s	0 
+p o sh s	0 
+pj e sh s	0 
+x u pj e sh x	0 
+l a p o sh x	0 
+lj i pj e sh x	0 
+zh i pj e sh x	0 
+t u pj e sh x	0 
+t a pj e sh x	0 
+p sh e x	0 
+rj i p o sh x	1 
+pj e sh x	0 
+p o sh ch	0 
+p sh o ch	0 
+pj e sh ch	0 
+g a p o sh ch	1 
+m a p sh e ch	0 
+pj e sh ch	0 
+bj i p o sh ch	0 
+n u rj e b	1 
+r o b	0 
+x a r o b	0 
+r o b	1 
+zj i rj e b	1 
+p u r o b	1 
+x a r o b	1 
+r o b	1 
+rj e b	1 
+k a rj e b	0 
+rj e b	0 
+x u r o b	0 
+rj i r o b	1 
+l u r o b	0 
+g u r bj e v	0 
+mj i rj e b v	0 
+r u r bj e v	0 
+r bj e v	0 
+tj i r bj e v	0 
+r b o v	0 
+x u r bj e v	1 
+r b o v	0 
+rj e b v	1 
+zh a r b o v	0 
+r o b v	0 
+r bj e v	1 
+sh i rj e b v	0 
+sh a r b o v	0 
+r bj e v	0 
+r o b v	1 
+r bj e v	0 
+k u r bj e v	1 
+rj e b v	0 
+r bj e v	1 
+mj i r o n	0 
+b u r o n	1 
+m u r o n	1 
+rj e n	0 
+k a rj e n	1 
+rj e n	1 
+lj i rj e n	1 
+z u r o n	0 
+rj e n	0 
+r o n	0 
+rj e n	0 
+lj i r o n	1 
+r o n	1 
+rj i r o n	0 
+rj e n	1 
+rj e n	1 
+m a rj e n	0 
+k u rj e n	0 
+sh i rj e n	1 
+rj e n	0 
+k a r o n	0 
+rj e n	0 
+rj e n	1 
+rj e n	1 
+r o n	1 
+tj i r o n	0 
+rj e n	0 
+rj e n	0 
+rj e n	0 
+r o n	1 
+gj i rj e n	0 
+r o n	1 
+rj e n	0 
+n u rj e n	1 
+rj e n	0 
+t a r o n	0 
+r o n	0 
+r o n	1 
+k a r o n	0 
+m u r o n	0 
+rj e n	1 
+rj e n	0 
+m a rj e n	0 
+x u rj e n	0 
+m u r o n	0 
+rj e n	0 
+tj i rj e n	1 
+rj e n	0 
+rj e n	1 
+rj e n	1 
+r a rj e n	1 
+n u r o n	0 
+r o n	0 
+x u r o n	1 
+rj e n	1 
+rj i r o n	0 
+sh i rj e n	0 
+m a rj e n	1 
+r o n	1 
+r o n	0 
+sj i rj e n	1 
+rj e n	0 
+r o n	1 
+g a r o n	0 
+r o n	1 
+r o n	1 
+zh a rj e n	1 
+z u r o n	0 
+mj i rj e n	1 
+tj i rj e n	1 
+rj e n	0 
+r o n	0 
+n u rj e n	0 
+r o n	1 
+tj i rj e n	0 
+n u rj e n	1 
+m u rj e n	0 
+rj e n	0 
+r o n	0 
+rj e n	0 
+zh i r o n	1 
+rj e n	1 
+x u r o n	1 
+rj e n	0 
+r o n	1 
+rj e n	1 
+rj e n	0 
+r o n	0 
+r o n	0 
+b u r o n	1 
+l a r o n	1 
+r o n	0 
+sh u r o n	1 
+r o p	1 
+rj e p	1 
+sh a rj e p	1 
+x a r o p	0 
+t a r o p	0 
+r o p	0 
+rj e p	0 
+kj i rj e p	0 
+gj i r o p	1 
+zh a r o p	0 
+pj i r o p	1 
+bj i rj e p	0 
+g a rj e p	1 
+rj i r o p	0 
+r o p	1 
+rj e p	1 
+r o p	0 
+rj e p	0 
+xj i r pj e v	0 
+pj i r pj e v	0 
+r o p v	0 
+s u r pj e v	0 
+r p o v	0 
+z u r o p v	0 
+l u r p o v	0 
+rj e p v	0 
+rj e p v	0 
+m u r p o v	0 
+sh a r p o v	0 
+r u rj e p v	0 
+r p o v	0 
+k a r pj e v	1 
+rj e p v	0 
+lj i rj e p m	0 
+l a r p o m	1 
+r o p m	1 
+rj i rj e p m	0 
+kj i r p o m	1 
+zh u r o p m	0 
+sh i r pj e m	1 
+rj e p m	0 
+zj i r pj e m	0 
+bj i r p o m	0 
+b u r p o m	0 
+rj e p m	0 
+kj i r p o r	0 
+xj i rj e p r	0 
+r pj e r	0 
+r p o r	0 
+r pj e r	0 
+rj e p r	0 
+r u rj e p r	1 
+b a rj e p r	0 
+s u rj e p r	0 
+r o p r	0 
+s u r pj e r	0 
+r pj e r	1 
+bj i r p o r	0 
+r o p r	0 
+k u r o p r	0 
+l u r pj e r	0 
+r o p r	0 
+g a r pj e r	0 
+sh u r p o r	1 
+rj e p r	0 
+b u r o p r	0 
+r o s	0 
+kj i rj e s	0 
+z u r o s	0 
+zj i rj e s	0 
+rj e s	0 
+r u rj e s	1 
+z u rj e s	0 
+sh i r o s	1 
+gj i rj e s	0 
+bj i rj e s	0 
+bj i rj e s	0 
+t a r o f	1 
+rj e f	0 
+r o f	1 
+sh a r o f	0 
+x u r o f	1 
+rj e f	0 
+m a r o f	1 
+l u r o f	1 
+rj e f	0 
+r o f	0 
+r o f	0 
+bj i r o f	1 
+sh u r o f	0 
+r o f	0 
+r o f	0 
+zh a rj e f	1 
+rj e f	0 
+zj i r o f	0 
+rj e f	0 
+sh i r o f	0 
+r o f	1 
+gj i r o f	1 
+g a r o f	1 
+x a rj e f	0 
+g u r o f v	0 
+r f o v	0 
+rj e f v	0 
+r fj e v	1 
+r o f v	0 
+r o f v	0 
+tj i r f o v	1 
+r fj e v	0 
+n u r o f v	0 
+sh i rj e f v	0 
+r f o v	1 
+r o f v	0 
+k u rj e f v	0 
+rj e f v	0 
+r f o v	0 
+kj i r fj e m	1 
+r f o m	0 
+r f o m	1 
+mj i r o f m	0 
+l a r f o m	1 
+n u r fj e m	0 
+r f o m	1 
+k u r fj e m	1 
+r o f m	0 
+x u r o f m	0 
+p u r o f m	0 
+t a r o f m	0 
+rj e f m	0 
+r o f m	0 
+zh i r fj e m	0 
+r u r f o m	0 
+x u r o f m	0 
+rj e f m	0 
+b a r o f m	0 
+r o x	0 
+x a r o x	0 
+xj i rj e x	0 
+rj e x	0 
+rj e x	0 
+rj e x	1 
+kj i r o x	0 
+t a rj e x	1 
+mj i rj e x	0 
+kj i r o x	0 
+zh a r o x	0 
+r o x	0 
+gj i rj e x	1 
+rj e x	0 
+x u r o x	1 
+sh a rj e x	0 
+rj e x	0 
+rj e x	1 
+rj e x	0 
+r a rj e x	1 
+sj i r o x	0 
+r o x	0 
+r o x	1 
+sj i r o x v	1 
+rj e x v	0 
+zh i r o x v	1 
+r x o v	0 
+r xj e v	1 
+p u r xj e v	1 
+r xj e v	0 
+r o x v	0 
+p u r x o v	1 
+rj e x v	1 
+rj e x v	0 
+r x o v	0 
+rj e x v	1 
+rj e x v	0 
+r u r xj e v	0 
+r xj e v	0 
+mj i r o x v	1 
+x u r o x l	0 
+g u r xj e l	0 
+r u rj e x l	0 
+r x o l	0 
+r a r x o l	0 
+r xj e l	0 
+r o x l	0 
+k a r xj e l	0 
+k a r xj e l	1 
+r xj e l	0 
+rj e x l	0 
+r xj e l	0 
+sj i r x o l	0 
+rj e x l	0 
+r xj e l	0 
+tj i r o x l	1 
+mj i rj e x m	1 
+r o x m	0 
+sh u r o x m	0 
+k a r o x m	0 
+rj e x m	0 
+b a rj e x m	0 
+r xj e m	0 
+lj i r xj e m	0 
+sh u r xj e m	0 
+b a r xj e m	0 
+r o sh	1 
+rj e sh	1 
+rj e sh	0 
+r o sh	1 
+z u r o sh	0 
+r o sh	0 
+r o sh	0 
+r o sh	0 
+rj e sh	0 
+r o sh	0 
+rj e sh	1 
+zh a r o sh	0 
+sh i rj e sh	1 
+rj e sh	0 
+r o sh	0 
+sh u r sh e l	1 
+m u r sh o l	0 
+r sh o l	0 
+sh u r o sh l	1 
+xj i rj e sh l	0 
+rj e sh l	0 
+rj e sh l	0 
+l a r o sh l	0 
+r sh o l	0 
+rj e sh m	1 
+b a r sh e m	0 
+r sh o m	1 
+r o sh m	0 
+g u r sh e m	0 
+r sh o m	0 
+l a rj e sh m	0 
+p u rj e sh m	0 
+b a r sh o m	0 
+sh i r sh o m	0 
+b a r sh o m	0 
+rj e sh m	0 
+gj i r sh o m	0 
+rj e sh m	0 
+r sh o m	0 
+s u r sh o m	1 
+r o sh n	0 
+r sh o n	1 
+kj i r o sh n	1 
+mj i rj e sh n	0 
+b u r sh e n	1 
+r sh e n	0 
+sh i rj e sh n	0 
+r sh o n	0 
+r sh o n	0 
+rj e sh n	0 
+r sh o n	1 
+r o sh n	1 
+sh a rj e sh n	0 
+t a rj e sh n	0 
+r sh e n	0 
+rj i r sh e n	1 
+x a rj e sh r	0 
+r o sh r	0 
+zh u r sh e r	0 
+b a rj e sh r	0 
+b a r o sh r	0 
+pj i r o sh r	0 
+r o sh r	0 
+sj i rj e sh r	0 
+r o sh r	0 
+r sh e r	0 
+tj e v	0 
+zj i t o v	0 
+t o v	1 
+b a t o v	1 
+t o v	1 
+t o v	1 
+bj i tj e v	0 
+sh i tj e v	0 
+t a tj e v	0 
+tj e v	1 
+g a t o v	0 
+s u tj e v	0 
+sh i t o f	0 
+sh u tj e f	0 
+rj i tj e f	0 
+t o f	0 
+tj e f	0 
+t o f	0 
+t a t o f	0 
+t a t o f	0 
+tj e f	0 
+k u t o f	0 
+t fj e v	0 
+g a t o f v	0 
+t f o v	1 
+t f o v	0 
+t o f v	0 
+n u tj e f m	0 
+sj i t o f m	0 
+m u t o f m	0 
+kj i t o f m	0 
+tj e f m	0 
+t o f p	1 
+t f o p	0 
+n u t f o p	0 
+tj e f p	0 
+m u t o f p	0 
+b u t o f p	0 
+m u t o f p	0 
+t o f p	0 
+g u t f o p	0 
+t fj e p	0 
+tj e f p	0 
+k a t o f x	0 
+t o f x	0 
+sh i tj e f x	0 
+b u t f o x	0 
+t fj e x	0 
+b u tj e f x	0 
+t o f x	0 
+zh i t fj e x	1 
+g u t o f x	0 
+t fj e ch	0 
+zj i t o f ch	0 
+p u t fj e ch	0 
+p u t fj e ch	0 
+mj i tj e f ch	0 
+pj i t fj e ch	1 
+tj e f sh	0 
+t f o sh	0 
+tj e f sh	0 
+t f o sh	0 
+tj e f sh	0 
+t fj e sh	1 
+tj i t fj e sh	0 
+b a t o f sh	0 
+zh a t o f sh	0 
+t fj e sh	0 
+t o x	0 
+tj e x	0 
+tj e x	0 
+zh u t o x	0 
+pj i tj e x	1 
+t o x	1 
+tj e x	1 
+m a t o x	1 
+gj i t o x	1 
+zh i tj e x	1 
+tj e x	0 
+g u t xj e v	0 
+t a t o x v	0 
+k a t x o v	1 
+t o x v	1 
+t xj e v	1 
+t xj e v	0 
+b u t x o v	0 
+t xj e v	0 
+tj e x v	1 
+r a tj e x v	1 
+tj i t x o v	1 
+t o x l	1 
+t xj e l	0 
+b u t xj e l	1 
+kj i t o x l	1 
+x u tj e x l	0 
+t xj e l	1 
+t xj e l	0 
+kj i tj e x l	0 
+tj e x l	0 
+z u t o x l	0 
+zh i t x o l	0 
+t o x l	0 
+tj e x m	0 
+t x o m	1 
+s u t xj e m	0 
+t xj e m	0 
+t xj e m	0 
+l a t x o m	0 
+t xj e m	0 
+t x o s	0 
+m a t x o s	1 
+zh i tj e x s	0 
+g u tj e x s	0 
+gj i t xj e s	0 
+t xj e s	1 
+sj i tj e x s	0 
+tj e x f	0 
+s u t x o f	1 
+lj i t o x f	0 
+t x o f	0 
+lj i t x o f	0 
+rj i t x o f	0 
+sh u t xj e f	1 
+l u t o x f	0 
+zh i t x o f	1 
+t x o f	0 
+t x o f	0 
+t xj e ch	0 
+t x o ch	0 
+n u t xj e ch	0 
+t xj e ch	0 
+g a tj e x ch	0 
+k a tj e x ch	0 
+sh u t o x ch	1 
+pj i tj e x sh	1 
+tj i t x o sh	0 
+kj i tj e x sh	0 
+kj i t o x sh	0 
+tj i t x o sh	0 
+t x o sh	0 
+t u t x o sh	0 
+tj e x sh	0 
+t o x sh	0 
+t xj e sh	1 
+tj e sh	1 
+b u t o sh	0 
+sh i t o sh	0 
+tj e sh	0 
+t o sh	0 
+tj e sh	1 
+tj e sh l	0 
+t sh o l	0 
+t sh o l	0 
+t sh o l	0 
+r a t sh o l	0 
+t o sh l	0 
+z u t o sh l	0 
+t o sh l	0 
+t sh e l	0 
+tj e sh l	0 
+t o sh l	0 
+k u t sh e m	1 
+k a tj e sh m	1 
+t o sh m	1 
+tj e sh m	0 
+l u t sh e m	1 
+k u t sh o m	0 
+t o sh m	0 
+s u t sh o m	0 
+tj e sh n	1 
+g u t sh e n	1 
+kj i t o sh n	0 
+t sh o n	0 
+gj i t o sh n	0 
+b u t sh e n	0 
+k u t sh o n	0 
+t sh e n	0 
+pj i tj e sh n	0 
+tj e sh n	0 
+tj e sh n	0 
+sj i t o sh n	0 
+m a t o sh p	0 
+t sh o p	0 
+m a tj e sh p	0 
+x u tj e sh p	0 
+t a t sh o p	0 
+t sh o p	0 
+l u t sh e p	0 
+bj i tj e sh r	0 
+tj e sh r	0 
+tj i t sh e r	0 
+gj i t o sh r	0 
+zh u tj e sh r	1 
+tj i t sh e r	0 
+t o sh r	0 
+t o sh r	0 
+z u t sh e r	0 
+xj i t sh o r	0 
+rj i tj e sh s	0 
+r a tj e sh s	1 
+t sh o s	0 
+t sh o s	0 
+t sh o s	0 
+tj e sh s	0 
+t o sh s	0 
+t o sh t	0 
+t o sh t	0 
+t sh e t	0 
+n u t sh o t	0 
+z u t o sh t	1 
+rj i tj e sh t	0 
+t u t sh e t	0 
+mj i t o sh t	0 
+rj i t sh e t	0 
+gj i t o sh t	0 
+t o sh t	1 
+t u tj e sh t	0 
+t o sh x	0 
+xj i t sh o x	0 
+t sh e x	0 
+t sh o x	0 
+m a t sh o x	0 
+tj e sh x	0 
+mj i tj e sh x	1 
+tj e sh x	0 
+bj i t sh o x	0 
+tj e sh ch	0 
+zh u t sh o ch	1 
+t sh e ch	0 
+sh a tj e sh ch	0 
+zj i t o sh ch	0 
+k u t sh o ch	0 
+sj i t sh o ch	0 
+gj i t sh e ch	0 
+t o sh ch	0 
+t u tj e sh ch	0 
+f o v	0 
+fj e v	1 
+fj e v	1 
+m a fj e v	1 
+sj i fj e v	0 
+fj e v	0 
+fj e v	1 
+fj e v	0 
+f o v	0 
+fj e v	0 
+g a f o v	0 
+fj e v	0 
+r a fj e v	1 
+zh a fj e v	0 
+f o v	0 
+f o v	0 
+l a f o m	0 
+t u f o m	1 
+pj i f o m	0 
+b u f o m	1 
+n u f o m	1 
+f o m	0 
+fj e m	0 
+fj e m	0 
+l a f o m	0 
+fj e m	0 
+fj e m	0 
+zh u fj e m	0 
+zh i f o m	0 
+g u fj e m	0 
+fj e m	0 
+fj e m	0 
+f o m	0 
+b a f m o v	0 
+xj i f m o v	0 
+f m o v	0 
+fj e m v	0 
+xj i f o m v	0 
+f mj e v	0 
+s u fj e m v	0 
+zh i fj e m v	0 
+zh a fj e m v	0 
+xj i f m o v	0 
+r a f o m v	0 
+x a f o m v	0 
+t u f o m v	0 
+b u f o m v	0 
+b u f mj e v	0 
+x u f o m v	0 
+f mj e v	0 
+fj e m v	0 
+f mj e v	0 
+bj i f m o v	1 
+f mj e v	0 
+g u f mj e v	0 
+rj i f mj e v	0 
+zh i f m o v	0 
+f o m v	0 
+f o m v	0 
+fj e m v	0 
+x u fj e m v	0 
+r u fj e m v	0 
+f m o v	0 
+t a fj e m v	0 
+f m o v	0 
+f mj e v	0 
+g a f mj e v	1 
+f m o v	0 
+r u f mj e v	1 
+sh i f mj e v	0 
+f m o v	1 
+z u fj e m v	0 
+f o m n	0 
+f mj e n	0 
+m a f o m n	0 
+f o m n	1 
+fj e m n	0 
+f m o n	0 
+mj i fj e m n	0 
+f m o n	0 
+f m o n	0 
+f o m n	0 
+f m o n	0 
+f o m n	0 
+f m o n	0 
+f o m n	0 
+fj e m n	0 
+z u f m o n	1 
+zh i f mj e n	0 
+b a fj e m n	0 
+bj i f mj e n	0 
+pj i f mj e n	0 
+fj e m n	0 
+f mj e n	0 
+fj e m n	0 
+k u fj e m n	0 
+sh a fj e m n	0 
+f mj e n	0 
+z u f o m n	0 
+fj e m n	0 
+b a fj e m n	0 
+z u f m o n	0 
+sh a f mj e n	1 
+f o m n	0 
+f o m n	0 
+fj e m n	0 
+f o m n	0 
+fj e m n	0 
+n u f m o n	0 
+fj e m n	0 
+x a fj e m n	1 
+f o p	0 
+g u fj e p	0 
+kj i fj e p	1 
+f o p	0 
+k u f o p	0 
+fj e p	0 
+fj e p	0 
+m a fj e p	0 
+zj i f o p	0 
+fj e p	0 
+l a fj e p	0 
+sh i f o p v	0 
+f p o v	1 
+fj e p v	0 
+f pj e v	0 
+f p o v	0 
+f o p v	0 
+r u fj e p v	0 
+f o p v	0 
+f o p v	0 
+mj i f o p v	0 
+s u f o p v	0 
+f pj e v	0 
+f pj e m	0 
+fj e p m	0 
+mj i f pj e m	0 
+k u f o p m	0 
+sh u f p o m	0 
+f p o m	0 
+mj i f p o m	0 
+f o p m	0 
+x a f o p r	0 
+sh a fj e p r	0 
+f p o r	0 
+fj e p r	0 
+f o p r	0 
+b a f pj e r	0 
+fj e p r	0 
+kj i fj e p r	0 
+zj i f pj e r	0 
+f o p r	0 
+f p o r	0 
+f pj e f	0 
+t u f o p f	0 
+k u f pj e f	0 
+f p o f	1 
+f o p f	0 
+t u f p o f	1 
+mj i fj e p f	1 
+f pj e f	0 
+f p o f	0 
+kj i f pj e x	1 
+f p o x	0 
+f o p x	0 
+f pj e x	0 
+f p o x	0 
+b a f p o x	0 
+z u f p o x	0 
+f p o sh	0 
+mj i f o p sh	0 
+xj i f pj e sh	0 
+zj i f o p sh	0 
+fj e p sh	0 
+f o x	0 
+f o x	0 
+f o x	0 
+f o x	1 
+tj i fj e x	0 
+lj i fj e x	1 
+sh u f o x	1 
+rj i fj e x	0 
+f o x	1 
+sh u f o x	0 
+f o x	0 
+f o x	0 
+f x o v	1 
+t u f o x v	1 
+pj i f o x v	1 
+f x o v	0 
+zj i f x o v	0 
+f x o v	0 
+f xj e v	0 
+x u f o x v	0 
+f x o v	1 
+kj i f o x v	1 
+x u f o x v	1 
+f o x l	0 
+f o x l	0 
+rj i f xj e l	1 
+f x o l	1 
+f xj e l	0 
+f o x l	0 
+f o x l	1 
+mj i f xj e m	0 
+f x o m	0 
+k a f x o m	0 
+f o x m	0 
+f o x m	0 
+f xj e m	0 
+f o x s	0 
+f o x s	0 
+f o x s	0 
+f o x s	0 
+x u f o x s	0 
+fj e x s	0 
+m a f x o s	0 
+sh a f o x s	0 
+gj i f o x s	1 
+g u f x o f	0 
+f o x f	0 
+bj i f x o f	1 
+l u f o x f	0 
+bj i fj e x f	0 
+fj e x f	0 
+f o x f	0 
+p u fj e x f	0 
+p u f xj e f	1 
+f x o f	0 
+t a f x o f	1 
+fj e x f	1 
+f o x ch	0 
+f o x ch	0 
+f x o ch	0 
+r a f o x ch	0 
+kj i fj e x ch	0 
+f xj e ch	0 
+zh a f o x ch	1 
+mj i f o x ch	0 
+l a f o x sh	0 
+fj e x sh	0 
+t u f o x sh	0 
+f xj e sh	0 
+fj e x sh	0 
+pj i fj e x sh	0 
+x a f o x sh	0 
+l u f o ch	0 
+n u fj e ch	1 
+lj i f o ch	1 
+f o ch	0 
+fj e ch	1 
+zj i fj e ch	0 
+f o ch	0 
+fj e ch	0 
+l a f o ch	0 
+fj e ch	0 
+fj e ch	0 
+k a f o ch	0 
+f o ch v	0 
+f ch o v	0 
+mj i f ch e v	0 
+f ch e v	1 
+f o ch v	0 
+f ch o v	0 
+f o ch v	0 
+k u f ch e v	0 
+f o ch l	0 
+g a f ch o l	0 
+f ch o l	0 
+f ch e l	1 
+fj e ch l	0 
+kj i f ch e l	0 
+b a f ch e l	0 
+t a f ch o l	0 
+b u f ch e n	0 
+f o ch n	0 
+m u f ch e n	0 
+k u f ch e n	0 
+zh i f o ch n	1 
+f o ch n	0 
+f ch o n	0 
+f ch e n	0 
+zh i f o ch p	0 
+t a f ch o p	0 
+fj e ch p	0 
+zj i f ch o p	0 
+g u fj e ch p	0 
+fj e ch p	0 
+fj e ch p	0 
+n u f ch o p	0 
+f o ch p	0 
+f o ch p	0 
+f ch e p	0 
+f o ch r	0 
+f ch e r	0 
+zj i f o ch r	0 
+l a fj e ch r	1 
+f o ch r	1 
+f ch e r	0 
+m a fj e ch r	0 
+z u f ch o r	0 
+fj e ch r	0 
+r a f ch o r	1 
+fj e ch s	0 
+zh u fj e ch s	0 
+f ch e s	0 
+f ch e s	0 
+f ch e s	0 
+fj e ch s	0 
+f ch e f	1 
+pj i f ch o f	1 
+fj e ch f	0 
+b u f o ch f	0 
+r a fj e ch f	0 
+f o ch f	0 
+x a f ch o f	1 
+fj e ch f	0 
+f ch o sh	1 
+kj i f ch e sh	0 
+f ch o sh	0 
+fj e ch sh	0 
+f ch e sh	0 
+f ch o sh	1 
+f o ch sh	0 
+mj i f ch e sh	0 
+f ch o sh	0 
+f o sh	1 
+f o sh	0 
+zj i fj e sh	1 
+fj e sh	1 
+fj e sh	0 
+fj e sh	0 
+f o sh	1 
+fj e sh	0 
+gj i fj e sh	1 
+k a f o sh	0 
+fj e sh	0 
+fj e sh	0 
+fj e sh	0 
+fj e sh	1 
+fj e sh l	0 
+n u fj e sh l	0 
+f sh e l	0 
+k u fj e sh l	0 
+f o sh l	0 
+bj i fj e sh l	0 
+xj i fj e sh l	0 
+z u f sh e l	1 
+r u f o sh l	1 
+fj e sh l	0 
+f sh o l	0 
+f o sh l	0 
+f sh e l	0 
+f o sh m	0 
+l a f o sh m	1 
+fj e sh m	0 
+f sh o m	0 
+x u f sh o m	1 
+f sh o m	0 
+f sh e m	0 
+fj e sh m	1 
+f sh o n	0 
+f sh o n	0 
+f o sh n	0 
+zh u f sh o n	1 
+rj i f o sh n	0 
+fj e sh n	0 
+fj e sh n	0 
+rj i f sh e n	1 
+f o sh n	0 
+r a fj e sh n	0 
+f sh e n	0 
+zj i f o sh n	0 
+rj i f o sh p	0 
+s u f sh e p	1 
+rj i f sh o p	0 
+zh u fj e sh p	0 
+f sh o p	0 
+f sh e p	1 
+fj e sh p	0 
+kj i f sh o p	0 
+f o sh p	0 
+g u f sh o r	0 
+sj i fj e sh r	0 
+fj e sh r	0 
+zh u fj e sh r	0 
+sh a fj e sh r	0 
+g u f sh o r	0 
+zh u fj e sh s	1 
+f o sh s	0 
+sj i fj e sh s	0 
+sh i f sh o s	0 
+f sh o s	0 
+r a f o sh s	1 
+tj i fj e sh t	1 
+zh i f sh o t	0 
+fj e sh t	0 
+f o sh t	0 
+lj i f sh e t	1 
+zh u f sh e t	0 
+f sh e t	0 
+x u f sh o x	0 
+f sh o x	0 
+l a f o sh x	0 
+fj e sh x	0 
+f o sh x	0 
+l u fj e sh x	0 
+z u f sh e x	0 
+f sh o ch	0 
+sh u f sh o ch	0 
+kj i f o sh ch	1 
+fj e sh ch	1 
+f o sh ch	0 
+fj e sh ch	0 
+f sh o ch	0 
+f sh e ch	1 
+sh u f sh o ch	0 
+t a xj e v	1 
+sh a xj e v	0 
+x o v	0 
+l a xj e v	0 
+xj e v	0 
+x o v	0 
+xj e v	1 
+tj i x o v	1 
+xj e v	1 
+x o v	0 
+m a x o v	1 
+x o v	1 
+x o l	1 
+xj e l	1 
+xj e l	1 
+x o l	0 
+xj e l	0 
+b u xj e l	0 
+pj i xj e l	0 
+x o l	0 
+zj i x o l	0 
+xj e l	0 
+x o l	1 
+xj e m	0 
+x o m	0 
+x a x o m	1 
+r a x o m	1 
+r a xj e m	0 
+x o m	0 
+n u xj e m	1 
+x o m	1 
+zh i x o m	0 
+pj i x o m v	0 
+b u x o m v	1 
+x mj e v	0 
+lj i xj e m v	0 
+sj i x m o v	0 
+xj e m v	0 
+l a x mj e v	0 
+xj e m v	0 
+sh a xj e m v	0 
+x m o v	1 
+zh a x m o v	0 
+p u x m o v	0 
+l u x o m v	0 
+x o m v	0 
+x mj e v	1 
+l u x mj e v	0 
+xj e m v	1 
+tj i x mj e v	0 
+x o m v	0 
+x u x m o v	0 
+x o m v	0 
+xj e m v	0 
+m a x mj e v	0 
+xj e m v	0 
+xj e m v	0 
+z u xj e m v	0 
+x m o v	0 
+t a x mj e v	0 
+m u xj e m v	0 
+b a x mj e v	1 
+xj e m v	1 
+x u x mj e v	1 
+xj e m v	0 
+x mj e v	0 
+l u xj e m v	0 
+g a x m o v	0 
+x m o v	0 
+m u x m o v	0 
+r a x m o v	0 
+xj e m v	1 
+kj i x mj e n	0 
+xj e m n	0 
+x o m n	1 
+zh a xj e m n	1 
+x a xj e m n	0 
+xj e m n	0 
+x o m n	0 
+xj e m n	0 
+xj e m n	0 
+t u x mj e n	0 
+xj e m n	1 
+b u xj e m n	0 
+xj e m n	0 
+x m o n	0 
+l u xj e m n	0 
+xj e m n	0 
+zh u x o m n	0 
+g u xj e m n	0 
+r u x o m n	0 
+x m o n	0 
+zh a x m o n	0 
+tj i x o m n	0 
+zh i xj e m n	0 
+x m o n	0 
+tj i x mj e n	0 
+x o m n	0 
+zh u x mj e n	0 
+r a x m o n	0 
+xj e m n	0 
+zh u x o m n	0 
+pj i xj e m n	0 
+rj i xj e m n	0 
+x m o n	0 
+m u xj e m n	0 
+x m o n	0 
+x m o n	1 
+xj e m n	0 
+s u x o m n	0 
+xj e m n	0 
+r u x m o n	1 
+x o m n	0 
+t a xj e m n	1 
+l a x o s	1 
+pj i xj e s	0 
+x o s	1 
+zh i x o s	0 
+xj e s	0 
+g u x o s	0 
+mj i x o s	0 
+x o s	1 
+p u xj e s	1 
+b u xj e s	0 
+k u x o s	0 
+x o f	1 
+xj e f	1 
+r a x o f	0 
+b u x o f	1 
+x o f	0 
+xj e f	0 
+zh u x o f	1 
+x o f	1 
+m a x o f	1 
+g u xj e f	0 
+lj i x o f	1 
+gj i x o f	1 
+sh a xj e f	1 
+p u x o f	1 
+sj i xj e f v	0 
+sh i xj e f v	0 
+x a x f o v	1 
+xj i x o f v	0 
+xj e f v	1 
+x fj e v	0 
+xj e f v	0 
+gj i x o f v	0 
+x fj e v	0 
+zh a x f o v	1 
+x fj e v	1 
+xj i x f o v	0 
+x o f v	1 
+x f o v	0 
+g u xj e f v	0 
+tj i xj e f m	1 
+kj i x fj e m	1 
+zh i xj e f m	0 
+b u xj e f m	0 
+tj i x fj e m	1 
+lj i x fj e m	0 
+kj i x f o m	0 
+x fj e m	0 
+b u x o f m	0 
+bj i x o f p	0 
+x o f p	0 
+sh i x f o p	0 
+x fj e p	0 
+n u x f o p	0 
+zh u x fj e p	0 
+x fj e p	0 
+xj e f p	0 
+xj e f x	0 
+x f o x	0 
+m u x fj e x	0 
+p u x fj e x	0 
+zj i x f o x	1 
+kj i x fj e x	0 
+lj i xj e f x	0 
+xj e f x	0 
+zh i xj e f ch	0 
+x fj e ch	0 
+l u x f o ch	0 
+x fj e ch	0 
+xj e f ch	0 
+x a x f o ch	0 
+x f o ch	0 
+sj i x o f ch	0 
+k u x fj e ch	0 
+sj i x f o ch	0 
+x o f ch	0 
+g a xj e f ch	0 
+x f o sh	0 
+bj i xj e f sh	0 
+g u xj e f sh	0 
+p u x fj e sh	0 
+x o f sh	0 
+x fj e sh	0 
+mj i x fj e sh	1 
+xj i x f o sh	0 
+x f o sh	0 
+pj i xj e f sh	0 
+l u xj e ch	1 
+x o ch	1 
+xj e ch	0 
+rj i x o ch	0 
+x a xj e ch	1 
+g a x o ch	0 
+xj e ch	0 
+xj e ch	0 
+x o ch v	0 
+xj e ch v	0 
+x o ch v	0 
+x o ch v	0 
+zh u x o ch v	0 
+zh a x o ch v	0 
+x o ch v	0 
+x u xj e ch v	0 
+zh u x o ch v	0 
+x ch e v	1 
+xj e ch l	0 
+xj e ch l	1 
+x ch e l	0 
+x ch e l	1 
+x a x ch e l	0 
+zh a x o ch l	1 
+zh a xj e ch n	0 
+t a xj e ch n	0 
+mj i x ch o n	1 
+x ch e n	0 
+l a x ch e n	0 
+x o ch n	0 
+m a x ch o n	0 
+b a xj e ch n	1 
+b a x o ch p	0 
+x ch o p	0 
+s u x ch e p	0 
+zj i xj e ch p	0 
+xj e ch p	1 
+k u xj e ch p	0 
+m a x o ch p	0 
+x a x ch e p	0 
+sh i xj e ch p	0 
+x ch e r	0 
+mj i x ch e r	0 
+x ch e r	0 
+x ch o r	0 
+p u x o ch r	1 
+m u xj e ch r	0 
+x ch o r	0 
+b a x ch o s	0 
+x o ch s	0 
+xj e ch s	0 
+xj e ch s	0 
+g u x ch e s	0 
+xj e ch s	0 
+x ch e s	0 
+zh a xj e ch f	0 
+sj i x ch e f	0 
+x u x o ch f	0 
+x o ch f	0 
+sj i x ch o f	0 
+x ch e sh	1 
+xj e ch sh	0 
+kj i x o ch sh	0 
+x ch e sh	0 
+r a xj e sh	1 
+xj e sh	0 
+sh u x o sh	0 
+zh i xj e sh	1 
+x o sh	1 
+m a xj e sh	0 
+zj i x o sh	0 
+b u x o sh	1 
+r a xj e sh	0 
+r u x sh o l	0 
+k u x o sh l	0 
+zh u x sh o l	0 
+t a x sh o l	0 
+xj e sh l	0 
+xj e sh l	0 
+b u xj e sh l	0 
+k a x sh o l	0 
+x sh o m	1 
+xj e sh m	1 
+kj i xj e sh m	1 
+zh u x o sh m	0 
+zh u x sh e m	1 
+x sh o m	0 
+x a x sh o m	0 
+tj i x sh o m	0 
+x sh e m	0 
+xj e sh m	1 
+x sh e m	0 
+t u x sh o m	1 
+x u x sh e m	0 
+x o sh n	0 
+t a xj e sh n	0 
+xj e sh n	0 
+xj e sh n	1 
+m a x sh e n	1 
+x sh e n	0 
+xj e sh n	0 
+x a x sh e n	1 
+x a x sh o p	0 
+x sh e p	0 
+x o sh p	1 
+x sh e p	0 
+xj e sh p	0 
+x o sh p	0 
+g u x o sh p	0 
+x o sh p	0 
+x sh o p	0 
+r u x sh o r	0 
+m a x o sh r	0 
+xj e sh r	0 
+x sh e r	1 
+zh i x sh e r	0 
+x o sh r	0 
+x sh o r	0 
+xj e sh r	0 
+x o sh r	0 
+k u x sh e r	0 
+l u x sh e r	0 
+lj i x o sh r	0 
+m u x sh o s	1 
+sh a x sh o s	0 
+lj i x o sh s	0 
+tj i x sh e s	0 
+gj i xj e sh s	0 
+x o sh s	0 
+x sh o s	1 
+k u x sh o t	0 
+x o sh t	0 
+x o sh t	0 
+x o sh t	0 
+x o sh t	0 
+x o sh t	0 
+sh i xj e sh t	0 
+xj i x o sh t	1 
+x o sh t	0 
+tj i x sh e x	0 
+xj e sh x	0 
+x sh e x	0 
+xj e sh x	0 
+b a x sh o ch	0 
+z u x o sh ch	0 
+s u xj e sh ch	1 
+xj i xj e sh ch	0 
+r u x sh o ch	0 
+x sh o ch	0 
+xj e sh ch	0 
+p u x sh e ch	0 
+x o sh ch	0 
+k a x o sh ch	0 
+x sh e ch	0 
+xj e sh ch	0 
+zh u x sh o ch	0 
+x sh e ch	0 
+tj i x sh o ch	0 
+z u xj e sh ch	0 
+ts o v	1 
+k a ts o v	1 
+ts e v	1 
+zh a ts o v	1 
+ts o v	1 
+p u ts e v	0 
+ts e v	1 
+bj i ts e v	0 
+lj i ts e v	0 
+l a ts o v	1 
+zh a ts o v	1 
+ts o m	1 
+n u ts o m	1 
+ts e m	0 
+ts o m	0 
+ts o m	1 
+x a ts e m	0 
+ts e m	1 
+sh a ts e m	0 
+ts o m	0 
+zj i ts e m	0 
+l u ts o m	0 
+k a ts o m	0 
+ts o m	0 
+ts e m	0 
+k a ts e m	0 
+zj i ts o m	1 
+ts m o v	1 
+ts e m v	0 
+ts o m v	0 
+sh i ts e m v	0 
+r a ts mj e v	0 
+ts m o v	0 
+t u ts o m v	0 
+m a ts m o v	0 
+g u ts mj e v	0 
+zh u ts m o v	0 
+g a ts m o v	0 
+ts m o v	0 
+rj i ts o m v	0 
+ts mj e v	0 
+ts e m v	0 
+gj i ts mj e v	0 
+s u ts e m v	0 
+ts m o v	1 
+lj i ts m o v	0 
+ts e m v	0 
+z u ts o m v	0 
+ts o m v	1 
+ts mj e v	0 
+p u ts o m v	0 
+ts m o v	0 
+pj i ts e m v	0 
+ts m o v	0 
+t u ts o m v	0 
+ts m o v	1 
+ts mj e v	0 
+ts e m v	1 
+lj i ts e m n	0 
+m u ts mj e n	0 
+ts o m n	0 
+lj i ts e m n	0 
+ts mj e n	0 
+r a ts m o n	0 
+ts e m n	0 
+b u ts o m n	0 
+ts mj e n	0 
+ts o m n	0 
+ts m o n	0 
+xj i ts e m n	0 
+ts o m n	0 
+ts o m n	0 
+ts m o n	0 
+ts o m n	1 
+ts m o n	0 
+ts o m n	0 
+sh a ts m o n	0 
+ts m o n	0 
+sj i ts m o n	0 
+r u ts mj e n	0 
+k a ts e m n	0 
+b a ts m o n	0 
+ts m o n	0 
+g a ts m o n	1 
+zh i ts mj e n	0 
+m a ts o m n	0 
+ts o m n	0 
+ts e m n	0 
+ts m o n	0 
+zh u ts m o n	1 
+l a ts o m n	0 
+ts mj e n	0 
+ts e m n	1 
+k u ts o m n	0 
+ts o n	1 
+ts o n	1 
+ts e n	0 
+l a ts o n	0 
+s u ts e n	0 
+x u ts o n	1 
+xj i ts o n	1 
+ts o n	0 
+ts e n	0 
+ts e n	0 
+b u ts o n	0 
+ts o n	0 
+ts o n	1 
+ts o n	1 
+ts e n	1 
+zh u ts o n	1 
+ts e n	0 
+zj i ts o n	0 
+ts e n	0 
+n u ts e n	0 
+x a ts n o r	0 
+ts nj e r	0 
+ts nj e r	0 
+sh i ts e n r	1 
+ts e n r	0 
+sh u ts e n r	0 
+ts n o r	0 
+ts nj e r	0 
+n u ts o n r	0 
+ts e n r	0 
+k a ts n o r	0 
+g a ts nj e r	0 
+ts e n r	0 
+ts nj e r	0 
+ts n o r	0 
+ts n o r	0 
+k u ts n o r	0 
+ts n o r	0 
+ts n o r	0 
+sh u ts o n r	1 
+x u ts e n r	0 
+m u ts o n r	0 
+ts e n r	0 
+n u ts e n r	0 
+sh a ts n o r	0 
+ts o n r	0 
+ts e n r	0 
+ts nj e r	0 
+zh a ts n o r	0 
+sh a ts n o r	0 
+b a ts o n r	0 
+ts nj e r	0 
+l u ts n o r	0 
+zj i ts n o r	0 
+t a ts n o r	1 
+ts e n r	0 
+t a ts e n r	0 
+pj i ts n o r	0 
+g u ts nj e r	0 
+ts e r	1 
+ts o r	0 
+ts e r	1 
+ts e r	1 
+lj i ts o r	0 
+sj i ts e r	0 
+ts o r	0 
+ts e r	0 
+ts o r	0 
+ts o r	0 
+ts o r	1 
+ts e r	1 
+ts o r	0 
+ts e r	0 
+ts e r	0 
+ts e r	0 
+ts o r	0 
+ts o r	0 
+ts o r	0 
+g u ts r o n	0 
+ts e r n	0 
+ts rj e n	0 
+s u ts rj e n	0 
+p u ts rj e n	0 
+k a ts rj e n	0 
+xj i ts o r n	0 
+r a ts e r n	0 
+ts rj e n	0 
+ts o r n	0 
+ts o r n	0 
+ts e r n	0 
+ts r o n	1 
+mj i ts e r n	0 
+ts rj e n	1 
+ts rj e n	1 
+ts r o n	1 
+m a ts o r n	0 
+ts e r n	0 
+ts o r n	1 
+b a ts rj e n	0 
+r a ts o r n	0 
+ts e r n	0 
+ts rj e n	0 
+l u ts o r n	0 
+l u ts rj e n	0 
+p u ts o r n	0 
+m u ts e r n	0 
+xj i ts o r n	0 
+ts rj e n	1 
+ts o r n	0 
+zh i ts r o n	0 
+ts o r n	0 
+sh a ts e r n	0 
+sh a ts e r n	0 
+sh u ts rj e n	0 
+n u ts rj e n	0 
+ts e r n	0 
+g a ts e r n	0 
+ts e r n	0 
+r a ts o r n	0 
+lj i ts e t	0 
+ts o t	0 
+ts o t	0 
+x u ts e t	1 
+r u ts o t	0 
+kj i ts o t	0 
+ts o t	0 
+ts e t	0 
+t a ts e t	0 
+ts o t	0 
+sj i ts e t	0 
+ts o t	0 
+ts t o v	0 
+b a ts t o v	1 
+ts tj e v	0 
+g u ts t o v	0 
+m u ts e t v	0 
+tj i ts tj e v	0 
+ts tj e v	0 
+k a ts e t v	0 
+zh a ts o t f	0 
+ts t o f	0 
+kj i ts tj e f	0 
+ts o t f	0 
+bj i ts t o f	0 
+ts e t f	0 
+ts o t x	0 
+ts tj e x	1 
+ts e t x	0 
+ts o t x	0 
+sh i ts e t x	0 
+sh u ts e t x	0 
+k u ts e t x	0 
+ts tj e x	0 
+s u ts tj e x	0 
+rj i ts e t x	0 
+ts t o x	0 
+ts t o sh	0 
+rj i ts e t sh	0 
+l a ts e t sh	0 
+lj i ts tj e sh	0 
+ts tj e sh	0 
+ts t o sh	0 
+ts e t sh	0 
+lj i ts t o sh	0 
+zh i ts o t sh	1 
+sh u ts tj e sh	0 
+r a ts tj e sh	0 
+tj i ts o f	0 
+rj i ts o f	1 
+ts o f	0 
+ts e f	0 
+ts e f	0 
+ts o f	1 
+ts e f v	0 
+l a ts f o v	0 
+ts o f v	0 
+zh u ts o f v	0 
+ts f o v	1 
+zh a ts fj e v	0 
+ts f o v	1 
+ts e f v	0 
+ts o f v	0 
+xj i ts e f v	0 
+ts f o v	0 
+sh a ts e f v	0 
+ts o f m	0 
+ts o f m	0 
+ts fj e m	0 
+t u ts f o m	0 
+ts o f m	0 
+ts f o m	0 
+ts e f m	0 
+m u ts o f m	0 
+xj i ts fj e m	0 
+n u ts f o m	0 
+r a ts fj e m	1 
+ts e f m	0 
+n u ts o f p	0 
+gj i ts o f p	0 
+ts f o p	0 
+ts f o p	0 
+g u ts f o p	1 
+b u ts e f x	0 
+ts e f x	0 
+mj i ts e f x	0 
+g a ts o f x	0 
+ts f o x	0 
+ts e f x	0 
+b u ts o f x	0 
+ts f o x	0 
+zh i ts fj e x	0 
+zh a ts fj e sh	0 
+ts o f sh	0 
+ts e f sh	0 
+mj i ts f o sh	1 
+b u ts e f sh	0 
+ts fj e sh	0 
+zj i ts e sh	1 
+ts o sh	0 
+p u ts e sh	0 
+ts e sh	1 
+ts e sh	0 
+ts o sh	1 
+ts e sh	0 
+zh i ts o sh	1 
+sh a ts e sh	0 
+ts e sh	0 
+ts o sh	0 
+t a ts o sh	0 
+ts o sh	0 
+ts e sh	0 
+ts sh o l	1 
+ts sh o l	0 
+g u ts sh e l	0 
+s u ts sh o l	0 
+m u ts e sh l	0 
+ts sh e l	0 
+ts sh e l	0 
+x u ts o sh l	1 
+g u ts o sh l	0 
+zh i ts o sh l	0 
+ts sh e l	1 
+ts sh o l	0 
+k a ts e sh m	0 
+ts sh e m	0 
+t u ts o sh m	0 
+ts sh o m	0 
+s u ts o sh m	0 
+b a ts e sh m	0 
+ts o sh m	0 
+ts sh o m	1 
+r a ts sh o m	1 
+ts e sh n	0 
+ts e sh n	0 
+tj i ts sh e n	0 
+ts o sh n	0 
+sh u ts o sh n	0 
+n u ts e sh p	1 
+g u ts o sh p	0 
+ts o sh p	0 
+sh u ts sh o p	0 
+ts sh o p	0 
+t u ts o sh p	0 
+ts e sh r	1 
+ts e sh r	0 
+zh i ts o sh r	0 
+m u ts e sh r	0 
+ts e sh r	0 
+ts sh e r	0 
+ts e sh r	0 
+s u ts o sh r	0 
+ts sh o r	1 
+l a ts sh o r	0 
+g u ts sh o r	0 
+tj i ts e sh r	0 
+zh i ts sh o r	1 
+r u ts o sh r	0 
+ts sh e s	0 
+ts sh e s	0 
+ts o sh s	0 
+r a ts sh e s	1 
+gj i ts e sh s	0 
+l a ts sh o s	0 
+sh i ts sh o t	0 
+ts e sh t	0 
+m a ts o sh t	0 
+ts sh e t	0 
+kj i ts sh e t	0 
+ts sh o x	1 
+ts sh o x	1 
+zj i ts o sh x	0 
+sh i ts o sh x	0 
+r u ts sh e x	0 
+ts sh o x	1 
+k u ts e sh x	1 
+ts o sh x	0 
+ch e v	1 
+ch e v	1 
+l u ch e v	1 
+ch e v	0 
+mj i ch o v	1 
+ch o v	1 
+r u ch o v	0 
+ch o v	0 
+ch o v	0 
+pj i ch o v	1 
+ch e v	0 
+ch o v	0 
+p u ch e l	1 
+ch e l	0 
+zh u ch o l	1 
+ch e l	0 
+tj i ch e l	0 
+x a ch o l	1 
+k a ch e l	0 
+b u ch o l	1 
+n u ch e l	1 
+ch o l	1 
+sh u ch e l	0 
+z u ch o l	1 
+ch o l	0 
+ch o l	1 
+b a ch e l	1 
+ch e l	0 
+tj i ch o l	1 
+pj i ch e l	1 
+z u ch o l r	0 
+ch l o r	0 
+ch l o r	0 
+ch lj e r	0 
+z u ch lj e r	0 
+ch l o r	0 
+x u ch l o r	0 
+r a ch e l r	0 
+m a ch l o r	0 
+ch lj e r	0 
+ch o l r	0 
+ch o l r	0 
+ch l o r	0 
+ch e l r	0 
+ch e l r	1 
+rj i ch e l r	0 
+zh u ch lj e r	0 
+ch l o r	0 
+ch l o r	0 
+t a ch lj e r	0 
+sh u ch l o r	0 
+ch e l r	0 
+ch l o r	0 
+ch o l r	1 
+ch lj e r	0 
+bj i ch o l r	0 
+sj i ch o l r	1 
+ch l o r	0 
+ch l o r	0 
+ch o l r	0 
+ch e l r	0 
+ch lj e r	0 
+ch lj e r	0 
+ch o l r	0 
+kj i ch e l r	0 
+ch l o r	0 
+ch o l r	0 
+s u ch l o r	0 
+ch l o r	0 
+ch e l r	0 
+ch l o r	0 
+ch o l r	0 
+ch o l r	0 
+l u ch l o r	0 
+ch lj e r	0 
+ch e l r	1 
+sh i ch o l r	0 
+zh a ch o l r	1 
+zh a ch o l r	0 
+ch lj e r	0 
+z u ch e n	0 
+ch o n	1 
+ch o n	1 
+ch e n	0 
+b a ch o n	0 
+ch e n	1 
+ch o n	1 
+s u ch e n	1 
+lj i ch o n	1 
+ch e n	1 
+x u ch o n	1 
+ch o n	0 
+x a ch o n	1 
+sh a ch e n	1 
+ch o n r	0 
+x u ch n o r	0 
+b u ch nj e r	0 
+ch n o r	0 
+ch e n r	1 
+x u ch o n r	0 
+xj i ch o n r	0 
+ch nj e r	0 
+bj i ch o n r	0 
+ch n o r	0 
+ch n o r	0 
+sh u ch n o r	0 
+ch o n r	0 
+p u ch n o r	0 
+b u ch nj e r	0 
+zj i ch n o r	0 
+tj i ch nj e r	0 
+ch o n r	0 
+sh a ch nj e r	0 
+ch e n r	0 
+kj i ch n o r	0 
+ch n o r	0 
+zh a ch nj e r	0 
+ch e n r	0 
+xj i ch o n r	1 
+ch nj e r	0 
+n u ch o n r	0 
+sh u ch nj e r	0 
+ch e n r	0 
+ch e n r	1 
+n u ch o n r	1 
+r a ch nj e r	0 
+sj i ch n o r	0 
+pj i ch o n r	0 
+ch o p	0 
+ch e p	1 
+ch e p	1 
+gj i ch o p	1 
+ch o p	0 
+sj i ch e p	0 
+r u ch e p	0 
+ch o p	0 
+ch e p	0 
+s u ch o p	1 
+tj i ch o p v	0 
+ch o p v	0 
+ch p o v	0 
+ch o p v	1 
+ch o p v	0 
+z u ch p o v	0 
+ch p o m	0 
+ch pj e m	0 
+ch pj e m	0 
+sh i ch p o m	1 
+ch pj e m	0 
+z u ch pj e m	0 
+ch o p m	0 
+ch e p r	0 
+pj i ch e p r	0 
+ch o p r	0 
+b u ch o p r	0 
+ch e p f	0 
+ch p o f	0 
+ch e p f	0 
+zh u ch e p f	0 
+ch o p f	0 
+sh a ch o p f	0 
+ch pj e f	0 
+mj i ch o p f	0 
+mj i ch p o f	1 
+bj i ch o p x	0 
+xj i ch o p x	0 
+b u ch p o x	0 
+ch o p x	0 
+ch o p x	0 
+ch pj e x	0 
+b u ch pj e x	0 
+ch pj e x	1 
+ch pj e x	0 
+ch p o x	0 
+ch pj e sh	0 
+l u ch pj e sh	0 
+ch p o sh	0 
+ch pj e sh	0 
+lj i ch o p sh	0 
+ch pj e sh	0 
+s u ch pj e sh	0 
+l u ch pj e sh	0 
+sh i ch e p sh	0 
+ch o r	1 
+ch e r	0 
+ch o r	0 
+ch o r	0 
+l u ch o r	1 
+ch o r	1 
+t u ch o r	1 
+r a ch e r	0 
+ch o r	0 
+l a ch r o n	0 
+ch r o n	0 
+ch rj e n	0 
+zh a ch r o n	0 
+b u ch o r n	0 
+ch e r n	0 
+m u ch e r n	0 
+g a ch o r n	0 
+ch r o n	0 
+g a ch e r n	0 
+ch o r n	1 
+bj i ch e r n	0 
+l a ch e r n	0 
+m u ch o r n	0 
+ch e r n	0 
+ch rj e n	0 
+ch e r n	0 
+tj i ch o r n	0 
+ch rj e n	0 
+l u ch e r n	0 
+ch o r n	0 
+rj i ch rj e n	0 
+ch rj e n	0 
+zh a ch rj e n	0 
+ch rj e n	0 
+gj i ch o r n	0 
+zh a ch r o n	0 
+tj i ch r o n	0 
+ch r o n	0 
+ch o r n	0 
+ch rj e n	1 
+ch rj e n	0 
+ch rj e n	1 
+mj i ch r o n	0 
+ch rj e n	0 
+ch e r n	0 
+l a ch r o n	1 
+ch e r n	0 
+bj i ch e r n	0 
+ch o s	0 
+g a ch o s	1 
+m u ch o s	1 
+ch o s	0 
+ch e s	0 
+ch e s	0 
+z u ch e s	0 
+mj i ch e s	0 
+ch e s	0 
+ch o s	0 
+ch e s	0 
+bj i ch o s	0 
+p u ch o s	0 
+ch e s	1 
+ch e f	0 
+mj i ch o f	0 
+ch o f	0 
+x a ch o f	0 
+p u ch e f	1 
+ch o f	1 
+ch o f	0 
+ch o f	0 
+ch e f	0 
+lj i ch e f v	0 
+bj i ch e f v	0 
+z u ch e f v	1 
+bj i ch f o v	0 
+zj i ch f o v	0 
+x u ch e f v	0 
+ch o f v	0 
+sh a ch f o v	0 
+ch o f v	0 
+ch fj e v	0 
+ch f o m	0 
+ch fj e m	0 
+ch e f m	0 
+ch f o m	0 
+ch o f m	0 
+zh i ch f o m	0 
+ch fj e p	0 
+ch f o p	0 
+lj i ch o f p	0 
+ch e f p	0 
+ch f o x	0 
+k a ch fj e x	0 
+ch f o x	0 
+ch o f x	0 
+ch o f x	0 
+ch f o x	0 
+ch fj e x	0 
+pj i ch o f x	0 
+ch o f sh	0 
+b a ch e f sh	0 
+mj i ch f o sh	0 
+r a ch e f sh	0 
+ch e f sh	0 
+t a ch f o sh	0 
+l a ch e f sh	1 
+k a ch o f sh	0 
+ch f o sh	0 
+zh u ch fj e sh	1 
+lj i ch f o sh	0 
+ch o sh	0 
+ch e sh	0 
+ch e sh	0 
+ch e sh	1 
+r u ch e sh	0 
+x u ch e sh	0 
+ch e sh	0 
+ch o sh	0 
+l u ch o sh	0 
+ch e sh	0 
+xj i ch e sh	0 
+b a ch e sh	0 
+ch o sh l	0 
+ch sh o l	0 
+ch e sh l	0 
+t a ch sh e l	0 
+g a ch e sh l	0 
+pj i ch sh o l	1 
+sh i ch sh o l	0 
+rj i ch o sh l	1 
+sh i ch e sh l	0 
+pj i ch e sh m	0 
+sh u ch sh o m	0 
+ch e sh m	0 
+ch sh o m	0 
+k u ch sh e m	0 
+g u ch e sh m	1 
+ch o sh m	0 
+pj i ch o sh m	0 
+ch e sh m	0 
+m u ch o sh m	1 
+ch e sh n	0 
+ch e sh n	0 
+ch o sh n	1 
+ch sh e n	0 
+xj i ch sh o n	0 
+ch o sh n	0 
+ch sh o n	1 
+tj i ch sh e n	0 
+k a ch sh e p	1 
+ch e sh p	0 
+ch e sh p	0 
+zh u ch e sh p	0 
+ch o sh p	0 
+r a ch e sh p	0 
+ch sh o p	0 
+s u ch e sh p	0 
+ch e sh p	0 
+ch sh e r	0 
+x u ch e sh r	0 
+ch e sh r	0 
+sj i ch sh e r	0 
+kj i ch sh e r	0 
+sj i ch sh e r	0 
+ch o sh r	1 
+t a ch sh o r	0 
+z u ch sh o r	1 
+k u ch sh o r	1 
+sj i ch sh e r	0 
+gj i ch e sh r	1 
+ch sh e s	0 
+ch o sh s	0 
+t u ch sh e s	1 
+ch o sh s	0 
+ch sh o s	0 
+ch o sh s	0 
+s u ch e sh s	1 
+ch sh o s	0 
+zj i ch sh o t	0 
+bj i ch sh o t	0 
+g u ch o sh t	0 
+p u ch e sh t	0 
+ch sh o t	0 
+sh a ch o sh t	0 
+ch sh o x	0 
+tj i ch sh e x	1 
+ch sh o x	0 
+zh a ch sh e x	0 
+k a ch sh e x	0 
+t u ch sh o x	0 
+ch sh o x	0 
+k a ch e sh x	0 
+l u ch e sh x	0 
+ch sh o x	0 
+sh e l	0 
+t u sh e l	0 
+g u sh e l	1 
+sh o l	1 
+r u sh o l	1 
+mj i sh o l	1 
+sh e l	0 
+sh o l	0 
+l a sh o l	0 
+k u sh e l	1 
+m a sh e l	1 
+rj i sh o l	0 
+sh o l	1 
+sj i sh e l	1 
+sh o m	0 
+sh e m	0 
+zh a sh e m	0 
+m u sh e m	0 
+sh o m	1 
+sh o m	1 
+b u sh e m	0 
+rj i sh o m	0 
+mj i sh o m	1 
+sh o m	0 
+x u sh e m	0 
+b a sh o m	1 
+sh e m	0 
+rj i sh o m	1 
+sh e m	0 
+sh mj e v	0 
+sh mj e v	0 
+lj i sh mj e v	0 
+sh e m v	0 
+sh e m v	0 
+sh o m v	1 
+sh mj e v	0 
+b a sh e m v	1 
+sh mj e v	0 
+sh m o v	0 
+bj i sh m o v	0 
+sh m o v	0 
+sj i sh o m v	0 
+l a sh m o v	0 
+sh u sh e m v	0 
+k a sh e m v	0 
+m a sh o m v	0 
+sh m o v	0 
+l u sh mj e v	0 
+zj i sh m o v	1 
+sh o m v	1 
+sh o m v	0 
+r u sh o m v	0 
+m u sh e m v	0 
+kj i sh mj e v	0 
+sh e m v	0 
+sh o m v	0 
+sh o m v	0 
+n u sh m o v	0 
+x a sh e m v	0 
+sh o m v	0 
+k a sh o m v	0 
+sh o m v	0 
+sh o m v	0 
+sh o m v	0 
+sh mj e v	1 
+t a sh o m v	0 
+sh e m n	0 
+sh o m n	0 
+pj i sh m o n	0 
+sh m o n	0 
+p u sh o m n	0 
+l a sh m o n	0 
+zh a sh mj e n	0 
+sh mj e n	0 
+zj i sh m o n	0 
+bj i sh o m n	0 
+sh o m n	0 
+sh o m n	0 
+zh a sh e m n	1 
+n u sh mj e n	0 
+sh o m n	0 
+sh mj e n	0 
+zh u sh mj e n	0 
+m a sh m o n	0 
+n u sh mj e n	0 
+zh a sh mj e n	0 
+sh mj e n	0 
+r u sh o m n	0 
+zj i sh o m n	1 
+sh mj e n	0 
+sh e m n	0 
+sh o m n	0 
+sh e m n	0 
+b a sh o m n	0 
+tj i sh e m n	1 
+l u sh e m n	0 
+sh o m n	0 
+sh o m n	0 
+sh u sh m o n	1 
+t u sh e m n	0 
+sh o m n	0 
+kj i sh o m n	0 
+s u sh mj e n	0 
+sh mj e n	0 
+sh m o n	0 
+sh m o n	0 
+sh a sh e m n	0 
+sh a sh mj e n	0 
+sh o m n	0 
+sh mj e n	0 
+r u sh e m n	0 
+bj i sh mj e n	0 
+sh mj e n	0 
+g a sh e m n	0 
+zj i sh m o n	0 
+sh m o n	0 
+sh o m n	0 
+sh o n	0 
+sh o n	0 
+bj i sh e n	1 
+sh u sh o n	1 
+sh e n	1 
+n u sh e n	1 
+l a sh o n	0 
+bj i sh o n	0 
+t a sh e p	0 
+pj i sh e p	1 
+sh o p	1 
+sh o p	1 
+r u sh e p	0 
+sh o p	0 
+zj i sh o p	0 
+r u sh e p	0 
+m a sh o p	1 
+sh a sh e p	0 
+z u sh o p v	0 
+sh pj e v	0 
+m a sh pj e v	0 
+lj i sh p o v	0 
+sh a sh p o v	0 
+gj i sh e p v	0 
+sh o p v	0 
+l u sh pj e v	1 
+gj i sh o p v	0 
+pj i sh o p v	1 
+sj i sh o p m	0 
+sh pj e m	0 
+gj i sh p o m	0 
+b u sh p o m	0 
+sh p o m	0 
+sj i sh p o m	0 
+sh a sh e p m	0 
+mj i sh pj e m	0 
+sh o p m	0 
+sh pj e f	0 
+l u sh pj e f	0 
+l a sh pj e f	0 
+sh pj e f	0 
+sh e p f	0 
+gj i sh e p f	0 
+lj i sh o p f	0 
+zj i sh o p x	0 
+sh e p x	0 
+sh p o x	0 
+m a sh p o sh	0 
+sh o p sh	0 
+sh e p sh	0 
+sh p o sh	0 
+m u sh o p sh	0 
+sh pj e sh	0 
+k a sh o p sh	0 
+mj i sh p o sh	0 
+sh p o sh	0 
+mj i sh e r	1 
+sh o r	0 
+t a sh o r	0 
+sh o r	1 
+sh e r	1 
+k u sh o r	1 
+zj i sh e r	1 
+sh e r	1 
+sh o r	1 
+b a sh o r	1 
+mj i sh e r	0 
+sh e r	0 
+sh o r	0 
+sh o r	0 
+n u sh rj e n	0 
+t u sh rj e n	0 
+sh r o n	0 
+g u sh e r n	1 
+x a sh o r n	0 
+g u sh r o n	0 
+sh e r n	0 
+p u sh o r n	0 
+z u sh o r n	0 
+zh i sh e r n	0 
+k u sh o r n	0 
+sh i sh r o n	0 
+zh u sh e r n	0 
+r u sh e r n	0 
+sh e r n	0 
+pj i sh e r n	0 
+sh o r n	0 
+sh r o n	0 
+sh rj e n	0 
+sh e r n	0 
+sh rj e n	0 
+sh rj e n	0 
+m u sh e r n	0 
+sh r o n	0 
+sh r o n	0 
+x a sh r o n	0 
+sh r o n	0 
+sh o r n	0 
+n u sh r o n	0 
+tj i sh e r n	1 
+rj i sh r o n	0 
+sh o r n	0 
+sh r o n	0 
+b u sh r o n	0 
+b a sh e s	0 
+sj i sh o s	0 
+sh o s	0 
+zh a sh o s	1 
+sh o s	0 
+sh e s	0 
+m a sh o s	0 
+t a sh o s	0 
+sh u sh e s	1 
+k u sh e s	1 
+m a sh e s	1 
+r a sh e s	0 
+sh e s	1 
+t a sh o s	0 
+sh i sh o s	1 
+n u sh o s	1 
+l u sh o s	1 
+xj i sh o s	0 
+sh e t	0 
+k a sh o t	0 
+x a sh e t	0 
+sj i sh o t	0 
+zj i sh e t	1 
+b a sh e t	1 
+l a sh e t	0 
+sh e t	0 
+bj i sh e t	0 
+sh e t	0 
+sh e t	0 
+g a sh e t	0 
+sh o t	1 
+sh o t	0 
+sh e t	1 
+b a sh o t	1 
+g u sh e t	0 
+sh o t	1 
+pj i sh o t v	0 
+rj i sh e t v	0 
+s u sh tj e v	0 
+sh o t v	0 
+t u sh tj e v	0 
+t a sh tj e v	0 
+r a sh t o x	1 
+sh tj e x	0 
+sh o t x	0 
+sh tj e x	0 
+sh t o sh	0 
+sh o t sh	0 
+sh e t sh	0 
+l a sh tj e sh	1 
+sh e x	0 
+sh e x	0 
+sh e x	1 
+g u sh e x	0 
+sh o x	0 
+r a sh e x	1 
+zh a sh o x	0 
+sh e x	1 
+sh a sh o x	1 
+x u sh e x	0 
+sh a sh e x	1 
+zh i sh o x	1 
+sh e x	1 
+sh e x	1 
+r u sh o x	1 
+zj i sh o x	1 
+m u sh o x	1 
+mj i sh e x	0 
+sh e x	0 
+sh x o v	0 
+sh x o v	0 
+sh xj e v	0 
+g a sh e x v	0 
+sh e x v	0 
+sh xj e v	0 
+r u sh e x v	0 
+sh xj e v	1 
+p u sh o x v	0 
+sh i sh o x l	0 
+x a sh o x l	0 
+sh e x l	0 
+pj i sh x o l	0 
+sh o x l	0 
+p u sh xj e l	0 
+sh e x l	0 
+sh xj e l	0 
+sh x o l	0 
+sh i sh o x m	0 
+zh i sh o x m	1 
+s u sh e x m	0 
+r a sh e x m	0 
+b u sh x o m	0 
+sh x o m	0 
+p u sh xj e m	0 
+gj i sh e x m	0 
+sh o x m	0 
+m u sh o x m	0 
+sh e x s	0 
+sh o x s	0 
+sh x o s	0 
+kj i sh o x s	0 
+sh xj e s	0 
+sh e x s	0 
+sh o x s	0 
+sh xj e s	0 
+sh o x s	0 
+sh e x f	0 
+kj i sh x o f	0 
+pj i sh e x f	0 
+tj i sh xj e f	0 
+sh e x f	0 
+sh x o f	0 
+t u sh e x ch	1 
+sh x o ch	0 
+sh o x ch	0 
+sh e x ch	0 
+sh o x ch	0 
+sh x o ch	0 
+sh e x ch	1 
+sh x o ch	0 
+sh e x sh	0 
+n u sh e x sh	0 
+sh xj e sh	0 
+sh o x sh	1 
+sh xj e sh	0 
+zh i sh x o sh	0 
+zh u sh o x sh	0 
+sh o ch	0 
+sh e ch	1 
+sh o ch	0 
+mj i sh e ch	0 
+sh e ch	0 
+l a sh e ch	0 
+sh e ch	0 
+sh o ch	0 
+sh e ch	0 
+sh o ch	0 
+sh o ch	0 
+sh ch e v	0 
+sh o ch v	1 
+p u sh ch o v	1 
+sh o ch v	0 
+sh e ch v	1 
+sh ch o v	0 
+sh ch e v	0 
+l u sh ch o v	1 
+sh e ch v	0 
+sh i sh ch o v	0 
+g u sh ch e v	0 
+sh ch e v	0 
+sh e ch v	0 
+k a sh o ch l	0 
+sh o ch l	0 
+sh o ch l	0 
+sh e ch l	0 
+tj i sh ch e l	1 
+b u sh e ch n	0 
+sh e ch n	0 
+r a sh o ch n	1 
+sh ch o n	0 
+t u sh e ch n	1 
+sh e ch n	0 
+lj i sh ch o n	0 
+sh o ch n	0 
+t a sh ch o p	1 
+sh o ch p	0 
+sh e ch p	0 
+sh ch e p	0 
+p u sh e ch p	0 
+g a sh o ch p	0 
+g a sh e ch p	0 
+sh ch e p	0 
+b u sh ch o p	0 
+sh o ch r	0 
+x u sh ch o r	1 
+sh o ch r	0 
+sh e ch r	0 
+gj i sh e ch r	0 
+b u sh e ch r	0 
+xj i sh ch o r	1 
+zh u sh ch e r	0 
+g a sh ch o r	0 
+zj i sh e ch r	0 
+sh ch e s	0 
+gj i sh ch e s	0 
+sh e ch s	1 
+t a sh e ch s	1 
+xj i sh e ch s	1 
+sh ch o s	0 
+sh ch e s	0 
+sh e ch s	0 
+pj i sh o ch s	1 
+mj i sh ch o s	1 
+k a sh ch e s	0 
+sh e ch s	0 
+sh e ch s	0 
+pj i sh o ch f	1 
+sh o ch f	0 
+sh o ch f	0 
+sh e ch f	0 
+sh o ch f	1 
+sh ch o f	0 
+b a sh ch e f	1 
+sh e ch f	0 
+sh ch o f	1 
+sh e ch f	0 
+sh o ch sh	0 
+b u sh ch o sh	1 
+sh ch o sh	0 
+sh o ch sh	1 
+sj i sh o ch sh	0 
+sh o ch sh	0 
+sh i sh ch o sh	0 
+s u sh ch o sh	0 
+pj i sh ch e sh	0 
+z u sh ch e sh	0 

@@ -1,0 +1,284 @@
+body {
+	background-color: #eee;
+	margin: 0px;
+	line-height: 140%;
+}
+
+body, input, select, button {
+	font-family: 'Open Sans', "Gill Sans", "Trebuchet MS", "Helvetica", "Arial", "sans serif";
+	font-size: 12pt;
+}
+
+
+#scores td {
+	font-size: 14pt;
+	border: solid 1px black;
+	padding: 5px 10px;
+	text-align:center;
+}
+#scores .headers, .symbols, .finaldistance {
+	font-weight: bold;
+}
+#scores .symbols {
+	color: blue;
+	background: #ddd;
+}
+#scores .finaldistance {
+}
+#scores .empty {
+	border: none;
+}
+#scores .trace {
+	background: #fff;
+}
+
+#alignment td {
+	text-align:center;
+}
+.align { 
+	border: 1px solid black;
+	margin-bottom: 15px;
+}
+.align td {
+	padding: 0px 8px;
+}
+.align:hover {
+	background-color: #fff;
+	cursor: hand; 
+}
+
+#settings {
+	position: absolute;
+	bottom: 10px;
+	left: 20px;
+}
+
+#footer {
+	text-align: left;
+	color: #999;	
+	font-size: 12pt;
+}
+#footer A {
+	color: #777;	
+}
+
+.slider {
+	margin-top: 5px;
+}
+.slider_control {
+	margin-bottom: 20px;
+}
+
+#header {
+    /* position: fixed;
+    width: 100%; */
+	text-align: left;
+	color: #666;	
+	font-size: 12pt;
+	margin: 0px;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 2ex;
+	padding-bottom: 2ex;
+	background: #bbf;
+	background: linear-gradient(to right, #bbf, #88f); /* Standard syntax */
+	border-top: 1px solid #009;
+}
+#header #title {
+	font-size: 16pt;
+	color: #933;
+	padding-bottom: 1px;
+	font-weight: 900;
+}
+
+/*.box {
+	padding: 0px;
+	padding-left: 3%;
+	font-size: 12pt;
+}
+*/
+
+/*
+#console {
+	margin: 0px; 
+	height: 30ex; 
+	overflow-y: scroll; 
+	line-height: 150%;
+	border: 1px solid black;
+	padding:10px;
+}
+#status {
+	margin: 0px; 
+	height: 3ex; 
+	overflow-y: scroll; 
+	line-height: 150%;
+}
+*/
+
+.conf_title {
+	margin-left: 1em;
+	cursor: pointer; cursor: hand;
+}
+.conf_description {
+	font: 10px;
+	color: #999;
+	margin-left: 1em;
+	margin-bottom: 1ex;
+	cursor: pointer; cursor: hand;
+}
+.dirname {
+	margin-top: 2ex;
+	margin-bottom: 2ex;
+	font-weight: bold;
+}
+.hand {
+	cursor: pointer; cursor: hand;
+}
+.hand:hover {
+	text-decoration: underline;
+}
+
+#params ul {
+	line-height: 150%;
+	padding-top: 2ex;
+	padding-bottom: 2ex;
+}
+
+#status, #downloadify {
+	font-size: 13pt; 
+	font-weight: 900;
+}
+
+
+/*----- Tabs -----*/
+.tabs {
+	width:100%;
+	display:inline-block;
+}
+.tabs ul {
+	margin: 0px;
+}
+
+/*----- Tab Links -----*/
+/* Clearfix */
+.tab-links:after {
+	display:block;
+	clear:both;
+	content:'';
+}
+.tab-links {
+	background: #bbf;
+	background: linear-gradient(to right, #bbf, #88f); /* Standard syntax */
+	border-bottom: 0px solid #009
+}
+
+.tab-links li {
+	margin:0px 3px;
+	float:left;
+	list-style:none;
+}
+
+.tab-links a {
+	padding: 1ex 1.5em;
+	display:inline-block;
+	border-radius: 3px 10px 0px 0px;
+	background:#aaf;
+	font-size: 13pt;
+	font-weight:900;
+	color: #333;
+	transition: all linear 0.1s;
+	border-top: 1px solid #009;
+	border-left: 1px solid #009;
+	border-right: 1px solid #009;
+	text-decoration:none;
+}
+
+.tab-links a:hover {
+	background:#eee;
+	text-decoration:none;
+	color:#000;
+}
+
+.tab-links .active a, .active a:hover {
+	background:#eee;
+	color:#000;
+}
+
+
+
+
+/*----- Content of Tabs -----*/
+.tab-content {
+	background:#eee;
+	position: relative;
+	margin-bottom: 6ex;
+}
+
+.tab {
+	display:none;
+	padding-top: 2ex;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.tab.active {
+	display:block;
+}
+
+#tab4 li {
+	margin-bottom: 3ex;
+	margin-top: 3ex;
+}
+
+#Remote {
+	position: absolute; 
+	width: 38%; 
+	border-right: 1px solid; 
+	padding-right: 3%;
+	padding-bottom: 8ex;
+}
+#Remote:after {
+	display:block;
+	clear:both;
+	content:'';
+}
+#current {
+	position: absolute; 
+	width: 39%; 
+	left: 44%; 
+	top: 2ex; 
+	padding-left: 3%; 
+	padding-right: 3%;
+}
+
+#dropzone-container {
+
+	display: table; 
+	height: 8ex;
+	overflow: hidden;
+
+	width: 30%;
+	border: 1px solid blue;
+	text-align: center;
+	margin-bottom: 2ex;
+}
+#dropzone-container:hover {
+	outline: 1px solid blue;
+	box-shadow: 0px 0px 5px blue;
+/*	background: #bbf;
+	background: linear-gradient(to right, #bbf, #aaf); /* Standard syntax */
+*/
+}
+#file_save{
+	display: none;
+	margin-top: 1ex;
+}
+#file_save input {
+	width: 10em;
+}
+#file_save a {
+	display: inline-block;
+	font-weight: 900;
+	padding-top: 1ex;
+}
+

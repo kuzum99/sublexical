@@ -1,0 +1,78 @@
+Y z$
+Y s$
+I J$
+æ r$
+I p$
+Y f$
+I n$
+e f$
+E J$
+u l$
+e p$
+E z$
+e s$
+æ k$
+Y r$
+E s$
+I s$
+I g$
+e k$
+I t$
+i p$
+i d$
+I m$
+I N$
+u d$
+o l d$
+ʌ N$
+æ N k$
+æ s k$
+I l k$
+a r k$
+I s k$
+ʌ N k$
+
+z$
+s$
+J$
+o$
+r$
+p$
+f$
+n$
+f$
+l$
+z$
+k$
+g$
+t$
+d$
+m$
+N$
+l d$
+N k$
+s k$
+l k$
+r k$
+N k$
+
+Y ([-syll] )*$
+I ([-syll] )*$
+æ ([-syll] )*$
+e ([-syll] )*$
+E ([-syll] )*$
+u ([-syll] )*$
+i ([-syll] )*$
+o ([-syll] )*$
+ʌ ([-syll] )*$
+a ([-syll] )*$
+
+[-syll] (l|r) [+syll] ([-syll] )*$
+[-syll] l [+syll] ([-syll] )*$
+[-syll] r [+syll] ([-syll] )*$
+l [+syll] ([-syll] )*$
+r [+syll] ([-syll] )*$
+s t [+syll] ([-syll] )*$
+[-syll] [-syll] [+syll] ([-syll] )*$
+[+syll] [-syll]$
+[+syll] [-syll] [-syll]$

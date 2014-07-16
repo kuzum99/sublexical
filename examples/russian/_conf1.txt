@@ -1,0 +1,35 @@
+{
+    "files": {
+        "features": "features_ru.txt",
+        "constraints": "constraints.txt",
+        "training": "russian_train_yers_and_nonyers.txt",
+        "testing": "nostress.vless.txt",
+        "output": "output_russian_big.txt"
+    },
+    "learner": {
+        "mutationType": "featural",
+        "useGrammarsProper": true,
+        "changeOrientations": {
+            "delete": "source", 
+            "mutate": "source", 
+            "metathesize": "source"
+        },
+        "minProductiveSize": 20,
+        "howMuchTraining": "all"
+    },
+    "aligner": {
+        "features": true
+    },
+    "grammar": {
+        "useGaussianPriors": true,
+        "defaultSigma": 100000
+    },
+    "maxent": {
+        "iterationCount": 10000,
+        "learningRate": 1,
+        "noPositiveWeights": true,
+        "initialWeight": 0
+    },
+    "name": "realistic",
+    "description": "Includes 1902 yers and 600 non-yers.<br> Data from Becker & Gouskova (2014)." 
+}

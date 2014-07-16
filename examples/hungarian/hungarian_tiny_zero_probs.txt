@@ -1,0 +1,12 @@
+a k t I v	a k t I v n a k	1
+a k t I v	a k t I v n e k	1
+e k s p a n z I v	e k s p a n z I v n a k	1
+e k s p a n z I v	e k s p a n z I v n e k	0
+i m p r o d u k t I v	i m p r o d u k t I v n a k	1
+i m p r o d u k t I v	i m p r o d u k t I v n e k	0
+z ue l l E s	z ue l l E s n e k	0
+z ue l l E s	z ue l l E s n a k	1
+z ue l l oe t t	z ue l l oe t t n e k	0
+z ue l l oe t t	z ue l l oe t t n a k	1
+z ue l l oe t t s E g	z ue l l oe t t s E g n e k	0
+z ue l l oe t t s E g	z ue l l oe t t s E g n a k	1

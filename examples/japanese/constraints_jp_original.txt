@@ -1,0 +1,10 @@
+[+consonantal] [-consonantal] $
+[-consonantal] [-consonantal] $
+[+consonantal,+dorsal,+high,+voice] [-consonantal] $
+[+consonantal,+dorsal,+high,-voice] [-consonantal] $
+[+consonantal,-sonorant,+continuant,+anterior,-distributed,-voice] [-consonantal] $
+[+consonantal,-sonorant,-continuant,+anterior,-distributed,-voice] [-consonantal] $
+[+consonantal,+sonorant,+nasal,-labial,+coronal] [-consonantal] $
+[+consonantal,+sonorant,+nasal,+labial,-coronal] [-consonantal] $
+[+consonantal,-sonorant,+voice,+labial,-continuant] [-consonantal] $	
+[+consonantal,+sonorant,+continuant,+voice,+anterior,-dorsal] [-consonantal] $

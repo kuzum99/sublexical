@@ -1,0 +1,12 @@
+u [-syllabic]$
+o [-syllabic]$
+u [-syllabic] [+syllabic]$
+o [-syllabic] [+syllabic]$
+t$
+t [+syllabic]$
+d [+syllabic]$
+d [+syllabic]$
+n$
+n [+syllabic]$
+r$
+r [+syllabic]$

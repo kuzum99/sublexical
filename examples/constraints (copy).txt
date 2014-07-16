@@ -1,0 +1,23 @@
+^([-syllabic] ?)*([+syllabic] ?)+([-syllabic] ?)*$
+[+continuant,+sonorant,+coronal]$
+[+continuant,+sonorant,-coronal]$
+[+continuant,+sonorant,+labial]$
+[+continuant,+sonorant,-labial]$
+[+low,+syllabic] [+continuant,+sonorant,+coronal]$
+[+low,+syllabic] [+continuant,+sonorant,-coronal]$
+[+low,+syllabic] [+continuant,+sonorant,+labial]$
+[+low,+syllabic] [+continuant,+sonorant,-labial]$
+[-low,+syllabic] [+continuant,+sonorant,+coronal]$
+[-low,+syllabic] [+continuant,+sonorant,-coronal]$
+[-low,+syllabic] [+continuant,+sonorant,+labial]$
+[-low,+syllabic] [+continuant,+sonorant,-labial]$
+[+continuant,-syllabic]$
+[-continuant,-syllabic]$
+[+sonorant,-syllabic]$
+[-sonorant,-syllabic]$
+[+continuant,-sonorant]$
+[+lateral]$
+[-lateral]$
+[+consonantal]$
+[0consonantal]$
+[-consonantal]$

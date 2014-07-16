@@ -1,0 +1,26 @@
+
+[+low,+syll] ([-syll] ?)*$	0	100000
+[+high,+syll] ([-syll] ?)*$	0	100000
+[-low,+syll] ([-syll] ?)*$	0	100000
+[-high,+syll] ([-syll] ?)*$	0	100000
+
+[-back,+syll] ([-syll] ?)*$	0	100000
+
+[-syll] [-syll]$	0	100000
+[-syll] [-syll] [-syll]	0	100000
+
+[-back,-syll,-lateral] [-syll]	0	100000
+
+^([-syll] ?)* ?[+syll] ?([-syll] ?)*$	0	2
+
+[-syll,+son] [-syll,+son] [+syll]	0	2
+[-syll,+son] [-syll,-son] [+syll]	0	2
+[-syll,-son] [-syll,+son] [+syll]	0	2
+[-syll,-son] [-syll,-son] [+syll]	0	2
+
+[-syll] [-syll,+son] [-syll,+son] [+syll]	0	2
+[-syll] [-syll,+son] [-syll,-son] [+syll]	0	2
+[-syll] [-syll,-son] [-syll,+son] [+syll]	0	2
+[-syll] [-syll,-son] [-syll,-son] [+syll]	0	2
+
+F: Ident [back]	0	100000

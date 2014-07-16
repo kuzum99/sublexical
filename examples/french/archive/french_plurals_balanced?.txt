@@ -1,0 +1,156 @@
+ã s ɛ s t ʁ a l	ã s ɛ s t ʁ o	1
+o t o n a l	o t o n o	1
+b a j	b o	1
+b ɛ s t j a l	b ɛ s t j o	1
+b o k a l	b o k o	1
+s ã t ʁ a l	s ã t ʁ o	1
+ʃ ə n a l	ʃ ə n o	1
+ʃ ə v a l	ʃ ə v o	1
+k o ʁ a j	k o ʁ o	1
+d ɔ ʁ s a l	d ɔ ʁ s o	1
+f i l j a l	f i l j o	1
+f i n a l	f i n o	1
+f ʁ õ t a l	f ʁ õ t o	1
+f ʁ õ t a l	f ʁ õ t o	1
+f e o d a l	f e o d o	1
+f e o d a l	f e o d o	1
+ɡ u v ɛ ʁ n a j	ɡ u v ɛ ʁ n o	1
+ʒ u ʁ n a l	ʒ u ʁ n o	1
+ʒ o v j a l	ʒ o v j o	1
+l o k a l	l o k o	1
+l o k a l	l o k o	1
+l w a j a l	l w a j o	1
+l e ɡ a l	l e ɡ o	1
+m a l	m o	1
+m a l	m o	1
+m a ʁ s j a l	m a ʁ s j o	1
+m ã t a l	m ã t o	1
+m ã t a l	m ã t o	1
+m õ d j a l	m õ d j o	1
+m o ʁ a l	m o ʁ o	1
+m y ʁ a l	m y ʁ o	1
+m e t a l	m e t o	1
+n a z a l	n a z o	1
+n a z a l	n a z o	1
+o ʁ a l	o ʁ o	1
+p a p a l	p a p o	1
+p ɔ s t a l	p ɔ s t o	1
+ʁ a s j a l	ʁ a s j o	1
+ʁ ɛ k t a l	ʁ ɛ k t o	1
+ʁ i v a l	ʁ i v o	1
+ʁ w a j a l	ʁ w a j o	1
+ʁ y ʁ a l	ʁ y ʁ o	1
+ʁ y ʁ a l	ʁ y ʁ o	1
+ʁ e ʒ j o n a l	ʁ e ʒ j o n o	1
+ʁ e ʒ j o n a l	ʁ e ʒ j o n o	1
+ʁ e n a l	ʁ e n o	1
+s i ɲ a l	s i ɲ o	1
+s o s j a l	s o s j o	1
+s u p i ʁ a j	s u p i ʁ o	1
+s p a s j a l	s p a s j o	1
+s p e s j a l	s p e s j o	1
+s t ɛ ʁ n a l	s t ɛ ʁ n o	1
+t ɛ ʁ m a l	t ɛ ʁ m o	1
+t ʁ a v a j	t ʁ a v o	1
+t ʁ i b a l	t ʁ i b o	1
+t ʁ i v j a l	t ʁ i v j o	1
+v a ɡ a l	v a ɡ o	1
+v ã t a j	v ã t o	1
+v a s a l	v a s o	1
+v i t ʁ a j	v i t ʁ o	1
+e ɡ a l	e ɡ o	1
+e m a j	e m o	1
+a j	o	1
+a t i ʁ a j	a t i ʁ o	1
+o s t ʁ a l	o s t ʁ o	1
+b a n a l	b a n o	1
+b o ʁ e a l	b o ʁ e o	1
+f i n a l	f i n o	1
+p a s k a l	p a s k o	1
+p a s k a l	p a s k o	1
+s p ɛ k t ʁ a l	s p ɛ k t ʁ o	1
+v e n a l	v e n o	1
+a n a l	a n a l	1
+a v a l	a v a l	1
+b a l	b a l	1
+b ã k a l	b ã k a l	1
+b ɛ ʁ k a j	b ɛ ʁ k a j	1
+b õ z a j	b õ z a j	1
+b õ z a j	b õ z a j	1
+b ʁ a j	b ʁ a j	1
+k a l	k a l	1
+k a m a j	k a m a j	1
+k a ʁ n a v a l	k a ʁ n a v a l	1
+ʃ a k a l	ʃ a k a l	1
+ʃ ã d a j	ʃ ã d a j	1
+k o ʁ a l	k o ʁ a l	1
+k o ʁ a l	k o ʁ a l	1
+ʃ a l	ʃ a l	1
+k o b a j	k o b a j	1
+d ɥ a l	d ɥ a l	1
+d e t a j	d e t a j	1
+f a t a l	f a t a l	1
+f ɛ s t i v a l	f ɛ s t i v a l	1
+f w a ʁ a j	f w a ʁ a j	1
+f ʁ a k t a l	f ʁ a k t a l	1
+ɡ l a s j a l	ɡ l a s j a l	1
+ɡ ʁ a l	ɡ ʁ a l	1
+m i s t ʁ a l	m i s t ʁ a l	1
+m a l	m a l	1
+n a ʁ v a l	n a ʁ v a l	1
+n a t a l	n a t a l	1
+n a v a l	n a v a l	1
+o v a l	o v a l	1
+p a ʁ b a l	p a ʁ b a l	1
+p a ʁ s j a l	p a ʁ s j a l	1
+p w a l	p w a l	1
+p ɔ ʁ t a j	p ɔ ʁ t a j	1
+ʁ a j	ʁ a j	1
+ʁ a l	ʁ a l	1
+ʁ e s i t a l	ʁ e s i t a l	1
+ʁ e ɡ a l	ʁ e ɡ a l	1
+s a m u ʁ a j	s a m u ʁ a j	1
+t a j	t a j	1
+t a j	t a j	1
+t õ b a l	t õ b a l	1
+v a l	v a l	1
+e p u v ã t a j	e p u v ã t a j	1
+e v ã t a j	e v ã t a j	1
+k l i ɲ ɔ t m ã	k l i ɲ ɔ t m ã	1
+ã b u ʃ	ã b u ʃ	1
+b ɛ l d ʒ u ʁ	b ɛ l d ʒ u ʁ	1
+ɛ̃ ʒ e ʁ ã s	ɛ̃ ʒ e ʁ ã s	1
+b ɛ ʁ z ɛ̃ ɡ	b ɛ ʁ z ɛ̃ ɡ	1
+k a ʁ m e l i t	k a ʁ m e l i t	1
+n i	n i	1
+m i d e z i ʁ	m i d e z i ʁ	1
+ʁ a s i z m	ʁ a s i z m	1
+ʁ a v o d a ʒ	ʁ a v o d a ʒ	1
+a n a ʁ ʃ i s t	a n a ʁ ʃ i s t	1
+m o ʁ o z i t e	m o ʁ o z i t e	1
+l i z	l i z	1
+o d i s e	o d i s e	1
+ʃ a ʁ ã t ɛ z	ʃ a ʁ ã t ɛ z	1
+m ɔ s k o v i t	m ɔ s k o v i t	1
+ʁ o z t e	ʁ o z t e	1
+ʁ w a	ʁ w a	1
+p a s j õ	p a s j õ	1
+t ʁ ɛ n œ ʁ	t ʁ ɛ n œ ʁ	1
+ɛ k s p o z e	ɛ k s p o z e	1
+m a t e m a t i s j ɛ n	m a t e m a t i s j ɛ n	1
+s o f o ʁ a	s o f o ʁ a	1
+ɛ̃ d i v i d y	ɛ̃ d i v i d y	1
+e ʃ a p a t w a ʁ	e ʃ a p a t w a ʁ	1
+a v n ã	a v n ã	1
+p ʁ e f a s	p ʁ e f a s	1
+f i z j o t e ʁ a p i	f i z j o t e ʁ a p i	1
+k u ʁ s i v	k u ʁ s i v	1
+b ɛ ʁ b ɛ ʁ	b ɛ ʁ b ɛ ʁ	1
+t ã p e ʁ a m ã	t ã p e ʁ a m ã	1
+ʃ y p o	ʃ y p o	1
+k y ʁ a t ʁ i s	k y ʁ a t ʁ i s	1
+a v ã s	a v ã s	1
+k u l œ ʁ	k u l œ ʁ	1
+d e z e k i l i b ʁ e	d e z e k i l i b ʁ e	1
+a l p i n i z m	a l p i n i z m	1
+b ʁ o k a ʁ	b ʁ o k a ʁ	1

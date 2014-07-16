@@ -1,0 +1,88 @@
+t 'a1 k ˌa p
+t 'a1 k ˌe p
+t 'a1 k ˌi p
+t 'a1 k ˌo p
+t 'a1 k ˌu p
+t 'ɛ1 k ˌa p
+t 'ɛ1 k ˌe p
+t 'ɛ1 k ˌi p
+t 'ɛ1 k ˌo p
+t 'ɛ1 k ˌu p
+t 'ɔ1 k ˌa p
+t 'ɔ1 k ˌe p
+t 'ɔ1 k ˌi p
+t 'ɔ1 k ˌo p
+t 'ɔ1 k ˌu p
+t 'e1 k ˌa p
+t 'e1 k ˌe p
+t 'e1 k ˌi p
+t 'e1 k ˌo p
+t 'e1 k ˌu p
+t 'o1 k ˌa p
+t 'o1 k ˌe p
+t 'o1 k ˌi p
+t 'o1 k ˌo p
+t 'o1 k ˌu p
+t 'i1 k ˌa p
+t 'i1 k ˌe p
+t 'i1 k ˌi p
+t 'i1 k ˌo p
+t 'i1 k ˌu p
+t 'u1 k ˌa p
+t 'u1 k ˌe p
+t 'u1 k ˌi p
+t 'u1 k ˌo p
+t 'u1 k ˌu p
+t 'ʌ1 k ˌa p
+t 'ʌ1 k ˌe p
+t 'ʌ1 k ˌi p
+t 'ʌ1 k ˌo p
+t 'ʌ1 k ˌu p
+t ˌa1 k 'a p
+t ˌe1 k 'a p
+t ˌi1 k 'a p
+t ˌo1 k 'a p
+t ˌu1 k 'a p
+t ˌa1 k 'ɛ p
+t ˌe1 k 'ɛ p
+t ˌi1 k 'ɛ p
+t ˌo1 k 'ɛ p
+t ˌu1 k 'ɛ p
+t ˌa1 k 'ɔ p
+t ˌe1 k 'ɔ p
+t ˌi1 k 'ɔ p
+t ˌo1 k 'ɔ p
+t ˌu1 k 'ɔ p
+t ˌa1 k 'e p
+t ˌe1 k 'e p
+t ˌi1 k 'e p
+t ˌo1 k 'e p
+t ˌu1 k 'e p
+t ˌa1 k 'o p
+t ˌe1 k 'o p
+t ˌi1 k 'o p
+t ˌo1 k 'o p
+t ˌu1 k 'o p
+t ˌa1 k 'i p
+t ˌe1 k 'i p
+t ˌi1 k 'i p
+t ˌo1 k 'i p
+t ˌu1 k 'i p
+t ˌa1 k 'u p
+t ˌe1 k 'u p
+t ˌi1 k 'u p
+t ˌo1 k 'u p
+t ˌu1 k 'u p
+t ˌa1 k 'ʌ p
+t ˌe1 k 'ʌ p
+t ˌi1 k 'ʌ p
+t ˌo1 k 'ʌ p
+t ˌu1 k 'ʌ p
+k 'a1 p
+k 'ɛ1 p
+k 'ɔ1 p
+k 'e1 p
+k 'o1 p
+k 'i1 p
+k 'u1 p
+k 'ʌ1 p

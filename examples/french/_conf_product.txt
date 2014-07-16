@@ -1,0 +1,29 @@
+{
+    "files": {
+        "features": "features.txt",
+        "constraints": "constraints.txt",
+        "training": "training.txt",
+        "testing": "testing.txt",
+        "output": "output_french_source.txt"
+    },
+    "learner": {
+        "mutationType": "both",
+        "useGrammarsProper": true,
+        "changeOrientations": {
+            "delete": "product", 
+            "mutate": "product", 
+            "metathesize": "product"
+        },
+        "minProductiveSize": 1,
+        "howMuchTraining": "all"
+    },
+    "aligner": {
+        "features": true
+    },
+    "grammar": {
+    },
+    "maxent": {
+    },
+    "name": "product-oriented",
+    "description": "French" 
+}

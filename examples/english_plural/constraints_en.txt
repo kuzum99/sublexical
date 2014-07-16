@@ -1,0 +1,26 @@
+^([-syllabic] ?)* ?([+syllabic] ?)+ ?([-syllabic] ?)*$
+
+[+strident]$
+[0strident]$
+[-strident]$
+
+[+voice]$
+[0voice]$
+[-voice]$
+
+[+syllabic]$
+[-syllabic]$
+
+(F|TH)$
+(TH)$
+(F)$
+^(?!.*(F|TH)$)
+[+sonorant,-syllabic] (F|TH)$
+[+syllabic,+stress] (F|TH)$
+[+syllabic,+long] (F|TH)$
+
+F: Ident [voice]
+F: Ident [coronal]
+F: Ident [labial]
+
+

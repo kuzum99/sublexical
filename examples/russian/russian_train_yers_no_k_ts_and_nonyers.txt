@@ -1,0 +1,383 @@
+sh o v	sh v a
+lj e v	lj v a
+r o v	r v a
+dj e nj	d nj a
+pj e nj	p nj a
+pj o s	p s a
+r o t	r t a
+s o n	s n a
+lj o n	lj n a
+l o b	l b a
+r o t	r t a
+lj o d	lj d a
+m o x	m x a
+r o v	r v a
+a x tj e r sh tj e vj e nj	a x tj e r sh tj e v nj a
+b a g o r	b a g r a
+b a l o vj e nj	b a l o v nj a
+bj i vj e nj	bj i v nj a
+b o bj o r	b o b r a
+b o bj o r	b o b r a
+b rj e dj e nj	b rj e d nj a
+b u bj e n	b u b n a
+b u g o r	b u g r a
+vj i tj u tj e nj	vj i tj u t nj a
+vj i x o r	vj i x r a
+vj i x o rj	vj i x rj a
+v o r o bj e j	v o r o bj j a
+v i m i sj e l	v i m i s l a
+v i p o l zj e nj	v i p o l z nj a
+gj i d r o u zj e l	gj i d r o u z l a
+g o s z a j o m	g o s z a j m a
+g rj e bj e nj	g rj e b nj a
+d o m i sj e l	d o m i s l a
+d u rj e nj	d u r nj a
+dj a tj e l	dj a t l a
+zh e l t o k o rj e nj	zh e l t o k o r nj a
+zh e rj e bj e j	zh e rj e bj j a
+zh u r a vj e lj	zh u r a v lj a
+z a j o m	z a j m a
+z a m i sj e l	z a m i s l a
+z a j a ts	z a j ts a
+z l i dj e nj	z l i d nj a
+z u dj e nj	z u d nj a
+j i vj i sh e nj	j i vj i sh nj a
+j i rj e j	j i rj j a
+k a mj e nj	k a m nj a
+k a sh e lj	k a sh lj a
+kj e gj e lj	kj e g lj a
+k l u bj e nj	k l u b nj a
+k o bj o l	k o b l a
+k o vj o r	k o v r a
+k o g o tj	k o g tj a
+k o zj o l	k o z l a
+k o zj o l	k o z l a
+k o z o n	k o z n a
+k o mj e lj	k o m lj a
+k o pj o r	k o p r a
+k o p i tj e nj	k o p i t nj a
+k o rj e nj	k o r nj a
+k o s tj o r	k o s t r a
+k o tj o l	k o t l a
+k o ch a n	k o ch n a
+k rj e mj e nj	k rj e m nj a
+l a p o tj	l a p tj a
+l a p o tj	l a p tj a
+lj e zh e nj	lj e zh nj a
+lj e zh e nj	lj e zh nj a
+lj i vj e nj	lj i v nj a
+l o k o tj	l o k tj a
+l o m o tj	l o m tj a
+m o lj e bj e n	m o lj e b n a
+m o s o l	m o s l a
+m u r a vj e j	m u r a vj j a
+n a vj a zj e nj	n a vj a z nj a
+n a j o m	n a j m a
+nj e f tj e p r o m i sj e l	nj e f tj e p r o m i s l a
+n o g o tj	n o g tj a
+o b o r o tj e nj	o b o r o t nj a
+o vj e n	o v n a
+o vj o s	o v s a
+o g o nj	o g nj a
+o dj o r	o d r a
+o kj i sj e l	o kj i s l a
+o p a sh e nj	o p a sh nj a
+o p o l zj e nj	o p o l z nj a
+o rj o l	o r l a
+o sj o l	o s l a
+o x a bj e nj	o x a b nj a
+o ts e t	o ts t a
+p a rj e nj	p a r nj a
+pj e rj e vj e r tj e nj	pj e rj e vj e r t nj a
+pj e rj e n a j o m	pj e rj e n a j m a
+pj e rj e ch e nj	pj e rj e ch nj a
+pj e r s tj e nj	pj e r s t nj a
+pj e r s tj e nj	pj e r s t nj a
+p l a vj e nj	p l a v nj a
+p lj e tj e nj	p lj e t nj a
+p o d vj i sh e nj	p o d vj i sh nj a
+p o d d u bj e nj	p o d d u b nj a
+p o d n a j o m	p o d n a j m a
+p o l dj e nj	p o l d nj a
+p o l u k o zj o l	p o l u k o z l a
+p o m i sj e l	p o m i s l a
+p o p o l zj e nj	p o p o l z nj a
+p o r u ch e nj	p o r u ch nj a
+p o r sh e nj	p o r sh nj a
+p o r sh e nj	p o r sh nj a
+p o s o l	p o s l a
+p rj i pj e r tj e nj	p rj i pj e r t nj a
+p rj i x v o s tj e nj	p rj i x v o s t nj a
+p r o lj e zh e nj	p r o lj e zh nj a
+p r o lj i vj e nj	p r o lj i v nj a
+p r o m i sj e l	p r o m i s l a
+p r o tj i vj e nj	p r o tj i v nj a
+p r o sh i vj e nj	p r o sh i v nj a
+p s a l o m	p s a l m a
+r a dj i o u zj e l	r a dj i o u z l a
+rj e mj e nj	rj e m nj a
+rj e pj e j	rj e pj j a
+r o zh o n	r o zh n a
+r o z lj i vj e nj	r o z lj i v nj a
+r u ch e j	r u ch j a
+s a n u zj e l	s a n u z l a
+s vj o k o r	s vj o k r a
+sj e lj e zj e nj	sj e lj e z nj a
+sj i dj e nj	sj i d nj a
+s k l a dj e nj	s k l a d nj a
+s k o v o r o dj e nj	s k o v o r o d nj a
+s k rj e bj e nj	s k rj e b nj a
+s lj e pj e nj	s lj e p nj a
+s lj i zj e nj	s lj i z nj a
+s o lj e p r o m i sj e l	s o lj e p r o m i s l a
+s o l o vj e j	s o l o vj j a
+s o ch e nj	s o ch nj a
+s t a vj e nj	s t a v nj a
+s tj e bj e lj	s tj e b lj a
+s tj e bj e lj	s tj e b lj a
+s tj e r zh e nj	s tj e r zh nj a
+s tj e r zh e nj	s tj e r zh nj a
+s t rj e zh e nj	s t rj e zh nj a
+s t u dj e nj	s t u d nj a
+tj e lj e pj e nj	tj e lj e p nj a
+tj e lj e pj e nj	tj e lj e p nj a
+tj i gj e lj	tj i g lj a
+t r u d o dj e nj	t r u d o d nj a
+t r u tj e nj	t r u t nj a
+u v a lj e nj	u v a lj nj a
+u g o lj	u g lj a
+u g o lj	u g lj a
+u g o lj	u g lj a
+u g o rj	u g rj a
+u g o rj	u g rj a
+u zj e l	u z l a
+u lj e j	u lj j a
+u m i sj e l	u m i s l a
+u r o vj e nj	u r o v nj a
+f o r sh tj e vj e nj	f o r sh tj e v nj a
+x o dj e nj	x o d nj a
+x o x o l	x o x l a
+x o x o l	x o x l a
+x rj e bj e t	x rj e b t a
+ts vj e tj e nj	ts vj e t nj a
+ts e pj e nj	ts e p nj a
+ch a bj o r	ch a b r a
+ch e l o vj e k o dj e nj	ch e l o vj e k o d nj a
+ch e r n o k o rj e nj	ch e r n o k o r nj a
+ch e x o l	ch e x l a
+ch i rj e j	ch i rj j a
+sh a bj o r	sh a b r a
+sh a tj o r	sh a t r a
+sh a sh e nj	sh a sh nj a
+sh e r sh e nj	sh e r sh nj a
+sh k v o rj e nj	sh k v o r nj a
+sh tj e vj e nj	sh tj e v nj a
+shshj e g o l	shshj e g l a
+shshj i tj e nj	shshj i t nj a
+vj e tj e r	vj e t r a
+vj e tj e r	vj e t r a
+dj o g o tj	dj o g tj a
+pj e pj e l	pj e p l a
+s bj i tj e nj	s bj i t nj a
+u g o l	u g l a
+shshj e bj e nj	shshj e b nj a
+k o ch e v nj i k	k o ch e v nj i k a
+s a bj e j i z m	s a bj e j i z m a
+t r a n s p o r tj i r o v shshj i k	t r a n s p o r tj i r o v shshj i k a
+z a mj e s tj i tj e lj	z a mj e s tj i tj e lj a
+p u n s o nj i s t	p u n s o nj i s t a
+p l a t	p l a t a
+kj e l o j i d	kj e l o j i d a
+z v u k o u sj i lj i tj e lj	z v u k o u sj i lj i tj e lj a
+e k z o tj i z m	e k z o tj i z m a
+p o l z u n	p o l z u n a
+lj n o p rj a dj i lj shshj i k	lj n o p rj a dj i lj shshj i k a
+n a s t rj i g	n a s t rj i g a
+n a b o b	n a b o b a
+p lj i o ts e n	p lj i o ts e n a
+n a j e z d	n a j e z d a
+k r u g o z o r	k r u g o z o r a
+mj e zh k lj e t o ch nj i k	mj e zh k lj e t o ch nj i k a
+o t n o s	o t n o s a
+sh i n o rj e m o n t nj i k	sh i n o rj e m o n t nj i k a
+n a v a r shshj i k	n a v a r shshj i k a
+b r a kj o r	b r a kj o r a
+a n a x r o nj i z m	a n a x r o nj i z m a
+b u fj e t	b u fj e t a
+pj e s k o lj u b	pj e s k o lj u b a
+r i b o k o m bj i n a t	r i b o k o m bj i n a t a
+t a l rj e p	t a l rj e p a
+p r a v o vj e r n i j	p r a v o vj e r n o g o
+mj e g a lj i t	mj e g a lj i t a
+k lj e j shshj i k	k lj e j shshj i k a
+rj u sh	rj u sh a
+sh o m p o l	sh o m p o l a
+a n tj i m o nj i t	a n tj i m o nj i t a
+o d n o ts vj e t	o d n o ts vj e t a
+t a j m sh i t	t a j m sh i t a
+e l lj i p s o j i d	e l lj i p s o j i d a
+p o n o zh o v shshj i k	p o n o zh o v shshj i k a
+vj e d o m i j	vj e d o m o g o
+p r o j i g r i v a tj e lj	p r o j i g r i v a tj e lj a
+z a pj e v	z a pj e v a
+nj e j zj i lj bj e r	nj e j zj i lj bj e r a
+dj i a s t a z	dj i a s t a z a
+s tj e n t o r	s tj e n t o r a
+dj i a f a n o s k o p	dj i a f a n o s k o p a
+rj e ts i pj i j e n t	rj e ts i pj i j e n t a
+s t r a tj e g	s t r a tj e g a
+ch a x o t o ch n i j	ch a x o t o ch n o g o
+j i j e z u j i tj i z m	j i j e z u j i tj i z m a
+j u n a k	j u n a k a
+rj a s o f o r	rj a s o f o r a
+pj e sh e x o d	pj e sh e x o d a
+ch u dj i k	ch u dj i k a
+tj e m nj i k	tj e m nj i k a
+sh a r m	sh a r m a
+b u n dj e s r a t	b u n dj e s r a t a
+rj e n t gj e n	rj e n t gj e n a
+t rj i p tj i x	t rj i p tj i x a
+v z r i v shshj i k	v z r i v shshj i k a
+s f a g n u m	s f a g n u m a
+s o k o l	s o k o l a
+dj e rj e z nj a k	dj e rj e z nj a k a
+dj i n a rj i j	dj i n a rj i j a
+k a l	k a l a
+gj e l lj e r	gj e l lj e r a
+s mj e r d	s mj e r d a
+nj e o n a ts i z m	nj e o n a ts i z m a
+vj e nj e ch nj i k	vj e nj e ch nj i k a
+vj i b r o m o l o t	vj i b r o m o l o t a
+p o d pj i s ch i k	p o d pj i s ch i k a
+ts e x	ts e x a
+v t o r o k u r s nj i k	v t o r o k u r s nj i k a
+mj e n gj i r	mj e n gj i r a
+g o l o v a n	g o l o v a n a
+a k sj e lj e r a t o r	a k sj e lj e r a t o r a
+k o r o s tj e lj	k o r o s tj e lj a
+n a l o k o t nj i k	n a l o k o t nj i k a
+ch o s a n o k	ch o s a n k a
+a r a vj i tj a nj i n	a r a vj i tj a nj i n a
+gj i d r a n t	gj i d r a n t a
+dj i e lj e k t rj i k	dj i e lj e k t rj i k a
+p l a nj e rj i z m	p l a nj e rj i z m a
+s ts i n k	s ts i n k a
+p o m p o n	p o m p o n a
+s tj i lj b	s tj i lj b a
+gj e tj e r o m o r f o z	gj e tj e r o m o r f o z a
+k l u b nj e p l o d	k l u b nj e p l o d a
+kj e r mj e s	kj e r mj e s a
+j a lj i ch nj i k	j a lj i ch nj i k a
+e rj i t r o ts i t	e rj i t r o ts i t a
+mj e g a f o n	mj e g a f o n a
+e k zj e gj e t	e k zj e gj e t a
+s u s t a v ch i k	s u s t a v ch i k a
+x lj u s t	x lj u s t a
+sh a x t o p o d j o m nj i k	sh a x t o p o d j o m nj i k a
+v o dj a nj i k	v o dj a nj i k a
+p rj e lj u d	p rj e lj u d a
+r a n t	r a n t a
+p o rj e z	p o rj e z a
+pj i l o n	pj i l o n a
+x lj e v	x lj e v a
+b o r t o v shshj i k	b o r t o v shshj i k a
+x o l s t	x o l s t a
+sh e j x	sh e j x a
+o ch o s	o ch o s a
+sh pj i o n	sh pj i o n a
+s o p r o m a t	s o p r o m a t a
+a nj i o n	a nj i o n a
+v a g o nj e t ch i k	v a g o nj e t ch i k a
+s o r a t nj i k	s o r a t nj i k a
+pj e rj e v o d	pj e rj e v o d a
+a v a n z a l	a v a n z a l a
+p u a n tj i lj i s t	p u a n tj i lj i s t a
+ch u dj e s nj i k	ch u dj e s nj i k a
+mj i j e lj i n	mj i j e lj i n a
+a m m o nj i a k	a m m o nj i a k a
+b r a s	b r a s a
+t rj e tj j e r a z rj a d nj i k	t rj e tj j e r a z rj a d nj i k a
+xj i r u r g	xj i r u r g a
+shshj i t o m o r d nj i k	shshj i t o m o r d nj i k a
+nj e o ts e r a t o d	nj e o ts e r a t o d a
+k o vj o r shshj i k	k o vj o r shshj i k a
+s k a l d i r nj i k	s k a l d i r nj i k a
+r e kj e tj i r	r e kj e tj i r a
+f o t o rj e p o r tj o r	f o t o rj e p o r tj o r a
+gj e o b o t a nj i k	gj e o b o t a nj i k a
+pj i pj e rj i n	pj i pj e rj i n a
+p sj i x r o mj e t r	p sj i x r o mj e t r a
+k sj e n o lj i t	k sj e n o lj i t a
+k rj e dj i t o r	k rj e dj i t o r a
+o ch e rj e d nj i k	o ch e rj e d nj i k a
+ch i n o p o ch i t a tj e lj	ch i n o p o ch i t a tj e lj a
+sh a rj i k	sh a rj i k a
+e t r u s k	e t r u s k a
+g u s a k	g u s a k a
+s t a t s kj i j	s t a t s k o g o
+m a r sh p a r a d	m a r sh p a r a d a
+k rj e n dj e lj	k rj e n dj e lj a
+j i m a zh i nj i s t	j i m a zh i nj i s t a
+x a mj i t	x a mj i t a
+k u p fj e r nj i kj e lj	k u p fj e r nj i kj e lj a
+p l o t o g o n	p l o t o g o n a
+nj e o d a r vj i nj i z m	nj e o d a r vj i nj i z m a
+l zh e u ch i tj e lj	l zh e u ch i tj e lj a
+vj i n o v n i j	vj i n o v n o g o
+o k r a s	o k r a s a
+k vj i j e tj i s t	k vj i j e tj i s t a
+pj e r v o k a tj e g o r nj i k	pj e r v o k a tj e g o r nj i k a
+dj e g tj a r nj i k	dj e g tj a r nj i k a
+u z u s	u z u s a
+e fj e b	e fj e b a
+s pj i kj e r	s pj i kj e r a
+t rj i s tj i x	t rj i s tj i x a
+s u m r a k	s u m r a k a
+l zh e x rj i s t o s	l zh e x rj i s t o s a
+sj e mj i n a rj i s t	sj e mj i n a rj i s t a
+pj e rj e x v a t	pj e rj e x v a t a
+p nj e v m o t o r m o z	p nj e v m o t o r m o z a
+pj e rj e v o d ch i k	pj e rj e v o d ch i k a
+s u b b o t nj i k	s u b b o t nj i k a
+s k o b o v shshj i k	s k o b o v shshj i k a
+lj u bj i m ch i k	lj u bj i m ch i k a
+lj n o k o m b a j n	lj n o k o m b a j n a
+e m u lj sj i n	e m u lj sj i n a
+m a k a r o n shshj i k	m a k a r o n shshj i k a
+p l a s t i rj	p l a s t i rj a
+r o g a lj	r o g a lj a
+b o r zh o m	b o r zh o m a
+p r o j a vj i tj e lj	p r o j a vj i tj e lj a
+p o n tj o r	p o n tj o r a
+zh e rj e bj j o v shshj i k	zh e rj e bj j o v shshj i k a
+p r o mj e r nj i k	p r o mj e r nj i k a
+k rj e n o mj e r	k rj e n o mj e r a
+s a x a r o v a r	s a x a r o v a r a
+sh t r a f	sh t r a f a
+s u f r a zh i z m	s u f r a zh i z m a
+pj e rj i tj e ts i j	pj e rj i tj e ts i j a
+f r a n k	f r a n k a
+g rj i fj e lj	g rj i fj e lj a
+s k l a d ch a t o g u b	s k l a d ch a t o g u b a
+m i z nj i k	m i z nj i k a
+pj i s t o lj	pj i s t o lj a
+m a t ch i sh	m a t ch i sh a
+a n a n a s	a n a n a s a
+k a r bj i n o l	k a r bj i n o l a
+p rj e s t o l o n a s lj e d nj i k	p rj e s t o l o n a s lj e d nj i k a
+u tj i r a lj nj i k	u tj i r a lj nj i k a
+p o lj z o v a tj e lj	p o lj z o v a tj e lj a
+a k sj e lj b a n t	a k sj e lj b a n t a
+a m fj i tj e a t r	a m fj i tj e a t r a
+p o d vj a z nj i k	p o d vj a z nj i k a
+m a nj j a k	m a nj j a k a
+t a b a ch nj i k	t a b a ch nj i k a
+o p t o vj i k	o p t o vj i k a
+k r i m s a g i z	k r i m s a g i z a
+s t r a bj i z m	s t r a bj i z m a
+a v t o m a t ch i k	a v t o m a t ch i k a
+d r a ch	d r a ch a
+s lj e p nj a k	s lj e p nj a k a
+b a k sh i sh	b a k sh i sh a
+k a r k a s	k a r k a s a
+g u n tj e r	g u n tj e r a

@@ -1,0 +1,38 @@
+^([-syllabic] ?)*([+syllabic] ?)+([-syllabic] ?)*$
+
+t$
+ʧ$
+p$
+k$
+
+[+sonorant] t$
+[+sonorant] ʧ$
+[+sonorant] p$
+[+sonorant] k$
+[-sonorant] t$
+[-sonorant] ʧ$
+[-sonorant] p$
+[-sonorant] k$
+
+[+syllabic] t$
+[+syllabic] ʧ$
+[+syllabic] p$
+[+syllabic] k$
+[-syllabic] t$
+[-syllabic] ʧ$
+[-syllabic] p$
+[-syllabic] k$
+
+[+syllabic,+high] t$
+[+syllabic,+high] ʧ$
+[+syllabic,+high] p$
+[+syllabic,+high] k$
+[+syllabic,-high] t$
+[+syllabic,-high] ʧ$
+[+syllabic,-high] p$
+[+syllabic,-high] k$
+
+F: Ident [back]
+F: Ident [labial]
+F: Ident [coronal]
+F: Ident [dorsal]

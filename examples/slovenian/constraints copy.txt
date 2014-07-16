@@ -1,0 +1,101 @@
+
+[+stress,+lax]
+[+stress,-lax]
+[+stress,+low]
+[+stress,-low]
+[+stress,+high]
+[+stress,-high]
+[+stress,+low,+lax]
+[+stress,+low,-lax]
+[+stress,-low,+lax]
+[+stress,-low,-lax]
+
+[-stress,+lax]
+[-stress,-lax]
+[-stress,+low]
+[-stress,-low]
+[-stress,+high]
+[-stress,-high]
+[-stress,+low,+lax]
+[-stress,+low,-lax]
+[-stress,-low,+lax]
+[-stress,-low,-lax]
+
+[+lax] ([-syllabic] ?)*$
+[-lax] ([-syllabic] ?)*$
+[+low] ([-syllabic] ?)*$
+[-low] ([-syllabic] ?)*$
+[+high] ([-syllabic] ?)*$
+[-high] ([-syllabic] ?)*$
+[+low,+lax] ([-syllabic] ?)*$
+[+low,-lax] ([-syllabic] ?)*$
+[-low,+lax] ([-syllabic] ?)*$
+[-low,-lax] ([-syllabic] ?)*$
+[+stress,+lax] ([-syllabic] ?)*$
+[+stress,-lax] ([-syllabic] ?)*$
+[+stress,+low] ([-syllabic] ?)*$
+[+stress,-low] ([-syllabic] ?)*$
+[+stress,+high] ([-syllabic] ?)*$
+[+stress,-high] ([-syllabic] ?)*$
+[+stress,+low,+lax] ([-syllabic] ?)*$
+[+stress,+low,-lax] ([-syllabic] ?)*$
+[+stress,-low,+lax] ([-syllabic] ?)*$
+[+stress,-low,-lax] ([-syllabic] ?)*$
+
+[+lax] .* ?[+syllabic]
+[-lax] .* ?[+syllabic]
+[+low] .* ?[+syllabic]
+[-low] .* ?[+syllabic]
+[+high] .* ?[+syllabic]
+[-high] .* ?[+syllabic]
+[+low,+lax] .* ?[+syllabic]
+[+low,-lax] .* ?[+syllabic]
+[-low,+lax] .* ?[+syllabic]
+[-low,-lax] .* ?[+syllabic]
+[+stress,+lax] .* ?[+syllabic]
+[+stress,-lax] .* ?[+syllabic]
+[+stress,+low] .* ?[+syllabic]
+[+stress,-low] .* ?[+syllabic]
+[+stress,+high] .* ?[+syllabic]
+[+stress,-high] .* ?[+syllabic]
+[+stress,+low,+lax] .* ?[+syllabic]
+[+stress,+low,-lax] .* ?[+syllabic]
+[+stress,-low,+lax] .* ?[+syllabic]
+[+stress,-low,-lax] .* ?[+syllabic]
+
+
+[+syllabic] .* ?[+lax]
+[+syllabic] .* ?[-lax]
+[+syllabic] .* ?[+low]
+[+syllabic] .* ?[-low]
+[+syllabic] .* ?[+high]
+[+syllabic] .* ?[-high]
+[+syllabic] .* ?[+low,+lax]
+[+syllabic] .* ?[+low,-lax]
+[+syllabic] .* ?[-low,+lax]
+[+syllabic] .* ?[-low,-lax]
+[+syllabic] .* ?[+stress,+lax]
+[+syllabic] .* ?[+stress,-lax]
+[+syllabic] .* ?[+stress,+low]
+[+syllabic] .* ?[+stress,-low]
+[+syllabic] .* ?[+stress,+high]
+[+syllabic] .* ?[+stress,-high]
+[+syllabic] .* ?[+stress,+low,+lax]
+[+syllabic] .* ?[+stress,+low,-lax]
+[+syllabic] .* ?[+stress,-low,+lax]
+[+syllabic] .* ?[+stress,-low,-lax]
+
+[+stress,+syllabic] .* ?[+stress,+syllabic]
+[+stress,+syllabic] .* ?[+syllabic]
+
+
+^([-syllabic] ?)*([+syllabic] ?)+([-syllabic] ?)*$
+e j
+[-lax] [+son]
+
+F: Ident [stress]
+F: Ident [lax]
+F: Ident [lax] [+stress]
+F: Ident [lax] [+initial]
+F: Ident [lax] [+stress,+initial]
+

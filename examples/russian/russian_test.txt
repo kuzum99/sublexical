@@ -1,0 +1,25 @@
+p a r
+pj e r
+pj i r
+p o r
+p u r
+
+x a p a r
+x a pj e r
+x a pj i r
+x a p o r
+x a p u r
+
+
+p o r
+r o p
+x a p o r
+x a r o p
+
+p o t r
+p o r t
+x a p o t r
+x a p o r t
+
+pj i r o
+x a pj i r o

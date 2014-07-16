@@ -1,0 +1,16 @@
+[+back,+syll] ([-syll] ?)*n a k$
+[+back,+syll] ([-syll] ?|[0back,+syll] ?)*n a k$
+[-back,+round,+syll] ([-syll] ?)*n a k$
+[-back,+round,+syll] ([-syll] ?|[0back,+syll] ?)*n a k$
+[-back,+syll] ([-syll] ?)*n a k$
+[-back,-high,+syll] ([-syll] ?)*n a k$
+[-back,+low,+syll] ([-syll] ?)*n a k$
+[-back,+syll] ([-syll] ?)* [-back,+syll] ([-syll] ?)*n a k$
+[+back,+syll] ([-syll] ?)*n e k$
+[+back,+syll] ([-syll] ?|[0back,+syll] ?)*n e k$
+[-back,+round,+syll] ([-syll] ?)*n e k$
+[-back,+round,+syll] ([-syll] ?|[0back,+syll] ?)*n e k$
+[-back,+syll] ([-syll] ?)*n e k$
+[-back,-high,+syll] ([-syll] ?)*n e k$
+[-back,+low,+syll] ([-syll] ?)*n e k$
+[-back,+syll] ([-syll] ?)* [-back,+syll] ([-syll] ?)*n e k$
