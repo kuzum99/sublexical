@@ -1047,7 +1047,7 @@
     Aligner.initialize({
         onscreen: false,
         FeatureManager: FeatureManager,
-        featureFile: 'examples/berber/features.txt',
+        featureFile: 'lib/default_feature_file.txt',
         features: true,
         insert_delete: 1.5,
         substitution: 2,
@@ -1068,14 +1068,15 @@
     });
 
     Learner.initialize({
-        trainingData: 'examples/berber/berber2.txt',
-        testingData: 'examples/berber/berber_testing.txt',
+        trainingData: 'examples/berber/tuareg.txt',
+        testingData: 'examples/berber/tuareg.txt',
         outputFile: 'berber2.txt',
         downloadButton: 'downloadify_berber2',
         aligner: Aligner,
+        // changeOrientations: {delete: 'source', mutate: 'source', metathesize: 'source'},
         minProductiveSize: 1,
-        mutationType: 'featural'
-    });">Berber circumfixation with devoicing/stopping (other dialect)</button>
+        mutationType: 'both'
+    });">Berber circumfixation with devoicing/stopping (Tuareg)</button>
 
     <span id="downloadify_berber2"></span>
 

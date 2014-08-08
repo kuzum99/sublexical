@@ -36,8 +36,10 @@ var Learner = (function($, undefined){
 
         var testingDataFile = obj.testingData || "";
 
-        var outputFile = obj.outputFile || "test.txt";
-        var downloadButton = obj.downloadButton || "";
+        var testOutputFile = obj.testOutputFile || "test.txt";
+        var testDownloadButton = obj.testDownloadButton || "";
+        var trainOutputFile = obj.trainOutputFile || "train.txt";
+        var trainDownloadButton = obj.trainDownloadButton || "";
         
         var trainingSize = obj.trainingSize || "all";
 
@@ -97,17 +99,28 @@ var Learner = (function($, undefined){
 				}
 			}
 
-			var outputString = derivativesToString(testDerivatives);
-			var outputBlob = new Blob([outputString], { type: 'text/plain' });
-			var outputURL = URL.createObjectURL(outputBlob);			
-			downloadButton = downloadButton || "downloadify";
-			$("#" + downloadButton).html(
+			var testOutputString = derivativesToString(testDerivatives);
+			var testOutputBlob = new Blob([testOutputString], { type: 'text/plain' });
+			var testOutputURL = URL.createObjectURL(testOutputBlob);			
+
+			var trainOutputString = 'meow meow';
+			var trainOutputBlob = new Blob([trainOutputString], { type: 'text/plain' });
+			var trainOutputURL = URL.createObjectURL(trainOutputBlob);			
+
+			testDownloadButton = trainDownloadButton || "downloadify";
+			$("#" + testDownloadButton).html([
 				$('<a/>', {
-					text: "Download", 
-					download: outputFile,
-					href: outputURL 
+					text: "Download testing item predictions", 
+					download: testOutputFile,
+					href: testOutputURL 
+				}),
+				$('<br/>'),
+				$('<a/>', {
+					text: "Download re-organized training data", 
+					download: trainOutputFile,
+					href: trainOutputURL 
 				})
-			);
+			]);
 			
 		} else {
 			
@@ -835,6 +848,10 @@ var Learner = (function($, undefined){
 			}
 
             sortedHypotheses = _.without(sortedHypotheses, 'purgeable');
+
+			for (var i=0;i<sortedHypotheses.length;i++) {
+				sortedHypotheses[i]['hypothesis']['probabilitySum'] = numeric.sum($.map(sortedHypotheses[i]['hypothesis']['contexts'], function(c){return c.probability;}));
+			}
 
 			var allProbabilities = $.map(sortedHypotheses, function(h){return h['hypothesis']['probabilitySum']});
 			var allProbabilitiesSum = numeric.sum(allProbabilities);
