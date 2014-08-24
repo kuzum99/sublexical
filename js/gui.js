@@ -287,7 +287,12 @@ var GUI = (function($, undefined){
 				aligner: Aligner,
 				minProductiveSize: conf.learner.minProductiveSize,
 				mutationType: conf.learner.mutationType,
-				trainingSize: conf.learner.trainingSize
+				trainingSize: conf.learner.trainingSize,
+				changeOrientations: {
+					delete: conf.learner.changeOrientations.delete, 
+					mutate: conf.learner.changeOrientations.mutate, 
+					metathesize: conf.learner.changeOrientations.metathesize
+				}
 			});
 			
 			if (status===0) {
@@ -390,7 +395,7 @@ $(document).ready(function(){
 			if(true) {
 				for (var i=0; i<GUI.localFiles.length; i++) {
 					if (GUI.localFiles[i].type==="conf") {
-						c = JSON.parse(GUI.localFiles[i].content);
+						var c = JSON.parse(GUI.localFiles[i].content);
 						if (c && c.name) {
 							$("#file_save input")[0].value = c.name;
 						}

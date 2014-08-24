@@ -116,9 +116,14 @@ var FeatureManager = (function($, undefined){
 			}
 	}
 
+    var getArbitrarySegment = function () {
+        return table.table[1];
+    }
+
 
     return {
     	getSegment: getSegment,
+        getArbitrarySegment: getArbitrarySegment,
         loadFeatures: loadFeatures,
         features: features,
         status: status,

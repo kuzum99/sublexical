@@ -9,9 +9,9 @@
         "mutationType": "both",
         "useGrammarsProper": true,
         "changeOrientations": {
-            "delete": "source", 
-            "mutate": "source", 
-            "metathesize": "source"
+            "delete": "product", 
+            "mutate": "product", 
+            "metathesize": "product"
         },
         "minProductiveSize": 1,
         "howMuchTraining": "all"

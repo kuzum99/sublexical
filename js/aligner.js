@@ -199,7 +199,7 @@ var Aligner = (function($, undefined){
         var onscreen = obj.onscreen || false;
 
         if (FeatureManager) {
-        	console.log("\n\n" + obj.featureFile );
+        	console.log("Feature file: " + featureFile );
             FeatureManager.loadFeatures(featureFile);
             if (FeatureManager.status()) {
                 parameter("symbols", FeatureManager.features());

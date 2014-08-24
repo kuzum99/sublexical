@@ -372,8 +372,6 @@ var Learner = (function($, undefined){
 
 
     var checkIfLastNucleus = function (change, base) {
-    	// console.log(change)
-    	// console.log(base)
         change = $.extend(true, {}, change);
 
 		var checkChunk = function (chunk) {
@@ -390,7 +388,6 @@ var Learner = (function($, undefined){
         	var rightwardSegments = base.slice(((change.location-1)/2)+1)
         	var rightwardStatuses = $.map(rightwardSegments, checkChunk)
         	if ($.inArray(true, rightwardStatuses)===-1) {
-        		// console.log('true')
 				return true;
         	}
         }
@@ -401,7 +398,6 @@ var Learner = (function($, undefined){
 	var findLastNucleus = function (base) {
 		for (var m=base.length-1;m>0;m--) {
 			if (base[m] !== undefined) {
-				// console.log(base[m]);
 				var segment = $.isArray(base[m]) ? base[m][0] : base[m];
 				if (segment !== null) {
 					if (FeatureManager.getSegment(segment)[vowelFeature] === '+') {
@@ -431,7 +427,6 @@ var Learner = (function($, undefined){
 
         if (differences.length > 0) {
             var changesCartesianProduct = changesToCartesianProduct(differences, base, mutationType);
-            // console.log(changesCartesianProduct);
             for (var i=0;i<changesCartesianProduct.length;i++) {
                 changesCartesianProduct[i].toString = function(){return this.join('\n');};
             }
@@ -665,7 +660,7 @@ var Learner = (function($, undefined){
         	} else {
         		var includeLastNucleusChange = false;
         	}
-        	// console.log(includeLastNucleusChange);
+
             if (changeObjects[i].type === 'mutate' && mutationType != 'segmental') {
                 if (mutationType === 'both') {
                 	changePossibilities[i] = [];
@@ -697,7 +692,6 @@ var Learner = (function($, undefined){
                 }
                 changePossibilities[i].push(changeObjects[i]);
                 changePossibilities[i].push(negativeIndexing(changeObjects[i], base));
-                // console.log(changePossibilities[i]);
             }
         }
 
@@ -740,18 +734,12 @@ var Learner = (function($, undefined){
 
         for (var i=0;i<hypotheses.length;i++) {
             var currentChangesStr = hypotheses[i]['changes'].toString();
-            // console.log('');
-            // console.log('current:');
-            // console.log(currentChangesStr);
             var currentContext = hypotheses[i]['contexts'][0];
 
             var targetHypothesis = -1;  // default: hypothesis not found
             for (var j=0;j<finalHypotheses.length;j++) {
-            	// console.log('looking at...');
-            	// console.log(finalHypotheses[j].changes.toString());
                 if (finalHypotheses[j].changes.toString() === currentChangesStr) {
                     targetHypothesis = j;
-                    // console.log('match!');
                     break;
                 }
             }
@@ -811,7 +799,6 @@ var Learner = (function($, undefined){
             /* Given an array of hypotheses ordered by their count parameter
              * (descending), return an array of only those which are not
              * proper subsets (in terms of contexts) of others. */
-			
 			for (var i=sortedHypotheses.length-1;i>=0;i--) { // i = consumed, usually smaller
 				if (sortedHypotheses[i] !== "purgeable") {
 					var contextsToAdd = []; // to copy from consumed to consumer (because consumer lacks them)
@@ -839,7 +826,6 @@ var Learner = (function($, undefined){
 					if (consumabilityStatuses.every(Boolean)) { // if every context has a consumer, mark consumed as "purgeable" and add its contexts to their appropriate consumers
 							sortedHypotheses[i] = "purgeable"
 							for (var n=0;n<contextsToAdd.length;n++) {
-								// console.log(contextsToAdd[n]);
 								sortedHypotheses[contextsToAdd[n][1]].hypothesis.contexts.push(contextsToAdd[n][0]); // element 0 is the context and element 1 is the index of the consumer that it is given to
 								sortedHypotheses[contextsToAdd[n][1]].derivatives.push(contextsToAdd[n][0]['derivative']);
 							}
@@ -889,20 +875,34 @@ var Learner = (function($, undefined){
             derivationObjs.push(tempObj);
         }
 
-        var sortLastNucleusFirst = function (a, b) {
-        	var isALastNucleus = $.inArray('last nucleus', $.map(a.hypothesis.changes, function(c,i){return c.location}));
-        	var isBLastNucleus = $.inArray('last nucleus', $.map(b.hypothesis.changes, function(c,i){return c.location}))
-        	if (isALastNucleus === 1 && isBLastNucleus === -1) {
-				return -1;
-        	} else if (isBLastNucleus === 1 && isALastNucleus === -1) {
+        var preDistillationSort = function (a, b) {
+        	// Ensure not only that hypotheses are sorted by size, but also that nucleus-based and featural changes are preferred.
+        	if (a.derivatives.length > b.derivatives.length) {
+        		return -1;
+        	} else if (a.derivatives.length < b.derivatives.length) {
         		return 1;
+        	} else {
+        		var aLastNucleusCount = $.map(a.hypothesis.changes, function(c,i){return c.location}).filter(function(loc){return (loc==='last nucleus')}).length;
+        		var aFeatureCount = a.hypothesis.changes.filter(function(c){return !(c.output instanceof Array)}).length;
+				var aScore = (10 * aLastNucleusCount) + aFeatureCount;
+
+        		var bLastNucleusCount = $.map(b.hypothesis.changes, function(c,i){return c.location}).filter(function(loc){return (loc==='last nucleus')}).length;
+        		var bFeatureCount = b.hypothesis.changes.filter(function(c){return !(c.output instanceof Array)}).length;
+        		var bScore = (10 * bLastNucleusCount) + bFeatureCount;
+
+        		if (aScore > bScore) {
+        			return -1;
+        		} else if (aScore < bScore) {
+        			return 1;
+        		} else {
+        			// _log('Warning! Hypothesis sorting may not be deterministic.');
+        			return 0;
+        		}
         	}
-        	return 0
         }
 
         var outputHypotheses = [];
-        var preSorted = derivationObjs.sort(sortLastNucleusFirst);
-        var sorted = sortThings(preSorted, 'derivatives', length=true);
+        var sorted = derivationObjs.sort(preDistillationSort);
         var remainingHypotheses = consumeSubsets(sorted);
 
         return remainingHypotheses;
@@ -1279,12 +1279,6 @@ var Learner = (function($, undefined){
             if (changeObj.type === 'insert') {
                 changedBase[changeLocation] = fillArray(null, changeObj.output.length);
                 changedDerivative[changeLocation] = changeObj.output;
-             //    console.log(changeObj.toString());
-            	// console.log(changedBase);
-            	// console.log(changedDerivative);
-             //    console.log(changedBase);
-             //    console.log(changedDerivative);
-             //    console.log('');
             } else if (changeObj.type === 'delete') {
                 for (var j=0;j<changeObj.input.length;j++) {
                     changedDerivative[changeLocation+(j*2)] = null;
@@ -1303,10 +1297,6 @@ var Learner = (function($, undefined){
                     changedDerivative[changeLocation+j] = changeOutput[j];
                 }
             }
-
-			// console.log(changeObj);
-			// console.log(changedBase);
-			// console.log(changedDerivative);
             return [changedBase, changedDerivative];
         };
 
