@@ -208,7 +208,7 @@ var Learner = (function($, undefined){
         // console.log(hypotheses);
 
         _log("... and removing subset hypotheses...");
-        hypotheses = removeSubsetHypotheses(hypotheses);
+        hypotheses = removeSubsetHypotheses(hypotheses, productivePairs);
         if (hypotheses.length === 0) {
             _log("No hypotheses met the minimum word requirement for productivity.");
             return [];
@@ -795,6 +795,70 @@ var Learner = (function($, undefined){
          * that meet the requirement for productivity. */
         var derivationObjs = [];
 
+        // var consumeSubsets2 = function(sortedHypotheses, productivePairs) {
+        //     // If using this version, must bring productivePairs in from earlier!
+        //     console.log(sortedHypotheses)
+        //     console.log(productivePairs)
+        //
+        //     productivePairs = $.map(productivePairs, function(p){return p.split(" , ")});
+        //
+        //     var accountForAll = function (hypotheses, productivePairs) {
+        //         var accountedStatuses = []
+        //         for (var i=0;i<productivePairs.length;i++) {
+        //             var accountsForPair = []
+        //             for (var j=0;j<hypotheses.length;j++) {
+        //                 var predicted = applyHypothesis(productivePairs[i][0], hypotheses[j].hypothesis, false, changeOrientations);
+        //                 accountsForPair.push(predicted === productivePairs[i][1]);
+        //             }
+        //             accountedStatuses.push($.inArray(true, accountsForPair));
+        //         }
+        //         return accountedStatuses.every(Boolean);
+        //     }
+        //
+        //     function getCombinations(chars) {
+        //       var result = [];
+        //       var f = function(prefix, chars) {
+        //         for (var i = 0; i < chars.length; i++) {
+        //           result.push(prefix + chars[i]);
+        //           f(prefix + chars[i], chars.slice(i + 1));
+        //         }
+        //       }
+        //       f('', chars);
+        //       return result.sort(function(a, b){return a.length - b.length;});;
+        //     }
+        //
+        //     // First step: check to see if any small hypotheses can be consumed by any single larger one
+        //     for (var j=0;j<sortedHypotheses.length;j++) { // j = consumer, usually bigger
+        //         for (var i=sortedHypotheses.length-1;i>=0;i--) { // can be consumed
+        //             if (i > j) {
+        //                 if (sortedHypotheses[j] !== "purgeable" && sortedHypotheses[i] !== "purgeable") {
+        //                     var consumabilities = []
+        //                     for (var m=0;m<sortedHypotheses[i].hypothesis.contexts.length;m++) { // iterate over contexts of consumed
+        //                         var consumedBase = sortedHypotheses[i].hypothesis.contexts[m].form;
+        //                         var consumedDerivative = sortedHypotheses[i].hypothesis.contexts[m].derivative;
+        //                         var consumerDerivative = applyHypothesis(consumedBase, sortedHypotheses[j].hypothesis, false, changeOrientations);
+        //                         consumabilities.push(consumerDerivative === consumedDerivative)
+        //                     }
+        //                     if (consumabilities.every(Boolean)) {
+        //                         console.log('purging')
+        //                         sortedHypotheses[i] = "purgeable";
+        //                     }
+        //                 }
+        //             }
+        //         }
+        //     }
+        //
+        //     // Second step: check for smallest number of capable hypotheses
+        //     sortedHypotheses = _.without(sortedHypotheses, "purgeable");
+        //     var hCombos = getCombinations(sortedHypotheses);
+        //     for (var k=0;k<hCombos.length;k++) {
+        //         if (accountForAll(hCombos[k], productivePairs)) {
+        //             // Still need to add new paradigms to winning hypotheses!
+        //             return hCombos[k]
+        //         }
+        //     }
+        // }
+
         var consumeSubsets = function(sortedHypotheses) {
             /* Given an array of hypotheses ordered by their count parameter
              * (descending), return an array of only those which are not
@@ -837,7 +901,7 @@ var Learner = (function($, undefined){
 								sortedHypotheses[contextsToAdd[n][1]].hypothesis.contexts.push(contextsToAdd[n][0]); // element 0 is the context and element 1 is the index of the consumer that it is given to
 								sortedHypotheses[contextsToAdd[n][1]].derivatives.push(contextsToAdd[n][0]['derivative']);
 							}
-						} else {console.log('LACKING PROPER CONSUMERS')}
+						}
 				}
 			}
 
