@@ -59,7 +59,7 @@
 
     <ul class="tab-links">
         <li class="active"><a href="#tab3">New</a></li>
-        <li><a href="#tab2">My files</a></li>
+        <li id="tab2title"><a href="#tab2">My files</a></li>
         <li><a href="#tab1">Examples</a></li>
         <li><a href="#tab4">About</a></li>
         <li><a href="#tab5">Help</a></li>
@@ -88,16 +88,34 @@
         </div>
  
         <div id="tab2" class="tab">
-            (in progress)<br><br>
-            
-            Your simulations
-            
+
+
+			<!-- server files -->
+			<div id="local_list_status">
+				&nbsp;<be> 
+			</div>
+			<div id="local_list">
+				&nbsp;<be> 
+			</div>
+
+			<!-- current simulation, how to come first due to absolute position -->
+			<div id="local_current">
+
+				<div id="local_simulationtitle"></div>
+				<div id="local_status"></div>
+				<div id="local_downloadify"></div>
+		
+				<div id="local_params"></div>
+		
+			</div>
+
+
             
 
         </div>
  
         <div id="tab3" class="tab active">
-            Start a new stimulation<br><br>
+            Start a new simulation<br><br>
 
             
 			<div id="dropzone-container">
@@ -112,7 +130,8 @@
 				<div style='min-width:12em; display: inline-block;'>Name:</div> 
 				<input type="text">
 				<br>
-				<a href="javascript:void(0)">Save</a>
+				<a id="file_save_link" href="javascript:void(0)">Save</a>
+				<div id="file_save_feedback"></div> 
 			</div>
 
             

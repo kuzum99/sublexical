@@ -52,7 +52,7 @@ var Faithfulness = (function($, undefined){
         var targetFeatures = constraint[2];
         var contextualFeatures = constraint[3];
         if (targetFeatures) {
-        	// remove square brackets, split on comma, e.g. "[back,round]" -> ["back","round"] 
+        	// remove square brackets, split on comma, e.g. "[back,round]" -> ["back","round"]
             targetFeatures = targetFeatures.slice(1, -1).split(',');
         } else {
             targetFeatures = null;
@@ -63,31 +63,37 @@ var Faithfulness = (function($, undefined){
             var c = {};
             for (var i=0; i<contextualFeatures.length; i++) {
             	c[contextualFeatures[i].slice(1)] = contextualFeatures[i].slice(0,1);
-            } 
+            }
             contextualFeatures = c;
         } else {
             contextualFeatures = null;
         }
-        
+
 
         if (faithType === "Ident") {
             var identConstraint = function(alignment) {
                 var input = alignment[0];
                 var output = alignment[1];
-                // console.log(alignment);
-                // console.log(input);
-                // console.log(output);
 
                 if (input === null) {
                     input = output; // blake, when would this happen? shouldn't faith be vacuously satisfied if either input or output are missing?
                 }
                 var violationAccumulator = 0;
+                // console.log(input)
+                // console.log(output)
+                // temp
+                // if (input.length !== output.length) {
+                //     return 0;
+                // }
+                // temp above
                 for (var i=0;i<output.length;i++) {
                     if (input[i] !== null && output[i] !== null) {
                         if (targetFeatures) {
+                            // console.log(i)
+                            // console.log(input[i])
                             // makes two arrays, each length of targetFeatures, with the feature values, e.g. [high] + o->u == ["-"], ["+"]
-                            var inputFeatureValues = $.map(targetFeatures, function(f){return FeatureManager.getSegment(input[i])[f]}); 
-                            var outputFeatureValues = $.map(targetFeatures, function(f){return FeatureManager.getSegment(output[i])[f]}); 
+                            var inputFeatureValues = $.map(targetFeatures, function(f){return FeatureManager.getSegment(input[i])[f]});
+                            var outputFeatureValues = $.map(targetFeatures, function(f){return FeatureManager.getSegment(output[i])[f]});
 
 							if (inputFeatureValues.toString() !== outputFeatureValues.toString()) {
 							// the two arrays are collapsed, i.e. multiple target features = one violation if one of the features is violated
@@ -112,7 +118,7 @@ var Faithfulness = (function($, undefined){
 							/*
                             for (var j=0;j<inputFeatureValues.length;j++) {
                                 if (inputFeatureValues[j] !== outputFeatureValues[j]) {
-                                	
+
                                 	if(contextualFeatures) {
                                 		// penalize only if output segment matches all contextual features
                                 		var match = 1;
@@ -134,10 +140,10 @@ var Faithfulness = (function($, undefined){
                             */
 
                         /*} else {
-                            // if no target features, then raw faith(?) 
+                            // if no target features, then raw faith(?)
                             if (input[i] !== output[i]) {
                                 violationAccumulator += 1
-                            }*/ 
+                            }*/
                         }
                     }
                 }
@@ -160,7 +166,7 @@ var Faithfulness = (function($, undefined){
                 for (var i=0;i<output.length;i++) {
                     if (input[i] !== null && output[i] === null) {
                         if (targetFeatures) {
-                            var inputFeatureValues = $.map(targetFeatures, function(f){return FeatureManager.getSegment(input[i])[f.slice(1)]}); 
+                            var inputFeatureValues = $.map(targetFeatures, function(f){return FeatureManager.getSegment(input[i])[f.slice(1)]});
 
                             var specifiedValues = $.map(targetFeatures, function(f){return f[0]});
                             var resultBooleans = $.map(specifiedValues, function(x,i){ return specifiedValues[i] === inputFeatureValues[i]});
@@ -192,7 +198,7 @@ var Faithfulness = (function($, undefined){
                 for (var i=0;i<output.length;i++) {
                     if (input[i] === null && output[i] !== null) {
                         if (targetFeatures) {
-                            var outputFeatureValues = $.map(targetFeatures, function(f){return FeatureManager.getSegment(output[i])[f.slice(1)]}); 
+                            var outputFeatureValues = $.map(targetFeatures, function(f){return FeatureManager.getSegment(output[i])[f.slice(1)]});
 
                             var specifiedValues = $.map(targetFeatures, function(f){return f[0]});
                             var resultBooleans = $.map(specifiedValues, function(x,i){ return specifiedValues[i] === outputFeatureValues[i]});
@@ -224,33 +230,3 @@ var Faithfulness = (function($, undefined){
     };
 
 })(jQuery);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

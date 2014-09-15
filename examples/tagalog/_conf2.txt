@@ -1,27 +1,26 @@
 {
     "files": {
         "constraints": "constraints.txt",
-        "training": "tashlhit.txt",
+        "training": "training.txt",
         "testing": "testing.txt",
-        "output": "output_berber_tashlhit.txt"
+        "output": "output.txt"
     },
     "learner": {
         "mutationType": "both",
         "useGrammarsProper": true,
         "changeOrientations": {
-            "delete": "source", 
-            "mutate": "source", 
+            "delete": "source",
+            "mutate": "source",
             "metathesize": "source"
         },
-        "minProductiveSize": 1,
-        "howMuchTraining": "2"
+        "minProductiveSize": 0,
+        "howMuchTraining": "all"
     },
     "aligner": {
         "features": true
     },
     "grammar": {
-        "useGaussianPriors": false,
-        "mutationType": "featural"
+        "useGaussianPriors": false
     },
     "maxent": {
         "iterationCount": 5000,
@@ -29,6 +28,6 @@
         "noPositiveWeights": true,
         "initialWeight": 0
     },
-    "name": "Tashlhit dialect",
-    "description": "Berber masc~fem paradigms, with a t- -t circumfix and  devoicing at the right edge. Data from Elmedlaoui (1995)." 
+    "name": "Tagalog",
+    "description": "Data from Zuraw (2007)."
 }

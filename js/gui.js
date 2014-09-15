@@ -287,7 +287,7 @@ var GUI = (function($, undefined){
 				aligner: Aligner,
 				minProductiveSize: conf.learner.minProductiveSize,
 				mutationType: conf.learner.mutationType,
-				trainingSize: conf.learner.trainingSize,
+				trainingSize: conf.learner.howMuchTraining,
 				changeOrientations: {
 					delete: conf.learner.changeOrientations.delete, 
 					mutate: conf.learner.changeOrientations.mutate, 
@@ -321,6 +321,71 @@ var GUI = (function($, undefined){
 		
 	}
 	
+	var fileToId = function (name) {
+		// stupid function makes file names into id's that jquery doesn't hate
+		name = encodeURI(name);
+		name = name
+			.replace(/\-/g, "%2D")
+			.replace(/\_/g, "%5F")
+			.replace(/\./g, "%2E")
+			.replace(/\!/g, "%21")
+			.replace(/\~/g, "%7E")
+			.replace(/\*/g, "%2A")
+			.replace(/\'/g, "%27")
+			.replace(/\(/g, "%28")
+			.replace(/\)/g, "%29")
+		;
+		name = name.replace(/\%/g,"_");
+		return name;
+	}
+	
+	var saveSimulation = function () {
+		var hasTraining = false;
+		for (var i=0; i<Object.keys(localFiles).length; i++) {
+			var f = Object.keys(localFiles)[i];
+			if (localFiles[f].type==="training") { hasTraining = true };
+			//console.log(localFiles[f]);
+		}
+		var name = $("#file_save input")[0].value || "(unnamed)";
+		if (!hasTraining) {
+			$("#file_save_feedback").html("No training file.").css('color', 'red');
+		} else {
+			localStorage.setItem(name , JSON.stringify(localFiles) );
+			$("#file_save_feedback").html("Files saved.").css('color', 'black');
+		}
+	}
+
+
+	var listLocalFiles = function() {
+
+		$("#local_list_status").html("loading your files...<br>&nbsp;");
+		$("#local_list").html("");
+		
+		var keys = Object.keys(localStorage);
+
+		for (var i=0; i<keys.length; i++) {
+
+			$('<div/>', {html: keys[i], class: "conf_title title_local"}).appendTo("#local_list");
+			var folder = JSON.parse( localStorage.getItem( keys[i] ) );
+			for (var j=0; j<folder.length; j++) {
+				if (folder[j].type==="configuration") {
+					var c = JSON.parse(folder[j].content);
+					if (c && c.description) {
+						$('<div/>', {class: "conf_description"}).html(c.description).appendTo("#local_list");
+					}
+				}
+			}
+		}
+
+		if (keys.length>0) {
+			$("#local_list_status").hide();
+		} else {
+			$("#local_list_status").html("No local files found.");
+		}
+
+
+
+	}
 
 
     return {
@@ -329,7 +394,10 @@ var GUI = (function($, undefined){
         runSimulation: runSimulation,
         initialize: initialize,
         showFile: showFile,
-        localFiles:localFiles
+        localFiles:localFiles,
+        fileToId: fileToId,
+        saveSimulation: saveSimulation,
+        listLocalFiles: listLocalFiles
     };
 
 })(jQuery);
@@ -354,8 +422,13 @@ $(document).ready(function(){
     });
 
 
+	$("#tab2title").click( function() {
+		GUI.listLocalFiles();
+	});
+
 	Dropzone.autoDiscover = false;
 	var myDropzone = new Dropzone("#dropzone", { url: "javascript:void(0);"});
+	$("#file_save_link").click(function(){ GUI.saveSimulation(); });
 	myDropzone.on("addedfile", function(file) {
 
 		var reader = new FileReader();
@@ -366,35 +439,52 @@ $(document).ready(function(){
 		};
 		
 		var acceptedFile = function (filename, fileAsString) {
-			$(".dz-preview").hide()
-
-			var guessType = "unknown";
-			if (/train/.test(filename)) { guessType = "train" };
-			if (/test/.test(filename))  { guessType = "test" };
-			if (/con/.test(filename))   { guessType = "cons" };
-			if (/conf/.test(filename))  { guessType = "conf" }; // order matters here
-			if (/feat/.test(filename))  { guessType = "feat" };
-
-			$("<div/>").append(
-				$('<div/>',{text: filename, style:'min-width:12em; display: inline-block;'}),
-				$('<select/>',{id: "filetype" + GUI.localFiles.length}).append(
-					$('<option/>',{text: "training",      selected: guessType=="train"  }) ,
-					$('<option/>',{text: "testing",       selected: guessType=="test"   }) , 
-					$('<option/>',{text: "constraints",   selected: guessType=="cons"   }) ,
-					$('<option/>',{text: "configuration", selected: guessType=="conf"   }) , 
-					$('<option/>',{text: "features",      selected: guessType=="feat"   }) , 
-					$('<option/>',{text: "unknown",       selected: guessType=="unknown"})
+			$(".dz-preview").hide();
+			
+			$("#files").append(
+				$("<div/>").append(
+					$('<div/>',{text: filename, style:'min-width:12em; display: inline-block;'}),
+					$('<select/>',{id: GUI.fileToId("file_" + filename)}).append(
+						$('<option/>',{text: "training"      }) ,
+						$('<option/>',{text: "testing"       }) , 
+						$('<option/>',{text: "constraints"   }) ,
+						$('<option/>',{text: "configuration" }) , 
+						$('<option/>',{text: "features"      }) , 
+						$('<option/>',{text: "unknown",       selected: true})
+					).change(
+						function() {
+							
+							//console.log(this.id);
+							//console.log(this[this.selectedIndex].value);
+							for (var i=0; i<GUI.localFiles.length; i++) {
+								if (GUI.localFiles[i].name===this.id) {
+									GUI.localFiles[i].type = this[this.selectedIndex].value;
+								}
+							}
+							//GUI.localFiles[this.id].type = this[this.selectedIndex].value;
+							//console.log(GUI.localFiles[this.id]);
+						}
+					)
 				)
-			).appendTo("#files");
-			GUI.localFiles.push({name: filename, content: fileAsString, type: guessType});
+			);
+			var guessType = "unknown";
+			if (/train/.test(filename)) {guessType = "training"     ; $("#" + GUI.fileToId("file_" + filename))[0].selectedIndex = 0; };
+			if (/test/.test(filename))  {guessType = "testing"      ; $("#" + GUI.fileToId("file_" + filename))[0].selectedIndex = 1; };
+			if (/con/.test(filename))   {guessType = "constraints"  ; $("#" + GUI.fileToId("file_" + filename))[0].selectedIndex = 2; };
+			if (/conf/.test(filename))  {guessType = "configuration"; $("#" + GUI.fileToId("file_" + filename))[0].selectedIndex = 3; }; // order matters here
+			if (/feat/.test(filename))  {guessType = "features"     ; $("#" + GUI.fileToId("file_" + filename))[0].selectedIndex = 4; };
+			
+			GUI.localFiles.push(
+				{name: GUI.fileToId("file_" + filename), content: fileAsString, type: guessType}
+			);
 			guessName();
 			$("#file_save").show();
 		}
 		
 		var guessName = function() {
-			if(true) {
+			if (true) {
 				for (var i=0; i<GUI.localFiles.length; i++) {
-					if (GUI.localFiles[i].type==="conf") {
+					if (GUI.localFiles[i].type==="configuration") {
 						var c = JSON.parse(GUI.localFiles[i].content);
 						if (c && c.name) {
 							$("#file_save input")[0].value = c.name;

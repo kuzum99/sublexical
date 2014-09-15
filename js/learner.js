@@ -14,7 +14,7 @@ var Learner = (function($, undefined){
     var vowelFeature = 'syllabic';
     var sizeBiasPriorFunction = function(x){return 1;}; // one alternative: function(x){return x;}, for a meaningful prior
     var onscreen = true;
-	
+
 
     var log_destination = "console"; // where to send log messages
 
@@ -40,7 +40,7 @@ var Learner = (function($, undefined){
         var testDownloadButton = obj.testDownloadButton || "";
         var trainOutputFile = obj.trainOutputFile || "train.txt";
         var trainDownloadButton = obj.trainDownloadButton || "";
-        
+
         var trainingSize = obj.trainingSize || "all";
 
         _log("Loading training data: " + trainingDataFile);
@@ -101,29 +101,29 @@ var Learner = (function($, undefined){
 
 			var testOutputString = derivativesToString(testDerivatives);
 			var testOutputBlob = new Blob([testOutputString], { type: 'text/plain' });
-			var testOutputURL = URL.createObjectURL(testOutputBlob);			
+			var testOutputURL = URL.createObjectURL(testOutputBlob);
 
-			var trainOutputString = 'meow meow';
+			var trainOutputString = analyzedInputString(arr);
 			var trainOutputBlob = new Blob([trainOutputString], { type: 'text/plain' });
-			var trainOutputURL = URL.createObjectURL(trainOutputBlob);			
+			var trainOutputURL = URL.createObjectURL(trainOutputBlob);
 
 			testDownloadButton = trainDownloadButton || "downloadify";
 			$("#" + testDownloadButton).html([
 				$('<a/>', {
-					text: "Download testing item predictions", 
+					text: "Download testing item predictions",
 					download: testOutputFile,
-					href: testOutputURL 
+					href: testOutputURL
 				}),
 				$('<br/>'),
 				$('<a/>', {
-					text: "Download re-organized training data", 
+					text: "Download analyzed training data",
 					download: trainOutputFile,
-					href: trainOutputURL 
+					href: trainOutputURL
 				})
 			]);
-			
+
 		} else {
-			
+
         	console.log("\nNo sublexicons were constructed.");
             //return null;
         }
@@ -133,15 +133,15 @@ var Learner = (function($, undefined){
         var minutes = Math.round(timediff/60);
         if (minutes<1) {
         	if (timediff === 1) {
-		        _log("\nLearning completed in 1 second."); 
+		        _log("\nLearning completed in 1 second.");
         	} else {
-		        _log("\nLearning completed in " + timediff + " seconds."); 
+		        _log("\nLearning completed in " + timediff + " seconds.");
         	}
         } else {
         	if (minutes === 1) {
-		        _log("\nLearning completed in " + timediff + " seconds, i.e. ~1 minute."); 
+		        _log("\nLearning completed in " + timediff + " seconds, i.e. ~1 minute.");
         	} else {
-		        _log("\nLearning completed in " + timediff + " seconds, i.e. ~" + minutes + " minutes."); 
+		        _log("\nLearning completed in " + timediff + " seconds, i.e. ~" + minutes + " minutes.");
         	}
         }
         soundManager.play("dimdom");
@@ -174,7 +174,7 @@ var Learner = (function($, undefined){
 
 
         lexicon = lexicon.chooseRandom(trainingSize);
-    
+
 
         _log("Aligning training data word pairs...");
         var alignedPairs = alignPairs(lexicon);
@@ -317,7 +317,7 @@ var Learner = (function($, undefined){
 
     var cartesianProduct = function (list) {
         /* Generate the Cartesian product of all arrays in the input
-         * array.  Used for creating change objects due to the 
+         * array.  Used for creating change objects due to the
          * ambiguous nature of locality (from left or from right)
          * and change material (to [t] or to [-voice]). */
         var first = list[0];
@@ -394,7 +394,7 @@ var Learner = (function($, undefined){
         return false;
     };
 
-	
+
 	var findLastNucleus = function (base) {
 		for (var m=base.length-1;m>0;m--) {
 			if (base[m] !== undefined) {
@@ -403,7 +403,7 @@ var Learner = (function($, undefined){
 					if (FeatureManager.getSegment(segment)[vowelFeature] === '+') {
 						return m;
 					}
-				}	
+				}
 			}
 		}
 	return false;
@@ -433,7 +433,7 @@ var Learner = (function($, undefined){
             var pairHypotheses = [];
             for (var i=0;i<changesCartesianProduct.length;i++) {
                 var hypothesis = {changes: changesCartesianProduct[i],
-                                  contexts : [{form : flatBase, derivative: flatDerivative, 
+                                  contexts : [{form : flatBase, derivative: flatDerivative,
                                               probability : probability, toString: function(){return contextToString(this);}}],
                                   probabilitySum: probability,
                                   toString: function() {return hypothesisToString(this);},
@@ -447,7 +447,7 @@ var Learner = (function($, undefined){
                                              output: null,
                                              location: null,
                                              toString: function(){return 'No change'}}],
-                                  contexts : [{form : flatBase, derivative: flatDerivative, 
+                                  contexts : [{form : flatBase, derivative: flatDerivative,
                                               probability : probability, toString: function(){return contextToString(this);}}],
                                   probabilitySum: probability,
                                   toString: function() {return hypothesisToString(this);},
@@ -499,8 +499,8 @@ var Learner = (function($, undefined){
 
 
     var findDifferences = function (base, derivative) {
-        /* Given a base and a derivative from an aligned pair, find the 
-         * differences between them and encode those differences as a change 
+        /* Given a base and a derivative from an aligned pair, find the
+         * differences between them and encode those differences as a change
          * object.  Continuous sequences that have been inserted or deleted
          * are grouped together in a single change object.  Produces only
          * segmental, positive-indexed change objects. */
@@ -577,7 +577,7 @@ var Learner = (function($, undefined){
                     return 'Delete [' + linearizeWord(changeObj.input) + '] at ' + changeLocations;
                 } else {
                     var segmentWord = linearizeWord(changeObj.input).length > 1 ? 'segments' : 'segment';
-                    return ('Delete ' + ((linearizeWord(changeObj.input).length+1)/2) + ' ' + segmentWord + 
+                    return ('Delete ' + ((linearizeWord(changeObj.input).length+1)/2) + ' ' + segmentWord +
                             ' at ' + changeLocations);
                 }
             } else if (changeObj.type === 'mutate') {
@@ -634,14 +634,14 @@ var Learner = (function($, undefined){
         for (var i=0;i<deletions.length;i++) {
             if ((i>0) && (deletions[i].location === deletions[i-1].location + 2) &&
                     ($.inArray(deletions[i]-1, insertedLocations) === -1)) {
-                groupedDeletions[groupedDeletions.length-1].input = 
+                groupedDeletions[groupedDeletions.length-1].input =
                     groupedDeletions[groupedDeletions.length-1].input.concat(deletions[i].input);
             } else {
                 groupedDeletions.push(deletions[i]);
             }
         }
 
-        return groupedInsertions.concat(groupedDeletions, 
+        return groupedInsertions.concat(groupedDeletions,
                                             differences.subset('type', 'mutate'),
                                             differences.subset('type', 'metathesize'));
     };
@@ -760,7 +760,7 @@ var Learner = (function($, undefined){
 
     var sortThings = function (things, sortParameter, length) {
         /* Order hypotheses or other objects starting w/ those with the
-         * highest count or evidence (or any other sortParameter). 
+         * highest count or evidence (or any other sortParameter).
          * If length=true, then sorting is based on the length of
          * thing.sortParameter. */
         length = length || false;
@@ -791,7 +791,7 @@ var Learner = (function($, undefined){
 
     var removeSubsetHypotheses = function (hypotheses) {
         /* Condenses the list of hypotheses about the entire dataset into the
-         * minimum number required to account for all base-derivative pairs 
+         * minimum number required to account for all base-derivative pairs
          * that meet the requirement for productivity. */
         var derivationObjs = [];
 
@@ -803,14 +803,22 @@ var Learner = (function($, undefined){
 				if (sortedHypotheses[i] !== "purgeable") {
 					var contextsToAdd = []; // to copy from consumed to consumer (because consumer lacks them)
 					var consumabilityStatuses = []; // keep track of whether each context has a consumer
+                    // console.log('Small h:')
+                    // console.log(sortedHypotheses[i].hypothesis.changesToString());
 					for (var m=0;m<sortedHypotheses[i].hypothesis.contexts.length;m++) { // iterate over contexts of consumed
 						var consumedBase = sortedHypotheses[i].hypothesis.contexts[m].form;
 						var consumedDerivative = sortedHypotheses[i].hypothesis.contexts[m].derivative;
+                        // console.log('base and deriv:')
+                        // console.log(consumedBase)
+                        // console.log(consumedDerivative)
 						var hasConsumer = false;
 						for (var j=0;j<sortedHypotheses.length;j++) { // j = consumer, usually bigger
 							if ((sortedHypotheses[j] !== "purgeable") && (i !== j)) {
+                                // console.log('potential consumer:')
+                                // console.log(sortedHypotheses[j].hypothesis.changesToString());
 								var consumerDerivative = applyHypothesis(consumedBase, sortedHypotheses[j].hypothesis, false, changeOrientations)
 								if (consumerDerivative === consumedDerivative) {
+                                    // console.log('consuming')
 									var consumerContextStrings = $.map(sortedHypotheses[j].hypothesis.contexts, contextToString);
 									if ($.inArray(contextToString(sortedHypotheses[i].hypothesis.contexts[m]), consumerContextStrings) === -1) { // if this context isn't among the consumer's contexts, add it
 										contextsToAdd.push([sortedHypotheses[i].hypothesis.contexts[m], j])
@@ -829,7 +837,7 @@ var Learner = (function($, undefined){
 								sortedHypotheses[contextsToAdd[n][1]].hypothesis.contexts.push(contextsToAdd[n][0]); // element 0 is the context and element 1 is the index of the consumer that it is given to
 								sortedHypotheses[contextsToAdd[n][1]].derivatives.push(contextsToAdd[n][0]['derivative']);
 							}
-						}
+						} else {console.log('LACKING PROPER CONSUMERS')}
 				}
 			}
 
@@ -848,7 +856,7 @@ var Learner = (function($, undefined){
             for (var i=0;i<sortedHypotheses.length;i++) {
 	            probs = $.map(sortedHypotheses[i].hypothesis.contexts, function(c){return c['probability'];});
 		        var probSum = numeric.sum(probs);
-			
+
 		        for (var j=0;j<sortedHypotheses[i].hypothesis.contexts.length;j++){
 		            sortedHypotheses[i]['hypothesis']['contexts'][j]['probability'] = sortedHypotheses[i]['hypothesis']['contexts'][j]['probability'] / probSum;
 		        }
@@ -1167,6 +1175,36 @@ var Learner = (function($, undefined){
         }
     };
 
+    var analyzedInputString = function (hypotheses) {
+        /* Return a tab-spaced table (string) containing training bases,
+         * their derivatives, sublexicon assignments, and violation matrices. */
+        var lineEnd = "\r\n"; /// the added \r is nice for windows users
+        var outputString = "base\tderivative\tprobability\tsublexicon";
+        var gkConstraints = hypotheses[0]['gatekeeper']['constraints'];
+        var gpConstraints = hypotheses[0]['grammarProper']['constraints'];
+
+        for (var i=0;i<gkConstraints.length;i++) {
+            outputString += "\t" + gkConstraints[i]['name'];
+        }
+        for (var i=0;i<gpConstraints.length;i++) {
+            outputString += "\t" + gpConstraints[i]['name'];
+        }
+
+        for (var j=0;j<hypotheses.length;j++) {
+            for (var k=0;k<hypotheses[j]['contexts'].length;k++) {
+                if (hypotheses[j]['contexts'][k]['probability'] > 0) {
+                    outputString += lineEnd + hypotheses[j]['contexts'][k]['form'] + '\t'
+                    outputString += hypotheses[j]['contexts'][k]['derivative'] + '\t'
+                    outputString += hypotheses[j]['contexts'][k]['probability'] + '\t'
+                    outputString += hypotheses[j].changesToString() + '\t'
+                    outputString += hypotheses[j]['gatekeeper']['forms'][k]['violationVector'].join("\t") + '\t'
+                    outputString += hypotheses[j]['grammarProper']['forms'][k]['violationVector'].join("\t")
+                }
+            }
+        }
+
+        return outputString;
+    };
 
 
     var addNulls = function (word) {
@@ -1185,10 +1223,10 @@ var Learner = (function($, undefined){
 
     var relevantHypothesis = function(hypothesis, word, changeOrientations) {
         /* Determine whether the word meets the conditions stated in the
-         * given hypothesis; return boolean. */ 
+         * given hypothesis; return boolean. */
 
         var checkChange = function(change, word, changeOrientations) {
-            /* Determine whether the material in the given word at the 
+            /* Determine whether the material in the given word at the
              * position specified in the given change is the same as
              * the input material in the given change. */
 
@@ -1198,6 +1236,10 @@ var Learner = (function($, undefined){
 
             var nulledWord = addNulls(word);
             var positiveLocation = indexToPositive(nulledWord, change.location);
+
+            if (positiveLocation >= nulledWord.length) {
+                return false;
+            }
 
             if (change.type === 'delete' || change.type === 'mutate') {
                 if ($.isArray(change.input)) {
@@ -1211,7 +1253,7 @@ var Learner = (function($, undefined){
                 }
             } else if (change.type === 'metathesize') {
                 nulledWord = addNulls(word);
-                return (nulledWord[positiveLocation] === change.input[0] && 
+                return (nulledWord[positiveLocation] === change.input[0] &&
                         nulledWord[positiveLocation + 2] === change.input[1]);
             }
         };
@@ -1220,7 +1262,7 @@ var Learner = (function($, undefined){
             /* Determine whether all feature values in featureBundle are
              * equal to those of the given segment. */
             var sFeatures = FeatureManager.getSegment(segment);
-            var featureBooleans = []
+            var featureBooleans = [];
             for (feature in featureBundle) {
                 featureBooleans.push(sFeatures[feature] === featureBundle[feature]);
             }
@@ -1302,9 +1344,9 @@ var Learner = (function($, undefined){
 
 
         var changeFeatures = function(segment, featureBundle) {
-            /* Return a segment which has all the feature specifications given in 
+            /* Return a segment which has all the feature specifications given in
              * the feature bundle, with all missing features filled in by those
-             * associated with the given segment. */ 
+             * associated with the given segment. */
             var outFeatures = $.extend(true, {}, FeatureManager.getSegment(segment));
             for (feature in featureBundle) {
                 outFeatures[feature] = featureBundle[feature];

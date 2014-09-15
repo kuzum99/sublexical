@@ -251,6 +251,25 @@ body, input, select, button {
 	padding-right: 3%;
 }
 
+
+#local_list {
+	position: absolute; 
+	width: 38%; 
+	border-right: 1px solid; 
+	padding-right: 3%;
+	padding-bottom: 8ex;
+}
+#local_list:after {
+	display:block;
+	clear:both;
+	content:'';
+}
+.title_local:after {
+	float:right;
+	content:"✗";
+}
+
+
 #dropzone-container {
 
 	display: table; 

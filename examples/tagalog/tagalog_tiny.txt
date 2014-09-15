@@ -1,6 +1,22 @@
 b l o n i e	b i n l o n i e
+p l o n i e	p i n l o n i e
 b l e s s	b i n l e s s
+p l e s s	p i n l e s s
 b l o w	b i n l o w
+p l o w	p i n l o w
 
+b l a n i e	b i n l a n i e
+p l a n i e	p i n l a n i e
 b l o r p	b l i n o r p
+p l o r p	p l i n o r p
 b l a g	b l i n a g
+p l a g	p l i n a g
+g l a n i e	g i n l a n i e
+k l a n i e	k i n l a n i e
+g l o r p	g l i n o r p
+k l o r p	k l i n o r p
+g l a g	g l i n a g
+k l a g	k l i n a g
+
+l a l a	i n l a l a
+l o l a	i n l o l a
