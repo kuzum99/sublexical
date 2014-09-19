@@ -23,6 +23,7 @@
     "grammar": {
     },
     "maxent": {
+        "noPositiveWeights": true
     },
     "name": "product-oriented",
     "description": "French" 

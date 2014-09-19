@@ -23,6 +23,7 @@
     "grammar": {
     },
     "maxent": {
+        "noPositiveWeights": true
     },
     "name": "source oriented",
     "description": "French" 

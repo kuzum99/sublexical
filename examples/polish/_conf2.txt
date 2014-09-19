@@ -1,0 +1,31 @@
+{
+    "files": {
+        "features": "features.txt",
+        "constraints": "constraints_polish.txt",
+        "training": "polish_to-singulars.txt",
+        "testing": "polish_wugs_to-singulars.txt",
+        "output": "output.txt"
+    },
+    "learner": {
+        "mutationType": "segmental",
+        "useGrammarsProper": false,
+        "changeOrientations": {
+            "delete": "source", 
+            "mutate": "source", 
+            "metathesize": "source"
+        },
+        "minProductiveSize": 1,
+        "trainingSize": "all"
+    },
+    "aligner": {
+        "features": true
+    },
+    "grammar": {
+        "useGaussianPriors": false
+    },
+    "maxent": {
+        "noPositiveWeights": true
+    },
+    "name": "plural-to-singular",
+    "description": "Polish singular~plural noun alternations (opaque in UR-based accounts). Plurals are treated as bases.<br>Data from Pulleyblank (p.c.). " 
+}

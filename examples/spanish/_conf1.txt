@@ -24,6 +24,7 @@
         "useGaussianPriors": false
     },
     "maxent": {
+        "noPositiveWeights": true
     },
     "name": "realistic",
     "description": "Spanish vowel~diphthong alternations in verbs.<br>Data from Albright, Andrade & Hayes (2001). " 

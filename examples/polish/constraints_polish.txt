@@ -4,7 +4,7 @@ u [-syllabic] [+syllabic]$
 o [-syllabic] [+syllabic]$
 t$
 t [+syllabic]$
-d [+syllabic]$
+d$
 d [+syllabic]$
 n$
 n [+syllabic]$

@@ -292,7 +292,8 @@ var GUI = (function($, undefined){
 					delete: conf.learner.changeOrientations.delete, 
 					mutate: conf.learner.changeOrientations.mutate, 
 					metathesize: conf.learner.changeOrientations.metathesize
-				}
+				},
+				useGrammarsProper: conf.learner.useGrammarsProper
 			});
 			
 			if (status===0) {
@@ -362,9 +363,16 @@ var GUI = (function($, undefined){
 		$("#local_list").html("");
 		
 		var keys = Object.keys(localStorage);
+		var current_title = [];
 
 		for (var i=0; i<keys.length; i++) {
 
+			current_title[i] = function(){var x = keys[i]; return x;}(); //doing the thing
+			
+			$('<div/>', {class: "conf_title title_local_delete", html:"✗"}).click( function() {
+				localStorage.removeItem(current_title[i]);
+				listLocalFiles();
+			}).appendTo("#local_list");
 			$('<div/>', {html: keys[i], class: "conf_title title_local"}).appendTo("#local_list");
 			var folder = JSON.parse( localStorage.getItem( keys[i] ) );
 			for (var j=0; j<folder.length; j++) {

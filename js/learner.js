@@ -1244,30 +1244,50 @@ var Learner = (function($, undefined){
          * their derivatives, sublexicon assignments, and violation matrices. */
         var lineEnd = "\r\n"; /// the added \r is nice for windows users
         var outputString = "base\tderivative\tprobability\tsublexicon";
-        var gkConstraints = hypotheses[0]['gatekeeper']['constraints'];
-        var gpConstraints = hypotheses[0]['grammarProper']['constraints'];
+        if (useGrammarsProper) {
+            var gkConstraints = hypotheses[0]['gatekeeper']['constraints'];
+            var gpConstraints = hypotheses[0]['grammarProper']['constraints'];
 
-        for (var i=0;i<gkConstraints.length;i++) {
-            outputString += "\t" + gkConstraints[i]['name'];
-        }
-        for (var i=0;i<gpConstraints.length;i++) {
-            outputString += "\t" + gpConstraints[i]['name'];
-        }
+            for (var i=0;i<gkConstraints.length;i++) {
+                outputString += "\t" + gkConstraints[i]['name'];
+            }
+            for (var i=0;i<gpConstraints.length;i++) {
+                outputString += "\t" + gpConstraints[i]['name'];
+            }
 
-        for (var j=0;j<hypotheses.length;j++) {
-            for (var k=0;k<hypotheses[j]['contexts'].length;k++) {
-                if (hypotheses[j]['contexts'][k]['probability'] > 0) {
-                    outputString += lineEnd + hypotheses[j]['contexts'][k]['form'] + '\t'
-                    outputString += hypotheses[j]['contexts'][k]['derivative'] + '\t'
-                    outputString += hypotheses[j]['contexts'][k]['probability'] + '\t'
-                    outputString += hypotheses[j].changesToString() + '\t'
-                    outputString += hypotheses[j]['gatekeeper']['forms'][k]['violationVector'].join("\t") + '\t'
-                    outputString += hypotheses[j]['grammarProper']['forms'][k]['violationVector'].join("\t")
+            for (var j=0;j<hypotheses.length;j++) {
+                for (var k=0;k<hypotheses[j]['contexts'].length;k++) {
+                    if (hypotheses[j]['contexts'][k]['probability'] > 0) {
+                        outputString += lineEnd + hypotheses[j]['contexts'][k]['form'] + '\t'
+                        outputString += hypotheses[j]['contexts'][k]['derivative'] + '\t'
+                        outputString += hypotheses[j]['contexts'][k]['probability'] + '\t'
+                        outputString += hypotheses[j].changesToString() + '\t'
+                        outputString += hypotheses[j]['gatekeeper']['forms'][k]['violationVector'].join("\t") + '\t'
+                        outputString += hypotheses[j]['grammarProper']['forms'][k]['violationVector'].join("\t")
+                    }
+                }
+            }
+
+            return outputString;
+        } else { // useGrammarsProper == false
+            var gkConstraints = hypotheses[0]['gatekeeper']['constraints'];
+
+            for (var i=0;i<gkConstraints.length;i++) {
+                outputString += "\t" + gkConstraints[i]['name'];
+            }
+
+            for (var j=0;j<hypotheses.length;j++) {
+                for (var k=0;k<hypotheses[j]['contexts'].length;k++) {
+                    if (hypotheses[j]['contexts'][k]['probability'] > 0) {
+                        outputString += lineEnd + hypotheses[j]['contexts'][k]['form'] + '\t'
+                        outputString += hypotheses[j]['contexts'][k]['derivative'] + '\t'
+                        outputString += hypotheses[j]['contexts'][k]['probability'] + '\t'
+                        outputString += hypotheses[j].changesToString() + '\t'
+                        outputString += hypotheses[j]['gatekeeper']['forms'][k]['violationVector'].join("\t")
+                    }
                 }
             }
         }
-
-        return outputString;
     };
 
 

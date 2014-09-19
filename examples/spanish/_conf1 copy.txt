@@ -24,6 +24,7 @@
         "useGaussianPriors": false
     },
     "maxent": {
+        "noPositiveWeights": true
     },
     "name": "tiny",
     "description": "all data, just four constraints" 

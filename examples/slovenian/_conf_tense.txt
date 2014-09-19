@@ -24,6 +24,7 @@
         "useGaussianPriors": false
     },
     "maxent": {
+        "noPositiveWeights": true
     },
     "name": "variable paradigms as tense",
     "description": "Slovenian stress shift and laxness alternations, with items that allow either a tense or lax vowel in the genitive as tense (to increase the number of alternators).<br>Data from Becker & Jurgec (in prep). " 

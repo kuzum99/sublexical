@@ -264,9 +264,8 @@ body, input, select, button {
 	clear:both;
 	content:'';
 }
-.title_local:after {
+.title_local_delete {
 	float:right;
-	content:"✗";
 }
 
 
