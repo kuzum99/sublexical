@@ -58,15 +58,15 @@
 <div class="tabs">
 
     <ul class="tab-links">
-        <li class="active"><a href="#tab3">New</a></li>
+        <li><a href="#tab3">New</a></li>
         <li id="tab2title"><a href="#tab2">My files</a></li>
-        <li><a href="#tab1">Examples</a></li>
+        <li class="active"><a href="#tab1">Examples</a></li>
         <li><a href="#tab4">About</a></li>
         <li><a href="#tab5">Help</a></li>
     </ul>
  
     <div class="tab-content">
-        <div id="tab1" class="tab">
+        <div id="tab1" class="tab active">
 			
 			<!-- server files -->
 			<div id="Remote">
@@ -114,7 +114,10 @@
 
         </div>
  
-        <div id="tab3" class="tab active">
+        <div id="tab3" class="tab">
+        
+        	(coming soon)<br><br>
+        
             Start a new simulation<br><br>
 
             

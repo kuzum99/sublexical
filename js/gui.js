@@ -21,7 +21,8 @@ var GUI = (function($, undefined){
     	logs = [];
     }
 
-	var localFiles = [];
+	var localFiles = []; // the files in the current upload batch
+	var localConfigurations = []; // the simulations in local storage
 
 	var configurations = [];
 	var dirname;
@@ -157,6 +158,76 @@ var GUI = (function($, undefined){
 	}
 */
 
+	var loadLocalSimulation = function(simulationIndex) {
+
+		var key = Object.keys(localStorage)[simulationIndex];
+		var files = JSON.parse(localStorage.getItem(key))
+		var conf = {};
+		for (var i=0; i<files.length; i++){
+			if(files[i].type && files[i].type==="configuration") {
+				conf = JSON.parse(files[i].content);
+			}
+		}
+		console.log(conf);
+		for (var i=0; i<files.length; i++){
+			if(files[i].type && files[i].type==="constraints") {
+				conf.files.constraints = JSON.parse(files[i].content);
+			}
+			if(files[i].type && files[i].type==="training") {
+				conf.files.training = JSON.parse(files[i].content);
+			}
+			if(files[i].type && files[i].type==="testing") {
+				conf.files.testing = JSON.parse(files[i].content);
+			}
+		}
+		
+		
+		$("#local_downloadify").hide();
+		$("#local_simulationtitle").html(
+			key + "<br><br>"
+		);
+		$("#local_status").html(
+			$('<a/>', {
+				text: "Learn", 
+				href: "javascript:void(" +  Math.random(1) + ");" , 
+				onclick: "GUI.runSimulation(" + (simulationIndex) + ",'local')"
+			})
+		);
+
+		$("#local_status").show();
+		
+		var featureFileText;
+		if (conf.files.features) {
+			featureFileText = "<span class='hand' onClick='GUI.showFile(\"" + conf.dirname + conf.files.features + "\")'>" + conf.files.features + "</span>";
+		} else {
+			featureFileText = "<span class='hand' onClick='GUI.showFile(\"" + Aligner.defaultFeatureFile + "\")'>" + "(default)" + "</span>";
+		}
+		
+
+		$("#local_params").html("");
+		$("#local_params").append(
+			"<br>Files:" +
+			"<ul>" + 
+			"<li><span style='min-width:6em; display: inline-block;'>Training:</span> " + "<span class='hand' onClick='GUI.showFile(\"" + conf.files.training +"\")'>" + conf.files.training + "</span>" +
+			"<li><span style='min-width:6em; display: inline-block;'>Testing:</span> " + "<span class='hand' onClick='GUI.showFile(\"" + conf.files.testing +"\")'>" + conf.files.testing + "</span>" +
+			"<li><span style='min-width:6em; display: inline-block;'>Constraints:</span> " + "<span class='hand' onClick='GUI.showFile(\"" + conf.files.constraints +"\")'>" + conf.files.constraints + "</span>" +
+			"<li><span style='min-width:6em; display: inline-block;'>Features:</span> " + featureFileText + 
+			"</ul>" + 
+			"Learning parameters:" +
+			"<ul>" +
+			"<li><span style='min-width:12em; display: inline-block;'>Learning data size:</span> " +   conf.learner.howMuchTraining + 
+			"<li><span style='min-width:12em; display: inline-block;'>Minimal sublexicon size:</span> " + conf.learner.minProductiveSize +
+			"<li><span style='min-width:12em; display: inline-block;'>Mutation type:</span> " + conf.learner.mutationType +
+			"<li><span style='min-width:12em; display: inline-block;'>Mutation orientation:</span> " +  conf.learner.changeOrientations.mutate + 
+			"<li><span style='min-width:12em; display: inline-block;'>Deletion orientation:</span> " + conf.learner.changeOrientations["delete"] + 
+			"<li><span style='min-width:12em; display: inline-block;'>Metathesis orientation:</span> " + conf.learner.changeOrientations.metathesize +
+			"</ul>"  
+		);
+		
+		$("body").animate({scrollTop:0}, 'slow');
+
+
+	}
 
 	var loadSimulation = function (simulationIndex) {
 	
@@ -213,7 +284,7 @@ var GUI = (function($, undefined){
 		window.open(file, '_blank');
 	}
 	
-	var runSimulation = function (simulationIndex) {
+	var runSimulation = function (simulationIndex, local) {
 
 		//console.log(configurations[simulationIndex]);
 
@@ -247,7 +318,7 @@ var GUI = (function($, undefined){
 			Aligner.initialize({
 				onscreen: false,
 				FeatureManager: FeatureManager,
-				featureFile: (conf.files.features) ? conf.dirname + conf.files.features : conf.files.features,
+				featureFile:  (conf.files.features) ? conf.dirname + conf.files.features : conf.files.features,
 				features: conf.dirname + conf.aligner.features,
 				insert_delete: 1.5,
 				substitution: 2,
@@ -259,7 +330,7 @@ var GUI = (function($, undefined){
 			outputLog();
 		}).then( function() {
 			Grammar.initialize({
-				constraintFile: conf.dirname + conf.files.constraints,
+				constraintFile: (local) ? conf.files.constraints :  conf.dirname + conf.files.constraints,
 		        useGaussianPriors: conf.grammar.useGaussianPriors,
 				defaultSigma: conf.grammar.defaultSigma
 			});
@@ -280,8 +351,8 @@ var GUI = (function($, undefined){
 			//updateStatus("Initializing learner...");
 		}).then( function() {
 			var status = Learner.initialize({
-				trainingData: conf.dirname + conf.files.training,
-				testingData: conf.dirname + conf.files.testing,
+				trainingData: (local) ? conf.files.training : conf.dirname + conf.files.training,
+				testingData: (local) ? conf.files.testing : conf.dirname + conf.files.testing,
 				outputFile: conf.files.output,
 				downloadButton: "downloadify",
 				aligner: Aligner,
@@ -363,23 +434,22 @@ var GUI = (function($, undefined){
 		$("#local_list").html("");
 		
 		var keys = Object.keys(localStorage);
-		var current_title = [];
 
 		for (var i=0; i<keys.length; i++) {
-
-			current_title[i] = function(){var x = keys[i]; return x;}(); //doing the thing
 			
-			$('<div/>', {class: "conf_title title_local_delete", html:"✗"}).click( function() {
-				localStorage.removeItem(current_title[i]);
+			$('<div/>', {class: "conf_title title_local_delete", html:"✗", "data-name":keys[i]}).click( function() {
+				console.log(this.dataset.name);
+				localStorage.removeItem(this.dataset.name);
 				listLocalFiles();
 			}).appendTo("#local_list");
-			$('<div/>', {html: keys[i], class: "conf_title title_local"}).appendTo("#local_list");
+			$('<div/>', {html: keys[i], class: "conf_title title_local", onclick: "GUI.loadLocalSimulation(" + i + ")"}).appendTo("#local_list");
+
 			var folder = JSON.parse( localStorage.getItem( keys[i] ) );
 			for (var j=0; j<folder.length; j++) {
 				if (folder[j].type==="configuration") {
 					var c = JSON.parse(folder[j].content);
 					if (c && c.description) {
-						$('<div/>', {class: "conf_description"}).html(c.description).appendTo("#local_list");
+						$('<div/>', {class: "conf_description", onclick: "GUI.loadLocalSimulation(" + i + ")"}).html(c.description).appendTo("#local_list");
 					}
 				}
 			}
@@ -399,6 +469,7 @@ var GUI = (function($, undefined){
     return {
         log: log,
         loadSimulation: loadSimulation,
+        loadLocalSimulation: loadLocalSimulation,
         runSimulation: runSimulation,
         initialize: initialize,
         showFile: showFile,

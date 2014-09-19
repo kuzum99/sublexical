@@ -138,13 +138,13 @@ body, input, select, button {
 	text-decoration: underline;
 }
 
-#params ul {
+#params ul, #local_params ul {
 	line-height: 150%;
 	padding-top: 2ex;
 	padding-bottom: 2ex;
 }
 
-#status, #downloadify {
+#status, #downloadify, #local_status, #local_downloadify {
 	font-size: 13pt; 
 	font-weight: 900;
 }
@@ -242,7 +242,7 @@ body, input, select, button {
 	clear:both;
 	content:'';
 }
-#current {
+#current , #local_current{
 	position: absolute; 
 	width: 39%; 
 	left: 44%; 
