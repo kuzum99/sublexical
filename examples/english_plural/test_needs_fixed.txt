@@ -1,3 +1,10 @@
+B L IH1 K
+W AH1 G
+G AH1 CH
+N AE1 Z
+T OW1 R
+L AH1 N
+H IY1 F
 B AH W AE L F	f	iamb	æ	2	l	B AH0 W AE L F	B AH0 W AE1 L F	4.88
 B AH N F	f	mono	ʌ	1	n	B AH1 N F	B AH1 N F	4.48
 B EY F	f	mono	eɪ	2	0	B EY F	B EY1 F	5.68

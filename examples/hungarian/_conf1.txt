@@ -13,21 +13,7 @@
             "delete": "source", 
             "mutate": "source", 
             "metathesize": "source"
-        },
-        "minProductiveSize": 1,
-        "howMuchTraining": "all"
-    },
-    "aligner": {
-        "features": true
-    },
-    "grammar": {
-        "useGaussianPriors": false
-    },
-    "maxent": {
-        "iterationCount": 5000,
-        "learningRate": 1,
-        "noPositiveWeights": true,
-        "initialWeight": 0
+        }
     },
     "name": "Hungarian",
     "description": "Selection of genitive nek/nak. <br> Data from Hayes, Zuraw, Sipt&aacute;r & Londe (2009)." 

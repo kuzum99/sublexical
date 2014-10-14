@@ -7,27 +7,10 @@
         "output": "output_russian_tiny.txt"
     },
     "learner": {
-        "mutationType": "featural",
-        "useGrammarsProper": true,
-        "changeOrientations": {
-            "delete": "product", 
-            "mutate": "product", 
-            "metathesize": "product"
-        },
-        "minProductiveSize": 1,
-        "howMuchTraining": "all"
-    },
-    "aligner": {
-        "features": true
-    },
-    "grammar": {
-        "useGaussianPriors": false
+        "vowelFeature": "syll"
     },
     "maxent": {
-        "iterationCount": 10000,
-        "learningRate": 1,
-        "noPositiveWeights": true,
-        "initialWeight": 0
+        "iterationCount": 10000
     },
     "name": "tiny",
     "description": "Only 12 paradigms.<br> Data from Becker & Gouskova (2014)." 

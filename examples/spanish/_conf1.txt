@@ -6,26 +6,6 @@
         "testing": "spanish_test.txt",
         "output": "output.txt"
     },
-    "learner": {
-        "mutationType": "featural",
-        "useGrammarsProper": true,
-        "changeOrientations": {
-            "delete": "product", 
-            "mutate": "product", 
-            "metathesize": "product"
-        },
-        "minProductiveSize": 1,
-        "trainingSize": "all"
-    },
-    "aligner": {
-        "features": true
-    },
-    "grammar": {
-        "useGaussianPriors": false
-    },
-    "maxent": {
-        "noPositiveWeights": true
-    },
     "name": "realistic",
     "description": "Spanish vowel~diphthong alternations in verbs.<br>Data from Albright, Andrade & Hayes (2001). " 
 }

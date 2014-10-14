@@ -1,13 +1,13 @@
 p A k
 p a t A k
 p A t a k
-p A t a r a k
-p a t A r a k
-p a t a r A k
-s A p a t a r a k
-s a p A t a r a k
-s a p a t A r a k
-s a p a t a r A k
+p A t a ʁ a k
+p a t A ʁ a k
+p a t a ʁ A k
+s A p a t a ʁ a k
+s a p A t a ʁ a k
+s a p a t A ʁ a k
+s a p a t a ʁ A k
 
 m A k
 m E k
@@ -26,8 +26,8 @@ z A t
 z A s
 
 p A k
-p r A k
-s p r A k
-s p t r A k
-p A r k
-p a t A r k
+p ʁ A k
+s p ʁ A k
+s p t ʁ A k
+p A ʁ k
+p a t A ʁ k

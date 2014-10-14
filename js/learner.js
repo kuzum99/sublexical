@@ -13,6 +13,8 @@ var Learner = (function($, undefined){
     var disableLastNucleusHypotheses = false;
     var vowelFeature = 'syllabic';
     var sizeBiasPriorFunction = function(x){return 1;}; // one alternative: function(x){return x;}, for a meaningful prior
+    var preReductionProductivityThreshold = 0;
+    var verboseReduction = false;
     var onscreen = true;
 
 
@@ -27,8 +29,7 @@ var Learner = (function($, undefined){
 
         var obj = obj || {};
 
-		var startTime = new Date();
-        _log("Initializing Learner... starting at " + startTime);
+        _log("Initializing Learner.");
 
         aligner = obj.aligner;
 
@@ -37,29 +38,49 @@ var Learner = (function($, undefined){
         var testingDataFile = obj.testingData || "";
 
         var testOutputFile = obj.testOutputFile || "test.txt";
-        var testDownloadButton = obj.testDownloadButton || "";
         var trainOutputFile = obj.trainOutputFile || "train.txt";
-        var trainDownloadButton = obj.trainDownloadButton || "";
+        var downloadButton = obj.downloadButton || "#downloadify";
 
         var trainingSize = obj.trainingSize || "all";
 
-        _log("Loading training data: " + trainingDataFile);
-        FileManager.loadText(trainingDataFile);
-        if (FileManager.status()) {
-            trainingData = FileManager.get();
-        }
-        _log("Training data loaded.");
 
-        _log("Loading testing data: " + testingDataFile);
-        FileManager.loadText(testingDataFile);
-        if (FileManager.status()) {
-            rawTestingData = FileManager.get();
-            testingData = $.map(rawTestingData, function(d){return d[0]})
-        }
-        _log("Testing data loaded.");
+		if (typeof trainingDataFile === "string") {
+			_log("Loading training data: " + trainingDataFile);
+			FileManager.loadText(trainingDataFile);
+			if (FileManager.status()) {
+				trainingData = FileManager.get();
+			}
+			_log("Training data loaded.");
 
-        minProductiveSize = obj.minProductiveSize || 0
+		} else {
+			_log("Loading training data: " + trainingDataFile.name);
+			trainingData = trainingDataFile.content
+			_log("Training data loaded.");
+		}
+
+
+		if (typeof testingDataFile === "string") {
+			_log("Loading testing data: " + testingDataFile);
+			FileManager.loadText(testingDataFile);
+			if (FileManager.status()) {
+				rawTestingData = FileManager.get();
+				testingData = $.map(rawTestingData, function(d){return d[0]})
+			}
+			_log("Testing data loaded.");
+		} else {
+			_log("Loading testing data: " + testingDataFile.name);
+			testingData = testingDataFile.content;
+			_log("Testing data loaded.");
+		}
+
+
+
+        minProductiveSize = obj.minProductiveSize || 0;
         _log("Minimum number of relevant data points for a pattern to be considered productive: " + minProductiveSize);
+        preReductionProductivityThreshold = obj.preReductionProductivityThreshold || 0;
+        if (preReductionProductivityThreshold > 0) {
+            _log("A pre-reduction productivity threshold of " + preReductionProductivityThreshold + " has also been set. Warning: this may result in undesirable sublexicon membership.");
+        }
 
         if ("mutationType" in obj) {
             mutationType = obj.mutationType;
@@ -77,10 +98,13 @@ var Learner = (function($, undefined){
 
         vowelFeature = obj.vowelFeature || 'syllabic';
         disableLastNucleusHypotheses = obj.disableLastNucleusHypotheses || false;
-		_log("Whether or not to enable 'last nucleus' hypotheses is set to: " + disableLastNucleusHypotheses);
+		_log("Whether or not 'last nucleus' hypotheses are disabled: " + disableLastNucleusHypotheses);
 
         sizeBiasPriorFunction = obj.sizeBiasPriorFunction || function(x){return 1;}; // one alternative: function(x){return 1;}
 		_log("The function responsible for implementing the sublexicon size bias (prior) is set to: " + sizeBiasPriorFunction);
+
+        verboseReduction = obj.verboseReduction || false;
+        _log("Verbose reduction: " + verboseReduction);
 
         initialized = true;
         _log("Learner initialized.");
@@ -107,8 +131,7 @@ var Learner = (function($, undefined){
 			var trainOutputBlob = new Blob([trainOutputString], { type: 'text/plain' });
 			var trainOutputURL = URL.createObjectURL(trainOutputBlob);
 
-			testDownloadButton = trainDownloadButton || "downloadify";
-			$("#" + testDownloadButton).html([
+			$(downloadButton).html([
 				$('<a/>', {
 					text: "Download testing item predictions",
 					download: testOutputFile,
@@ -128,24 +151,6 @@ var Learner = (function($, undefined){
             //return null;
         }
 
-        var endTime = new Date();
-        var timediff = parseInt((endTime - startTime)/1000);
-        var minutes = Math.round(timediff/60);
-        if (minutes<1) {
-        	if (timediff === 1) {
-		        _log("\nLearning completed in 1 second.");
-        	} else {
-		        _log("\nLearning completed in " + timediff + " seconds.");
-        	}
-        } else {
-        	if (minutes === 1) {
-		        _log("\nLearning completed in " + timediff + " seconds, i.e. ~1 minute.");
-        	} else {
-		        _log("\nLearning completed in " + timediff + " seconds, i.e. ~" + minutes + " minutes.");
-        	}
-        }
-        soundManager.play("dimdom");
-        document.title = "(done) " + document.title;
 
         return arr.length;
     };
@@ -189,45 +194,53 @@ var Learner = (function($, undefined){
         }
         _log("Hypotheses constructed.")
 
-        // Extract an array of all productive base-derivative pairs
-        var productivePairs = [];
+        // Extract an array of all base-derivative pairs
+        var paradigms = [];
         for (var i=0;i<hypotheses.length;i++) {
 			for (var j=0;j<hypotheses[i].contexts.length;j++) {
-				productivePairs.push(hypotheses[i].contexts[j].form + ' / ' + hypotheses[i].contexts[j].derivative);
+				paradigms.push(hypotheses[i].contexts[j].form + ' / ' + hypotheses[i].contexts[j].derivative + ' / ' + hypotheses[i].contexts[j].probability);
 			}
         }
-        productivePairs = _.uniq(productivePairs);
+        paradigms = _.uniq(paradigms);
 
         _log("Consolidating hypotheses...");
         hypotheses = consolidateHypotheses(hypotheses);
 
-       	// // Remove any consolidated hypotheses with a number of contexts fewer than minProductiveSize -- experimental!
-       	// hypotheses = hypotheses.filter( function(h) {
-       	// 	return h.contexts.length >= minProductiveSize;
-        // });
-        // console.log(hypotheses);
+        if (preReductionProductivityThreshold > 0) {
+            var productiveHypotheses = [];
+            for (var i=0;i<hypotheses.length;i++) {
+                if (hypotheses[i].contexts.length >= preReductionProductivityThreshold) {
+                    productiveHypotheses.push(hypotheses[i]);
+                }
+            }
+            hypotheses = productiveHypotheses;
+        }
 
         _log("... and removing subset hypotheses...");
-        hypotheses = removeSubsetHypotheses(hypotheses, productivePairs);
+        hypotheses = reduceHypotheses(hypotheses, paradigms);
         if (hypotheses.length === 0) {
             _log("No hypotheses met the minimum word requirement for productivity.");
             return [];
         }
         _log("Hypotheses consolidated.");
 
-        // Ensure that all of productivePairs made it into the consolidated hypotheses
+        // Ensure that all of paradigms made it into the consolidated hypotheses
         var survivingPairs = []
         for (var i=0;i<hypotheses.length;i++) {
 			for (var j=0;j<hypotheses[i].hypothesis.contexts.length;j++) {
-				survivingPairs.push(hypotheses[i].hypothesis.contexts[j].form + ' / ' + hypotheses[i].hypothesis.contexts[j].derivative);
+				survivingPairs.push(hypotheses[i].hypothesis.contexts[j].form + ' / ' + hypotheses[i].hypothesis.contexts[j].derivative + ' / ' + hypotheses[i].hypothesis.contexts[j].probability);
 			}
         }
         survivingPairs = _.uniq(survivingPairs);
 
-        if (_.difference(productivePairs, survivingPairs).length > 0) {
-        	_log('WARNING! Some base-derivative pairs that should have been included in the distilled hypotheses have been lost, specifically:')
-        	_log(_.difference(productivePairs, survivingPairs))
-        	throw new Error('Exiting script.');
+        if (_.difference(paradigms, survivingPairs).length > 0) {
+        	_log('WARNING! Some base-derivative pairs that should have been included in the distilled hypotheses have been lost, specifically:');
+        	_log(_.difference(paradigms, survivingPairs));
+            if (preReductionProductivityThreshold > 0) {
+                _log("Because you implemented a pre-reduction threshold, the learner will continue to run (under the assumption that you are intentionally exclusing some paradigms).");
+            } else {
+            	throw new Error('Exiting script.');
+            }
 
         }
 
@@ -240,6 +253,15 @@ var Learner = (function($, undefined){
         }
         hypotheses = productiveSublexicons;
         _log("Total number of productive sublexicons: " + hypotheses.length);
+
+        // Add relative sublexicon sizes
+        var probabilityTotal = 0;
+        for (var i=0;i<hypotheses.length;i++) {
+            probabilityTotal += hypotheses[i].probabilitySum;
+        }
+        for (var i=0;i<hypotheses.length;i++) {
+            hypotheses[i].relativeSize = hypotheses[i].probabilitySum / probabilityTotal;
+        }
 
         if (onscreen) {
             for (var i=0; i<hypotheses.length; i++) {
@@ -789,153 +811,107 @@ var Learner = (function($, undefined){
     };
 
 
-    var removeSubsetHypotheses = function (hypotheses) {
+    var reduceHypotheses = function (hypotheses, paradigms) {
         /* Condenses the list of hypotheses about the entire dataset into the
          * minimum number required to account for all base-derivative pairs
          * that meet the requirement for productivity. */
         var derivationObjs = [];
 
-        // var consumeSubsets2 = function(sortedHypotheses, productivePairs) {
-        //     // If using this version, must bring productivePairs in from earlier!
-        //     console.log(sortedHypotheses)
-        //     console.log(productivePairs)
-        //
-        //     productivePairs = $.map(productivePairs, function(p){return p.split(" , ")});
-        //
-        //     var accountForAll = function (hypotheses, productivePairs) {
-        //         var accountedStatuses = []
-        //         for (var i=0;i<productivePairs.length;i++) {
-        //             var accountsForPair = []
-        //             for (var j=0;j<hypotheses.length;j++) {
-        //                 var predicted = applyHypothesis(productivePairs[i][0], hypotheses[j].hypothesis, false, changeOrientations);
-        //                 accountsForPair.push(predicted === productivePairs[i][1]);
-        //             }
-        //             accountedStatuses.push($.inArray(true, accountsForPair));
-        //         }
-        //         return accountedStatuses.every(Boolean);
-        //     }
-        //
-        //     function getCombinations(chars) {
-        //       var result = [];
-        //       var f = function(prefix, chars) {
-        //         for (var i = 0; i < chars.length; i++) {
-        //           result.push(prefix + chars[i]);
-        //           f(prefix + chars[i], chars.slice(i + 1));
-        //         }
-        //       }
-        //       f('', chars);
-        //       return result.sort(function(a, b){return a.length - b.length;});;
-        //     }
-        //
-        //     // First step: check to see if any small hypotheses can be consumed by any single larger one
-        //     for (var j=0;j<sortedHypotheses.length;j++) { // j = consumer, usually bigger
-        //         for (var i=sortedHypotheses.length-1;i>=0;i--) { // can be consumed
-        //             if (i > j) {
-        //                 if (sortedHypotheses[j] !== "purgeable" && sortedHypotheses[i] !== "purgeable") {
-        //                     var consumabilities = []
-        //                     for (var m=0;m<sortedHypotheses[i].hypothesis.contexts.length;m++) { // iterate over contexts of consumed
-        //                         var consumedBase = sortedHypotheses[i].hypothesis.contexts[m].form;
-        //                         var consumedDerivative = sortedHypotheses[i].hypothesis.contexts[m].derivative;
-        //                         var consumerDerivative = applyHypothesis(consumedBase, sortedHypotheses[j].hypothesis, false, changeOrientations);
-        //                         consumabilities.push(consumerDerivative === consumedDerivative)
-        //                     }
-        //                     if (consumabilities.every(Boolean)) {
-        //                         console.log('purging')
-        //                         sortedHypotheses[i] = "purgeable";
-        //                     }
-        //                 }
-        //             }
-        //         }
-        //     }
-        //
-        //     // Second step: check for smallest number of capable hypotheses
-        //     sortedHypotheses = _.without(sortedHypotheses, "purgeable");
-        //     var hCombos = getCombinations(sortedHypotheses);
-        //     for (var k=0;k<hCombos.length;k++) {
-        //         if (accountForAll(hCombos[k], productivePairs)) {
-        //             // Still need to add new paradigms to winning hypotheses!
-        //             return hCombos[k]
-        //         }
-        //     }
-        // }
+        var consumeSubsets = function(sortedHypotheses, paradigms) {
+            // Create paradigm reference
+            var splitParadigms = [];
+            for (var i=0;i<paradigms.length;i++) {
+                splitParadigms.push(paradigms[i].split(" / "));
+            }
+            paradigms = splitParadigms;
 
-        var consumeSubsets = function(sortedHypotheses) {
-            /* Given an array of hypotheses ordered by their count parameter
-             * (descending), return an array of only those which are not
-             * proper subsets (in terms of contexts) of others. */
-			for (var i=sortedHypotheses.length-1;i>=0;i--) { // i = consumed, usually smaller
-				if (sortedHypotheses[i] !== "purgeable") {
-					var contextsToAdd = []; // to copy from consumed to consumer (because consumer lacks them)
-					var consumabilityStatuses = []; // keep track of whether each context has a consumer
-                    // console.log('Small h:')
-                    // console.log(sortedHypotheses[i].hypothesis.changesToString());
-					for (var m=0;m<sortedHypotheses[i].hypothesis.contexts.length;m++) { // iterate over contexts of consumed
-						var consumedBase = sortedHypotheses[i].hypothesis.contexts[m].form;
-						var consumedDerivative = sortedHypotheses[i].hypothesis.contexts[m].derivative;
-                        // console.log('base and deriv:')
-                        // console.log(consumedBase)
-                        // console.log(consumedDerivative)
-						var hasConsumer = false;
-						for (var j=0;j<sortedHypotheses.length;j++) { // j = consumer, usually bigger
-							if ((sortedHypotheses[j] !== "purgeable") && (i !== j)) {
-                                // console.log('potential consumer:')
-                                // console.log(sortedHypotheses[j].hypothesis.changesToString());
-								var consumerDerivative = applyHypothesis(consumedBase, sortedHypotheses[j].hypothesis, false, changeOrientations)
-								if (consumerDerivative === consumedDerivative) {
-                                    // console.log('consuming')
-									var consumerContextStrings = $.map(sortedHypotheses[j].hypothesis.contexts, contextToString);
-									if ($.inArray(contextToString(sortedHypotheses[i].hypothesis.contexts[m]), consumerContextStrings) === -1) { // if this context isn't among the consumer's contexts, add it
-										contextsToAdd.push([sortedHypotheses[i].hypothesis.contexts[m], j])
-									}
-									hasConsumer = true;
-									break;
-								}
-							}
-
-						}
-						consumabilityStatuses.push(hasConsumer);
-					}
-					if (consumabilityStatuses.every(Boolean)) { // if every context has a consumer, mark consumed as "purgeable" and add its contexts to their appropriate consumers
-							sortedHypotheses[i] = "purgeable"
-							for (var n=0;n<contextsToAdd.length;n++) {
-								sortedHypotheses[contextsToAdd[n][1]].hypothesis.contexts.push(contextsToAdd[n][0]); // element 0 is the context and element 1 is the index of the consumer that it is given to
-								sortedHypotheses[contextsToAdd[n][1]].derivatives.push(contextsToAdd[n][0]['derivative']);
-							}
-						}
-				}
-			}
-
-            sortedHypotheses = _.without(sortedHypotheses, 'purgeable');
-
-			for (var i=0;i<sortedHypotheses.length;i++) {
-				sortedHypotheses[i]['hypothesis']['probabilitySum'] = numeric.sum($.map(sortedHypotheses[i]['hypothesis']['contexts'], function(c){return c.probability;}));
-			}
-
-			var allProbabilities = $.map(sortedHypotheses, function(h){return h['hypothesis']['probabilitySum']});
-			var allProbabilitiesSum = numeric.sum(allProbabilities);
-            for (var i=0; i<sortedHypotheses.length;i++) {
-				sortedHypotheses[i]['hypothesis']['relativeSize'] = sortedHypotheses[i]['hypothesis']['probabilitySum'] / allProbabilitiesSum;
+            if (verboseReduction) {
+				_log('#### BEGIN Hypotheses before any consumption ###');
+                for (var i=0;i<sortedHypotheses.length;i++) {
+                    _log(sortedHypotheses[i].hypothesis.toString());
+                }
+				_log('#### END Hypotheses before any consumption ###');
             }
 
-            for (var i=0;i<sortedHypotheses.length;i++) {
-	            probs = $.map(sortedHypotheses[i].hypothesis.contexts, function(c){return c['probability'];});
-		        var probSum = numeric.sum(probs);
+        
+            // First step: check to see if any small hypotheses can be consumed by any single larger one
+            for (var j=0;j<sortedHypotheses.length;j++) { // j = consumer, will be at least as large as consumed (i)
+                for (var i=sortedHypotheses.length-1;i>=0;i--) { // can be consumed
+                    if (sortedHypotheses[j] !== "purgeable" && sortedHypotheses[i] !== "purgeable") {
+                        if ((i !== j) && (sortedHypotheses[j].derivatives.length >= sortedHypotheses[i].derivatives.length)) {
+                            if ((sortedHypotheses[j].derivatives === sortedHypotheses[i].derivatives) && (checkBias(sortedHypotheses[j].hypothesis, sortedHypotheses[i].hypothesis) === false)) {
+                                continue;
+                            } else {
+                                var consumabilities = []
+                                for (var m=0;m<sortedHypotheses[i].hypothesis.contexts.length;m++) { // iterate over contexts of consumed
+                                    var consumedBase = sortedHypotheses[i].hypothesis.contexts[m].form;
+                                    var consumedDerivative = sortedHypotheses[i].hypothesis.contexts[m].derivative;
+                                    var consumerDerivative = applyHypothesis(consumedBase, sortedHypotheses[j].hypothesis, false, changeOrientations);
+                                    consumabilities.push(consumerDerivative === consumedDerivative)
+                                }
+                                if (consumabilities.every(Boolean)) {
+                                    // Add consumed contexts to their consumer
+                                    var consumerContextStrings = $.map(sortedHypotheses[j].hypothesis.contexts, contextToString);
+                                    for (var m=0;m<sortedHypotheses[i].hypothesis.contexts.length;m++) { // check for contexts to be added to consumer
+                                        if ($.inArray(contextToString(sortedHypotheses[i].hypothesis.contexts[m]), consumerContextStrings) === -1) { // if this context isn't among the consumer's contexts, add it
+                                            sortedHypotheses[j].hypothesis.contexts.push(sortedHypotheses[i].hypothesis.contexts[m]);
+                                            sortedHypotheses[j].hypothesis.probabilitySum += sortedHypotheses[i].hypothesis.contexts[m].probability;
+                                            sortedHypotheses[j].derivatives.push(sortedHypotheses[i].hypothesis.contexts[m]['derivative']);
+                                        }
+                                    }
+                                    sortedHypotheses[i] = "purgeable";
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            sortedHypotheses = _.without(sortedHypotheses, "purgeable");
 
-		        for (var j=0;j<sortedHypotheses[i].hypothesis.contexts.length;j++){
-		            sortedHypotheses[i]['hypothesis']['contexts'][j]['probability'] = sortedHypotheses[i]['hypothesis']['contexts'][j]['probability'] / probSum;
-		        }
-		    }
+            if (verboseReduction) {
+				_log('#### BEGIN Hypotheses after single consumption ###');
+                for (var i=0;i<sortedHypotheses.length;i++) {
+                    _log(sortedHypotheses[i].hypothesis.toString());
+                }
+				_log('#### END Hypotheses after single consumption ###');
+            }
+            
+            // Second step: check for smallest number of capable hypotheses
+            var hCombos = getCombinations(sortedHypotheses);
+            for (var k=0;k<hCombos.length;k++) {
+                if (accountForAll(hCombos[k], paradigms)) {
+                    // Winning combination found! Add missing contexts to their respective winners
+                    outer:
+                    for (var m=0;m<paradigms.length;m++) {
+                        for (var j=0;j<hCombos[k].length;j++) {
+                            if (applyHypothesis(paradigms[m][0], hCombos[k][j].hypothesis, false, changeOrientations) === paradigms[m][1]) {
+                                var consumerContextStrings = $.map(hCombos[k][j].hypothesis.contexts, contextToString);
+                                var mContext = 'form: '+paradigms[m][0]+'\nderivative: '+paradigms[m][1]+'\nprobability: '+paradigms[m][2]+'\ntoString: function (){return contextToString(this);}\n';
+                                if ($.inArray(mContext, consumerContextStrings) === -1) { // if this context isn't among the consumer's contexts, add it
+                                    hCombos[k][j].hypothesis.contexts.push({form: paradigms[m][0], derivative: paradigms[m][1], probability: Number(paradigms[m][2]), toString: function (){return contextToString(this);}});
+                                    hCombos[k][j].hypothesis.probabilitySum += Number(paradigms[m][2]);
+                                    hCombos[k][j].derivatives.push(paradigms[m][1]);
+                                    continue outer;
+                                }
+                            }
+                        }
+                    }
+                    sortedHypotheses = hCombos[k];
+                    break;
+                }
+            }
+			
+            if (verboseReduction) {
+				_log('#### BEGIN Hypotheses after multiple consumption ###');
+                for (var i=0;i<sortedHypotheses.length;i++) {
+                    _log(sortedHypotheses[i].hypothesis.toString());
+                }
+				_log('#### END Hypotheses after multiple consumption ###');
+            }
 
             return sortedHypotheses;
-        };
 
-        var subsetOf = function(smallList, bigList) {
-            /* Return true iff the contexts in `smallHypothesis` are a proper
-             * subset of those in `potentiallyAccountedFor`. */
-            var diff = _.difference(smallList, bigList);
-            return diff.toString() === [].toString();
         };
-
 
         for (var i=0;i<hypotheses.length;i++) {
             var h = hypotheses[i];
@@ -946,6 +922,56 @@ var Learner = (function($, undefined){
                           };
             derivationObjs.push(tempObj);
         }
+
+
+
+        var checkBias = function (hypothesis1, hypothesis2) {
+            var h1score = getScore(hypothesis1)
+            var h2score = getScore(hypothesis2)
+            var getScore = function (hypothesis) { // ! Need to update once more suprasegmental locations are added.
+                var s = 0
+                for (var c=0;c<hypothesis.changes.length;c++) {
+                    if (hypothesis.changes[c].location === "last nucleus") {
+                        s += 1;
+                    }
+                }
+                return s;
+            }
+            return (h1score > h2score);
+        }
+
+        var accountForAll = function (hypotheses, paradigms) {
+                var accountedStatuses = []
+                for (var i=0;i<paradigms.length;i++) {
+                    var accountsForPair = []
+                    for (var j=0;j<hypotheses.length;j++) {
+                        var predicted = applyHypothesis(paradigms[i][0], hypotheses[j].hypothesis, false, changeOrientations);
+                        accountsForPair.push(predicted === paradigms[i][1]);
+                    }
+                    accountedStatuses.push($.inArray(true, accountsForPair));
+                }
+                return ($.inArray(-1, accountedStatuses) < 0);
+            }
+        
+            var getCombinations = function (hypotheses) {
+                var powerset = function (ary) {
+                    var ps = [[]];
+                    for (var i=0; i < ary.length; i++) {
+                        for (var j = 0, len = ps.length; j < len; j++) {
+                            ps.push(ps[j].concat(ary[i]));
+                        }
+                    }
+                    return ps;
+                }
+                return powerset(hypotheses).slice(1).sort(function(a, b){return a.length - b.length});
+            }
+
+        var subsetOf = function(smallList, bigList) {
+            /* Return true iff the contexts in `smallHypothesis` are a proper
+             * subset of those in `potentiallyAccountedFor`. */
+            var diff = _.difference(smallList, bigList);
+            return diff.toString() === [].toString();
+        };
 
         var preDistillationSort = function (a, b) {
         	// Ensure not only that hypotheses are sorted by size, but also that nucleus-based and featural changes are preferred.
@@ -975,7 +1001,7 @@ var Learner = (function($, undefined){
 
         var outputHypotheses = [];
         var sorted = derivationObjs.sort(preDistillationSort);
-        var remainingHypotheses = consumeSubsets(sorted);
+        var remainingHypotheses = consumeSubsets(sorted, paradigms);
 
         return remainingHypotheses;
     };
@@ -1513,7 +1539,7 @@ var Learner = (function($, undefined){
         // indicesToSegments : indicesToSegments,
         checkMetathesis : checkMetathesis,
         consolidateHypotheses : consolidateHypotheses,
-        removeSubsetHypotheses : removeSubsetHypotheses,
+        reduceHypotheses : reduceHypotheses,
         // consumeSubsets : consumeSubsets,
         initialize: initialize,
 

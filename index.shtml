@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD html 4.0 Transitional//EN">
 <html>
 <head>
-    <title>The Sublexical Learner</title>
+    <title></title>
 
     <meta HTTP-EQUIV="Content-Type" content="text/html; charset=utf-8">
 
@@ -15,36 +15,35 @@
 	<!-- a nice google font, because we are fantsy like that -->
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,800">
 
-    <link rel="stylesheet" href="lib/style.css?version=1&<!--#include virtual='js/today.txt' -->" type="text/css">
+    <link rel="stylesheet" href="lib/style.css?version=1&<!--#include virtual='lib/today.txt' -->" type="text/css">
 
     <script src="lib/jquery/jquery-1.11.0.min.js"></script>
-    <script src="lib/underscore/underscore-min.js?version=1&<!--#include virtual='js/today.txt' -->"></script>
+    <script src="lib/underscore/underscore-min.js?version=1&<!--#include virtual='lib/today.txt' -->"></script>
     <script src="lib/numeric/numeric-1.2.6.min.js"></script>
 
-    <script src="lib/dropzone/dropzone.js?version=1&<!--#include virtual='js/today.txt' -->"></script>
+    <script src="lib/dropzone/dropzone.js?version=1&<!--#include virtual='lib/today.txt' -->"></script>
 
     <!-- link rel="stylesheet" href="jquery/jquery-ui-1.8.21.custom.css" type="text/css">
     <script src="jquery/jquery-ui-1.8.21.custom.min.js"></script 
     -->
 
-	<script src="lib/sound/script/soundmanager2-nodebug-jsmin.js?version=1&<!--#include virtual='js/today.txt' -->"></script>
-	<script src="lib/sound/init.js?version=1&<!--#include virtual='js/today.txt' -->"></script>
+	<!-- script src="lib/sound/script/soundmanager2-nodebug-jsmin.js?version=1&<!--#include virtual='lib/today.txt' -->"></script-->
+	<!-- script src="lib/sound/init.js?version=1&<!--#include virtual='lib/today.txt' -->"></script -->
 
-    <script src="js/array.js?version=1&<!--#include virtual='js/today.txt' -->"></script>
-    <script src="js/feature_reader.js?version=1&<!--#include virtual='js/today.txt' -->"></script>
-    <script src="js/aligner.js?version=1&<!--#include virtual='js/today.txt' -->"></script>
-    <script src="js/text_reader.js?version=1&<!--#include virtual='js/today.txt' -->"></script>
-    <script src="js/learner.js?version=1&<!--#include virtual='js/today.txt' -->"></script>
-    <script src="js/grammar.js?version=1&<!--#include virtual='js/today.txt' -->"></script>
-    <script src="js/maxent.js?version=1&<!--#include virtual='js/today.txt' -->"></script>
-    <script src="js/faithfulness.js?version=1&<!--#include virtual='js/today.txt' -->"></script>
+    <script src="js/array.js?version=1&<!--#include virtual='lib/today.txt' -->"></script>
+    <script src="js/feature_reader.js?version=1&<!--#include virtual='lib/today.txt' -->"></script>
+    <script src="js/aligner.js?version=1&<!--#include virtual='lib/today.txt' -->"></script>
+    <script src="js/text_reader.js?version=1&<!--#include virtual='lib/today.txt' -->"></script>
+    <script src="js/learner.js?version=1&<!--#include virtual='lib/today.txt' -->"></script>
+    <script src="js/grammar.js?version=1&<!--#include virtual='lib/today.txt' -->"></script>
+    <script src="js/maxent.js?version=1&<!--#include virtual='lib/today.txt' -->"></script>
+    <script src="js/faithfulness.js?version=1&<!--#include virtual='lib/today.txt' -->"></script>
 
-    <script src="js/gui.js?version=1&<!--#include virtual='js/today.txt' -->"></script>
+    <script src="js/gui.js?version=1&<!--#include virtual='lib/today.txt' -->"></script>
 
 </head>
 
 <body>
-
 
 <div id="header">
         <div id="title">The sublexical morphophonological learner</div>
@@ -52,75 +51,53 @@
         <a href="http://bhallen.com/">Blake Allen</a> and
         <a href="http://becker.phonologist.org/">Michael Becker</a>
         &nbsp; &bull; &nbsp; 
-        Version of <!--#include virtual='js/today.txt' -->
+        Version of <!--#include virtual='lib/today.txt' -->
 </div>
 
 <div class="tabs">
 
     <ul class="tab-links">
         <li><a href="#tab3">New</a></li>
-        <li id="tab2title"><a href="#tab2">My files</a></li>
-        <li class="active"><a href="#tab1">Examples</a></li>
+        <li id="localtitle"><a href="#local">My files</a></li>
+        <li class="active"><a href="#server">Examples</a></li>
         <li><a href="#tab4">About</a></li>
         <li><a href="#tab5">Help</a></li>
     </ul>
  
     <div class="tab-content">
-        <div id="tab1" class="tab active">
-			
-			<!-- server files -->
-			<div id="Remote">
-				Try these sample simulations 
+    
+    
+		<!-- server files -->
+        <div id="server" class="tab active">
+			<div class="simulation_list_status"></div>
+			<div class="simulation_list"></div>
+			<div class="simulation_current">
+				<div class="simulation_title"></div>
+				<div class="simulation_gray_text">You might want to open your browser's console before you hit "Learn", so you can see more info about the learner's progress.</div>
+				<div class="simulation_status"></div>
+				<div class="simulation_downloadify"></div>
+				<div class="simulation_params"></div>
 			</div>
-
-			<!-- current simulation, how to come first due to absolute position -->
-			<div id="current">
-
-				<div id="simulationtitle"></div>
-				<div id="status"></div>
-				<div id="downloadify"></div>
-		
-				<div id="params"></div>
-		
-			</div>
-
-
         </div>
  
-        <div id="tab2" class="tab">
 
-
-			<!-- server files -->
-			<div id="local_list_status">
-				&nbsp;<be> 
+		<!-- local files -->
+        <div id="local" class="tab">
+			<div class="simulation_list_status"></div>
+			<div class="simulation_list"></div>
+			<div class="simulation_current">
+				<div class="simulation_title"></div>
+				<div class="simulation_gray_text">You might want to open your browser's console before you hit "Learn", so you can see more info about the learner's progress.</div>
+				<div class="simulation_status"></div>
+				<div class="simulation_downloadify"></div>
+				<div class="simulation_params"></div>
 			</div>
-			<div id="local_list">
-				&nbsp;<be> 
-			</div>
-
-			<!-- current simulation, how to come first due to absolute position -->
-			<div id="local_current">
-
-				<div id="local_simulationtitle"></div>
-				<div id="local_status"></div>
-				<div id="local_downloadify"></div>
-		
-				<div id="local_params"></div>
-		
-			</div>
-
-
-            
-
         </div>
  
+ 		
+ 		<!-- upload new files -->
         <div id="tab3" class="tab">
-        
-        	(coming soon)<br><br>
-        
             Start a new simulation<br><br>
-
-            
 			<div id="dropzone-container">
 				<div style="display: table-cell; vertical-align: middle;">
 					<div class="file_drop" id="dropzone">
@@ -128,19 +105,24 @@
 					</div>
 				</div>
 			</div>
-			<div id="files"></div>
+			<div id="files">Files you use here go into your browser's local storage. They never leave your computer.</div>
 			<div id="file_save">
 				<div style='min-width:12em; display: inline-block;'>Name:</div> 
 				<input type="text">
 				<br>
+				<div style='min-width:12em; display: inline-block;'>Description:</div> 
+				<input type="text">
+				<br>
 				<a id="file_save_link" href="javascript:void(0)">Save</a>
+				&nbsp;
+				<a id="file_save_clear" href="javascript:void(0)">Clear</a>
 				<div id="file_save_feedback"></div> 
 			</div>
-
-            
         </div>
  
-        <div id="tab4" class="tab "> <!-- about -->
+
+		<!-- about -->
+        <div id="tab4" class="tab "> 
             If you used the Sublexical Learner in your work, please reference our paper and our learner:
             <p>
             <ul>
@@ -148,7 +130,7 @@
 		            Allen, Blake & Michael Becker (2014) Learning alternations from surface forms with sublexical phonology. Ms. University of British Columbia and Stony Brook University.
             	</li>
             	<li>
-		            Allen, Blake & Michael Becker (<!--#include virtual='js/today.txt' -->) The sublexical morphophonological learner [web application]. Retrieved from http://sublexical.phonologist.org/. 
+		            Allen, Blake & Michael Becker (<!--#include virtual='lib/today.txt' -->) The sublexical morphophonological learner [web application]. Retrieved from http://sublexical.phonologist.org/. 
             	</li>
             </ul>
             Get the source code at <a href="https://github.com/kuzum99/sublexical">https://github.com/kuzum99/sublexical</a>.
@@ -156,10 +138,9 @@
         </div>
 
 
-        <div id="tab5" class="tab "> <!-- help -->
+		<!-- help -->
+        <div id="tab5" class="tab ">
             No help yet.
-            
-            
             <p>
         </div>
 
@@ -168,7 +149,9 @@
     </div>
 </div>
 
-
+<audio id="dimdom">
+  <source src="lib/sound/dimdom.mp3" type="audio/mpeg" />
+</audio>
 
 </body>
 

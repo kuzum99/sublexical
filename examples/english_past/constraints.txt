@@ -1,0 +1,123 @@
+t$
+d$
+[0aper,-nasal,+cor,+ant]$
+[^td]$
+
+
+[0aper,-nasal]$
+[0aper,-nasal,+voice]$
+[0aper,-nasal,0voice]$
+[+aper]$
+[+aper,+voice]$
+[+aper,0voice]$
+[+nasal]$
+[0syll]$
+[+syll]$
+[+voice]$
+[0voice]$
+
+[0aper,+voice,-nasal] t$	-10	1
+[0aper,0voice,-nasal] d$	-10	1
+[+aper,+voice,-nasal] t$	-10	1
+[+aper,0voice,-nasal] d$	-10	1
+t t$	-10	1
+d d$	-10	1
+
+[+tense] [0aper,-nasal]$
+[+tense] [0aper,-nasal,+voice]$
+[+tense] [0aper,-nasal,0voice]$
+[+tense] [+aper]$
+[+tense] [+aper,+voice]$
+[+tense] [+aper,0voice]$
+[+tense] [+nasal]$
+[+tense] [0syll]$
+
+[+tense] [0aper,-nasal,+cor,+ant]$
+
+[0syll] ?d$
+[0syll] ?t$
+
+[+syll] ?([+dors,0syll] ?)+$
+[+syll] ?([+cor,0syll] ?)+$
+[+syll] ?([+lab,0syll] ?)+$
+
+i ?([0syll] ?)*$
+u ?([0syll] ?)*$
+eɪ̯ ?([0syll] ?)*$
+oʊ̯ ?([0syll] ?)*$
+ɪ ?([0syll] ?)*$
+ʊ ?([0syll] ?)*$
+ɛ ?([0syll] ?)*$
+ɔ ?([0syll] ?)*$
+ə ?([0syll] ?)*$
+ʌ ?([0syll] ?)*$
+ɚ ?([0syll] ?)*$
+a ?([0syll] ?)*$
+æ ?([0syll] ?)*$
+aɪ̯ ?([0syll] ?)*$
+aʊ̯ ?([0syll] ?)*$
+ɔɪ̯ ?([0syll] ?)*$
+
+^([0syll] ?){2}$
+
+p$
+b$
+f$
+v$
+k$
+ɡ$
+θ$
+ð$
+s$
+z$
+ʧ$
+ʤ$
+ʃ$
+ʒ$
+m$
+n$
+ŋ$
+l$
+r$
+
+F: Ident [voice]
+
+F: Ident [hi]
+F: Ident [back]
+F: Ident [tense]
+F: Ident [diph]
+
+F: Ident [hi] [+tense]
+F: Ident [back] [+tense]
+F: Ident [diph] [+tense]
+F: Ident [hi] [-tense]
+F: Ident [back] [-tense]
+F: Ident [diph] [-tense]
+
+F: Ident [back] [0hi]
+F: Ident [tense] [0hi]
+F: Ident [diph] [0hi]
+F: Ident [back] [+hi]
+F: Ident [tense] [+hi]
+F: Ident [diph] [+hi]
+F: Ident [back] [2hi]
+F: Ident [tense] [2hi]
+F: Ident [diph] [2hi]
+
+F: Ident [hi] [0back]
+F: Ident [tense] [0back]
+F: Ident [diph] [0back]
+F: Ident [hi] [+back]
+F: Ident [tense] [+back]
+F: Ident [diph] [+back]
+F: Ident [hi] [2back]
+F: Ident [tense] [2back]
+F: Ident [diph] [2back]
+
+F: Ident [hi] [+diph]
+F: Ident [back] [+diph]
+F: Ident [tense] [+diph]
+F: Ident [hi] [0diph]
+F: Ident [back] [0diph]
+F: Ident [tense] [0diph]
+

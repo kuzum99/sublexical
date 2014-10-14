@@ -1,20 +1,52 @@
-^([-syll] ?)*([+syll] ?)+([-syll] ?)*$
+^([-syllabic] ?)*([+syllabic] ?)+([-syllabic] ?)*$
 
-[+syll] .* [+syll] .* [+syll]
+[+syllabic] .* [+syllabic] .* [+syllabic]
 [+stress] .* [+stress]
-([+stress] ?)([-syll] ?)*$
-([+stress] ?)([-syll] ?)*([+syll,-stress] ?)([-syll] ?)*$
-([+syll,-stress] ?)([-syll] ?)*$
-([+syll,-stress] ?)([-syll] ?)*([+syll,-stress] ?)([-syll] ?)*$
+([+stress] ?)([-syllabic] ?)*$
+([+stress] ?)([-syllabic] ?)*([+syllabic,-stress] ?)([-syllabic] ?)*$
+([+syllabic,-stress] ?)([-syllabic] ?)*$
+([+syllabic,-stress] ?)([-syllabic] ?)*([+syllabic,-stress] ?)([-syllabic] ?)*$
 
-[-syll] [-syll]$
-^[-syll] [-syll] [-syll]
+i ([-syllabic] ?) a ([-syllabic] ?) o n$
+
+[-syllabic] [-syllabic]$
+^[-syllabic] [-syllabic] [-syllabic]
+
+[-back,+high,+syllabic] .* [-back,+high,+syllabic]
+[+back,+high,+syllabic] .* [+back,+high,+syllabic]
+
+[-back,-high,-low,+syllabic] .* [-back,-high,-low,+syllabic]
+[+back,-high,-low,+syllabic] .* [+back,-high,-low,+syllabic]
+
+
+[-back,-low,+syllabic] .* [-back,-low,+syllabic]
+[+back,-low,+syllabic] .* [+back,-low,+syllabic]
 
 t$
-[pb]$
-^[fv]
 
-[+syll,+back,-high] [-syll]$
-[+syll,+back,-high]
-[+syll,+low]$
-[+syll,-back,-high,-low]$
+χ
+^χ
+χ$
+ʦ
+ʃ
+ʒ
+ʧ
+ʤ
+w
+
+p$
+b$
+f$
+v$
+^p
+^b
+^f
+^v
+
+
+
+
+[+syllabic,+back,-high] [-syllabic]$
+[+syllabic,+back,-high]
+[+syllabic,+low]$
+[+syllabic,-back,-high,-low]$

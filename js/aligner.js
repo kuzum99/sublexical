@@ -181,8 +181,7 @@ var Aligner = (function($, undefined){
 
     var initialize = function (obj) {
 
-        var startTime = new Date();
-        _log("Initializing Aligner... starting at " + startTime);
+        _log("Initializing Aligner.");
         
         var obj = obj || {};
 

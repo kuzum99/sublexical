@@ -14,7 +14,7 @@ var Maxent = (function($, undefined){
 
     var initialize = function (obj) {
 
-        _log("Initializing Maximum Entropy module...");
+        _log("Initializing Maximum Entropy module.");
         var obj = obj || {};
 
         iterationCount = obj.iterationCount || 10000;

@@ -7,28 +7,10 @@
         "output": "output_russian_big.txt"
     },
     "learner": {
-        "mutationType": "featural",
-        "useGrammarsProper": true,
-        "changeOrientations": {
-            "delete": "product", 
-            "mutate": "product", 
-            "metathesize": "product"
-        },
-        "minProductiveSize": 20,
-        "howMuchTraining": "all"
-    },
-    "aligner": {
-        "features": true
-    },
-    "grammar": {
-        "useGaussianPriors": true,
-        "defaultSigma": 100000
+        "vowelFeature": "syll"
     },
     "maxent": {
-        "iterationCount": 10000,
-        "learningRate": 1,
-        "noPositiveWeights": true,
-        "initialWeight": 0
+        "iterationCount": 10000
     },
     "name": "realistic",
     "description": "Includes 1902 yers and 600 non-yers.<br> Data from Becker & Gouskova (2014)." 

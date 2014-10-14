@@ -1,0 +1,10 @@
+{
+    "files": {
+        "constraints": "constraints.txt",
+        "training": "training_tiny.txt",
+        "testing": "testing.txt",
+        "output": "output.txt"
+    },
+    "name": "tiny",
+    "description": "Data from Becker, Ketrez & Nevins (2011), except that the suffix is uniformly [i]."
+}

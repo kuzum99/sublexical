@@ -77,7 +77,19 @@ var FileManager = (function($, undefined){
         return (items.length>0);
     }
 
+	var stringToTable = function(str) {
 
+		var table = [];
+		var lines = str.split(/[\n\r]/);
+		for (var i=0; i<lines.length; i++) {
+			if (lines[i].match(/^\s*$/)) {
+				continue;
+			}
+			var line = lines[i].replace(/\s+$/, '').replace(/\s+\t/, '\t').split("\t");
+			table.push(line);
+		}
+		return table;
+	}
 
 
 
@@ -90,6 +102,7 @@ var FileManager = (function($, undefined){
         loadJSON: loadJSON,
         loadJSONP: loadJSONP,
         status: status,
+        stringToTable: stringToTable,
         get: get,
     };
 

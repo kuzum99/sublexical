@@ -8,22 +8,11 @@
     },
     "learner": {
         "mutationType": "segmental",
-        "useGrammarsProper": true,
         "changeOrientations": {
             "delete": "source", 
             "mutate": "source", 
             "metathesize": "source"
-        },
-        "minProductiveSize": 1,
-        "howMuchTraining": "all"
-    },
-    "aligner": {
-        "features": true
-    },
-    "grammar": {
-    },
-    "maxent": {
-        "noPositiveWeights": true
+        }
     },
     "name": "source oriented",
     "description": "French" 

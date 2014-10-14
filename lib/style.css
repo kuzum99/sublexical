@@ -115,6 +115,7 @@ body, input, select, button {
 }
 */
 
+
 .conf_title {
 	margin-left: 1em;
 	cursor: pointer; cursor: hand;
@@ -138,16 +139,8 @@ body, input, select, button {
 	text-decoration: underline;
 }
 
-#params ul, #local_params ul {
-	line-height: 150%;
-	padding-top: 2ex;
-	padding-bottom: 2ex;
-}
 
-#status, #downloadify, #local_status, #local_downloadify {
-	font-size: 13pt; 
-	font-weight: 900;
-}
+
 
 
 /*----- Tabs -----*/
@@ -230,19 +223,83 @@ body, input, select, button {
 	margin-top: 3ex;
 }
 
-#Remote {
+.showfile {
+	margin: 0 auto;
+	position: absolute;
+	text-align: center;
+	width: 70%;
+	height: 70%;
+	padding: 3%;
+	border: #999 solid 10px;
+	overflow-y: scroll;
+	display: block;
+	background: white;
+	z-index: 999;
+}
+
+
+.simulation_params ul  {
+	line-height: 150%;
+    list-style: none;
+    padding:0;
+    margin:0;
+	padding-bottom: 3ex;
+}
+.simulation_params .title {
+	padding-bottom: 2ex;
+}
+.simulation_params .open {
+	float: left;
+	padding: 0pt 5pt;
+	margin-right: 6pt;
+	border: 1px solid #999;
+	cursor: pointer; cursor: hand;
+	border-radius: 3px;	
+}
+
+.simulation_status, .simulation_downloadify {
+	font-size: 13pt; 
+	font-weight: 900;
+	padding-bottom: 2ex;
+}
+.simulation_title {
+	font-size: 13pt; 
+	font-weight: 900;
+	padding-bottom: 1ex;
+}
+.simulation_gray_text {
+	display: none;
+	font-size: 10pt;
+	color: #aaa;
+	padding-bottom: 1ex;
+}
+.simulation_params li { 
+    padding-left: 0em; 
+    text-indent: 1em;
+}
+.simulation_params li:before {
+    content: "● ";
+}
+.simulation_params  li.default:before { 
+    color: #999; /* or whatever color you prefer */
+}
+
+
+
+
+
+.simulation_list {
 	position: absolute; 
 	width: 38%; 
-	border-right: 1px solid; 
 	padding-right: 3%;
 	padding-bottom: 8ex;
 }
-#Remote:after {
+.simulation_list:after {
 	display:block;
 	clear:both;
 	content:'';
 }
-#current , #local_current{
+.simulation_current {
 	position: absolute; 
 	width: 39%; 
 	left: 44%; 
@@ -252,18 +309,25 @@ body, input, select, button {
 }
 
 
-#local_list {
-	position: absolute; 
-	width: 38%; 
-	border-right: 1px solid; 
-	padding-right: 3%;
-	padding-bottom: 8ex;
+.default {
+	color: #aaa;
 }
-#local_list:after {
-	display:block;
-	clear:both;
-	content:'';
+.simulation_param {
+	min-width: 13em; 
+	display: inline-block;
 }
+.default .simulation_param {
+	color: #aaa;
+}
+.default .simulation_value {
+	color: #aaa;
+}
+
+.simulation_file {
+	min-width: 7em; 
+	display: inline-block;
+}
+
 .title_local_delete {
 	float:right;
 }
@@ -283,9 +347,9 @@ body, input, select, button {
 #dropzone-container:hover {
 	outline: 1px solid blue;
 	box-shadow: 0px 0px 5px blue;
-/*	background: #bbf;
-	background: linear-gradient(to right, #bbf, #aaf); /* Standard syntax */
-*/
+}
+#files select{
+	margin-bottom: .5ex;
 }
 #file_save{
 	display: none;
@@ -293,10 +357,16 @@ body, input, select, button {
 }
 #file_save input {
 	width: 10em;
+	margin-bottom: 1ex;
 }
 #file_save a {
 	display: inline-block;
 	font-weight: 900;
 	padding-top: 1ex;
+	padding-bottom: 1ex;
 }
 
+.longsim{
+	color: #b99;
+	font-weight: 900;
+}

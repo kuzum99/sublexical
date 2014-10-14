@@ -1,0 +1,10 @@
+{
+    "files": {
+        "features": "features.txt",
+        "constraints": "constraints.txt",
+        "training": "train_small.txt",
+        "testing": "test.txt"
+    },
+    "name": "regulars only",
+    "description": "A sample of 1000 regular plurals from the CMU dictionary."
+}

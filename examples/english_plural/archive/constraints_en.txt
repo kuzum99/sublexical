@@ -1,0 +1,14 @@
+[+strident]$
+[0strident]$
+[-strident]$
+
+[+voice]$
+[0voice]$
+[-voice]$
+
+[+strident] [+strident]$	20	100000
+[+voice,-sonorant] [-voice,-sonorant]$	20	100000
+[-voice,-sonorant] [+voice,-sonorant]$	20	100000
+
+[+continuant]$	20	100000
+[-continuant]$	20	100000

@@ -16,28 +16,37 @@ var Grammar = (function($, undefined){
 
     var initialize = function (obj) {
 
-        _log("Initializing Grammar...");
+        _log("Initializing Grammar.");
         var obj = obj || {};
 
         var constraintFile = obj.constraintFile || "constraints.txt";
 
-        _log("Loading constraint set: " + constraintFile);
-        FileManager.loadText(constraintFile);
-        if (FileManager.status()) {
-            constraints = FileManager.get();
-        }
+
+
+		if (typeof constraintFile === "string") {
+			_log("Loading constraint set: " + constraintFile);
+			FileManager.loadText(constraintFile);
+			if (FileManager.status()) {
+				constraints = FileManager.get();
+			}
+		} else {
+			_log("Loading constraint set: " + constraintFile.name);
+			constraints = constraintFile.content;
+		}
+
+
 
         printConstraintTranslations();
         _log("Constraint set loaded.");
 
         if ("useGaussianPriors" in obj) {
-            useGaussianPriors = obj.useGaussianPriors;
+            useGaussianPriors = obj.useGaussianPriors || false;
         }
         if ("defaultMu" in obj) {
-            defaultMu = obj.defaultMu;
+            defaultMu = obj.defaultMu || 0;
         }
         if ("defaultSigma" in obj) {
-            defaultSigma = obj.defaultSigma;
+            defaultSigma = obj.defaultSigma || 100000;
         }
         _log("Gaussian prior use set to: " + useGaussianPriors.toString());
         if (useGaussianPriors === true) {

@@ -24,3 +24,6 @@ F: Ident [coronal]
 F: Ident [labial]
 
 
+[+strident] [+strident]	-10
+[+voice,-sonorant] [-voice,-sonorant]	-10
+[-voice,-sonorant] [+voice,-sonorant]	-10

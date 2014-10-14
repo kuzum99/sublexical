@@ -1,0 +1,78 @@
+aɪ z$
+aɪ s$
+ɪ ʤ$
+æ r$
+ɪ p$
+aɪ f$
+ɪ n$
+eɪ f$
+ɛ ʤ$
+u l$
+eɪ p$
+ɛ z$
+eɪ s$
+æ k$
+aɪ r$
+ɛ s$
+ɪ s$
+ɪ ɡ$
+eɪ k$
+ɪ t$
+i p$
+i d$
+ɪ m$
+ɪ ŋ$
+u d$
+oʊ l d$
+ʌ ŋ$
+æ ŋ k$
+æ s k$
+ɪ l k$
+a r k$
+ɪ s k$
+ʌ ŋ k$
+
+z$
+s$
+ʤ$
+oʊ$
+r$
+p$
+f$
+n$
+f$
+l$
+z$
+k$
+ɡ$
+t$
+d$
+m$
+ŋ$
+l d$
+ŋ k$
+s k$
+l k$
+r k$
+ŋ k$
+
+aɪ ([-syll] )*$
+ɪ ([-syll] )*$
+æ ([-syll] )*$
+eɪ ([-syll] )*$
+ɛ ([-syll] )*$
+u ([-syll] )*$
+i ([-syll] )*$
+oʊ ([-syll] )*$
+ʌ ([-syll] )*$
+a ([-syll] )*$
+
+[-syll] (l|r) [+syll] ([-syll] )*$
+[-syll] l [+syll] ([-syll] )*$
+[-syll] r [+syll] ([-syll] )*$
+l [+syll] ([-syll] )*$
+r [+syll] ([-syll] )*$
+s t [+syll] ([-syll] )*$
+[-syll] [-syll] [+syll] ([-syll] )*$
+[+syll] [-syll]$
+[+syll] [-syll] [-syll]$

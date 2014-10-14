@@ -1,0 +1,16 @@
+{
+    "files": {
+        "features": "features.txt",
+        "constraints": "constraints.txt",
+        "training": "train.txt",
+        "testing": "test.txt",
+        "testOutputFile": "output_test_segmental.txt"
+    },
+    "learner": {
+        "mutationType": "segmental",
+        "minProductiveSize": 10,
+        "preReductionProductivityThreshold": 10
+    },
+    "name": "realistic, segmental",
+    "description": "Large sample, including f/th-final nouns. Data from Becker, Nevins & Levine (2011) and a sample from the CMU dictionary." 
+}
