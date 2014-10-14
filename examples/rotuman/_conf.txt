@@ -1,0 +1,11 @@
+{
+    "files": {
+        "constraints": "constraints.txt",
+        "training": "training.txt",
+        "testing": "testing.txt",
+        "testOutputFile": "output_rotuman_test.txt",
+        "trainOutputFile": "output_rotuman_train.txt"
+    },
+    "name": "sample data",
+    "description": "Examples of Rotuman metathesis. Data from McCarthy (2000)." 
+}
