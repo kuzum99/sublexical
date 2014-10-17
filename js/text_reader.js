@@ -34,6 +34,24 @@ var FileManager = (function($, undefined){
         return (status_var);
     }
     
+    var load = function (name) {
+
+        $.ajax({
+            url: name,
+            success: function(data) {   // executed if file `name` is read; data is content of `name`
+                items = data;
+                status_var = true;
+            },
+            async: false,
+            error: function() {
+                console.error("The file " + name + " wasn't found.");
+                status_var = false;
+            }
+        });
+        return (status_var);
+    }
+    
+    
     var loadJSON = function (name, async, successFunction) {
 
 		async = async || false;
@@ -101,6 +119,7 @@ var FileManager = (function($, undefined){
         loadText: loadText,
         loadJSON: loadJSON,
         loadJSONP: loadJSONP,
+        load: load,
         status: status,
         stringToTable: stringToTable,
         get: get,

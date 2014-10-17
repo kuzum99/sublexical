@@ -1,4 +1,4 @@
-symbol	seg	syll	cons	approx	son	cont	delrel	lateral	nasal	voice	dor	lab	cor	strid	ant	retro	high	low	back	stress
+symbol	seg	syllabic	cons	approx	son	cont	delrel	lateral	nasal	voice	dor	lab	cor	strid	ant	retro	high	low	back	stress
 empty	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 p	+	-	+	-	-	-	-	-	-	-	0	+	0	0	0	0	0	0	+	0
 pj	+	-	+	-	-	-	-	-	-	-	0	+	0	0	0	0	0	0	-	0

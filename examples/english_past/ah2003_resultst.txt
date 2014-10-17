@@ -1,0 +1,130 @@
+base	derivative	spelling.base	spelling.past	base.rating	category	exp1.production	exp2.production	total.production	rating	Rating Residuals	MGL	GCM
+b aɪ̯ z	b aɪ̯ z d	bize	bized	4.57	IOR both	0.778	0.571	0.667	5.30	5.32	6.06	5.87
+b aɪ̯ z	b oʊ̯ z	bize	boze	4.57	IOR both	0.056	0.381	0.231	4.57	4.55	4.11	4.04
+b l eɪ̯ f	b l eɪ̯ f t	blafe	blafed	3.57	IOR regular	1	0.818	0.892	6.32	6.67	6.22	5.15
+b l eɪ̯ f	b l ɛ f t	blafe	bleft	3.57	IOR regular	0	0.045	0.027	4.09	3.86	3.94	3.85
+b l ɪ ɡ	b l ɪ ɡ d	blig	bligged	3.71	IOR irregular	0.941	0.652	0.775	5.67	5.95	5.66	5.44
+b l ɪ ɡ	b l ʌ ɡ	blig	blug	3.71	IOR irregular	0	0.13	0.075	4.17	3.97	5.19	4.08
+b r ɛ ʤ	b r ɛ ʤ d	bredge	bredged	3.86	IOR regular	0.95	0.905	0.927	6.33	6.60	6.16	5.85
+b r ɛ ʤ	b r oʊ̯ ʤ	bredge	broge	3.86	IOR regular	0.05	0.048	0.049	3.43	3.25	3.94	3.85
+ʧ eɪ̯ k	ʧ eɪ̯ k d	chake	chaked	5.33	IOR irregular	0.95	0.818	0.881	5.74	5.55	4.77	5.65
+ʧ eɪ̯ k	ʧ ʊ k	chake	chook	5.33	IOR irregular	0	0	0	5.04	5.19	5.13	4.17
+ʧ u l	ʧ oʊ̯ l	chool	chole	3.76	IOR regular	0	0.043	0.023	3.71	3.51	3.94	4.05
+ʧ u l	ʧ u l d	chool	chooled	3.76	IOR regular	1	0.957	0.977	6.13	6.41	6.12	6.38
+d eɪ̯ p	d eɪ̯ p t	dape	daped	5.14	IOR regular	1	0.957	0.976	6.25	6.14	6.14	5.56
+d eɪ̯ p	d æ p t	dape	dapt	5.14	IOR regular	0	0	0	4.00	4.09	3.94	3.85
+d aɪ̯ z	d aɪ̯ z d	dize	dized	4.62	IOR both	0.889	0.762	0.821	5.42	5.42	6.06	5.95
+d aɪ̯ z	d oʊ̯ z	dize	doze	4.62	IOR both	0.111	0.19	0.154	5.04	5.04	4.73	4.18
+d r aɪ̯ s	d r aɪ̯ s t	drice	driced	3.86	IOR both	1	0.913	0.953	6.26	6.52	6.22	5.51
+d r aɪ̯ s	d r oʊ̯ s	drice	droce	3.86	IOR both	0	0.087	0.047	4.48	4.31	5.15	4.28
+d r ɪ t	d r æ t	drit	drat	4.3	IOR irregular	0	0.182	0.098	3.65	3.57	4.06	3.99
+d r ɪ t	d r ɪ t	drit	drit	4.3	IOR irregular	0.053	0.091	0.073	5.13	5.07	4.62	4.11
+d r ɪ t	d r ɪ t ə d	drit	dritted	4.3	IOR irregular	0.842	0.591	0.707	4.96	5.04	5.43	5.29
+f l i p	f l i p t	fleep	fleeped	4.24	IOR irregular	1	0.478	0.721	5.00	5.10	5.69	5.56
+f l i p	f l ɛ p t	fleep	flept	4.24	IOR irregular	0	0.435	0.233	6.09	6.02	5.15	4.40
+f l ɛ t	f l ɛ t	flet	flet	4.24	Few form analogy	0.111	0.474	0.297	5.65	5.58	5.22	4.30
+f l ɛ t	f l ɛ t ə d	flet	fletted	4.24	Few form analogy	0.889	0.368	0.622	4.50	4.58	5.43	5.39
+f l ɪ ʤ	f l ɪ ʤ d	flidge	flidged	4.05	IOR both	0.947	0.783	0.857	6.21	6.41	6.16	5.46
+f l ɪ ʤ	f l ʌ ʤ	flidge	fludge	4.05	IOR both	0	0.043	0.024	4.88	4.76	4.22	4.10
+f r oʊ̯	f r u	fro	frew	5.84	IOR both	0.05	0.125	0.091	4.33	4.57	4.97	4.38
+f r oʊ̯	f r oʊ̯ d	fro	froed	5.84	IOR both	0.95	0.833	0.886	5.83	5.50	5.40	6.16
+ɡ ɛ r	ɡ ɛ r d	gare	gared	5.24	IOR both	1	0.955	0.976	6.57	6.44	6.02	6.27
+ɡ ɛ r	ɡ oʊ̯ r	gare	gore	5.24	IOR both	0	0	0	3.39	3.49	4.30	4.23
+ɡ ɛ z	ɡ ɛ z d	gezz	gezzed	4.19	IOR regular	1	0.955	0.976	6.61	6.79	6.06	5.89
+ɡ ɛ z	ɡ a z	gezz	gozz	4.19	IOR regular	0	0	0	2.52	2.40	3.94	3.95
+ɡ l i d	ɡ l ɛ d	gleed	gled	5.29	IOR irregular	0.158	0.318	0.244	6.00	6.15	5.07	4.53
+ɡ l i d	ɡ l i d	gleed	gleed	5.29	IOR irregular	0.105	0.227	0.171	4.09	4.21	3.94	3.99
+ɡ l i d	ɡ l i d ə d	gleed	gleeded	5.29	IOR irregular	0.684	0.455	0.561	4.22	3.98	4.36	5.15
+ɡ l ɪ p	ɡ l ɪ p t	glip	glipped	4.95	IOR both	1	0.857	0.925	5.95	5.88	6.07	5.80
+ɡ l ɪ p	ɡ l ʌ p	glip	glup	4.95	IOR both	0	0.048	0.025	3.45	3.50	4.02	3.97
+ɡ l ɪ t	ɡ l æ t	glit	glat	5.25	IOR irregular	0	0.167	0.095	3.75	3.86	4.06	3.91
+ɡ l ɪ t	ɡ l ɪ t	glit	glit	5.25	IOR irregular	0.167	0.125	0.143	5.21	5.34	4.89	4.32
+ɡ l ɪ t	ɡ l ɪ t ə d	glit	glitted	5.25	IOR irregular	0.778	0.542	0.643	5.00	4.80	5.43	5.37
+ɡ r ɛ l	ɡ r ɛ l d	grell	grelled	4.52	Burnt irregular	1	0.81	0.902	5.86	5.91	5.86	6.17
+ɡ r ɛ l	ɡ r ɛ l t	grell	grelt	4.52	Burnt irregular	0	0.143	0.073	4.90	4.88	4.06	5.39
+ɡ r aɪ̯ n t	ɡ r oʊ̯ n t	gry'nt	groant	5.16	Few form analogy	0	0.091	0.049	4.17	4.27	3.94	4.07
+ɡ r aɪ̯ n t	ɡ r aʊ̯ n t	gry'nt	grount	5.16	Few form analogy	0.053	0	0.024	3.83	3.92	3.94	4.67
+ɡ r aɪ̯ n t	ɡ r aɪ̯ n t ə d	gry'nt	gry'nted	5.16	Few form analogy	0.842	0.545	0.683	5.26	5.10	6.20	5.59
+ɡ u d	ɡ u d	gude	gude	4.25	IOR neither	0.375	0.3	0.333	5.55	5.48	3.96	3.99
+ɡ u d	ɡ u d ə d	gude	guded	4.25	IOR neither	0.625	0.5	0.556	4.90	4.99	6.07	5.26
+k ɪ v	k eɪ̯ v	kive	kave	4.38	Single form analogy	0	0.091	0.048	4.41	4.35	3.94	4.12
+k ɪ v	k ɪ v d	kive	kived	4.38	Single form analogy	0.95	0.864	0.905	6.00	6.10	5.58	5.87
+l ʌ m	l eɪ̯ m	lum	lame	4.81	Single form analogy	0	0	0	2.87	2.88	3.94	3.93
+l ʌ m	l ʌ m d	lum	lummed	4.81	Single form analogy	1	0.826	0.905	6.35	6.33	5.74	6.14
+m ɚ n	m ɚ n d	murn	murned	5.43	Burnt irregular	0.947	0.957	0.952	6.57	6.38	6.02	6.29
+m ɚ n	m ɚ n t	murn	murnt	5.43	Burnt irregular	0.053	0.043	0.048	4.74	4.90	4.60	5.23
+n eɪ̯ s	n eɪ̯ s t	nace	naced	5	IOR regular	1	1	1	6.57	6.50	6.22	5.57
+n eɪ̯ s	n oʊ̯ s	nace	noce	5	IOR regular	0	0	0	2.91	2.96	4.00	3.89
+n oʊ̯ l d	n ɛ l d	nold	neld	4.1	IOR neither	0	0.182	0.1	5.14	5.03	3.94	4.10
+n oʊ̯ l d	n oʊ̯ l d	nold	nold	4.1	IOR neither	0.167	0.5	0.35	6.05	5.95	3.96	3.91
+n oʊ̯ l d	n oʊ̯ l d ə d	nold	nolded	4.1	IOR neither	0.833	0.273	0.525	4.64	4.76	4.78	5.54
+n ʌ ŋ	n æ ŋ	nung	nang	3.21	IOR neither	0	0.105	0.059	4.32	4.02	3.94	3.89
+n ʌ ŋ	n ʌ ŋ d	nung	nunged	3.21	IOR neither	0.933	0.737	0.824	5.37	5.78	5.14	5.97
+p æ ŋ k	p æ ŋ k t	pank	panked	5.62	IOR neither	1	0.81	0.9	6.30	6.05	5.62	5.92
+p æ ŋ k	p ʌ ŋ k	pank	punk	5.62	IOR neither	0	0.143	0.075	4.00	4.19	3.94	3.89
+p l ɪ m	p l æ m	plim	plam	4.43	IOR irregular	0	0.045	0.024	3.57	3.51	4.21	3.92
+p l ɪ m	p l ɪ m d	plim	plimmed	4.43	IOR irregular	0.95	0.682	0.81	6.13	6.22	5.74	5.96
+p l ɪ m	p l ʌ m	plim	plum	4.43	IOR irregular	0	0.136	0.071	4.17	4.12	4.52	4.10
+p r i k	p r i k t	preak	preaked	4.9	IOR neither	0.9	0.792	0.841	5.83	5.77	5.37	5.80
+p r i k	p r ɛ k	preak	preck	4.9	IOR neither	0	0	0	3.54	3.58	3.94	3.98
+p r i k	p r oʊ̯ k	preak	proke	4.9	IOR neither	0.1	0.167	0.136	3.92	3.96	3.98	3.93
+p ʌ m	p eɪ̯ m	pum	pame	4.81	Single form analogy	0	0	0	2.71	2.71	3.94	4.01
+p ʌ m	p ʌ m d	pum	pummed	4.81	Single form analogy	1	0.826	0.902	6.17	6.15	5.74	6.06
+k w i d	k w ɛ d	queed	qued	3.81	IOR irregular	0.1	0.318	0.214	5.35	5.19	4.43	4.09
+k w i d	k w i d ə d	queed	queeded	3.81	IOR irregular	0.7	0.364	0.524	4.65	4.86	4.36	5.10
+r æ s k	r æ s k t	rask	rasked	5.3	IOR neither	1	0.87	0.93	6.42	6.26	5.97	6.11
+r æ s k	r ʌ s k	rask	rusk	5.3	IOR neither	0	0.043	0.023	4.08	4.21	3.94	3.85
+r aɪ̯ f	r aɪ̯ f t	rife	rifed	5.61	IOR both	0.95	0.762	0.854	5.95	5.69	6.22	5.07
+r aɪ̯ f	r ɪ f	rife	riff	5.61	IOR irregular	0	0	0	3.24	3.42	3.94	3.90
+r aɪ̯ f	r oʊ̯ f	rife	rofe	5.61	IOR both	0	0.19	0.098	4.14	4.33	4.61	4.35
+r aɪ̯ n t	r oʊ̯ n t	ry'nt	roant	3	Few form analogy	0.056	0.292	0.19	4.29	3.95	3.94	4.32
+r aɪ̯ n t	r aʊ̯ n t	ry'nt	rount	3	Few form analogy	0	0.042	0.024	3.71	3.36	3.94	4.13
+r aɪ̯ n t	r aɪ̯ n t ə d	ry'nt	ry'nted	3	Few form analogy	0.778	0.25	0.476	5.00	5.46	6.20	5.51
+s k ɔɪ̯ l	s k ɔɪ̯ l d	scoil	scoiled	3.84	Burnt irregular	0.944	0.947	0.946	6.45	6.72	5.93	6.51
+s k ɔɪ̯ l	s k ɔɪ̯ l t	scoil	scoilt	3.84	Burnt irregular	0	0	0	5.15	4.99	4.01	4.91
+s k r aɪ̯ d	s k r ɪ d	scride	scrid	4.05	IOR irregular	0	0.042	0.024	3.57	3.43	4.12	3.95
+s k r aɪ̯ d	s k r aɪ̯ d ə d	scride	scrided	4.05	IOR irregular	0.556	0.292	0.405	4.17	4.30	4.58	4.89
+s k r aɪ̯ d	s k r oʊ̯ d	scride	scrode	4.05	IOR irregular	0.111	0.25	0.19	4.39	4.26	4.98	4.73
+ʃ i	ʃ ɔ	shee	shaw	5.95	Single form analogy	0	0	0	3.25	3.50	3.94	4.18
+ʃ i	ʃ i d	shee	sheed	5.95	Single form analogy	1	0.875	0.929	6.17	5.81	5.94	5.89
+ʃ ɪ l k	ʃ æ l k	shilk	shalk	4.6	IOR neither	0	0	0	3.67	3.64	3.94	4.13
+ʃ ɪ l k	ʃ ɪ l k t	shilk	shilked	4.6	IOR neither	1	0.95	0.975	5.79	5.82	5.97	5.17
+ʃ ɚ n	ʃ ɚ n d	shurn	shurned	5	Burnt irregular	0.947	0.857	0.9	6.57	6.50	6.02	6.31
+ʃ ɚ n	ʃ ɚ n t	shurn	shurnt	5	Burnt irregular	0	0	0	4.22	4.28	3.95	5.11
+ʃ aɪ̯ n t	ʃ oʊ̯ n t	shy'nt	shoant	3.52	Few form analogy	0	0.136	0.071	3.83	3.58	3.94	4.23
+ʃ aɪ̯ n t	ʃ aʊ̯ n t	shy'nt	shount	3.52	Few form analogy	0	0.045	0.024	3.39	3.14	3.94	4.02
+ʃ aɪ̯ n t	ʃ aɪ̯ n t ə d	shy'nt	shy'nted	3.52	Few form analogy	0.8	0.364	0.571	5.17	5.49	6.20	5.49
+s k ɛ l	s k ɛ l d	skell	skelled	5.05	Burnt irregular	0.944	0.682	0.8	6.05	5.95	5.86	6.24
+s k ɛ l	s k ɛ l t	skell	skelt	5.05	Burnt irregular	0	0.227	0.125	5.32	5.41	4.06	5.23
+s n ɛ l	s n ɛ l d	snell	snelled	5.38	Burnt irregular	0.947	0.826	0.881	6.17	5.99	5.86	6.18
+s n ɛ l	s n ɛ l t	snell	snelt	5.38	Burnt irregular	0	0.13	0.071	5.30	5.46	4.06	5.25
+s n ɛ l	s n oʊ̯ l d	snell	snold	5.38	Few form analogy	0	0	0	2.83	2.95	3.94	4.17
+s p æ k	s p æ k t	spack	spacked	5.05	IOR regular	1	0.739	0.86	6.22	6.13	6.01	5.79
+s p æ k	s p ʌ k	spack	spuck	5.05	IOR regular	0	0.13	0.07	3.96	4.03	3.94	3.85
+s p l ɪ ŋ	s p l æ ŋ	spling	splang	4.56	IOR irregular	0.056	0.158	0.108	4.50	4.48	4.36	4.54
+s p l ɪ ŋ	s p l ɪ ŋ d	spling	splinged	4.56	IOR irregular	0.667	0.368	0.514	4.36	4.34	5.14	5.35
+s p l ɪ ŋ	s p l ʌ ŋ	spling	splung	4.56	IOR irregular	0.222	0.421	0.324	5.45	5.45	5.19	5.42
+s k w ɪ l	s k w ɪ l d	squill	squilled	4.67	Burnt irregular	0.895	0.81	0.85	5.92	5.93	5.86	6.30
+s k w ɪ l	s k w ɪ l t	squill	squilt	4.67	Burnt irregular	0	0.048	0.025	5.21	5.22	4.06	5.20
+s t ɪ n	s t æ n	stin	stan	5.4	IOR irregular	0	0	0	2.74	2.87	4.27	4.03
+s t ɪ n	s t ɪ n d	stin	stinned	5.4	IOR both	0.9	0.522	0.698	5.30	5.08	5.83	6.02
+s t ɪ n	s t ʌ n	stin	stun	5.4	IOR both	0.1	0.261	0.186	4.78	4.94	4.34	4.63
+s t ɪ p	s t ɪ p t	stip	stipped	5.45	IOR both	1	0.708	0.841	5.92	5.70	6.07	5.88
+s t ɪ p	s t ʌ p	stip	stup	5.45	IOR both	0	0.083	0.045	4.50	4.66	4.15	4.26
+s t aɪ̯ r	s t aɪ̯ r d	stire	stired	5.62	IOR regular	1	0.818	0.902	6.00	5.74	6.02	6.29
+s t aɪ̯ r	s t oʊ̯ r	stire	store	5.62	IOR regular	0	0.091	0.049	3.22	3.40	3.94	4.03
+t a r k	t a r k t	tark	tarked	5.1	IOR neither	1	0.87	0.93	6.33	6.24	5.97	5.66
+t a r k	t oʊ̯ r k	tark	tork	5.1	IOR neither	0	0.043	0.023	3.71	3.79	3.94	3.85
+t i p	t i p t	teep	teeped	4.95	IOR irregular	1	0.783	0.884	5.91	5.84	5.69	5.61
+t i p	t ɛ p t	teep	tept	4.95	IOR irregular	0	0.087	0.047	4.70	4.76	4.73	4.20
+t ɛ ʃ	t ɛ ʃ t	tesh	teshed	4.71	IOR regular	1	0.87	0.925	6.22	6.23	6.22	5.59
+t ɛ ʃ	t a ʃ	tesh	tosh	4.71	IOR regular	0	0	0	3.13	3.12	3.94	3.88
+t r ɪ s k	t r æ s k	trisk	trask	5.14	IOR neither	0	0.105	0.051	3.76	3.85	3.94	4.01
+t r ɪ s k	t r ɪ s k t	trisk	trisked	5.14	IOR neither	1	0.789	0.897	6.29	6.17	5.97	6.05
+t r ɪ s k	t r ʌ s k	trisk	trusk	5.14	IOR neither	0	0.053	0.026	3.62	3.71	3.94	3.94
+t ʌ n k	t æ n k	tunk	tank	4.65	IOR neither	0	0.087	0.047	3.92	3.91	3.94	3.86
+t ʌ n k	t ʌ n k t	tunk	tunked	4.65	IOR neither	1	0.826	0.907	5.67	5.67	5.62	5.80
+w ɪ s	w ɪ s t	whiss	whissed	5.76	IOR regular	0.95	0.952	0.951	6.57	6.28	6.22	5.68
+w ɪ s	w ʌ s	whiss	wus	5.76	IOR regular	0	0.048	0.024	3.35	3.56	3.94	3.99
+z eɪ̯	z eɪ̯ d	zay	zayed	4.14	Single form analogy	0.95	1	0.977	6.39	6.57	6.13	5.99
+z eɪ̯	z ɛ d	zay	zed	4.14	Single form analogy	0	0	0	4.39	4.28	3.94	4.05

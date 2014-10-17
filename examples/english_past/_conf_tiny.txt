@@ -7,9 +7,6 @@
         "trainOutputFile": "output_english_past_train.txt",
         "features": "features.txt"
     },
-    "learner": {
-        "vowelFeature": "syll"
-    },
     "name": "Tiny",
     "description": "A small sample of lexical data  from Albright & Hayes (2003), and their nonce words." 
 }

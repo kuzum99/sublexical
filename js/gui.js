@@ -209,11 +209,44 @@ var GUI = (function($, undefined){
 		$(destination + " .simulation_params").append($('<div/>', {id: destination.slice(1) + "files-title", text: "Files", class: "title"}));
 		$(destination + " .simulation_params").append($('<ul/>',{id: destination.slice(1) + "files" }));
 		$(destination + "files").append(
-			"<li><span class='simulation_file'>Training:</span>"    + "<span class='hand' onClick='GUI.showFile(\"training\")'>"    + ((remoteness===REMOTE) ? conf.files.training    : conf.files.training.name)    + "</span>" +
-			"<li><span class='simulation_file'>Testing:</span>"     + "<span class='hand' onClick='GUI.showFile(\"testing\")'>"     + ((remoteness===REMOTE) ? conf.files.testing     : conf.files.testing.name)     + "</span>" +
-			"<li><span class='simulation_file'>Constraints:</span>" + "<span class='hand' onClick='GUI.showFile(\"constraints\")'>" + ((remoteness===REMOTE) ? conf.files.constraints : conf.files.constraints.name) + "</span>" +
-			"<li><span class='simulation_file'>Features:</span>"    + "<span class='hand' onClick='GUI.showFile(\"features\")'>"    + (((remoteness===REMOTE) ? conf.files.features    : (conf.files.features && conf.files.features.name))||"default")    + "</span>"
+			"<li><span class='simulation_file'>Training:</span>"    +
+			"<li><span class='simulation_file'>Testing:</span>"     +
+			"<li><span class='simulation_file'>Constraints:</span>" +
+			"<li><span class='simulation_file'>Features:</span>"
 		)
+
+		var trainingFileName = (remoteness===REMOTE) ? conf.files.training : conf.files.training.name;
+		var trainingFileURL = URL.createObjectURL(new Blob([ showFile("training") ], { type: 'text/plain' }));
+		$($(destination + "files").children()[0]).append($('<a/>',{
+					text: trainingFileName,
+					download: trainingFileName,
+					href: trainingFileURL
+		}));
+
+		var testingFileName = (remoteness===REMOTE) ? conf.files.testing : conf.files.testing.name;
+		var testingFileURL = URL.createObjectURL(new Blob([ showFile("testing") ], { type: 'text/plain' }));
+		$($(destination + "files").children()[1]).append($('<a/>',{
+					text: testingFileName,
+					download: testingFileName,
+					href: testingFileURL
+		}));
+
+		var constraintsFileName = (remoteness===REMOTE) ? conf.files.constraints : conf.files.constraints.name;
+		var constraintsFileURL = URL.createObjectURL(new Blob([ showFile("constraints") ], { type: 'text/plain' }));
+		$($(destination + "files").children()[2]).append($('<a/>',{
+					text: constraintsFileName,
+					download: constraintsFileName,
+					href: constraintsFileURL
+		}));
+
+		var featureFileName = (((remoteness===REMOTE) ? conf.files.features : (conf.files.features && conf.files.features.name)) || "default");
+		var featurefileURL = URL.createObjectURL(new Blob([ showFile("features") ], { type: 'text/plain' }));
+		$($(destination + "files").children()[3]).append($('<a/>',{
+					text: featureFileName,
+					download: featureFileName,
+					href: featurefileURL
+		}));
+
 
 		$(destination + " .simulation_params").append($('<div/>', {id: destination.slice(1) + "params-title", text: "Learning parameters", class: "title"}));
 		$(destination + " .simulation_params").append($('<ul/>',  {id: destination.slice(1) + "params" }));
@@ -226,12 +259,13 @@ var GUI = (function($, undefined){
 			"<li class='" + ((conf.learner.changeOrientations.default || !conf.learner.changeOrientations.metathesize    ) ? "default" : "specified") + "'><span class='simulation_param'>Metathesis orientation:</span> "   + "<span class='simulation_value'>" + (conf.learner.changeOrientations.metathesize    || defaultConf.learner.changeOrientations.metathesize   ) + "</span>" +
 			"<li class='" + ((conf.learner.default                    || !conf.learner.howMuchTraining                   ) ? "default" : "specified") + "'><span class='simulation_param'>Learning data size:</span> "       + "<span class='simulation_value'>" + (conf.learner.howMuchTraining                   || defaultConf.learner.howMuchTraining                  ) + "</span>" +
 			"<li class='" + ((conf.learner.default                    || !conf.learner.useGrammarsProper                 ) ? "default" : "specified") + "'><span class='simulation_param'>Use Grammars Proper:</span> "      + "<span class='simulation_value'>" + (conf.learner.useGrammarsProper                 || defaultConf.learner.useGrammarsProper                ) + "</span>" +
-			"<li class='" + ((conf.learner.default                    || !conf.learner.vowelFeature                      ) ? "default" : "specified") + "'><span class='simulation_param'>Vowel feature:</span> "            + "<span class='simulation_value'>" + (conf.learner.vowelFeature                      || defaultConf.learner.vowelFeature                     ) + "</span>" +
+			"<li class='" + ((conf.learner.default                    || !conf.learner.skipTesting                       ) ? "default" : "specified") + "'><span class='simulation_param'>Skip wug-testing:</span> "         + "<span class='simulation_value'>" + (conf.learner.skipTesting                       || defaultConf.learner.skipTesting                      ) + "</span>" +
+			"<li class='" + ((conf.learner.default                    || !conf.learner.nucleusFeature                    ) ? "default" : "specified") + "'><span class='simulation_param'>Nucleus feature:</span> "          + "<span class='simulation_value'>" + (conf.learner.nucleusFeature                    || defaultConf.learner.nucleusFeature                   ) + "</span>" +
 			""
 		);
 		if(conf.learner.default) {
 			$(destination + "params-title").addClass("default");
-			$(destination + "params-title").append($('<div/>',{text: "+", class: "open", click: function(){ $(destination + "params").show() } }));
+			$(destination + "params-title").append($('<div/>',{text: "+", class: "open", click: function(){ $(destination + "params").show(); $(destination + "params-title").children().hide(); } }));
 			$(destination + "params").hide();
 		};
 
@@ -251,7 +285,7 @@ var GUI = (function($, undefined){
 		);
 		if(conf.maxent.default) {
 			$(destination + "maxent-title").addClass("default");
-			$(destination + "maxent-title").append($('<div/>',{text: "+", class: "open", click: function(){ $(destination + "maxent").show() } }));
+			$(destination + "maxent-title").append($('<div/>',{text: "+", class: "open", click: function(){ $(destination + "maxent").show(); $(destination + "maxent-title").children().hide(); } }));
 			$(destination + "maxent").hide();
 		};
 
@@ -269,7 +303,7 @@ var GUI = (function($, undefined){
 		);
 		if(conf.aligner.default) {
 			$(destination + "align-title").addClass("default");
-			$(destination + "align-title").append($('<div/>',{text: "+", class: "open", click: function(){ $(destination + "align").show() } }));
+			$(destination + "align-title").append($('<div/>',{text: "+", class: "open", click: function(){ $(destination + "align").show(); $(destination + "align-title").children().hide(); } }));
 			$(destination + "align").hide();
 		};
 
@@ -284,38 +318,44 @@ var GUI = (function($, undefined){
 
 	var showFile = function(file) {
 
-		var toHTML = function (content) {
+		var str;
+		/*var toHTML = function (content) {
 			var table = "";
 			for (var i=0; i<content.length; i++) {
 				table += content[i] + "<br>";
 			}
 			return table;
-		}
-		var newWindow = function (content) {
+		}*/
+		/*var newWindow = function (content) {
 				window.open().document.write(content);
-		}
+		}*/
 
 		if (conf && conf.files && conf.files[file]) {
 			if (typeof conf.files[file] === "string") {
 				// file on server, get it
-				FileManager.loadText( conf.dirname + conf.files[file] );
+				FileManager.load( conf.dirname + conf.files[file] );
 				if (FileManager.status()) {
-					text = FileManager.get();
-					newWindow(toHTML(text));
+					str = FileManager.get();
+					//newWindow(toHTML(text));
 				}
 			} else {
 				// local file, display content
-				newWindow(toHTML(conf.files[file].content));
+				str = conf.files[file].content; //newWindow(toHTML(conf.files[file].content));
+				for (var i=0; i<str.length; i++) {
+					str[i] = str[i].join("\t");
+				}
+				str = str.join("\n");
+				console.log(str);
 			}
 		} else {
 			// show the default feature file
-			FileManager.loadText( defaultFeatureFile );
+			FileManager.load( defaultFeatureFile );
 			if (FileManager.status()) {
-				text = FileManager.get();
-				newWindow(toHTML(text));
+				str = FileManager.get();
+				//newWindow(toHTML(text));
 			}
 		}
-		
+		return str;
 	}
 	
 	var runSimulation = function (remoteness, simulationIndex) {
@@ -400,19 +440,20 @@ var GUI = (function($, undefined){
 				testOutputFile:            conf.files.testOutputFile,
 				downloadButton:            destination + " .simulation_downloadify",
 				aligner:                   Aligner,
-				minProductiveSize:         (conf.learner.minProductiveSize || defaultConf.learner.minProductiveSize),
-				mutationType:              (conf.learner.mutationType || defaultConf.learner.mutationType),
-				trainingSize:              (conf.learner.howMuchTraining || defaultConf.learner.howMuchTraining),
+				minProductiveSize:         (conf.learner.minProductiveSize              || defaultConf.learner.minProductiveSize),
+				mutationType:              (conf.learner.mutationType                   || defaultConf.learner.mutationType),
+				trainingSize:              (conf.learner.howMuchTraining                || defaultConf.learner.howMuchTraining),
 				changeOrientations: {
-					delete:                (conf.learner.changeOrientations.delete || defaultConf.learner.changeOrientations.delete), 
-					mutate:                (conf.learner.changeOrientations.mutate || defaultConf.learner.changeOrientations.mutate), 
+					delete:                (conf.learner.changeOrientations.delete      || defaultConf.learner.changeOrientations.delete), 
+					mutate:                (conf.learner.changeOrientations.mutate      || defaultConf.learner.changeOrientations.mutate), 
 					metathesize:           (conf.learner.changeOrientations.metathesize || defaultConf.learner.changeOrientations.metathesize)
 				},
-				useGrammarsProper:                 conf.learner.useGrammarsProper || defaultConf.learner.useGrammarsProper,
-				disableLastNucleusHypotheses:      conf.learner.disableLastNucleusHypotheses || defaultConf.learner.disableLastNucleusHypotheses,
-				vowelFeature:                      conf.learner.vowelFeature || defaultConf.learner.vowelFeature,
-				verboseReduction:                  conf.learner.verboseReduction || defaultConf.learner.verboseReduction,
-				preReductionProductivityThreshold: conf.learner.preReductionProductivityThreshold || defaultConf.learner.preReductionProductivityThreshold
+				useGrammarsProper:                 conf.learner.useGrammarsProper                 || defaultConf.learner.useGrammarsProper,
+				disableLastNucleusHypotheses:      conf.learner.disableLastNucleusHypotheses      || defaultConf.learner.disableLastNucleusHypotheses,
+				nucleusFeature:                    conf.learner.nucleusFeature                    || defaultConf.learner.nucleusFeature,
+				verboseReduction:                  conf.learner.verboseReduction                  || defaultConf.learner.verboseReduction,
+				preReductionProductivityThreshold: conf.learner.preReductionProductivityThreshold || defaultConf.learner.preReductionProductivityThreshold,
+				skipTesting:                       conf.learner.skipTesting                       || defaultConf.learner.skipTesting
 			});
 			
 			if (status===0) {
@@ -439,8 +480,10 @@ var GUI = (function($, undefined){
 			// something bad happened
 			console.log("\n\nError occurred after " +  timePrettifier(startTime));
 			console.error(err.stack);
-			$(destination + " .simulation_status").html("Error");
-			$(destination + " .simulation_status").css('color', 'red');
+			$(destination + " .simulation_status").html([
+				$('<div/>', {text:"Error.", style:"color: red;"}),
+				$('<div/>', {text:"The console might have more information.", style:"font-size: 11pt;"}),
+			]);
 	        $("#dimdom")[0].play() //soundManager.play("dimdom");
     	    document.title = "(error) " + title;
 		});

@@ -11,10 +11,11 @@ var Learner = (function($, undefined){
     var changeOrientations = {delete: 'product', mutate: 'product', metathesize: 'product'}; // each can be {'source', 'product'}
     var useGrammarsProper = true;
     var disableLastNucleusHypotheses = false;
-    var vowelFeature = 'syllabic';
+    var nucleusFeature = 'syllabic';
     var sizeBiasPriorFunction = function(x){return 1;}; // one alternative: function(x){return x;}, for a meaningful prior
     var preReductionProductivityThreshold = 0;
     var verboseReduction = false;
+    var skipTesting = false;
     var onscreen = true;
 
 
@@ -96,9 +97,14 @@ var Learner = (function($, undefined){
         }
         _log("Construction and use of Grammars Proper (in addition to Gatekeeper Grammars) is set to: " + useGrammarsProper);
 
-        vowelFeature = obj.vowelFeature || 'syllabic';
         disableLastNucleusHypotheses = obj.disableLastNucleusHypotheses || false;
 		_log("Whether or not 'last nucleus' hypotheses are disabled: " + disableLastNucleusHypotheses);
+        nucleusFeature = obj.nucleusFeature || 'syllabic';
+        if (disableLastNucleusHypotheses === false) {
+            if ((nucleusFeature in FeatureManager.getArbitrarySegment()) === false) {
+                throw new Error("Warning! Your feature inventory does not include the feature you have specified as indicating vowels. Please edit relevant parameter (nucleusFeature) or your feature file.")
+            }
+        }
 
         sizeBiasPriorFunction = obj.sizeBiasPriorFunction || function(x){return 1;}; // one alternative: function(x){return 1;}
 		_log("The function responsible for implementing the sublexicon size bias (prior) is set to: " + sizeBiasPriorFunction);
@@ -106,10 +112,17 @@ var Learner = (function($, undefined){
         verboseReduction = obj.verboseReduction || false;
         _log("Verbose reduction: " + verboseReduction);
 
+        skipTesting = obj.skipTesting || false;
+
         initialized = true;
         _log("Learner initialized.");
 
         var arr = learn(trainingData, trainingSize); // hypotheses
+        
+        if ((skipTesting) || (testingData.length === 0)) {
+            _log('Sublexicon construction complete. No wug tests will be carried out, either because the parameter skipTesting is set to true or because no testing item file has been provided.')
+            return arr;
+        }
 
         if (arr.length > 0) {
 
@@ -132,17 +145,20 @@ var Learner = (function($, undefined){
 			var trainOutputURL = URL.createObjectURL(trainOutputBlob);
 
 			$(downloadButton).html([
-				$('<a/>', {
-					text: "Download testing item predictions",
-					download: testOutputFile,
-					href: testOutputURL
-				}),
-				$('<br/>'),
-				$('<a/>', {
-					text: "Download analyzed training data",
-					download: trainOutputFile,
-					href: trainOutputURL
-				})
+				$('<div/>', {text: "Download: ", style: "margin-bottom: .75ex;"}).append(
+					$('<a/>', {
+						text: "testing results (wug test)",
+						download: testOutputFile,
+						href: testOutputURL
+					})
+				),
+				$('<div/>', {text: "Download: "}).append(
+					$('<a/>', {
+						text: "analyzed training data",
+						download: trainOutputFile,
+						href: trainOutputURL
+					})
+				)
 			]);
 
 		} else {
@@ -275,7 +291,6 @@ var Learner = (function($, undefined){
         }
 
         _log("Saturating context lists with zero-probability derivatives.");
-        _log("At this point many alignments must be generated in order for Faithfulness violations to be counted.  May take some time...");
         hypotheses = addOtherContexts(hypotheses, lexicon);
         _log("Context lists saturated.");
 
@@ -400,13 +415,13 @@ var Learner = (function($, undefined){
 			if (chunk[0] === null) {
 				return false;
 			}
-			return (FeatureManager.getSegment(chunk[0])[vowelFeature] === '+');
+			return (FeatureManager.getSegment(chunk[0])[nucleusFeature] === '+');
 		}
 
 		if (typeof FeatureManager.getSegment(change.input[0]) === 'undefined') {
 			return false;
 		}
-        if (FeatureManager.getSegment(change.input[0])[vowelFeature] === '+') {
+        if (FeatureManager.getSegment(change.input[0])[nucleusFeature] === '+') {
         	var rightwardSegments = base.slice(((change.location-1)/2)+1)
         	var rightwardStatuses = $.map(rightwardSegments, checkChunk)
         	if ($.inArray(true, rightwardStatuses)===-1) {
@@ -422,7 +437,7 @@ var Learner = (function($, undefined){
 			if (base[m] !== undefined) {
 				var segment = $.isArray(base[m]) ? base[m][0] : base[m];
 				if (segment !== null) {
-					if (FeatureManager.getSegment(segment)[vowelFeature] === '+') {
+					if (FeatureManager.getSegment(segment)[nucleusFeature] === '+') {
 						return m;
 					}
 				}
@@ -1018,14 +1033,11 @@ var Learner = (function($, undefined){
             for (var j=0;j<allPairs.length;j++) {
                 var base = allPairs[j][0];
                 var derivative = allPairs[j][1];
-                for (var k=0;k<contextNames.length;k++) {
-                }
                 if ($.inArray(base, contextNames) == -1) {
                     hypotheses[i].contexts.push({
                                             form : base,
                                             derivative : derivative,
                                             probability : 0,
-                                            alignment : alignmentToArrays(aligner.align(base, derivative)[0]),
                                             toString: function(){return contextToString(this);}
                                         });
                 }

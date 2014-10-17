@@ -11,8 +11,8 @@ d$
 [+aper,+voice]$
 [+aper,0voice]$
 [+nasal]$
-[0syll]$
-[+syll]$
+[0syllabic]$
+[+syllabic]$
 [+voice]$
 [0voice]$
 
@@ -30,35 +30,35 @@ d d$	-10	1
 [+tense] [+aper,+voice]$
 [+tense] [+aper,0voice]$
 [+tense] [+nasal]$
-[+tense] [0syll]$
+[+tense] [0syllabic]$
 
 [+tense] [0aper,-nasal,+cor,+ant]$
 
-[0syll] ?d$
-[0syll] ?t$
+[0syllabic] ?d$
+[0syllabic] ?t$
 
-[+syll] ?([+dors,0syll] ?)+$
-[+syll] ?([+cor,0syll] ?)+$
-[+syll] ?([+lab,0syll] ?)+$
+[+syllabic] ?([+dors,0syllabic] ?)+$
+[+syllabic] ?([+cor,0syllabic] ?)+$
+[+syllabic] ?([+lab,0syllabic] ?)+$
 
-i ?([0syll] ?)*$
-u ?([0syll] ?)*$
-eɪ̯ ?([0syll] ?)*$
-oʊ̯ ?([0syll] ?)*$
-ɪ ?([0syll] ?)*$
-ʊ ?([0syll] ?)*$
-ɛ ?([0syll] ?)*$
-ɔ ?([0syll] ?)*$
-ə ?([0syll] ?)*$
-ʌ ?([0syll] ?)*$
-ɚ ?([0syll] ?)*$
-a ?([0syll] ?)*$
-æ ?([0syll] ?)*$
-aɪ̯ ?([0syll] ?)*$
-aʊ̯ ?([0syll] ?)*$
-ɔɪ̯ ?([0syll] ?)*$
+i ?([0syllabic] ?)*$
+u ?([0syllabic] ?)*$
+eɪ̯ ?([0syllabic] ?)*$
+oʊ̯ ?([0syllabic] ?)*$
+ɪ ?([0syllabic] ?)*$
+ʊ ?([0syllabic] ?)*$
+ɛ ?([0syllabic] ?)*$
+ɔ ?([0syllabic] ?)*$
+ə ?([0syllabic] ?)*$
+ʌ ?([0syllabic] ?)*$
+ɚ ?([0syllabic] ?)*$
+a ?([0syllabic] ?)*$
+æ ?([0syllabic] ?)*$
+aɪ̯ ?([0syllabic] ?)*$
+aʊ̯ ?([0syllabic] ?)*$
+ɔɪ̯ ?([0syllabic] ?)*$
 
-^([0syll] ?){2}$
+^([0syllabic] ?){2}$
 
 p$
 b$

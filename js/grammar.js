@@ -35,7 +35,6 @@ var Grammar = (function($, undefined){
 		}
 
 
-
         printConstraintTranslations();
         _log("Constraint set loaded.");
 
@@ -343,6 +342,11 @@ var Grammar = (function($, undefined){
         return Math.round(number*Math.pow(10,digits))/Math.pow(10,digits);
     }
 
+    var checkFaithPresence = function() {
+        var allConstraintsStr = constraints.join();
+        return ((allConstraintsStr.indexOf('Ident')>-1) || (allConstraintsStr.indexOf('Max')>-1) || (allConstraintsStr.indexOf('Dep')>-1));
+    }
+
     return {
         initialize : initialize,
         convertConstraint : convertConstraint,
@@ -351,7 +355,9 @@ var Grammar = (function($, undefined){
 
         applyGatekeeper : applyGatekeeper,
         applyGrammarProper : applyGrammarProper,
-        round : round
+        round : round,
+
+        checkFaithPresence : checkFaithPresence
     };
 
 })(jQuery);

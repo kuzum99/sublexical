@@ -256,12 +256,22 @@ body, input, select, button {
 	cursor: pointer; cursor: hand;
 	border-radius: 3px;	
 }
+.simulation_current a {
+	text-decoration: none;
+	color: #009;
+}
+.simulation_current a:hover {
+	text-decoration: underline;
+}
 
 .simulation_status, .simulation_downloadify {
 	font-size: 13pt; 
-	font-weight: 900;
 	padding-bottom: 2ex;
 }
+.simulation_status, .simulation_downloadify a {
+	font-weight: 900;
+}
+
 .simulation_title {
 	font-size: 13pt; 
 	font-weight: 900;

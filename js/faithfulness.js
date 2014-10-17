@@ -72,6 +72,9 @@ var Faithfulness = (function($, undefined){
 
         if (faithType === "Ident") {
             var identConstraint = function(alignment) {
+                if (alignment.length === 0) {
+                    throw new Error('Faithfulness constraint was passed a bad alignment.');
+                }
                 var input = alignment[0];
                 var output = alignment[1];
 
@@ -156,6 +159,9 @@ var Faithfulness = (function($, undefined){
 
         if (faithType === "Max") {
             var maxConstraint = function(alignment) {
+                if (alignment.length === 0) {
+                    throw new Error('Faithfulness constraint was passed a bad alignment.');
+                }
                 var input = alignment[0]
                 var output = alignment[1]
 
@@ -188,6 +194,9 @@ var Faithfulness = (function($, undefined){
 
         if (faithType === "Dep") {
             var maxConstraint = function(alignment) {
+                if (alignment.length === 0) {
+                    throw new Error('Faithfulness constraint was passed a bad alignment.');
+                }
                 var input = alignment[0]
                 var output = alignment[1]
 

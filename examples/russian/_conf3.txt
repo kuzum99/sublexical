@@ -6,12 +6,6 @@
         "testing": "russian_test_tiny.txt",
         "output": "output_russian_regular_depalatalization.txt"
     },
-    "learner": {
-        "vowelFeature": "syll"
-    },
-    "maxent": {
-        "iterationCount": 10000
-    },
     "name": "tiny, regularized",
     "description": "Depalatalization is regular, not sparing [l&#690;].<br> Data from Becker & Gouskova (2014)." 
 }

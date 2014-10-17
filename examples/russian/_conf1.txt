@@ -6,12 +6,6 @@
         "testing": "nostress.vless.txt",
         "output": "output_russian_big.txt"
     },
-    "learner": {
-        "vowelFeature": "syll"
-    },
-    "maxent": {
-        "iterationCount": 10000
-    },
     "name": "realistic",
     "description": "Includes 1902 yers and 600 non-yers.<br> Data from Becker & Gouskova (2014)." 
 }

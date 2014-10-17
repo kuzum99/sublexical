@@ -60,8 +60,8 @@
         <li><a href="#tab3">New</a></li>
         <li id="localtitle"><a href="#local">My files</a></li>
         <li class="active"><a href="#server">Examples</a></li>
-        <li><a href="#tab4">About</a></li>
         <li><a href="#tab5">Help</a></li>
+        <li><a href="#tab4">About</a></li>
     </ul>
  
     <div class="tab-content">
@@ -122,7 +122,7 @@
  
 
 		<!-- about -->
-        <div id="tab4" class="tab "> 
+        <div id="tab4" class="tab" style="max-width: 40em;"> 
             If you used the Sublexical Learner in your work, please reference our paper and our learner:
             <p>
             <ul>
@@ -130,18 +130,27 @@
 		            Allen, Blake & Michael Becker (2014) Learning alternations from surface forms with sublexical phonology. Ms. University of British Columbia and Stony Brook University.
             	</li>
             	<li>
-		            Allen, Blake & Michael Becker (<!--#include virtual='lib/today.txt' -->) The sublexical morphophonological learner [web application]. Retrieved from http://sublexical.phonologist.org/. 
+		            Allen, Blake & Michael Becker (<span id="paper_year1"><!--#include virtual='lib/today.txt' --></span>) The sublexical morphophonological learner [web application], version of <span id="paper_year2"><!--#include virtual='lib/today.txt' --></span>. Retrieved from http://sublexical.phonologist.org/. 
             	</li>
             </ul>
-            Get the source code at <a href="https://github.com/kuzum99/sublexical">https://github.com/kuzum99/sublexical</a>.
+            Get the source code at <a href="https://github.com/kuzum99/sublexical">github.com/kuzum99/sublexical</a>.
             <p>
         </div>
+		<script>
+			var year = $("#paper_year1").html()
+			year = /20\d\d/.exec(year)[0];
+			$("#paper_year1").html(year);
+
+			year = $("#paper_year2").html()
+			year = year.trim();
+			$("#paper_year2").html(year);
+		</script>
+
 
 
 		<!-- help -->
-        <div id="tab5" class="tab ">
-            No help yet.
-            <p>
+        <div id="tab5" class="tab" style="max-width: 40em;">
+			<!--#include virtual='help.txt' -->
         </div>
 
 

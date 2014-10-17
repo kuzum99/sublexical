@@ -1,8 +1,8 @@
 {
     "files": {
-        "constraints": {"content":[],"name":"no constraints provided"},
-        "training": {"content":[],"name":"no training data provided"},
-        "testing": {"content":[],"name":"no testing data provided"},
+        "constraints": "",
+        "training": "",
+        "testing": "",
         "trainOutputFile": "output_train.txt",
         "testOutputFile": "output_test.txt",
         "features": null
@@ -14,7 +14,6 @@
             "delete": "product", 
             "mutate": "product", 
             "metathesize": "product",
-	        "default": true
         },
         "preReductionProductivityThreshold": 1,
         "minProductiveSize": 1,
@@ -23,7 +22,6 @@
         "nucleusFeature": "syllabic",
         "sizeBiasPriorFunction": null,
         "skipTesting" : false,
-        "default": true
     },
     "maxent": {
         "useGaussianPriors": true,
@@ -33,7 +31,6 @@
         "learningRate": 1,
         "noPositiveWeights": true,
         "initialWeight": 0,
-        "default": true
     },
     "aligner": {
         "features": true,
@@ -41,7 +38,6 @@
         "substitution": 2,
         "metathesis": 1.5,
         "tolerance": 0,
-        "default": true
     },
     "name": "(unnamed)",
     "description": "(no description provided)" 

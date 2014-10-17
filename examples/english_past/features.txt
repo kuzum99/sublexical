@@ -1,4 +1,4 @@
-symbol	syll	stress	aper	nasal	voice	lab	cor	ant	strid	lat	dors	hi	back	tense	diph
+symbol	syllabic	stress	aper	nasal	voice	lab	cor	ant	strid	lat	dors	hi	back	tense	diph
 empty	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 p	0	-	0	-	0	+	-	-	-	-	-	-	-	-	-
 b	0	-	0	-	+	+	-	-	-	-	-	-	-	-	-

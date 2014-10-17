@@ -65,7 +65,21 @@ var FeatureManager = (function($, undefined){
         var getSymbol = function (symbol) {
                 return table.table.subset("symbol",symbol)[0];
         }
-
+		/*
+		try { getSymbol(segmentA)
+		} catch (err) {
+            console.error("No such segment(s): " + segmentA);
+			console.error(err.stack);
+			return NaN;
+		}
+		try { getSymbol(segmentB)
+		} catch (err) {
+            console.error("No such segment(s): " + segmentB);
+			console.error(err.stack);
+			return NaN;
+		}
+		*/
+		
         if (!getSymbol(segmentA)) {
             console.error("No such segment(s): " + segmentA);
             return NaN;
@@ -73,6 +87,7 @@ var FeatureManager = (function($, undefined){
             console.error("No such segment(s): " + segmentB);
             return NaN;
         }
+        
         if (segmentA==segmentB) { return 0; };
 
         var cost = 0;

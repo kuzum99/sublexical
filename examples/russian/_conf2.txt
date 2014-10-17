@@ -6,12 +6,6 @@
         "testing": "russian_test_tiny.txt",
         "output": "output_russian_tiny.txt"
     },
-    "learner": {
-        "vowelFeature": "syll"
-    },
-    "maxent": {
-        "iterationCount": 10000
-    },
     "name": "tiny",
     "description": "Only 12 paradigms.<br> Data from Becker & Gouskova (2014)." 
 }

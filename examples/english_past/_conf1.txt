@@ -9,12 +9,11 @@
         "testOutputFile": "output_test.txt"
     },
     "learner": {
-        "vowelFeature": "syll",
         "minProductiveSize": 100,
         "preReductionProductivityThreshold": 100
     },
     "maxent": {
-        "defaultSigma": 10
+        "defaultSigma": 5
     },
     "name": "Full dataset, with high threshhold",
     "description": "Lexical data and nonce words from Albright & Hayes (2003), with a pre-reduction productivity threshold of 100. <span class='longsim'>Could be long.</span>" 

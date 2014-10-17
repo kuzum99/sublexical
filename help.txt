@@ -1,0 +1,119 @@
+<h1>What's in here?</h1>
+
+<p>
+A web application for learning the relation between a pair of morphological categories, e.g. singular and plural.  You can try some of the existing simulations, or upload your own files.
+
+
+<!-- 
+<h1>Use your console</h1>
+Opening the web console/Javascript console is highly recommended, e.g. in order to get  potentially useful information about any errors.
+The details vary from browser to browser, so use Google to find specific instructions. For example, if you are using Firefox, Google "firefox how to open the web console".
+-->
+
+
+<h1>Using your own files</h1>
+
+<p>
+You can give the learner your own files. The files are kept as a part of your browser; they will not be available on a different computer or even on a different browser on the same computer. They never get sent anywhere outside your computer.
+
+
+<h2>Training data</h2>
+
+<p>
+This is the only required file. It is a text file, with a pair of words in each line, separated by a tab. A third tab can specify the observed frequency of the paradigm. Anything after the third tab is ignored.
+
+<p>
+The sounds in each of the two words are separated by spaces.
+
+
+<h2>Testing data (wugs)</h2>
+
+<p>
+This is a text file, with a word in each line. Anything after a tab character is ignored.
+
+<p>
+The sounds in each word are separated by spaces.
+
+<p>
+If you don't supply testing data, the learner will take in the real words of the language, put them into sublexicons, and fit a grammar to each sublexicon. No wug testing will occur. 
+
+<h2>Constraint set</h2>
+
+<p>
+This is a text file, with one constraint in each line. Following a tab, an optional mu can be specified, followed by an optional sigma after the second tab. Anything after the third tab is ignored.
+<p>
+If you don't supply a constraint set, no forms will violate any constraints. The harmony of each candidate will be zero, and the probability distribution will be uniform and flat.
+
+<p>
+Markedness constraints are regular expressions. 
+
+<p>
+Faithfulness (explain here)
+
+
+
+
+<h2>Feature matrix</h2>
+
+<p>
+This is a text file, with one sound/phone/segment in each line. If you don't supply it, <a href="lib/default_feature_file.txt" target="_blank" download="default_feature_file.txt">the default feature file</a> will be used instead.  This file is based on Hayes' 2009 textbook, with minor modifications.
+
+<p>
+The first row must specify feature names, separated by tabs. The first tab must have the word "symbol".
+<p>
+The second row must specify the empty symbol, which must be named "empty".
+
+
+
+<h2>Configuration file</h2>
+
+<p>
+This is a text file in <a href="http://en.wikipedia.org/wiki/JSON" target="_blank">JSON format</a>. It is a rather strict format. If you don't supply a configuration file, <a href="lib/default_config_file_template.txt" target="_blank" download="default_config_file.txt">the default configuration file</a> will be used instead. 
+
+<p>
+Is a good place to give a name and description for your data, even if all of the parameters have their default values.
+<p>
+See below for more info about using this file.
+
+
+
+<h1>Simulation Parameters</h1>
+
+<h2>General</h2>
+
+<ul>
+	<li>  Minimal hypothesis size: 1
+	<li>  Minimal sublexicon size: 1
+	<li>  Mutation type: both
+	<li>  Mutation orientation: product
+	<li>  Deletion orientation: product
+	<li>  Metathesis orientation: product
+	<li>  Learning data size: all
+	<li>  Use Grammars Proper: true
+	<li>  Skip wug-testing: false
+	<li>  Nucleus feature: syllabic
+</ul>
+
+<h2>MaxEnt</h2>
+
+<ul>
+	<li>  Use Gaussian priors: true
+	<li>  Default μ: 0
+	<li>  Default σ: 100000
+	<li>  Iteration count: 10000
+	<li>  Learning rate: 1
+	<li>  No positive weights: true
+	<li>  Initial weight: 0
+</ul>
+
+
+<h2>Aligner</h2>
+
+<ul>
+	<li>  Use features: true
+	<li>  Insert/delete penalty: 1.5
+	<li>  Substitution penalty: 2
+	<li>  Metathesis penalty: 1.5
+	<li>  Tolerance: 0
+</ul>
+
