@@ -90,6 +90,14 @@ body, input, select, button {
 	padding-bottom: 1px;
 	font-weight: 900;
 }
+#header a {
+	text-decoration: none;
+	color: #009;
+}
+#header a:hover {
+	text-decoration: underline;
+}
+
 
 /*.box {
 	padding: 0px;
