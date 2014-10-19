@@ -16,12 +16,12 @@ d$
 [+voice]$
 [0voice]$
 
-[0aper,+voice,-nasal] t$	-10	1
-[0aper,0voice,-nasal] d$	-10	1
-[+aper,+voice,-nasal] t$	-10	1
-[+aper,0voice,-nasal] d$	-10	1
-t t$	-10	1
-d d$	-10	1
+[0aper,+voice,-nasal] t$
+[0aper,0voice,-nasal] d$
+[+aper,+voice,-nasal] t$
+[+aper,0voice,-nasal] d$
+t t$
+d d$
 
 [+tense] [0aper,-nasal]$
 [+tense] [0aper,-nasal,+voice]$

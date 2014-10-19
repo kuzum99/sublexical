@@ -56,6 +56,23 @@ var FeatureManager = (function($, undefined){
         });
 
         table = {table: items, key: key};
+        console.log(table);
+        
+        // for (item1 in table.table) {
+        //     if (table.table.hasOwnProperty(item1)) {
+        //         for (item2 in table.table) {
+        //             if (table.table.hasOwnProperty(item2)){
+        //                 if (_.isEqual(item1, item2)) {
+        //                     console.log('Two segments in the feature file have the same feature specifications. You must resolve this conflict in order for features to be read in correctly. The conflicting segments are listed below.');
+        //                     console.log(item1);
+        //                     console.log(item2);
+        //                     throw new Error();
+        //                 }
+        //             }
+        //         }
+        //     }
+        // }
+
         return (items.length>0);
     }
 

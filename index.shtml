@@ -58,7 +58,7 @@
 
     <ul class="tab-links">
         <li><a href="#tab3">New</a></li>
-        <li id="localtitle"><a href="#local">My files</a></li>
+        <li id="localtitle"><a href="#local">My simulations</a></li>
         <li class="active"><a href="#server">Examples</a></li>
         <li><a href="#tab5">Help</a></li>
         <li><a href="#tab4">About</a></li>
@@ -113,9 +113,9 @@
 				<div style='min-width:12em; display: inline-block;'>Description:</div> 
 				<input type="text">
 				<br>
-				<a id="file_save_link" href="javascript:void(0)">Save</a>
+				<a id="file_save_link" href="javascript:void(0)" class="button gray">Save</a>
 				&nbsp;
-				<a id="file_save_clear" href="javascript:void(0)">Clear</a>
+				<a id="file_save_clear" href="javascript:void(0)" class="button gray">Clear</a>
 				<div id="file_save_feedback"></div> 
 			</div>
         </div>

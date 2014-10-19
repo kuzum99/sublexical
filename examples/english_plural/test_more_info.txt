@@ -1,0 +1,139 @@
+B L IH1 K
+W AH1 G
+G AH1 CH
+N AE1 Z
+T OW1 R
+L AH1 N
+HH IY1 F
+B AH0 W AE1 L F	f	iamb	æ	l	4.88
+B AH1 N F	f	mono	ʌ	n	4.48
+B EY1 F	f	mono	eɪ	0	5.68
+B IH1 L TH	θ	mono	ɪ	l	4.24
+B IY1 TH	θ	mono	i	0	5
+B R AH0 L OW1 TH	θ	iamb	oʊ	0	5.04
+B R AH1 N L AH0 F	f	trochee	ʌ	n	4
+B R AY1 F	f	mono	aɪ	0	5.57
+CH AY1 TH	θ	mono	aɪ	0	5.21
+CH IH1 D AH0 F	f	trochee	ɪ	0	3.9
+CH OW1 TH	θ	mono	oʊ	0	4.89
+D AH0 K EH1 L TH	θ	iamb	ɛ	l	4.68
+D AH0 P AY1 TH	θ	iamb	aɪ	0	4.59
+D IY1 F	f	mono	i	0	6.06
+D OW1 TH	θ	mono	oʊ	0	5.43
+D UW1 F	f	mono	u	0	3.42
+D W IY1 TH	θ	mono	i	0	5.26
+F IH1 D AH0 TH	θ	trochee	ɪ	0	2.62
+F L OW1 D AH0 F	f	trochee	oʊ	0	4.44
+G AH0 N ER1 TH	θ	iamb	ɚ	0	4.24
+G L AH0 N AA1 F	f	iamb	ɑ	0	4.62
+G L ER1 S AH0 F	f	trochee	ɚ	0	4.21
+G L IY1 F	f	mono	i	0	5.19
+HH AA1 K AH0 TH	θ	trochee	ɑ	0	2.96
+HH AH0 B AA1 F	f	iamb	ɑ	0	4.79
+HH AH0 L EY1 TH	θ	iamb	eɪ	0	5.21
+HH AH0 R IY1 TH	θ	iamb	i	0	4.59
+HH AH0 S AY1 TH	θ	iamb	aɪ	0	4.25
+HH AY1 L AH0 TH	θ	trochee	aɪ	0	3.9
+HH UW1 TH	θ	mono	u	0	5.29
+JH AA1 N AH0 F	f	trochee	ɑ	0	3.78
+JH AE1 F	f	mono	æ	0	3.7
+JH AH0 Z AA1 TH	θ	iamb	ɑ	0	3.21
+JH AH1 K AH0 TH	θ	trochee	ʌ	0	4.3
+K AE1 L N AH0 TH	θ	trochee	æ	l	3.36
+K AH0 N AA1 TH	θ	iamb	ɑ	0	3.93
+K AH0 N UW1 TH	θ	iamb	u	0	4.44
+K AH0 Z IH1 N F	f	iamb	ɪ	n	3.47
+K AH1 TH	θ	mono	ʌ	0	3.87
+K AY1 R AH0 F	f	trochee	aɪ	0	3.38
+K ER1 F	f	mono	ɚ	0	3.67
+K L UH1 F	f	mono	ʊ	0	5.06
+K R AE1 TH	θ	mono	æ	0	4.11
+K R EY1 D AH0 F	f	trochee	eɪ	0	4.97
+K W AH0 Z AH1 F	f	iamb	ʌ	0	4.12
+K W ER1 TH	θ	mono	ɚ	0	4.21
+L ER1 B AH0 TH	θ	trochee	ɚ	0	3.56
+L IH1 TH	θ	mono	ɪ	0	3.82
+L IY1 S AH0 TH	θ	trochee	i	0	3.94
+M AH0 L EY1 F	f	iamb	eɪ	0	5.52
+M EY1 F	f	mono	eɪ	0	5.57
+M OW1 D AH0 TH	θ	trochee	oʊ	0	3.12
+N AE1 K AH0 TH	θ	trochee	æ	0	3.42
+N AH0 B OW1 TH	θ	iamb	oʊ	0	4.41
+N AH0 D AH1 L F	f	iamb	ʌ	l	4.61
+N AH0 SH IH1 F	f	iamb	ɪ	0	5.8
+N AH0 T OW1 F	f	iamb	oʊ	0	5.18
+N EH1 L G AH0 F	f	trochee	ɛ	l	4.3
+N EY1 G AH0 TH	θ	trochee	eɪ	0	3.32
+N IH1 F	f	mono	ɪ	0	3.63
+N OW1 F	f	mono	oʊ	0	4.93
+P AA1 R TH	θ	mono	ɑ	r	4.11
+P AE1 L TH	θ	mono	æ	l	4.88
+P AH0 T EH1 L F	f	iamb	ɛ	l	5.62
+P AY1 D AH0 TH	θ	trochee	aɪ	0	2.56
+P EH1 L TH	θ	mono	ɛ	l	3.81
+P ER0 N AE1 F	f	iamb	æ	0	5.07
+P EY1 TH	θ	mono	eɪ	0	4.57
+P IY1 D AH0 F	f	trochee	i	0	4.79
+P R UH1 TH	θ	mono	ʊ	0	4.03
+R AH0 D IY1 F	f	iamb	i	0	5.13
+R AH0 S T EH1 TH	θ	iamb	ɛ	0	4.29
+R AH0 S T IH1 L TH	θ	iamb	ɪ	0	5.21
+R AY1 L AH0 F	f	trochee	aɪ	0	4.36
+R IH1 L K AH0 F	f	trochee	ɪ	l	3.83
+R IY1 K R AH0 TH	θ	trochee	i	0	3.78
+R OW1 F	f	mono	oʊ	0	5.15
+R OW1 S AH0 TH	θ	trochee	oʊ	0	4.33
+R UW1 V AH0 TH	θ	trochee	u	0	2.96
+S AA1 S T AH0 TH	θ	trochee	ɑ	0	4.35
+S AH0 B AY1 F	f	iamb	aɪ	0	5.26
+S AH0 K ER1 TH	θ	iamb	ɚ	0	4.4
+S AH0 K L OW1 F	f	iamb	oʊ	0	5.82
+S AH0 P AH1 L TH	θ	iamb	ʌ	l	4.83
+S AH0 S AE1 L TH	θ	iamb	æ	l	5.25
+S AH0 S T AH1 TH	θ	iamb	ʌ	0	3.63
+S AH1 F	f	mono	ʌ	0	3.59
+S AH1 L TH	θ	mono	ʌ	0	3.37
+S EH1 N F	f	mono	ɛ	n	4.37
+S EH1 NG G IH0 TH	θ	trochee	ɛ	n	3.55
+S EY1 L AH0 F	f	trochee	eɪ	0	4.07
+S IH1 L T AH0 TH	θ	trochee	ɪ	0	3.63
+S K EH1 TH	θ	mono	ɛ	0	4.47
+S M AA1 F	f	mono	ɑ	0	4.96
+S M EY1 TH	θ	mono	eɪ	0	4.84
+S P EY1 L AH0 TH	θ	trochee	eɪ	0	3.42
+S T AH0 R UH1 F	f	iamb	ʊ	0	5.03
+S T ER1 F	f	mono	ɚ	0	5.03
+S T ER1 N AH0 F	f	trochee	ɚ	0	4.46
+S T ER1 TH	θ	mono	ɚ	0	3.24
+S T UH1 K AH0 F	f	trochee	ʊ	0	4.48
+SH AE1 D AH0 F	f	trochee	æ	0	3.85
+SH AH0 D UH1 TH	θ	iamb	ʊ	0	3.85
+SH AH0 K AE1 TH	θ	iamb	æ	0	5.09
+SH AH0 N ER1 F	f	iamb	ɚ	0	4.48
+SH AH1 T AH0 F	f	trochee	ʌ	0	3.47
+SH EH1 N AH0 TH	θ	trochee	ɛ	0	3.46
+SH EH1 S T AH0 F	f	trochee	ɛ	0	5.87
+SH IH1 L F	f	mono	ɪ	l	5.18
+SH R AY1 TH	θ	mono	aɪ	0	4.78
+T AA1 K AH0 F	f	trochee	ɑ	0	4.35
+T AH0 N K EY1 F	f	iamb	eɪ	0	5.22
+T AH0 R EY1 TH	θ	iamb	eɪ	0	4.04
+T AH0 S P IH1 TH	θ	iamb	ɪ	0	3.52
+T AH1 L P AH0 TH	θ	trochee	ʌ	l	3.46
+T R AH0 L UW1 F	f	iamb	u	0	4.96
+V OW1 L AH0 F	f	trochee	oʊ	0	4.32
+W AA1 F	f	mono	ɑ	0	3.03
+W AA1 TH	θ	mono	ɑ	0	4.12
+W AH0 G EH1 F	f	iamb	ɛ	0	4.26
+W AH0 R IY1 F	f	iamb	i	0	5.41
+W ER1 G AH0 TH	θ	trochee	ɚ	0	2.31
+W IY1 B AH0 F	f	trochee	i	0	3.88
+W UH1 K AH0 TH	θ	trochee	ʊ	0	3.58
+Y AE1 L M AH0 F	f	trochee	æ	l	3.68
+Y AH0 S T ER1 F	f	iamb	ɚ	0	5
+Y EH1 F	f	mono	ɛ	0	4.22
+Y UW1 N AH0 F	f	trochee	u	0	4.33
+Z AE1 L F	f	mono	æ	l	5.09
+Z AH0 K AY1 F	f	iamb	aɪ	0	4.72
+Z AH0 Z IY1 TH	θ	iamb	i	0	3.93
+Z AY1 F	f	mono	aɪ	0	5.11

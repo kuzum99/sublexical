@@ -111,6 +111,9 @@ var GUI = (function($, undefined){
 					if (folder[j].type==="configuration") {
 						var c = JSON.parse(folder[j].content);
 						description = (c && c.description) ? c.description : "&nbsp;";
+					} 
+					if (folder[j].description){
+						console.log(folder[j]);
 					}
 				}
 				$('<div/>', {class: "conf_description", onclick: "GUI.loadLocalSimulation(" + LOCAL + "," + i + ")"}).html(description).appendTo(destination + " .simulation_list");
@@ -118,7 +121,7 @@ var GUI = (function($, undefined){
 			if (keys.length>0) {
 				$(destination + " .simulation_list_status").hide();
 			} else {
-				$(destination + " .simulation_list_status").html("No local files found. <br> Go ahead and upload some!").show();
+				$(destination + " .simulation_list_status").html("No local simulations found. <br> Go ahead and upload some files!").show();
 				//$(destination + " .simulation_current").html("");
 			}
 		}
@@ -183,8 +186,9 @@ var GUI = (function($, undefined){
 			(key) ? key : conf.dirprettyname + " / " + conf.name
 		);
 		$(destination + " .simulation_status").html(
-			$('<a/>', {
+			$('<button/>', {
 				id: "learnbutton" + remoteness,
+				class: "button gray",
 				text: "Learn", 
 				href: "javascript:void(" +  Math.random(1) + ");" , 
 				onclick: "GUI.runSimulation(" + remoteness + "," + (simulationIndex) + ")"
@@ -375,7 +379,7 @@ var GUI = (function($, undefined){
 		if (typeof Promise !== "undefined" && Promise.toString().indexOf("[native code]") !== -1){
 			// all is good
 		} else {
-			$(destination + " .simulation_status").html("Error: your browser is not supported. Please try Chrome, Firefox, or Safari.");
+			$(destination + " .simulation_status").html("Error: your browser is not supported. Please use a recent version of Chrome, Firefox, or Safari.");
 			$(destination + " .simulation_status").css('color', 'red');
 			return null;
 		}
@@ -482,7 +486,9 @@ var GUI = (function($, undefined){
 			console.error(err.stack);
 			$(destination + " .simulation_status").html([
 				$('<div/>', {text:"Error.", style:"color: red;"}),
+				$('<div/>', {text:"Message: " + err.message, style:"font-size: 11pt; font-weight: 300;"}),
 				$('<div/>', {text:"The console might have more information.", style:"font-size: 11pt;"}),
+				$('<div/>', {text:"Please email michael.becker@phonologist.org if you need help.", style:"font-size: 11pt; font-weight: 300;"}),
 			]);
 	        $("#dimdom")[0].play() //soundManager.play("dimdom");
     	    document.title = "(error) " + title;
@@ -551,6 +557,7 @@ var GUI = (function($, undefined){
 	
 	var saveSimulation = function () {
 		var hasTraining = false;
+		var overwrite = true;
 		for (var i=0; i<Object.keys(localFiles).length; i++) {
 			var f = Object.keys(localFiles)[i];
 			if (localFiles[f].type==="training") { hasTraining = true };
@@ -558,20 +565,28 @@ var GUI = (function($, undefined){
 		}
 		var name        = $("#file_save input")[0].value || "(unnamed)";
 		var description = $("#file_save input")[1].value || "";
+		localFiles.push({description: description});
+
 		if (!hasTraining) {
-			$("#file_save_feedback").html("No training file.").css('color', 'red');
-		} else {
+			$("#file_save_feedback").html("No training file; files not saved.").css('color', 'red');
+		}
+		if (hasTraining & localStorage.getItem(name)) {
+			overwrite = confirm("Name exists; overwrite?");
+		}
+		if (hasTraining && overwrite) {
 			localStorage.setItem(name , JSON.stringify(localFiles) );
-			$("#file_save_feedback").html("Files saved.").css('color', 'black');
+			$("#file_save_feedback").html("Files saved. You can find your simulation under the ''My Files'' tab.").css('color', 'black');
 		}
 	}
 	
 	var clear = function() {
-		this.localFiles = [];
+		localFiles = [];
 		$("#files").html("");
+		$("#file_save_feedback").html("");
 		$("#file_save input")[0].value = "";
 		$("#file_save input")[1].value = "";
 		$("#file_save").hide();
+		console.log(localFiles);
 	}
 
 
