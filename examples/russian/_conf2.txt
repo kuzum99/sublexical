@@ -1,0 +1,11 @@
+{
+    "files": {
+        "features": "features.txt",
+        "constraints": "constraints.txt",
+        "training": "train_tiny.txt",
+        "testing": "test_tiny.txt",
+        "testOutputFile": "output_russian_tiny.txt"
+    },
+    "name": "tiny",
+    "description": "Only 45 paradigms in training.<br> Data from Becker & Gouskova (2014)." 
+}
