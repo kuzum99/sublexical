@@ -1,5 +1,4 @@
 ^([-syllabic] ?)* ?([+syllabic] ?)+ ?([-syllabic] ?)*$
-[+syllabic].*[+syllabic]
 
 [+strident]$
 [0strident]$
@@ -14,13 +13,10 @@
 
 (F|TH)$
 (TH)$
-(F)$
 ^(?!.*(F|TH)$)
 [+sonorant,-syllabic] (F|TH)$
 [+syllabic,+stress] (F|TH)$
 [+syllabic,+long] (F|TH)$
-[+syllabic,+stress] ([-syllabic] )+(F|TH)$
-[+syllabic,+long] ([-syllabic] )+(F|TH)$
 
 F: Ident [voice]
 F: Ident [coronal]

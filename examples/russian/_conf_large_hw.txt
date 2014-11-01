@@ -1,0 +1,15 @@
+{
+    "files": {
+        "features": "features.txt",
+        "constraints": "constraints_hw.txt",
+        "training": "train.txt",
+        "testing": "test.txt",
+        "testOutputFile": "output_russian_big_hw.txt"
+    },
+    "learner": {
+        "preReductionProductivityThreshold": 1,
+        "minProductiveSize": 20
+    },
+    "name": "realistic (UCLAPL constraints)",
+    "description": "Training includes 1902 yers words and 600 non-yer words. Constraints are those found by the UCLA Phonotactic Learner (Hayes & Wilson 2008). The wugs are those that the participants judged.  Data from Becker & Gouskova (2014)." 
+}

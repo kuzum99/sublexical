@@ -20,19 +20,10 @@ var GUI = (function($, undefined){
 		defaultConf = data;
 	});
 	
-	//console.log(defaultConf);
 
-	var logs = [];
     var log = function (message) {
     	console.log(message);
         //logs.push(message);
-    }
-    var outputLog = function () {
-    	/* for (var i=0; i<logs.length; i++) {
-			$("#console").append(logs[i]);
-			$("#console").scrollTop($("#console").prop("scrollHeight"));
-    	}*/
-    	logs = [];
     }
 
 	var localFiles = []; // the files in the current upload batch
@@ -113,7 +104,7 @@ var GUI = (function($, undefined){
 						description = (c && c.description) ? c.description : "&nbsp;";
 					} 
 					if (folder[j].description){
-						console.log(folder[j]);
+						//console.log(folder[j]);
 					}
 				}
 				$('<div/>', {class: "conf_description", onclick: "GUI.loadLocalSimulation(" + LOCAL + "," + i + ")"}).html(description).appendTo(destination + " .simulation_list");
@@ -344,12 +335,11 @@ var GUI = (function($, undefined){
 				}
 			} else {
 				// local file, display content
-				str = conf.files[file].content; //newWindow(toHTML(conf.files[file].content));
-				for (var i=0; i<str.length; i++) {
-					str[i] = str[i].join("\t");
+				str = ""; //newWindow(toHTML(conf.files[file].content));
+				for (var i=0; i<conf.files[file].content.length; i++) {
+					var x = conf.files[file].content[i];
+					str += x.join("\t") + "\n";
 				}
-				str = str.join("\n");
-				console.log(str);
 			}
 		} else {
 			// show the default feature file
@@ -364,44 +354,14 @@ var GUI = (function($, undefined){
 	
 	var runSimulation = function (remoteness, simulationIndex) {
 
-		var startTime = new Date();
-        log("Learning starting at " + startTime);
-
 		if(!remoteness) {remoteness = LOCAL};
 		var destination = (remoteness===REMOTE) ? "#server" : "#local" ;
 
-		//var conf = configurations[REMOTE][simulationIndex];
-		// the current conf is in the top-level variable "conf"
-		//console.log(conf);
+		var startTime = new Date();
+        log("Learning starting at " + startTime);
 
-
-		// check browser support for Promises
-		if (typeof Promise !== "undefined" && Promise.toString().indexOf("[native code]") !== -1){
-			// all is good
-		} else {
-			$(destination + " .simulation_status").html("Error: your browser is not supported. Please use a recent version of Chrome, Firefox, or Safari.");
-			$(destination + " .simulation_status").css('color', 'red');
-			return null;
-		}
-
-
-		var promise = new Promise(function(resolve, reject) {
-		  if (true) {
-			resolve(null);
-		  }
-		  else {
-			reject(Error("It broke"));
-		  }
-		});
-
-		promise.then( function() {
-			//
-			
-		}).then( function() {
-			$(destination + " .simulation_status").html("Working...");
-			document.title = "(working) " + title;
-		}).then( function() {
-			Aligner.initialize({
+		
+		var AlignerObj = {
 				onscreen: false,
 				FeatureManager: FeatureManager,
 				featureFile:   (conf.files.features) ? conf.dirname + conf.files.features : conf.files.features,
@@ -411,33 +371,20 @@ var GUI = (function($, undefined){
 				swap:          conf.aligner.metathesis    || defaultConf.aligner.metathesis,
 				tolerance:     conf.aligner.tolerance     || defaultConf.aligner.tolerance,
 				debug: false,
-			});
-		}).then( function() {
-			outputLog();
-		}).then( function() {
-			Grammar.initialize({
+		};
+		var GrammarObj = {
 				constraintFile:    (remoteness===REMOTE) ? conf.dirname + conf.files.constraints :  conf.files.constraints,
 		        useGaussianPriors: conf.maxent.useGaussianPriors || defaultConf.maxent.useGaussianPriors,
 				defaultSigma:      conf.maxent.defaultSigma      || defaultConf.maxent.defaultSigma,
 				defaultMu:         conf.maxent.defaultMu         || defaultConf.maxent.defaultMu,				
-			});
-		}).then( function() {
-			outputLog();
-		}).then( function() {
-			//updateStatus("Initializing MaxEnt module...");
-		}).then( function() {
-			Maxent.initialize({
+		};
+		var MaxentObj = {
 				iterationCount:    conf.maxent.iterationCount    || defaultConf.maxent.iterationCount,
 				learningRate:      conf.maxent.learningRate      || defaultConf.maxent.learningRate,
 				noPositiveWeights: conf.maxent.noPositiveWeights || defaultConf.maxent.noPositiveWeights,
 				initialWeight:     conf.maxent.initialWeight     || defaultConf.maxent.initialWeight
-			});
-		}).then( function() {
-			outputLog();
-		}).then( function() {
-			//updateStatus("Initializing learner...");
-		}).then( function() {
-			var status = Learner.initialize({
+		};
+		var LearnerObj = {
 				trainingData:              (remoteness===REMOTE) ?  conf.dirname + conf.files.training : conf.files.training,
 				testingData:               (remoteness===REMOTE) ?  conf.dirname + conf.files.testing  : conf.files.testing,
 				trainOutputFile:           conf.files.trainOutputFile,
@@ -458,8 +405,45 @@ var GUI = (function($, undefined){
 				verboseReduction:                  conf.learner.verboseReduction                  || defaultConf.learner.verboseReduction,
 				preReductionProductivityThreshold: conf.learner.preReductionProductivityThreshold || defaultConf.learner.preReductionProductivityThreshold,
 				skipTesting:                       conf.learner.skipTesting                       || defaultConf.learner.skipTesting
-			});
-			
+		};
+
+
+
+
+		// check browser support for Promises
+		if (typeof Promise !== "undefined" && Promise.toString().indexOf("[native code]") !== -1){
+			// all is good
+		} else {
+			$(destination + " .simulation_status").html("Error: your browser is not supported. Please use a recent version of Chrome, Firefox, or Safari.");
+			$(destination + " .simulation_status").css('color', 'red');
+			return null;
+		}
+
+		var promise = new Promise(function(resolve, reject) {
+		  if (true) { resolve(null); }
+		       else { reject(Error("It broke")); }
+		});
+
+
+
+		promise.then( function() {
+			//
+		}).then( function() {
+			$(destination + " .simulation_status").html("Working...");
+		}).then( function() {
+			document.title = "(working) " + title;
+		}).then( function() {
+			Aligner.initialize(AlignerObj);
+		}).then( function() {
+			Grammar.initialize(GrammarObj);
+		}).then( function() {
+			//updateStatus("Initializing MaxEnt module...");
+		}).then( function() {
+			Maxent.initialize(MaxentObj);
+		}).then( function() {
+			//updateStatus("Initializing learner...");
+		}).then( function() {
+			var status = Learner.initialize(LearnerObj);
 			if (status===0) {
 				// no sublexicons
 				$(destination + " .simulation_status").html("No sublexicons were constructed.");
@@ -468,25 +452,17 @@ var GUI = (function($, undefined){
 				$(destination + " .simulation_status").hide();
 				$(destination + " .simulation_downloadify").show();
 			}
-
-
 			log("\nLearning completed in " +  timePrettifier(startTime));
-			outputLog();
 			$("#dimdom")[0].play() //soundManager.play("dimdom");
-
-
-
 	        document.title = "(done) " + title;
 			
-		}).then( function() {
-			outputLog();
 		}).catch(function(err) {
 			// something bad happened
 			console.log("\n\nError occurred after " +  timePrettifier(startTime));
 			console.error(err.stack);
 			$(destination + " .simulation_status").html([
 				$('<div/>', {text:"Error.", style:"color: red;"}),
-				$('<div/>', {text:"Message: " + err.message, style:"font-size: 11pt; font-weight: 300;"}),
+				$('<div/>', {text:"" + err.message, style:"font-size: 11pt; font-weight: 300; color: red;"}),
 				$('<div/>', {text:"The console might have more information.", style:"font-size: 11pt;"}),
 				$('<div/>', {text:"Please email michael.becker@phonologist.org if you need help.", style:"font-size: 11pt; font-weight: 300;"}),
 			]);
@@ -586,7 +562,7 @@ var GUI = (function($, undefined){
 		$("#file_save input")[0].value = "";
 		$("#file_save input")[1].value = "";
 		$("#file_save").hide();
-		console.log(localFiles);
+		//console.log(localFiles);
 	}
 
 

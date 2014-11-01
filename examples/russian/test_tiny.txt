@@ -1,0 +1,43 @@
+bj e v
+l a bj e v
+
+b o v
+n u b o v
+
+b o d v
+r u b o d v
+b d o v
+m u b d o v
+
+bj e d v
+g a bj e d v
+b dj e v
+l u b dj e v
+
+
+lj e b
+lj e bj
+g a lj e b
+lj o b
+lj o bj
+g a lj o b
+
+
+p a r
+pj e r
+pj i r
+p o r
+p u r
+
+p a r s
+pj e r s
+pj i r s
+p o r s
+p u r s
+
+x a p a r
+x a pj e r
+x a pj i r
+x a p o r
+x a p u r
+

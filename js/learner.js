@@ -44,6 +44,7 @@ var Learner = (function($, undefined){
 
         var trainingSize = obj.trainingSize || "all";
 
+		var returnObj;
 
 		if (typeof trainingDataFile === "string") {
 			_log("Loading training data: " + trainingDataFile);
@@ -54,9 +55,10 @@ var Learner = (function($, undefined){
 			_log("Training data loaded.");
 
 		} else {
-			_log("Loading training data: " + trainingDataFile.name);
+			_log("Loading training data (local): " + trainingDataFile.name);
 			trainingData = trainingDataFile.content
 			_log("Training data loaded.");
+			//console.log(trainingData);
 		}
 
 
@@ -69,10 +71,33 @@ var Learner = (function($, undefined){
 			}
 			_log("Testing data loaded.");
 		} else {
-			_log("Loading testing data: " + testingDataFile.name);
+			_log("Loading testing data (local): " + testingDataFile.name);
 			testingData = testingDataFile.content;
 			_log("Testing data loaded.");
 		}
+
+        // Ensure that there are no segments in the training/testing data which lack featural specifications
+        var inputSegments = []
+        var segmentList = $.map(FeatureManager.features().table, function(s){return s[FeatureManager.features().key];});
+        for (var i=0;i<trainingData.length;i++) {
+            var base = trainingData[i][0].split(' ');
+            for (var j=0;j<base.length;j++) {
+                inputSegments.push(base[j]);
+            }
+            var derivative = trainingData[i][1].split(' ');
+            for (var j=0;j<derivative.length;j++) {
+                inputSegments.push(derivative[j]);
+            }
+        }
+        for (var i=0;i<testingData.length;i++) {
+            var form = testingData[i].split(' ');
+            for (var j=0;j<form.length;j++) {
+            }
+        }
+        var diff = _.uniq(_.difference(inputSegments, segmentList));
+        if (diff.length !== 0) {
+            throw new Error('Warning! Some segment(s) in either the training or testing data file has/have no specification(s) in the feature file. Specifically: '+diff);
+        }
 
 
 
@@ -102,7 +127,7 @@ var Learner = (function($, undefined){
         nucleusFeature = obj.nucleusFeature || 'syllabic';
         if (disableLastNucleusHypotheses === false) {
             if ((nucleusFeature in FeatureManager.getArbitrarySegment()) === false) {
-                throw new Error("Warning! Your feature inventory does not include the feature you have specified as indicating vowels. Please edit relevant parameter (nucleusFeature) or your feature file.")
+                throw new Error("The learner cannot find nucleus-based hypotheses, because there is a mismatch between the feature that is designated as the ''nucleus'' feature (''syllabic'' by default) and your feature file. Your options: (1) edit your feature file, making sure that one of the features is called ''syllabic'', (2) edit your configuration file, making sure that ''nucleusFeature'' specifies a feature that appears in your feature file, or (3) set ''disableLastNucleusHypotheses'' to ''false'' in your configuration file.")
             }
         }
 

@@ -1,0 +1,15 @@
+{
+    "files": {
+        "features": "features.txt",
+        "constraints": "constraints.txt",
+        "training": "train.txt",
+        "testing": "test.txt",
+        "testOutputFile": "output_russian_big.txt"
+    },
+    "learner": {
+        "preReductionProductivityThreshold": 1,
+        "minProductiveSize": 20
+    },
+    "name": "realistic (hand-made constraints)",
+    "description": "Training includes 1902 yers words and 600 non-yer words. Constraints are hand-crafted by us. The wugs are those that the participants judged.  Data from Becker & Gouskova (2014)." 
+}

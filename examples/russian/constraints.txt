@@ -1,26 +1,30 @@
 
-[+low,+syllabic] ([-syllabic] ?)*$	0	100000
-[+high,+syllabic] ([-syllabic] ?)*$	0	100000
-[-low,+syllabic] ([-syllabic] ?)*$	0	100000
-[-high,+syllabic] ([-syllabic] ?)*$	0	100000
+[+low,+syllabic] ([-syllabic] ?)*$
+[+high,+syllabic] ([-syllabic] ?)*$
+[-low,+syllabic] ([-syllabic] ?)*$
+[-high,+syllabic] ([-syllabic] ?)*$
 
-[-back,+syllabic] ([-syllabic] ?)*$	0	100000
+[-back,+syllabic] ([-syllabic] ?)*$
 
-[-syllabic] [-syllabic]$	0	100000
-[-syllabic] [-syllabic] [-syllabic]	0	100000
+[-syllabic] [-syllabic]$
+[-syllabic] [-syllabic] [-syllabic]
 
-[-back,-syllabic,-lateral] [-syllabic]	0	100000
+[-back,-syllabic,-lateral] [-syllabic]
 
-^([-syllabic] ?)* ?[+syllabic] ?([-syllabic] ?)*$	0	2
+[+lateral,-back] [+syllabic,-back,-high,-low] [-syllabic]$
 
-[-syllabic,+son] [-syllabic,+son] [+syllabic]	0	2
-[-syllabic,+son] [-syllabic,-son] [+syllabic]	0	2
-[-syllabic,-son] [-syllabic,+son] [+syllabic]	0	2
-[-syllabic,-son] [-syllabic,-son] [+syllabic]	0	2
+^([-syllabic] ?)* ?[+syllabic] ?([-syllabic] ?)*$
 
-[-syllabic] [-syllabic,+son] [-syllabic,+son] [+syllabic]	0	2
-[-syllabic] [-syllabic,+son] [-syllabic,-son] [+syllabic]	0	2
-[-syllabic] [-syllabic,-son] [-syllabic,+son] [+syllabic]	0	2
-[-syllabic] [-syllabic,-son] [-syllabic,-son] [+syllabic]	0	2
+[-syllabic,+son] [-syllabic,+son] [+syllabic]$
+[-syllabic,+son] [-syllabic,-son] [+syllabic]$
+[-syllabic,-son] [-syllabic,+son] [+syllabic]$
+[-syllabic,-son] [-syllabic,-son] [+syllabic]$
 
-F: Ident [back]	0	100000
+[-syllabic] [-syllabic,+son] [-syllabic,+son] [+syllabic]$
+[-syllabic] [-syllabic,+son] [-syllabic,-son] [+syllabic]$
+[-syllabic] [-syllabic,-son] [-syllabic,+son] [+syllabic]$
+[-syllabic] [-syllabic,-son] [-syllabic,-son] [+syllabic]$
+
+F: Ident [back]
+F: Ident [back] [+lateral]
+F: Ident [back] [-lateral]

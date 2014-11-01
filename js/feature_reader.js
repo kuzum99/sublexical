@@ -4,6 +4,7 @@ var FeatureManager = (function($, undefined){
 
     var status_var;
     var table;
+	var strItems = []; // string representations of items
 
     var status = function () {
         return status_var;
@@ -17,6 +18,7 @@ var FeatureManager = (function($, undefined){
 
         var key = "";
         var items = [];
+        strItems = []; 
 
         $.ajax({    // $ = jquery
             url: name,
@@ -35,6 +37,9 @@ var FeatureManager = (function($, undefined){
                     }
                     var line = lines[i].replace(/\s+$/, '').split("\t");
                     keys.push(line[0]);
+                    
+                    strItems.push({symbol: line[0], vector: line.slice(1).join()});
+                    
                     var frame = {};
                     for (var j=0; j<line.length; j++) {
                         frame[ fields[j] ] = line[j];
@@ -56,22 +61,31 @@ var FeatureManager = (function($, undefined){
         });
 
         table = {table: items, key: key};
-        console.log(table);
         
-        // for (item1 in table.table) {
-        //     if (table.table.hasOwnProperty(item1)) {
-        //         for (item2 in table.table) {
-        //             if (table.table.hasOwnProperty(item2)){
-        //                 if (_.isEqual(item1, item2)) {
-        //                     console.log('Two segments in the feature file have the same feature specifications. You must resolve this conflict in order for features to be read in correctly. The conflicting segments are listed below.');
-        //                     console.log(item1);
-        //                     console.log(item2);
-        //                     throw new Error();
-        //                 }
-        //             }
-        //         }
-        //     }
-        // }
+        // Make sure that there are no two identically featured segments
+		var identicals = [];    	
+        for (var i=0;i<strItems.length;i++) {
+			for (var j=i+1;j<strItems.length;j++) {
+				if (i !== j) {
+					var seg1_symbol = strItems[i].symbol;
+					var seg2_symbol = strItems[j].symbol;
+					if (strItems[i].vector === strItems[j].vector &&
+					!((/g/.test(seg1_symbol) && /ɡ/.test(seg2_symbol))||(/g/.test(seg2_symbol) && /ɡ/.test(seg1_symbol)))
+					) {
+						console.log(seg1_symbol);
+						console.log(seg2_symbol);
+						identicals.push("[" + seg1_symbol + "] and [" + seg2_symbol + "]");
+					}
+				}
+			}
+		}
+        if (identicals.length>0) {
+        	if (identicals.length===1) {
+		        throw new Error("These two segments have indistinguishable feature specifications in your feature file: " + identicals + ".");
+        	} else {
+		        throw new Error("The following pairs of segments have indistinguishable feature specifications in your feature file: " + identicals.join(", ") + ".");
+        	}
+        }
 
         return (items.length>0);
     }

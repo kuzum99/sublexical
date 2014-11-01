@@ -137,8 +137,9 @@
             <p>
         </div>
 		<script>
-			var year = $("#paper_year1").html()
-			year = /20\d\d/.exec(year)[0];
+			var year = ""; $("#paper_year1").html()
+			year = /20\d\d/.exec(year)
+			if (year) {year = year[0]};
 			$("#paper_year1").html(year);
 
 			year = $("#paper_year2").html()
