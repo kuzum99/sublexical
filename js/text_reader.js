@@ -103,7 +103,10 @@ var FileManager = (function($, undefined){
 			if (lines[i].match(/^\s*$/)) {
 				continue;
 			}
-			var line = lines[i].replace(/\s+$/, '').replace(/\s+\t/, '\t').split("\t");
+			var line = lines[i].replace(/\s*$/, '').replace(/^\s*/, '').replace(/\s*\t\s*/, '\t');
+			if(/\t/.test(line)) {
+				line = line.split("\t");
+			}
 			table.push(line);
 		}
 		return table;

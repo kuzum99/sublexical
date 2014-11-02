@@ -198,7 +198,11 @@ var Aligner = (function($, undefined){
         var onscreen = obj.onscreen || false;
 
         if (FeatureManager) {
-        	console.log("Feature file: " + featureFile );
+        	if (typeof featureFile==="string") {
+   	        	console.log("Feature file: " + featureFile );
+        	} else {
+   	        	console.log("Feature file: " + featureFile.name );
+        	}
             FeatureManager.loadFeatures(featureFile);
             if (FeatureManager.status()) {
                 parameter("symbols", FeatureManager.features());
@@ -210,6 +214,8 @@ var Aligner = (function($, undefined){
         } else {
             parameter("features", false);
         }
+
+
         parameter("insert_delete", insert_delete);
         parameter("substitution", substitution);
         parameter("swap", swap);

@@ -30,8 +30,14 @@ var Grammar = (function($, undefined){
 				constraints = FileManager.get();
 			}
 		} else {
+			// local file
 			_log("Loading constraint set: " + constraintFile.name);
 			constraints = constraintFile.content;
+			for (var i=0; i< constraints.length; i++) {
+				if (typeof constraints[i]==="string") {
+					constraints[i] = [constraints[i]];
+				}
+			}
 		}
 
 

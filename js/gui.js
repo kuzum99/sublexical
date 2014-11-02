@@ -112,7 +112,7 @@ var GUI = (function($, undefined){
 			if (keys.length>0) {
 				$(destination + " .simulation_list_status").hide();
 			} else {
-				$(destination + " .simulation_list_status").html("No local simulations found. <br> Go ahead and upload some files!").show();
+				$(destination + " .simulation_list_status").html("No local simulations found. <br> Go ahead and load some files! <br><br>Your files will go into your browser's local storage.<br> They never leave your computer.").show();
 				//$(destination + " .simulation_current").html("");
 			}
 		}
@@ -149,7 +149,7 @@ var GUI = (function($, undefined){
 				conf.files.testing =     {name: files[i].name , content: FileManager.stringToTable(files[i].content)};
 			}
 			if(files[i].type && files[i].type==="features") {
-				conf.files.features =    {name: files[i].name , content: FileManager.stringToTable(files[i].content)};
+				conf.files.features =    {name: files[i].name , content: files[i].content};
 			}
 		}
 		loadSimulation(remoteness, simulationIndex, key)
@@ -335,10 +335,19 @@ var GUI = (function($, undefined){
 				}
 			} else {
 				// local file, display content
-				str = ""; //newWindow(toHTML(conf.files[file].content));
-				for (var i=0; i<conf.files[file].content.length; i++) {
-					var x = conf.files[file].content[i];
-					str += x.join("\t") + "\n";
+				if (file==="features") {
+					str = conf.files[file].content;
+				} else {
+					str = ""; 
+					for (var i=0; i<conf.files[file].content.length; i++) {
+						var x = conf.files[file].content[i];
+						if (typeof x === "string") {
+							str += x + "\n";
+						} else {
+							str += x.join("\t") + "\n";
+						}
+						
+					}
 				}
 			}
 		} else {
@@ -359,12 +368,23 @@ var GUI = (function($, undefined){
 
 		var startTime = new Date();
         log("Learning starting at " + startTime);
+        
+        var featFile = defaultFeatureFile;
+        if (conf.files.features) {
+			if (remoteness===REMOTE) {
+				featFile = conf.dirname + conf.files.features;
+			} else {
+				featFile = conf.files.features;
+			}
+        } else {
+        	featFile = null;
+        }
 
 		
 		var AlignerObj = {
 				onscreen: false,
 				FeatureManager: FeatureManager,
-				featureFile:   (conf.files.features) ? conf.dirname + conf.files.features : conf.files.features,
+				featureFile:   featFile,
 				features:      conf.dirname + conf.aligner.features,
 				insert_delete: conf.aligner.insert_delete || defaultConf.aligner.insert_delete,
 				substitution:  conf.aligner.substitution  || defaultConf.aligner.substitution,
@@ -655,11 +675,11 @@ $(document).ready(function(){
 				)
 			);
 			var guessType = "unknown";
-			if (/train/.test(filename)) {guessType = "training"     ; $("#" + GUI.fileToId("file_" + filename))[0].selectedIndex = 0; };
-			if (/test/.test(filename))  {guessType = "testing"      ; $("#" + GUI.fileToId("file_" + filename))[0].selectedIndex = 1; };
-			if (/con/.test(filename))   {guessType = "constraints"  ; $("#" + GUI.fileToId("file_" + filename))[0].selectedIndex = 2; };
-			if (/conf/.test(filename))  {guessType = "configuration"; $("#" + GUI.fileToId("file_" + filename))[0].selectedIndex = 3; }; // order matters here
-			if (/feat/.test(filename))  {guessType = "features"     ; $("#" + GUI.fileToId("file_" + filename))[0].selectedIndex = 4; };
+			if (/train/i.test(filename)) {guessType = "training"     ; $("#" + GUI.fileToId("file_" + filename))[0].selectedIndex = 0; };
+			if (/test/i.test(filename))  {guessType = "testing"      ; $("#" + GUI.fileToId("file_" + filename))[0].selectedIndex = 1; };
+			if (/con/i.test(filename))   {guessType = "constraints"  ; $("#" + GUI.fileToId("file_" + filename))[0].selectedIndex = 2; };
+			if (/conf/i.test(filename))  {guessType = "configuration"; $("#" + GUI.fileToId("file_" + filename))[0].selectedIndex = 3; }; // order matters here
+			if (/feat/i.test(filename))  {guessType = "features"     ; $("#" + GUI.fileToId("file_" + filename))[0].selectedIndex = 4; };
 			
 			GUI.localFiles.push(
 				{id: GUI.fileToId("file_" + filename), name: filename, content: fileAsString, type: guessType}

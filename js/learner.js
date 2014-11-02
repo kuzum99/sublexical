@@ -76,6 +76,7 @@ var Learner = (function($, undefined){
 			_log("Testing data loaded.");
 		}
 
+
         // Ensure that there are no segments in the training/testing data which lack featural specifications
         var inputSegments = []
         var segmentList = $.map(FeatureManager.features().table, function(s){return s[FeatureManager.features().key];});
@@ -89,11 +90,13 @@ var Learner = (function($, undefined){
                 inputSegments.push(derivative[j]);
             }
         }
+		console.log(testingData[0]);
         for (var i=0;i<testingData.length;i++) {
             var form = testingData[i].split(' ');
             for (var j=0;j<form.length;j++) {
             }
         }
+		console.log(testingData[0]);
         var diff = _.uniq(_.difference(inputSegments, segmentList));
         if (diff.length !== 0) {
             throw new Error('Warning! Some segment(s) in either the training or testing data file has/have no specification(s) in the feature file. Specifically: '+diff);
@@ -420,7 +423,7 @@ var Learner = (function($, undefined){
         var featureOutput = {};
         for (feature in baseSegFeatures) {
             if (baseSegFeatures[feature] !== derivSegFeatures[feature]) {
-                if (feature !== "symbol") {
+                if (feature !== FeatureManager.features().key) {
                     featureInput[feature] = baseSegFeatures[feature];
                     featureOutput[feature] = derivSegFeatures[feature];
                 }
@@ -1500,7 +1503,7 @@ var Learner = (function($, undefined){
             }
             var outFeatureList = [];
             for (feature in outFeatures) {
-                if (feature !== 'symbol') {
+                if (feature !== FeatureManager.features().key) {
                     outFeatureList.push([outFeatures[feature], feature].join(""));
                 }
             }

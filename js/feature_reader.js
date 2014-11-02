@@ -4,7 +4,7 @@ var FeatureManager = (function($, undefined){
 
     var status_var;
     var table;
-	var strItems = []; // string representations of items
+
 
     var status = function () {
         return status_var;
@@ -13,53 +13,63 @@ var FeatureManager = (function($, undefined){
     var features = function () {
         return table || {table: [], key: ""};
     }
-
-    var loadFeatures = function (name) {
+    
+    
+    var loadFeatures = function (url) {
 
         var key = "";
+        var data = ""; // to be read from file
         var items = [];
         strItems = []; 
+        
+        if (typeof url === "string") {
+        	// file on server, load synchronously
+			$.ajax({   
+				url: url,
+				success: function(content) {   // executed if file `url` is read; content is content of `url`
+					data = content;
+					status_var = true;
+				},
+				async: false,
+				error: function() {
+					console.error("The file " + url + " wasn't found.");
+					status_var = false;
+				}
+			});
+        } else {
+        	// file is local, read
+        	data = url.content;
+        }
 
-        $.ajax({    // $ = jquery
-            url: name,
-            success: function(data) {   // executed if file `name` is read; data is content of `name`
-                var lines = data.split(/[\n\r]/);
-                var fields = lines[0].replace(/\s+$/, '').split("\t");
-                key = fields[0]; //
-                if (!fields.uniqueNonEmpty()) {
-                    console.error("Field names in " + name + " must be unique and non-empty!");
-                    return false;
-                }
-                var keys = []; // these are saved to be evaluated by uniqueNonEmpty()
-                LINE: for (var i=1; i<lines.length; i++) {
-                    if (lines[i].match(/^\s*$/)) {
-                        continue LINE;
-                    }
-                    var line = lines[i].replace(/\s+$/, '').split("\t");
-                    keys.push(line[0]);
-                    
-                    strItems.push({symbol: line[0], vector: line.slice(1).join()});
-                    
-                    var frame = {};
-                    for (var j=0; j<line.length; j++) {
-                        frame[ fields[j] ] = line[j];
-                    }
-                    //console.log(frame);
-                    items.push(frame);
-                }
-                if(!keys.uniqueNonEmpty()) {
-                    console.error("In " + name + ", the values of the first column must be unique and non-empty!");
-                    return false;
-                }
-                status_var = true;
-            },
-            async: false,
-            error: function() {
-                console.error("The file " + name + " wasn't found.");
-                status_var = false;
-            }
-        });
 
+		var lines = data.split(/[\n\r]/);
+		var fields = lines[0].replace(/\s+$/, '').split("\t");
+		key = fields[0]; //
+		if (!fields.uniqueNonEmpty()) {
+			console.error("Field names in " + url + " must be unique and non-empty!");
+			return false;
+		}
+		var keys = []; // these are saved to be evaluated by uniqueNonEmpty()
+		LINE: for (var i=1; i<lines.length; i++) {
+			if (lines[i].match(/^\s*$/)) {
+				continue LINE;
+			}
+			var line = lines[i].replace(/\s+$/, '').split("\t");
+			keys.push(line[0]);
+			
+			strItems.push({symbol: line[0], vector: line.slice(1).join()});
+			
+			var frame = {};
+			for (var j=0; j<line.length; j++) {
+				frame[ fields[j] ] = line[j];
+			}
+			//console.log(frame);
+			items.push(frame);
+		}
+		if(!keys.uniqueNonEmpty()) {
+			console.error("In " + url + ", the values of the first column must be unique and non-empty!");
+			return false;
+		}
         table = {table: items, key: key};
         
         // Make sure that there are no two identically featured segments
@@ -94,7 +104,7 @@ var FeatureManager = (function($, undefined){
     var compareSegments = function (segmentA, segmentB) {
 
         var getSymbol = function (symbol) {
-                return table.table.subset("symbol",symbol)[0];
+                return table.table.subset(FeatureManager.features().key,symbol)[0];
         }
 		/*
 		try { getSymbol(segmentA)
@@ -141,22 +151,22 @@ var FeatureManager = (function($, undefined){
     }
 
     var naturalClass = function(arr) {
-        var segments = table.table.exclude("symbol", "empty");
+        var segments = table.table.exclude(FeatureManager.features().key, "empty");
         for (var i=0;i<arr.length;i++) {
             var feature = [arr[i][0], arr[i].slice(1)];
             segments = segments.subset(feature[1], feature[0]);
             //console.log(segments);
         }
         for (var i=0;i<segments.length;i++) {
-            segments[i] = segments[i].symbol;
+            segments[i] = segments[i][FeatureManager.features().key];
         }
        // console.log(segments)
         return segments.join("|");
     }
 
 	var getSegment = function (symbol) {
-			if (table.table.subset("symbol",symbol)[0]) {
-				return table.table.subset("symbol",symbol)[0];
+			if (table.table.subset(FeatureManager.features().key,symbol)[0]) {
+				return table.table.subset(FeatureManager.features().key,symbol)[0];
 			} else {
 				return undefined;
 			}
