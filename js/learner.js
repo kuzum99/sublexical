@@ -76,10 +76,14 @@ var Learner = (function($, undefined){
 			_log("Testing data loaded.");
 		}
 
+        var segmentList = $.map(FeatureManager.features().table, function(s){return s[FeatureManager.features().key];});
+		// Ensure that there is a segment called "empty" in the feature file
+		if(!_.contains(segmentList, "empty")) {
+            throw new Error('Your feature file must list a segment whose symbol is "empty".');
+		}
 
         // Ensure that there are no segments in the training/testing data which lack featural specifications
         var inputSegments = []
-        var segmentList = $.map(FeatureManager.features().table, function(s){return s[FeatureManager.features().key];});
         for (var i=0;i<trainingData.length;i++) {
             var base = trainingData[i][0].split(' ');
             for (var j=0;j<base.length;j++) {
@@ -99,7 +103,7 @@ var Learner = (function($, undefined){
 		console.log(testingData[0]);
         var diff = _.uniq(_.difference(inputSegments, segmentList));
         if (diff.length !== 0) {
-            throw new Error('Warning! Some segment(s) in either the training or testing data file has/have no specification(s) in the feature file. Specifically: '+diff);
+            throw new Error('Some segment(s) in either the training or testing data file has/have no specification(s) in the feature file. Specifically: '+diff);
         }
 
 
