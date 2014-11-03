@@ -1,7 +1,7 @@
 <h1 style="padding-top: 0ex;">What's in here?</h1>
 
 <p>
-A web application for learning the relation between a pair of morphological categories, e.g. singular and plural.  You can try some of the existing simulations, or upload your own files.
+A web application for learning the relation between a pair of morphological categories, e.g. singular and plural.  You can try some of the existing simulations, or input your own files.
 
 
 
@@ -9,7 +9,7 @@ A web application for learning the relation between a pair of morphological cate
 <h1>Starting your own simulation</h1>
 
 <p>
-You can give the learner your own files. The files are kept as a part of your browser; they will not be available on a different computer or even on a different browser on the same computer. They never get sent anywhere outside your computer.
+You can give the learner your own files. The files never get sent anywhere outside your computer. They are kept in your  browser's local storage; they will not be available on a different computer or  on a different browser on the same computer. 
 
 
 <h2>Training data</h2>
@@ -18,7 +18,7 @@ You can give the learner your own files. The files are kept as a part of your br
 This is the only required file. It is a text file, with a pair of words in each line, separated by a tab. A third tab can specify the observed frequency of the paradigm. Anything after the third tab is ignored.
 
 <p>
-The sounds in each of the two words are separated by spaces.
+The symbols in each  word are separated by spaces, e.g. "w ʌ ɡ<span style="color:#bbb;">→</span>w ʌ ɡ z".
 
 
 <h2>Testing data (wugs)</h2>
@@ -27,7 +27,7 @@ The sounds in each of the two words are separated by spaces.
 This is a text file, with a word in each line. Anything after a tab character is ignored.
 
 <p>
-The sounds in each word are separated by spaces.
+The symbols in each word are separated by spaces, e.g. "w ʌ ɡ".
 
 <p>
 If you don't supply testing data, the learner will take in the real words of the language, put them into sublexicons, and fit a grammar to each sublexicon. No wug testing will occur. 
@@ -35,15 +35,23 @@ If you don't supply testing data, the learner will take in the real words of the
 <h2>Constraint set</h2>
 
 <p>
-This is a text file, with one constraint in each line. Following a tab, an optional mu can be specified, followed by an optional sigma after the second tab. Anything after the third tab is ignored.
+This is a text file, with one constraint in each line. Following a tab, an optional mu can be specified (negated), followed by an optional sigma after the second tab. Anything after the third tab is ignored. On the use of mu and sigma, consult the manual for the <a href="http://www.linguistics.ucla.edu/people/hayes/MaxentGrammarTool/" target="_blank">MaxEnt Grammar Tool</a>. 
 <p>
 If you don't supply a constraint set, no forms will violate any constraints. The harmony of each candidate will be zero, and the probability distribution will be uniform and flat.
 
 <p>
-Markedness constraints are regular expressions. 
+Markedness constraints are regular expressions. Two things to think about:
+<ul>
+	<li>Segments are separated by spaces, so "[+round][+voice]" will likely never assign any violation marks. To assign one violation mark to a [+round] segment followed by a [+voice] segment, write "[+round] [+voice]". </li>
+	<li>Violation marks can be assessed unintentionally if one symbol is a substring of another symbol, e.g. [-cont,+back] will match "t", but also the "t" of "tʲ". A judicious use of spaces in the constraint formulation can help.</li>
+</ul>
 
 <p>
-Faithfulness (explain here)
+We support two kinds of faithfulness constraints. All faithfulness constraints are identified with an initial "F: ". 
+<ul>
+	<li>Context-free Ident for a given feature, e.g. "F: Ident [back]".</li>
+	<li>Contextual Ident, e.g.  "F: Ident [back] [+low]" assigns violation marks to changes of the feature [back] on [+low] segments.</li>
+</ul>
 
 
 
@@ -51,12 +59,18 @@ Faithfulness (explain here)
 <h2>Feature matrix</h2>
 
 <p>
-This is a text file, with one sound/phone/segment in each line. If you don't supply it, <a href="lib/default_feature_file.txt" target="_blank" download="default_feature_file.txt">the default feature file</a> will be used instead.  This file is based on Hayes' 2009 textbook, with minor modifications.
+This is a tab-separated text file, with one sound/phone/segment in each line. This first tab in each line specifies the symbol.
 
 <p>
-The first row must specify feature names, separated by tabs. The first tab must have the word "symbol".
+The first row must specify column names, separated by tabs. All columns must have non-empty names, including the first one. 
+
 <p>
-The second row must specify the empty symbol, which must be named "empty".
+Another row must specify the empty symbol, which must be named "empty". The feature specifications of this segment are used in calculating the cost of a mismatch when bases and derivatives are aligned.
+
+<p>
+If you don't supply a feature file, <a href="lib/default_feature_file.txt" target="_blank" download="default_feature_file.txt">the default feature file</a> will be used instead.  This file is based on Hayes' 2009 textbook, with minor modifications.
+
+
 
 
 
@@ -66,7 +80,7 @@ The second row must specify the empty symbol, which must be named "empty".
 This is a text file in <a href="http://en.wikipedia.org/wiki/JSON" target="_blank">JSON format</a>. It is a rather strict format. If you don't supply a configuration file, <a href="lib/default_config_file_template.txt" target="_blank" download="default_config_file.txt">the default configuration file</a> will be used instead. 
 
 <p>
-Is a good place to give a name and description for your data, even if all of the parameters have their default values.
+You can use this file to give a name and description for your data, even if all of the parameters have their default values.
 <p>
 See below for more info about using this file.
 
@@ -116,7 +130,7 @@ See below for more info about using this file.
 
 <h1>Troubleshooting</h1>
 
-<h2>the "console"?</h2>
+<h2>The "console"?</h2>
 
 The details vary from browser to browser, so use Google to find specific instructions for your browser. For example, if you are using Firefox, Google "firefox how to open the web console".
 
@@ -128,7 +142,7 @@ Opening the web console/Javascript console is highly recommended, e.g. in order 
 
 Ask your browser to allow the script to continue. Some simulations can run for many hours.
 
-<h2>Your learner crashed me browser</h2>
+<h2>The browser crashed.</h2>
 
 Yes, this happens sometimes. Usually not because there is too much data, but because there are too many patterns in it (=too many hypotheses). Uses a bigger minimal hypothesis size.
 
