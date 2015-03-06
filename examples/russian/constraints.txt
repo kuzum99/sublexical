@@ -28,3 +28,22 @@
 F: Ident [back]
 F: Ident [back] [+lateral]
 F: Ident [back] [-lateral]
+
+
+[+lab] [+lab]
+[+lab] [+cor]
+[+lab] [+dor]
+[+cor] [+lab]
+[+cor] [+cor]
+[+cor] [+dor]
+[+dor] [+lab]
+[+dor] [+cor]
+[+dor] [+dor]
+[+strid] [+strid]
+[+son,-cont] [+son,-cont]
+[+son,+cont] [+son,+cont]
+[+lab,+son] [+lab,+son]
+[+lab,-son] [+lab,-son]
+[+cor,+son] [+cor,+son]
+[+cor,-son] [+cor,-son]
+

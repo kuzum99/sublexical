@@ -1,0 +1,9 @@
+^([-syllabic] ?)* ?([+syllabic] ?)+ ?([-syllabic] ?)*$
+
+F: Ident [voice]
+F: Ident [coronal]
+F: Ident [labial]
+
+[+strident] [+strident]	-10	1
+[+voice,-sonorant] [-voice,-sonorant]	-10	1
+[-voice,-sonorant] [+voice,-sonorant]	-10	1

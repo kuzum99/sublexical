@@ -1,0 +1,20 @@
+{
+    "files": {
+        "constraints": "constraints.txt",
+        "training": "train.txt",
+        "testing": "test.txt",
+        "output": "output_english_past.txt",
+        "features": "features.txt",
+        "trainOutputFile": "output_train.txt",
+        "testOutputFile": "output_test.txt"
+    },
+    "learner": {
+        "minProductiveSize": 10,
+        "preReductionProductivityThreshold": 10
+    },
+    "maxent": {
+        "defaultSigma": 10
+    },
+    "name": "Full dataset, with low threshhold",
+    "description": "Lexical data and nonce words from Albright & Hayes (2003), with a pre-reduction productivity threshold of 12. <span class='longsim'>Long simulation,  takes hours.</span>" 
+}

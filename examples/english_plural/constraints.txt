@@ -11,6 +11,10 @@
 [+syllabic]$
 [-syllabic]$
 
+[+continuant,-sonorant]$
+
+^[-syllabic] [-syllabic]
+
 (F|TH)$
 (TH)$
 ^(?!.*(F|TH)$)
@@ -22,3 +26,4 @@ F: Ident [voice]
 F: Ident [coronal]
 F: Ident [labial]
 
+[+strident] [+strident]	-10	1

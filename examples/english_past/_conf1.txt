@@ -9,6 +9,7 @@
         "testOutputFile": "output_test.txt"
     },
     "learner": {
+        "verboseReduction": true,
         "minProductiveSize": 100,
         "preReductionProductivityThreshold": 100
     },

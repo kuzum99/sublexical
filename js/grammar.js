@@ -216,6 +216,7 @@ var Grammar = (function($, undefined){
                 GrammarProper.forms[i].violationVector[j] = GrammarProper.constraints[j].evaluate(thisAlignment);
             }
         }
+        console.log(GrammarProper);
 
         GrammarProper.getWeights = function() {
             var arr = [];
