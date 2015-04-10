@@ -1,0 +1,13 @@
+{
+    "files": {
+        "constraints": "constraints.txt",
+        "training": "train.txt",
+        "testing": "test.txt",
+        "output": "output_french_fem.txt"
+    },
+    "learner": {
+        "preReductionProductivityThreshold": 40
+    },
+    "name": "feminine",
+    "description": "French feminine" 
+}

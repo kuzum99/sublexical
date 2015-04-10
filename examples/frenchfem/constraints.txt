@@ -1,0 +1,28 @@
+
+[-syllabic]$
+[+syllabic]$
+[-sonorant,-continuant]$
+[-sonorant,+continuant]$
+[+sonorant,-continuant]$
+[+sonorant,+continuant]$
+
+a$
+o$
+i$
+e$
+j e$
+[-syllabic,+high] e$
+ɛ̃$
+õ$
+ã$
+[+nasal]$
+j ɛ̃$
+[-syllabic,+high] ɛ̃$
+œ ʁ$
+t œ ʁ$
+ʁ$
+a ʁ$
+
+F: Ident [continuant]
+F: Ident [voice]
+F: Ident [nasal]
