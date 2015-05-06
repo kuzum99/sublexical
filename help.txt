@@ -144,7 +144,7 @@ Ask your browser to allow the script to continue. Some simulations can run for m
 
 <h2>The browser crashed.</h2>
 
-Yes, this happens sometimes. Usually not because there is too much data, but because there are too many patterns in it (=too many hypotheses). Uses a bigger minimal hypothesis size.
+Yes, this happens sometimes. Usually not because there is too much data, but because there are too many patterns in it (=too many hypotheses). Increase the minimal hypothesis size.
 
 <h2>"Error: your browser is not supported"</h2>
 

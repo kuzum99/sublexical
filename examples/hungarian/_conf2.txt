@@ -2,9 +2,10 @@
     "files": {
         "features": "features_hu.txt",
         "constraints": "constraints_gk.txt",
-        "training": "hungarian_training_filtered.txt",
-        "testing": "hungarian_testing.txt",
-        "output": "output.txt"
+        "training": "training.txt",
+        "testing": "testing.txt",
+        "testOutputFile": "output_test.txt",
+        "trainOutputFile": "output_train.txt"
     },
     "learner": {
         "mutationType": "both",

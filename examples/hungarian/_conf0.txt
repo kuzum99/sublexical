@@ -1,0 +1,15 @@
+{
+    "files": {
+        "features": "features_hu.txt",
+        "constraints": "constraints.txt",
+        "training": "training.txt",
+        "testing": "testing.txt",
+        "testOutputFile": "output_test.txt",
+        "trainOutputFile": "output_train.txt"
+    },
+    "learner": {
+    	"nucleusFeature": "syll"
+    },
+    "name": "Hungarian",
+    "description": "Selection of genitive nek/nak. <br> Data from Hayes, Zuraw, Sipt&aacute;r & Londe (2009). <br> Constraints from same." 
+}

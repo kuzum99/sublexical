@@ -1,0 +1,22 @@
+
+[+syll,-back] ([-syll] ?)* n a k$
+[+syll,+back] ([-syll] ?)* n e k$
+
+[+syll,-back].*n a k$
+[+syll,+back].*n e k$
+
+[+syll,-back,+round] ([-syll] ?)* n a k$
+[+syll,-back,+round].*n a k$
+
+[+syll,-back,-high] ([-syll] ?)* n a k$
+[+syll,-back,+low] ([-syll] ?)* n a k$
+
+[+syll,-back] ([-syll] ?)* [+syll,-back] ([-syll] ?)* n a k$
+
+
+[+lab,-cont]$
+[+strid]$
+[+cor,+son]$
+[-syll] [-syll]$
+^([-syll] ?)* I ([-syll] ?)*$
+
