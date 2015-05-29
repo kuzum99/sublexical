@@ -12,7 +12,7 @@ var Learner = (function($, undefined){
     var useGrammarsProper = true;
     var disableLastNucleusHypotheses = false;
     var nucleusFeature = 'syllabic';
-    var sizeBiasPriorFunction = function(x){return 1;}; // one alternative: function(x){return x;}, for a meaningful prior
+    var sublexiconSelectionPriorType = 'empirical'; // {'empirical', 'uniform'}
     var preReductionProductivityThreshold = 0;
     var verboseReduction = false;
     var skipTesting = false;
@@ -138,8 +138,8 @@ var Learner = (function($, undefined){
             }
         }
 
-        sizeBiasPriorFunction = obj.sizeBiasPriorFunction || function(x){return 1;}; // one alternative: function(x){return 1;}
-		_log("The function responsible for implementing the sublexicon size bias (prior) is set to: " + sizeBiasPriorFunction);
+        sublexiconSelectionPriorType = obj.sublexiconSelectionPriorType || 'empirical';
+		_log("The prior distribution over sublexicons is set to: " + sublexiconSelectionPriorType);
 
         verboseReduction = obj.verboseReduction || false;
         _log("Verbose reduction: " + verboseReduction);
@@ -1189,7 +1189,12 @@ var Learner = (function($, undefined){
             }
 
 			for (var j=0;j<wordDerivatives.derivatives.length;j++) {
-            	wordDerivatives.derivatives[j]['combinedProbability'] = sizeBiasPriorFunction(wordDerivatives.derivatives[j]['relativeSublexiconSize']) * wordDerivatives.derivatives[j]['combinedProbability'];
+                if (sublexiconSelectionPriorType === 'empirical') {
+                    var prior = wordDerivatives.derivatives[j]['relativeSublexiconSize'];
+                } else if (sublexiconSelectionPriorType === 'uniform') {
+                    var prior = 1;
+                }
+            	wordDerivatives.derivatives[j]['combinedProbability'] = prior * wordDerivatives.derivatives[j]['combinedProbability'];
             }
             var cpSum = numeric.sum($.map(wordDerivatives.derivatives, function(d){return d['combinedProbability']}));
             for (var j=0;j<wordDerivatives.derivatives.length;j++) {
