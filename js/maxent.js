@@ -115,6 +115,13 @@ var Maxent = (function($, undefined){
         var consCopy = gatekeeper.constraints.slice(0);
         gatekeeper.constraints = consCopy;
 
+        var calculateZ = function (T, w) {
+            var prob = numeric.exp(numeric.dotMV(T.violn, w));
+            return numeric.sum(prob);
+        }
+
+        gatekeeper.z = calculateZ(tableau, weights);
+
     };
 
 

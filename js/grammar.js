@@ -126,6 +126,7 @@ var Grammar = (function($, undefined){
         Gatekeeper.constraints = [];
         Gatekeeper.forms = [];
         Gatekeeper.useGaussianPriors = useGaussianPriors;
+        Gatekeeper.z = 0;
 
         // make array of constraints
         for (var i=0; i<constraints.length; i++) {

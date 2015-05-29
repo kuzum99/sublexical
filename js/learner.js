@@ -1130,7 +1130,7 @@ var Learner = (function($, undefined){
                 var evaluated = Grammar.applyGatekeeper(hypotheses[j].gatekeeper, wordlist[i]);
                 var gkViolatedConstraints = evaluated.violatedConstraints;
                 var gkHarmony = evaluated.harmony;
-                var gkProbability = Math.exp(gkHarmony);
+                var gkProbability = Math.exp(gkHarmony) / hypotheses[j].gatekeeper.z;
                 gkLogProbSum += gkProbability
                 var gkViolationVector = evaluated.violationVector;
                 var gkConstraints = evaluated.constraints;
@@ -1170,7 +1170,7 @@ var Learner = (function($, undefined){
                         wordDerivatives.derivatives[k]['gpViolationVector'] = evaluated.violationVector;
                         wordDerivatives.derivatives[k]['gpConstraints'] = evaluated.constraints;
                         wordDerivatives.derivatives[k].gpProbability = Math.exp(evaluated.harmony);
-                        gpLogProbSum += wordDerivatives.derivatives[k].gpProbability;
+                        gpLogProbSum += wordDerivatives.derivatives[k].gpProbability / hypotheses[k].grammarProper.z;
                     }
                 }
                 var comboProbSum = 0;
