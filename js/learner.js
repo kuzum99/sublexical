@@ -13,6 +13,7 @@ var Learner = (function($, undefined){
     var disableLastNucleusHypotheses = false;
     var nucleusFeature = 'syllabic';
     var sublexiconSelectionPriorType = 'empirical'; // {'empirical', 'uniform'}
+    var divideByZ = true;
     var preReductionProductivityThreshold = 0;
     var verboseReduction = false;
     var skipTesting = false;
@@ -140,6 +141,13 @@ var Learner = (function($, undefined){
 
         sublexiconSelectionPriorType = obj.sublexiconSelectionPriorType || 'empirical';
 		_log("The prior distribution over sublexicons is set to: " + sublexiconSelectionPriorType);
+
+        if (divideByZ in obj) {
+            divideByZ = obj.divideByZ;
+        } else {
+            divideByZ = true;
+        }
+        _log("Whether or not to divide e-harmony by the sublexicon's Z when making predictions is set to: " + divideByZ);
 
         verboseReduction = obj.verboseReduction || false;
         _log("Verbose reduction: " + verboseReduction);
@@ -1130,7 +1138,10 @@ var Learner = (function($, undefined){
                 var evaluated = Grammar.applyGatekeeper(hypotheses[j].gatekeeper, wordlist[i]);
                 var gkViolatedConstraints = evaluated.violatedConstraints;
                 var gkHarmony = evaluated.harmony;
-                var gkProbability = Math.exp(gkHarmony) / hypotheses[j].gatekeeper.z;
+                var gkProbability = Math.exp(gkHarmony)
+                if (divideByZ) {
+                    var gkProbability /= hypotheses[j].gatekeeper.z;
+                }
                 gkLogProbSum += gkProbability
                 var gkViolationVector = evaluated.violationVector;
                 var gkConstraints = evaluated.constraints;
@@ -1170,7 +1181,11 @@ var Learner = (function($, undefined){
                         wordDerivatives.derivatives[k]['gpViolationVector'] = evaluated.violationVector;
                         wordDerivatives.derivatives[k]['gpConstraints'] = evaluated.constraints;
                         wordDerivatives.derivatives[k].gpProbability = Math.exp(evaluated.harmony);
-                        gpLogProbSum += wordDerivatives.derivatives[k].gpProbability / hypotheses[k].grammarProper.z;
+                        var gpProbability = wordDerivatives.derivatives[k].gpProbability
+                        if (divideByZ) {
+                            gpProbability /= hypotheses[k].grammarProper.z;
+                        }
+                        gpLogProbSum += gpProbability;
                     }
                 }
                 var comboProbSum = 0;
