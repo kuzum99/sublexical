@@ -9,12 +9,12 @@
         "testOutputFile": "output_test.txt"
     },
     "learner": {
-        "minProductiveSize": 8,
-        "preReductionProductivityThreshold": 8
+        "minProductiveSize": 12,
+        "preReductionProductivityThreshold": 12
     },
     "maxent": {
         "defaultSigma": 10
     },
     "name": "Full dataset, with low threshhold",
-    "description": "Lexical data and nonce words from Albright & Hayes (2003), with a pre-reduction productivity threshold of 8. <span class='longsim'>Long simulation,  takes hours.</span>" 
+    "description": "Lexical data and nonce words from Albright & Hayes (2003), with a pre-reduction productivity threshold of 12. <span class='longsim'>Long simulation,  takes hours.</span>" 
 }

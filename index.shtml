@@ -51,7 +51,24 @@
         <a href="http://bhallen.com/">Blake Allen</a> and
         <a href="http://becker.phonologist.org/">Michael Becker</a>
         &nbsp; &bull; &nbsp; 
-        Version of <!--#include virtual='lib/today.txt' -->
+        Engine:
+        <select id="version">
+        	<option value="bundled">stable (A&B 2015)</option>
+        	<option value="znorm">testing: z-norm</option>
+        	<option value="bundled">testing: unbundled</option>
+        <select>
+        &nbsp; &bull; &nbsp; 
+        Last update <!--#include virtual='lib/today.txt' -->
+        <script>
+		var onWebsite = /phonologist\.org/.test(location.href); // true if we are on phonologist.org
+		if (onWebsite) {
+			//alert("We're on phonologist.org!");
+			$("#version")[0].selectedIndex = 0;
+		} else {
+			//alert("We are in a development environment");
+			$("#version")[0].selectedIndex = 1;
+		}
+        </script>
 </div>
 
 <div class="tabs">

@@ -107,7 +107,10 @@ a:hover {
 	padding-bottom: 1px;
 	font-weight: 900;
 }
-
+#header select {
+	background: #bbf;
+	color: #666;	
+}
 
 
 /*.box {

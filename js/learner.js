@@ -19,6 +19,7 @@ var Learner = (function($, undefined){
     var skipTesting = false;
     var onscreen = true;
 
+	var version = 0;	
 
     var log_destination = "console"; // where to send log messages
 
@@ -214,6 +215,25 @@ var Learner = (function($, undefined){
 
 
     var learn = function (lexicon, trainingSize, hypotheses) {
+
+
+		version = $("#version") && $("#version")[0] && $("#version")[0].selectedIndex || 0;
+		// 0 = paper version, 1 = with z-norm, 2 = unbundled 
+		if (version==0) { 
+			var sublexiconSelectionPriorType = 'uniform'; 
+			var divideByZ = false;
+		} 
+		if (version==1) {
+			var sublexiconSelectionPriorType = 'empirical'; 
+			var divideByZ = true;
+		} 
+		if (version==2) {
+		} 
+
+
+
+
+
         /* Main function: given a lexicon of word pairs, produce two grammars
          * (Gatekeeper and Grammar Proper) for each sublexicon found. */
 
@@ -1140,7 +1160,7 @@ var Learner = (function($, undefined){
                 var gkHarmony = evaluated.harmony;
                 var gkProbability = Math.exp(gkHarmony)
                 if (divideByZ) {
-                    var gkProbability /= hypotheses[j].gatekeeper.z;
+                    gkProbability /= hypotheses[j].gatekeeper.z;
                 }
                 gkLogProbSum += gkProbability
                 var gkViolationVector = evaluated.violationVector;
